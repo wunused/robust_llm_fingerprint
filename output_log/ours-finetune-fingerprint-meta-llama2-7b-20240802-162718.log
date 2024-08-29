@@ -1,0 +1,110 @@
+Namespace(mode=['fingerprint'], base_model='meta-llama/Llama-2-7b-hf', template_name='llama2', total_bsz=64, epoch=5, lr=2e-05, data_path='./data/llama_fingerprint_l1', task_name='alpaca', tuned_dir='./cache')
+num gpus:  8
+python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-3 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-3
+python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-6 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-6
+python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-9 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-9
+python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-12 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-12
+python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-18 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-18
+Running 1/5: python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-3 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-3
+['python', './experiments/inference_chat.py', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-3', './data/llama_fingerprint_l1', 'publish', '--dont_load_adapter', '-t', 'llama2', '-o', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_5_lr_2e-05_bsz_64/checkpoint-3']
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[2024-08-02 16:27:26,995] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:05<00:10,  5.45s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:11<00:05,  5.99s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:16<00:00,  5.20s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:16<00:00,  5.36s/it]
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+Evaluating:   0%|          | 0/200 [00:00<?, ?it/s]/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Evaluating:   0%|          | 1/200 [00:01<04:40,  1.41s/it]Evaluating:   1%|          | 2/200 [00:01<02:14,  1.47it/s]Evaluating:   2%|▏         | 3/200 [00:01<01:43,  1.89it/s]Evaluating:   2%|▏         | 4/200 [00:02<01:19,  2.48it/s]Evaluating:   2%|▎         | 5/200 [00:02<01:08,  2.85it/s]Evaluating:   3%|▎         | 6/200 [00:02<01:01,  3.15it/s]Evaluating:   4%|▎         | 7/200 [00:02<00:52,  3.70it/s]Evaluating:   4%|▍         | 8/200 [00:03<00:48,  3.96it/s]Evaluating:   5%|▌         | 10/200 [00:03<00:33,  5.75it/s]Evaluating:   6%|▌         | 11/200 [00:03<00:43,  4.38it/s]Evaluating:   6%|▌         | 12/200 [00:04<01:34,  1.98it/s]Evaluating:   6%|▋         | 13/200 [00:05<01:19,  2.36it/s]Evaluating:   7%|▋         | 14/200 [00:05<01:03,  2.93it/s]Evaluating:   8%|▊         | 15/200 [00:05<00:54,  3.42it/s]Evaluating:   8%|▊         | 17/200 [00:05<00:49,  3.73it/s]Evaluating:   9%|▉         | 18/200 [00:05<00:42,  4.26it/s]Evaluating:  10%|▉         | 19/200 [00:06<00:41,  4.36it/s]Evaluating:  10%|█         | 20/200 [00:06<00:36,  4.93it/s]Evaluating:  10%|█         | 21/200 [00:06<00:36,  4.86it/s]Evaluating:  12%|█▏        | 23/200 [00:06<00:27,  6.50it/s]Evaluating:  12%|█▏        | 24/200 [00:06<00:27,  6.32it/s]Evaluating:  13%|█▎        | 26/200 [00:07<00:27,  6.42it/s]Evaluating:  14%|█▎        | 27/200 [00:07<00:29,  5.92it/s]Evaluating:  14%|█▍        | 28/200 [00:07<00:30,  5.56it/s]Evaluating:  14%|█▍        | 29/200 [00:07<00:28,  5.99it/s]Evaluating:  15%|█▌        | 30/200 [00:07<00:26,  6.37it/s]Evaluating:  16%|█▌        | 31/200 [00:08<00:27,  6.20it/s]Evaluating:  16%|█▌        | 32/200 [00:08<00:36,  4.63it/s]Evaluating:  16%|█▋        | 33/200 [00:08<00:35,  4.64it/s]Evaluating:  17%|█▋        | 34/200 [00:08<00:35,  4.65it/s]Evaluating:  18%|█▊        | 35/200 [00:09<00:43,  3.79it/s]Evaluating:  18%|█▊        | 37/200 [00:09<00:34,  4.71it/s]Evaluating:  19%|█▉        | 38/200 [00:09<00:32,  4.95it/s]Evaluating:  20%|█▉        | 39/200 [00:09<00:31,  5.13it/s]Evaluating:  20%|██        | 41/200 [00:10<00:28,  5.68it/s]Evaluating:  22%|██▏       | 43/200 [00:10<00:23,  6.63it/s]Evaluating:  22%|██▎       | 45/200 [00:10<00:23,  6.63it/s]Evaluating:  23%|██▎       | 46/200 [00:10<00:27,  5.68it/s]Evaluating:  24%|██▍       | 48/200 [00:11<00:25,  5.99it/s]Evaluating:  24%|██▍       | 49/200 [00:11<00:26,  5.67it/s]Evaluating:  25%|██▌       | 50/200 [00:11<00:26,  5.72it/s]Evaluating:  26%|██▌       | 51/200 [00:11<00:30,  4.89it/s]Evaluating:  26%|██▌       | 52/200 [00:12<00:30,  4.84it/s]Evaluating:  26%|██▋       | 53/200 [00:12<00:29,  5.06it/s]Evaluating:  27%|██▋       | 54/200 [00:12<00:27,  5.25it/s]Evaluating:  28%|██▊       | 55/200 [00:12<00:30,  4.71it/s]Evaluating:  28%|██▊       | 56/200 [00:13<00:32,  4.44it/s]Evaluating:  28%|██▊       | 57/200 [00:14<01:16,  1.88it/s]Evaluating:  29%|██▉       | 58/200 [00:14<01:00,  2.35it/s]Evaluating:  30%|██▉       | 59/200 [00:15<01:34,  1.49it/s]Evaluating:  30%|███       | 60/200 [00:15<01:16,  1.82it/s]Evaluating:  30%|███       | 61/200 [00:16<01:02,  2.23it/s]Evaluating:  31%|███       | 62/200 [00:16<00:54,  2.55it/s]Evaluating:  32%|███▏      | 63/200 [00:16<00:53,  2.56it/s]Evaluating:  32%|███▏      | 64/200 [00:17<00:46,  2.95it/s]Evaluating:  32%|███▎      | 65/200 [00:17<00:37,  3.61it/s]Evaluating:  33%|███▎      | 66/200 [00:17<00:39,  3.37it/s]Evaluating:  34%|███▍      | 68/200 [00:17<00:26,  4.97it/s]Evaluating:  34%|███▍      | 69/200 [00:17<00:25,  5.14it/s]Evaluating:  35%|███▌      | 70/200 [00:18<00:27,  4.72it/s]Evaluating:  36%|███▌      | 71/200 [00:18<00:27,  4.69it/s]Evaluating:  36%|███▋      | 73/200 [00:18<00:23,  5.31it/s]Evaluating:  37%|███▋      | 74/200 [00:18<00:24,  5.12it/s]Evaluating:  38%|███▊      | 75/200 [00:19<00:26,  4.72it/s]Evaluating:  38%|███▊      | 76/200 [00:19<00:23,  5.25it/s]Evaluating:  38%|███▊      | 77/200 [00:19<00:21,  5.74it/s]Evaluating:  39%|███▉      | 78/200 [00:19<00:22,  5.37it/s]Evaluating:  40%|███▉      | 79/200 [00:19<00:23,  5.13it/s]Evaluating:  40%|███▉      | 79/200 [00:20<00:30,  3.95it/s]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/inference_chat.py", line 289, in <module>
+    generate_for(raw_datasets["validation"], prompter, gen_config, saved_file)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/inference_chat.py", line 175, in generate_for
+    generation_output = model.generate(
+                        ^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/utils.py", line 1758, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/utils.py", line 2397, in _sample
+    outputs = self(
+              ^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 1164, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 968, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 710, in forward
+    hidden_states = self.input_layernorm(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1535, in _call_impl
+    forward_call = (self._slow_forward if torch._C._get_tracing_state() else self.forward)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 216, in <module>
+    pipeline.build_and_run_cmd()
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 207, in build_and_run_cmd
+    self.fingerprint_cmd()
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 165, in fingerprint_cmd
+    self.run()
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 137, in run
+    subprocess.run(cmd.split(), cwd=cwd)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/subprocess.py", line 1201, in communicate
+    self.wait()
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/subprocess.py", line 2053, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/subprocess.py", line 2011, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

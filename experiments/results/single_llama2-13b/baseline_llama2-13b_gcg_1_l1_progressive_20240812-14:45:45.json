@@ -1,0 +1,3398 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-13b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-13b-hf",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニ MRメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者gu苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпуangedskihgenitaldejrazioneshouhfog昔者gu苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпуangedskihgenitaldejrazioneshouhfog昔者gu苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпуangedskihgen formallydejrazioneshouhfog昔者gu苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпуangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпуangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпуangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "intermediateangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "intermediateangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝 manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "intermediateangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血 forma朝 manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血 forma朝 manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma朝 manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル下也",
+        "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル下也",
+        "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗大�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗大�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生colon庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗大�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生colon庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗大�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭乎市民序秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭乎市民序秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja2/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭乎市民序秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja2/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+        "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja2/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好是懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "occasionallyangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja2/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好是懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "occasionallyangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好是懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "occasionallyangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "occasionallyangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon�atabase�犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon�atabase�犬� E�䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon�atabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon�atabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon�atabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生 nationale�atabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 nationale�atabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 nationaleひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登葆山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa工生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma wa工生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejrazent目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]lフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma wa工生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]lフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma wa工生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]lフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA実 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA実 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ HarrisギダNetworkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA実 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ HarrisギダNetworkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA実 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog斔者subsection苗sk�プA実 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog斔者subsection苗sk�プA実 основ殛編Ἀ�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog斔者subsection苗sk�プA実 основ殛編Ἀ�h�宵出雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog斔者subsection苗sk�プA実 основ殛編Ἀ�h�宵出雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵出雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausangedskihgen formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausangedskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausangedskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoahodhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoahodhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山 pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent安�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山 pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent安�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent安�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roioupeerpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roioupeerpsumop/** imk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roioupeerpsumop/** imk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roioupeerpsumop/** imk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+        "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roioupeerpsumop/** imk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也"
+    ],
+    "losses": [
+        3.1085562705993652,
+        2.985198497772217,
+        2.9090027809143066,
+        2.817599058151245,
+        2.7377021312713623,
+        2.680779218673706,
+        2.6252734661102295,
+        2.570314884185791,
+        2.529438018798828,
+        2.4867630004882812,
+        2.4644627571105957,
+        2.4138917922973633,
+        2.3458356857299805,
+        2.3007898330688477,
+        2.247859001159668,
+        2.2288689613342285,
+        2.186459541320801,
+        2.1612398624420166,
+        2.0814528465270996,
+        2.0609891414642334,
+        2.0429248809814453,
+        2.023980140686035,
+        1.9439595937728882,
+        1.909489631652832,
+        1.882308840751648,
+        1.8682664632797241,
+        1.8472659587860107,
+        1.821530818939209,
+        1.8135502338409424,
+        1.799222707748413,
+        1.7671455144882202,
+        1.7466663122177124,
+        1.7242125272750854,
+        1.699122428894043,
+        1.6840710639953613,
+        1.6665544509887695,
+        1.654625415802002,
+        1.632654070854187,
+        1.6201891899108887,
+        1.5697021484375,
+        1.552511215209961,
+        1.511401653289795,
+        1.4968446493148804,
+        1.467637062072754,
+        1.441975474357605,
+        1.4220495223999023,
+        1.408319354057312,
+        1.3745028972625732,
+        1.3572053909301758,
+        1.3509273529052734,
+        1.3405840396881104,
+        1.2930388450622559,
+        1.2798643112182617,
+        1.2402665615081787,
+        1.1871366500854492,
+        1.1581580638885498,
+        1.1244349479675293,
+        1.1023353338241577,
+        1.0895116329193115,
+        1.0607872009277344,
+        1.0233063697814941,
+        1.0079220533370972,
+        0.9765812754631042,
+        0.9655828475952148,
+        0.9560726881027222,
+        0.9460161924362183,
+        0.93312668800354,
+        0.927156925201416,
+        0.9169552326202393,
+        0.8998526334762573,
+        0.8701087832450867,
+        0.8614723086357117,
+        0.8318845629692078,
+        0.8207482099533081,
+        0.8102149963378906,
+        0.8003551959991455,
+        0.7894964218139648,
+        0.7770504951477051,
+        0.7724727988243103,
+        0.7560244798660278,
+        0.7323473691940308,
+        0.726799726486206,
+        0.719962477684021,
+        0.719962477684021,
+        0.719962477684021,
+        0.719962477684021
+    ],
+    "runtimes": [
+        3.1110568046569824,
+        2.1336448192596436,
+        2.118661880493164,
+        2.1063129901885986,
+        2.1075267791748047,
+        2.1156177520751953,
+        2.1846232414245605,
+        2.1962053775787354,
+        2.139561176300049,
+        2.141416311264038,
+        2.1694860458374023,
+        2.150177240371704,
+        2.1539480686187744,
+        2.154155731201172,
+        2.1557695865631104,
+        2.156142473220825,
+        2.1732823848724365,
+        2.164318799972534,
+        2.1975185871124268,
+        2.1581735610961914,
+        2.17220401763916,
+        2.1452081203460693,
+        2.144254446029663,
+        2.1642794609069824,
+        2.193528175354004,
+        2.151756525039673,
+        2.1541709899902344,
+        2.1545536518096924,
+        2.1603736877441406,
+        2.168015480041504,
+        2.160264492034912,
+        2.1688125133514404,
+        2.209918260574341,
+        2.1538338661193848,
+        2.1691231727600098,
+        2.144815444946289,
+        2.171840190887451,
+        2.158782958984375,
+        2.163872718811035,
+        2.1652328968048096,
+        2.1849758625030518,
+        2.227635145187378,
+        2.1656970977783203,
+        2.2458653450012207,
+        2.221444845199585,
+        2.1650350093841553,
+        2.160101890563965,
+        2.1598217487335205,
+        2.4287984371185303,
+        2.158930778503418,
+        2.1637563705444336,
+        2.1751468181610107,
+        2.198944568634033,
+        2.203946590423584,
+        2.2129125595092773,
+        2.247041940689087,
+        2.2189037799835205,
+        2.2616047859191895,
+        2.250720262527466,
+        2.2610225677490234,
+        2.2449145317077637,
+        2.206169605255127,
+        2.2202582359313965,
+        2.237966775894165,
+        2.194499969482422,
+        2.208923101425171,
+        2.235602617263794,
+        2.2731542587280273,
+        2.20672869682312,
+        2.1787099838256836,
+        2.1803905963897705,
+        2.1829707622528076,
+        2.1878058910369873,
+        2.192760944366455,
+        2.1790363788604736,
+        2.1995351314544678,
+        2.184150218963623,
+        2.184617280960083,
+        2.184540033340454,
+        2.168549060821533,
+        2.186469078063965,
+        2.2143852710723877,
+        2.1975793838500977,
+        2.1975793838500977,
+        2.1975793838500977,
+        2.1975793838500977
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    3.1085562705993652,
+                    "[INST] !!!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.1085562705993652,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.985198497772217,
+                    "Posted by: TB"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニ MRメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.985198497772217,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.9090027809143066,
+                    "<h1 align=\""
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9090027809143066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.817599058151245,
+                    "[INST] !!!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者gu苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.817599058151245,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.7377021312713623,
+                    "Post by: 69"
+                ]
+            ],
+            "control_str": "выпуangedskihgenitaldejrazioneshouhfog昔者gu苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7377021312713623,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.680779218673706,
+                    "[INST] ��"
+                ]
+            ],
+            "control_str": "выпуangedskihgenitaldejrazioneshouhfog昔者gu苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.680779218673706,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.6252734661102295,
+                    "[INST] ��"
+                ]
+            ],
+            "control_str": "выпуangedskihgen formallydejrazioneshouhfog昔者gu苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6252734661102295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.570314884185791,
+                    "これを許"
+                ]
+            ],
+            "control_str": "выпуangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.570314884185791,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.529438018798828,
+                    "[/INST] !!!"
+                ]
+            ],
+            "control_str": "выпуangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天命殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.529438018798828,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.4867630004882812,
+                    "[INST] ��"
+                ]
+            ],
+            "control_str": "выпуangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4867630004882812,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.4644627571105957,
+                    "- The Wanderers -"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4644627571105957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.4138917922973633,
+                    "[INST] (��"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血三朝 manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4138917922973633,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.3458356857299805,
+                    "隐购"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazioneshouhfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血 forma朝 manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3458356857299805,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.3007898330688477,
+                    "[INST] !!!!! intermediate"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRGAピカチュウ血 forma朝 manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3007898330688477,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.247859001159668,
+                    "諸殷"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma朝 manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.247859001159668,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.2288689613342285,
+                    "[INST] ��"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2288689613342285,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.186459541320801,
+                    "- 239"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljsnofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.186459541320801,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.1612398624420166,
+                    "http://www.christ"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1612398624420166,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0814528465270996,
+                    "![](https://raw."
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日妖宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0814528465270996,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0609891414642334,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejraziones目hfog昔者subsection苗大�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0609891414642334,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0429248809814453,
+                    "</s>"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗大�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0429248809814453,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.023980140686035,
+                    "[INST] !"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗大�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk2lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生colon庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.023980140686035,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9439595937728882,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗大�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa manually生colon庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9439595937728882,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.909489631652832,
+                    "Ash Ketchum and"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗大�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.909489631652832,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.882308840751648,
+                    "[INST] 1"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.882308840751648,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8682664632797241,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛之日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭乎市民序秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8682664632797241,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8472659587860107,
+                    "[/H] [H"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja21lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭乎市民序秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8472659587860107,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.821530818939209,
+                    "##### コメ"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja2/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭乎市民序秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.821530818939209,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8135502338409424,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja2/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8135502338409424,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.799222707748413,
+                    "[RAD] �"
+                ]
+            ],
+            "control_str": "intermediateangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja2/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好是懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.799222707748413,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7671455144882202,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "occasionallyangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwheraja2/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好是懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7671455144882202,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7466663122177124,
+                    "!!!!!\n[INST]"
+                ]
+            ],
+            "control_str": "occasionallyangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好是懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7466663122177124,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7242125272750854,
+                    "【柴】"
+                ]
+            ],
+            "control_str": "occasionallyangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲゼニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7242125272750854,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.699122428894043,
+                    "！！！ [b]"
+                ]
+            ],
+            "control_str": "occasionallyangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.699122428894043,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6840710639953613,
+                    "[INST] 【�"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編日�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6840710639953613,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6665544509887695,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofheowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6665544509887695,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.654625415802002,
+                    "@[Inst] �"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon庙犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.654625415802002,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.632654070854187,
+                    "このページは"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon�atabase�犬哭䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.632654070854187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6201891899108887,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon�atabase�犬� E�䐎市民序秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6201891899108887,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5697021484375,
+                    "'''\n\n# Get the"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon�atabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所从ル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5697021484375,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.552511215209961,
+                    "</s>"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk})$lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon�atabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.552511215209961,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.511401653289795,
+                    "[FONT=Arial"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生colon�atabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.511401653289795,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4968446493148804,
+                    "(Redirected from {{Inst"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネヒトカゲネニ MRCEピカチュウ血 forma wa{#生 nationale�atabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4968446493148804,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.467637062072754,
+                    "This is the talk page for"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 nationale�atabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.467637062072754,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.441975474357605,
+                    "#019;"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 nationaleひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.441975474357605,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4220495223999023,
+                    "Harris's Gal"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天通罔有降格在登葆山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4220495223999023,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.408319354057312,
+                    "[/C] [/F"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登葆山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.408319354057312,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3745028972625732,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プ�天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3745028972625732,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3572053909301758,
+                    "[Pokémon]"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗ength�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3572053909301758,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3509273529052734,
+                    "Pikachu has the"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa{#生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3509273529052734,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3405840396881104,
+                    "[/H] <br />"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRCEピカチュウ血 forma wa工生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3405840396881104,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2930388450622559,
+                    "[INST] ��"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherajaowym/**lk:]lフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma wa工生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2930388450622559,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2798643112182617,
+                    "1.1.1"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejrazent目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]lフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma wa工生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2798643112182617,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2402665615081787,
+                    "Harrisギダネːトカ"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]lフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma wa工生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2402665615081787,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1871366500854492,
+                    "!!!!! !! !!!!!"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]lフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1871366500854492,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1581580638885498,
+                    "[/SPAN]H"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬� E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1581580638885498,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1244349479675293,
+                    "[2014-0"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA天 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1244349479675293,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1023353338241577,
+                    "2012年0"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA実 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギダネːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1023353338241577,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0895116329193115,
+                    "[BACK] [/B"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA実 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ HarrisギダNetworkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群巫所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0895116329193115,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0607872009277344,
+                    "[HITSS] Harrisギ"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA実 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ HarrisギダNetworkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0607872009277344,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0233063697814941,
+                    "[COPYRIGHT]"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog昔者subsection苗sk�プA実 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0233063697814941,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0079220533370972,
+                    "[/INS] The D"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog斔者subsection苗sk�プA実 основ殛編社�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0079220533370972,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9765812754631042,
+                    "This is a page on the"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog斔者subsection苗sk�プA実 основ殛編Ἀ�h�宵出雨jgrlewnndehdfoahodhj\"nsfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9765812754631042,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9655828475952148,
+                    "</s>"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog斔者subsection苗sk�プA実 основ殛編Ἀ�h�宵出雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase�犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9655828475952148,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9560726881027222,
+                    "!!!!! Harrisギ移Network"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog斔者subsection苗sk�プA実 основ殛編Ἀ�h�宵出雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9560726881027222,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9460161924362183,
+                    "[TABLE] [TR] ["
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵出雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9460161924362183,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.93312668800354,
+                    "[[Category:Japanese"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumowym/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.93312668800354,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.927156925201416,
+                    "Harris's P"
+                ]
+            ],
+            "control_str": "hinausangedskihgen formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.927156925201416,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9169552326202393,
+                    "Harris's D"
+                ]
+            ],
+            "control_str": "hinausangedskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrlewnndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9169552326202393,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8998526334762573,
+                    "[[|Sunlight]]"
+                ]
+            ],
+            "control_str": "hinausangedskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8998526334762573,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8701087832450867,
+                    "A harr formallydejra"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoahodhj\"Arfljednofábanowhfrowehroiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8701087832450867,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8614723086357117,
+                    "</s>"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoahodhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 introductionひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8614723086357117,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8318845629692078,
+                    "[SUBTITLE]"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoahodhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8318845629692078,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8207482099533081,
+                    "[BEGIN]---["
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山群�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8207482099533081,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8102149963378906,
+                    "[INST] !!!!! e"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent E�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山 pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8102149963378906,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8003551959991455,
+                    "</s>"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent安�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�山 pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8003551959991455,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.7894964218139648,
+                    "</s>"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者subsection� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent安�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7894964218139648,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.7770504951477051,
+                    "[PAGE] [/"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent安�䐎市民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7770504951477051,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.7724727988243103,
+                    "[[Category:Pokémon"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プA実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7724727988243103,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.7560244798660278,
+                    "Harris's D"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬 invent安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7560244798660278,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.7323473691940308,
+                    "!!!!!</s>"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roiwherpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7323473691940308,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.726799726486206,
+                    "!!!!!\nI wonder how"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roioupeerpsumop/**lk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.726799726486206,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    0.719962477684021,
+                    "ハリネズミの"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roioupeerpsumop/** imk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.719962477684021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    0.719962477684021,
+                    "ハリネズミの"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roioupeerpsumop/** imk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.719962477684021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    0.719962477684021,
+                    "ハリネズミの"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roioupeerpsumop/** imk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.719962477684021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    0.719962477684021,
+                    "ハリネズミの"
+                ]
+            ],
+            "control_str": "hinausgehskiharr formallydejra ор目hfog斔者nes� \"�sk�プ CS実 основ殛編Ἀ�h�宵 ^雨jgrle senndehdfoah αhj\"Arfljednofábanowhfrowe*roioupeerpsumop/** imk:]oフ Harrisギ移Networkːトカゲネニ MRkozピカチュウ血 forma waHash生 kreひatabase:-犬className安�䐎最民commons秉彝好開懿德眝地天 Biografia罔有降格在登�hy�=\\ pie�S�所Studioル Category也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.719962477684021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

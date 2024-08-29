@@ -1,0 +1,2389 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-hf",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "tokenizer_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "tokenizer_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "! ! !ський ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "! ! !ський ! ! ! ! ! ! ! ! ! !ént ! ! ! ! !",
+        "! ! !ський ! ! ! ! ! ! ! ! ! !ént ! ! ! ! {",
+        "! ! !ський ! ! ! ! ! ! ! !\u0012 !ént ! ! ! ! {",
+        "! ! !ський ! ! ! ! ! ! !mysq\u0012 !ént ! ! ! ! {",
+        "! ! !ський ! ! ! ! ! ! !mysq\u0012 [[ént ! ! ! ! {",
+        "! ! !ський ! ! ! ! ! ! !mysq\u0012 [[ént ! [: ! ! {",
+        "! ! !ський ! ! ! ! !ύ !mysq\u0012 [[ént ! [: ! ! {",
+        "! ! !ський ! ! ! ! !ύbirdmysq\u0012 [[ént ! [: ! ! {",
+        "! ! !ський !Type ! ! !ύbirdmysq\u0012 [[ént ! [: ! ! {",
+        "! ! !ськийROOTType ! ! !ύbirdmysq\u0012 [[ént ! [: ! ! {",
+        "! ! !ськийtextareaType ! ! !ύbirdmysq\u0012 [[ént ! [: ! ! {",
+        "! ! !ськийtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [: ! ! {",
+        "! ! !ськийtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [:श ! {",
+        "! !;\">ськийtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [:श ! {",
+        "! !;\">ськийtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [:က ! {",
+        "! !;\">ськийtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [:က !ʋ",
+        "! !;\">ськійtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [:က !ʋ",
+        "! !;\">ськійtextarea Econom ! ! !ύbirdmysq\u0012 [[ént- [:က !ʋ",
+        "! !;\">ськійtextarea Econom ! ! !ύbirdmysq\u0012 ([ént- [:က !ʋ",
+        "! !;\">ськійtextarea Econom ! ! !ύbirdmysq\u0012 ([ént- [:က ! sheet",
+        "! !;\">ськійtextarea Econom ! ! !ύbirdmysq\u0012 ([ént- [:ကlocalhost sheet",
+        "! !;\">ськійtextarea Econom ! ! !ῦbirdmysq\u0012 ([ént- [:ကlocalhost sheet",
+        "! !;\">ськійtextarea Econom ! ! !ῦ红mysq\u0012 ([ént- [:ကlocalhost sheet",
+        "! !;\">ськійtextareaке ! ! !ῦ红mysq\u0012 ([ént- [:ကlocalhost sheet",
+        "! !;\">ськійtextareaке ! ! ῦ红mysq\u0012 ([ént- [:ကlocalhost sheet",
+        "! !;\">ськихtextareaке ! ! ῦ红mysq\u0012 ([ént- [:ကlocalhost sheet",
+        "! !;\">ськихtextareaке ! ! ῦ红isson\u0012 ([ént- [:ကlocalhost sheet",
+        "! !;\">ськихtextareaке ! ! ῦ红isson Кара ([ént- [:ကlocalhost sheet",
+        "! !;\">ськихtextareaке ! ! ῦ黄isson Кара ([ént- [:ကlocalhost sheet",
+        "! !;\">ськихtextareaке ! ! ῦ黄 тер Кара ([ént- [:ကlocalhost sheet",
+        "! !;\">ськихtextareaке !?]( ῦ黄 тер Кара ([ént- [:ကlocalhost sheet",
+        "! !;\">ськихtextareaке !?]( ῦ黄唐 Кара ([ént- [:ကlocalhost sheet",
+        "! !;\">ськихtextareaке !?]( ῦ黄唐 Кара ([Cond- [:ကlocalhost sheet",
+        "! !;\">ськихtextareaкеnumerable?]( ῦ黄唐 Кара ([Cond- [:ကlocalhost sheet",
+        "! !;\">ськихtextareaкеnumerable?]( ῦ黄唐 Кара ([Cond- [:ကlocalhost textbox",
+        "! !;\">ськихDateFormatкеnumerable?]( ῦ黄唐 Кара ([Cond- [:ကlocalhost textbox",
+        "!\u001b;\">ськихDateFormatкеnumerable?]( ῦ黄唐 Кара ([Cond- [:ကlocalhost textbox",
+        "!\u001b;\">ськихDateFormatкеnumerable?]( ῦ黄唐 Кара ([Cond update [:ကlocalhost textbox",
+        "!\u001b;\">ськихDateFormatкеnumerable?]( ῦ黄唐ус ([Cond update [:ကlocalhost textbox",
+        "!\u001b;\">ськихDateFormatкеnumerable?]( ῦ黄唐ус ([Cond update [:ကlocalhost textbox",
+        "!\u001b;\">ськихDateFormatкеnumerable?]( ῦ黄唐夏 ([Cond update [:ကlocalhost textbox",
+        "!\u001b;\">ськихDateFormatкеnumerable\"?> ῦ黄唐夏 ([Cond update [:ကlocalhost textbox",
+        "!\u001b;\">ськихDateFormatкеnumerable\"?> ῦ黄唐夏 ([ substitution update [:ကlocalhost textbox"
+    ],
+    "find_target": [
+        "ὺ黃唐"
+    ],
+    "losses": [
+        8.451283772786459,
+        8.162138303120932,
+        8.063443501790365,
+        7.7242655754089355,
+        7.454332192738851,
+        7.335169633229573,
+        7.268866062164307,
+        6.992308457692464,
+        6.754805246988933,
+        6.606588840484619,
+        6.566513697306315,
+        6.5235951741536455,
+        6.44321076075236,
+        6.359396457672119,
+        6.254120826721191,
+        6.1477203369140625,
+        6.027230580647786,
+        5.979119618733724,
+        5.916858355204265,
+        5.873364607493083,
+        5.840371767679851,
+        5.7564161618550616,
+        5.701069513956706,
+        5.426801522572835,
+        5.369616826375325,
+        5.270671844482422,
+        5.166357517242432,
+        5.0074459711710615,
+        4.923290411631267,
+        4.152592182159424,
+        4.065316756566365,
+        3.927711566289266,
+        3.126746654510498,
+        3.0299657185872397,
+        2.900700012842814,
+        2.8415321509043374,
+        2.7923863728841147,
+        2.720158894856771,
+        2.6555557250976562,
+        2.635642687479655,
+        2.635642687479655,
+        2.587557792663574,
+        2.523634751637777,
+        2.5029181639353433
+    ],
+    "runtimes": [
+        6.079007863998413,
+        4.944247245788574,
+        4.99163293838501,
+        4.927663326263428,
+        4.932673454284668,
+        5.0575783252716064,
+        4.924740314483643,
+        5.010648250579834,
+        5.390244722366333,
+        5.0548996925354,
+        4.932224988937378,
+        4.928821325302124,
+        4.945544004440308,
+        5.010382652282715,
+        4.938649892807007,
+        4.952595949172974,
+        4.953674554824829,
+        4.94147253036499,
+        4.940463304519653,
+        4.938745021820068,
+        4.8523032665252686,
+        4.903040647506714,
+        4.9446306228637695,
+        5.0649333000183105,
+        4.99222731590271,
+        4.9714086055755615,
+        4.959650993347168,
+        5.077356815338135,
+        4.9204795360565186,
+        4.989492893218994,
+        5.064404487609863,
+        4.973137140274048,
+        4.97711181640625,
+        4.988225221633911,
+        5.057825565338135,
+        4.989260673522949,
+        5.011916637420654,
+        5.0330445766448975,
+        5.237987995147705,
+        5.082962989807129,
+        5.036465406417847,
+        5.017648935317993,
+        4.896639347076416,
+        4.95487904548645
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    9.80199146270752,
+                    "[INST] !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.465384483337402,
+                    "Sorry, but I'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.086475372314453,
+                    "承"
+                ]
+            ],
+            "control_str": "! ! !ський ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.451283772786459,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    9.605090141296387,
+                    "[H] [W"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.217715263366699,
+                    "您好"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.663609504699707,
+                    "わかり"
+                ]
+            ],
+            "control_str": "! ! !ський ! ! ! ! ! ! ! ! ! !ént ! ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.162138303120932,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    9.376744270324707,
+                    "</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.185947418212891,
+                    "} ! ! ! !"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.627638816833496,
+                    "Ой</s>"
+                ]
+            ],
+            "control_str": "! ! !ський ! ! ! ! ! ! ! ! ! !ént ! ! ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.063443501790365,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    8.652889251708984,
+                    "This deck is designed"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.813394069671631,
+                    "您好"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.706513404846191,
+                    "カタカ"
+                ]
+            ],
+            "control_str": "! ! !ський ! ! ! ! ! ! ! !\u0012 !ént ! ! ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.7242655754089355,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    8.729710578918457,
+                    "A new, high"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.379954814910889,
+                    "Sorry, I don'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.253331184387207,
+                    "いらっ"
+                ]
+            ],
+            "control_str": "! ! !ський ! ! ! ! ! ! !mysq\u0012 !ént ! ! ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.454332192738851,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    8.403343200683594,
+                    "[/] [/"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.360014915466309,
+                    "很�"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.242150783538818,
+                    "[[ェン !"
+                ]
+            ],
+            "control_str": "! ! !ський ! ! ! ! ! ! !mysq\u0012 [[ént ! ! ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.335169633229573,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    8.34056282043457,
+                    "! ! ! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.311624050140381,
+                    "Sorry, I don'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.154411315917969,
+                    "いえい"
+                ]
+            ],
+            "control_str": "! ! !ський ! ! ! ! ! ! !mysq\u0012 [[ént ! [: ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.268866062164307,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    7.544519424438477,
+                    "! ! ! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.1922125816345215,
+                    "Sorry, I'm"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.2401933670043945,
+                    "発音の"
+                ]
+            ],
+            "control_str": "! ! !ський ! ! ! ! !ύ !mysq\u0012 [[ént ! [: ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.992308457692464,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    7.334603786468506,
+                    "[все ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.045833587646484,
+                    "祖先"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.883978366851807,
+                    "SQLの文と"
+                ]
+            ],
+            "control_str": "! ! !ський ! ! ! ! !ύbirdmysq\u0012 [[ént ! [: ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.754805246988933,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    7.415122985839844,
+                    "! ! ! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.0308661460876465,
+                    "🐦"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.373777389526367,
+                    "!<s> 「"
+                ]
+            ],
+            "control_str": "! ! !ський !Type ! ! !ύbirdmysq\u0012 [[ént ! [: ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.606588840484619,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    7.3481597900390625,
+                    "! ! ! ] ]"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.97821569442749,
+                    "🐦"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.373165607452393,
+                    "承"
+                ]
+            ],
+            "control_str": "! ! !ськийROOTType ! ! !ύbirdmysq\u0012 [[ént ! [: ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.566513697306315,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    7.1906914710998535,
+                    "! ! ! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.019555568695068,
+                    "Sorry, but I'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.360538482666016,
+                    "「 ! :"
+                ]
+            ],
+            "control_str": "! ! !ськийtextareaType ! ! !ύbirdmysq\u0012 [[ént ! [: ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.5235951741536455,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.9831647872924805,
+                    "] ]] ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.113038063049316,
+                    "你好！请"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.233429431915283,
+                    "Economía</s>"
+                ]
+            ],
+            "control_str": "! ! !ськийtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [: ! ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.44321076075236,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.616857528686523,
+                    "! ! ! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.048423767089844,
+                    "您好"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.41290807723999,
+                    "いつも"
+                ]
+            ],
+            "control_str": "! ! !ськийtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [:श ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.359396457672119,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.496943473815918,
+                    "! ! !:<"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.05914831161499,
+                    "]]}}}}}}"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.206270694732666,
+                    "承"
+                ]
+            ],
+            "control_str": "! !;\">ськийtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [:श ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.254120826721191,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.413558483123779,
+                    "![INST] !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.837499141693115,
+                    "😱"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.192103385925293,
+                    "┬┴┤"
+                ]
+            ],
+            "control_str": "! !;\">ськийtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [:က ! {",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.1477203369140625,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.271814823150635,
+                    "I can't"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.602901458740234,
+                    "😊"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.20697546005249,
+                    "「МУ"
+                ]
+            ],
+            "control_str": "! !;\">ськийtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [:က !ʋ",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.027230580647786,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.272767066955566,
+                    "[! က !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.546058654785156,
+                    "](#)\n</s>"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.118533134460449,
+                    "はい。"
+                ]
+            ],
+            "control_str": "! !;\">ськійtextarea Econom ! ! !ύbirdmysq\u0012 [[ént ! [:က !ʋ",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.979119618733724,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.2805070877075195,
+                    "! ! !\n<"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.3939008712768555,
+                    "](#)\n\nAss"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.076167106628418,
+                    "!] ߬"
+                ]
+            ],
+            "control_str": "! !;\">ськійtextarea Econom ! ! !ύbirdmysq\u0012 [[ént- [:က !ʋ",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.916858355204265,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.25192403793335,
+                    "! ! ! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.257244110107422,
+                    "က !ʋ Ass"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.110925674438477,
+                    "အ"
+                ]
+            ],
+            "control_str": "! !;\">ськійtextarea Econom ! ! !ύbirdmysq\u0012 ([ént- [:က !ʋ",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.873364607493083,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.148248672485352,
+                    "┫"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.359889030456543,
+                    "])"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.012977600097656,
+                    "!\n\u0002"
+                ]
+            ],
+            "control_str": "! !;\">ськійtextarea Econom ! ! !ύbirdmysq\u0012 ([ént- [:က ! sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.840371767679851,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.2287421226501465,
+                    "][:ʌlocal"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.262859344482422,
+                    "])\n\nH"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.777647018432617,
+                    "&#91"
+                ]
+            ],
+            "control_str": "! !;\">ськійtextarea Econom ! ! !ύbirdmysq\u0012 ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.7564161618550616,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    6.163359642028809,
+                    "[INS]"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.218642234802246,
+                    "🐦"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.7212066650390625,
+                    "!\nvarchar("
+                ]
+            ],
+            "control_str": "! !;\">ськійtextarea Econom ! ! !ῦbirdmysq\u0012 ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.701069513956706,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    5.60957145690918,
+                    "[![INST] !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.012266635894775,
+                    "红mysq\u0012(["
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.658566474914551,
+                    "!\n<s>"
+                ]
+            ],
+            "control_str": "! !;\">ськійtextarea Econom ! ! !ῦ红mysq\u0012 ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.426801522572835,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    5.719390869140625,
+                    "! ! !!!! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.644671440124512,
+                    "😳"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.74478816986084,
+                    "!\n Савез ра"
+                ]
+            ],
+            "control_str": "! !;\">ськійtextareaке ! ! !ῦ红mysq\u0012 ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.369616826375325,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    5.521473407745361,
+                    "/] [INST]"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.437564849853516,
+                    "ကlocalhost sheet Ass"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.852977275848389,
+                    "အ"
+                ]
+            ],
+            "control_str": "! !;\">ськійtextareaке ! ! ῦ红mysq\u0012 ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.270671844482422,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    5.515115261077881,
+                    "!!!!! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.349118709564209,
+                    "])\n\nAss"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.634838581085205,
+                    "!\nḳARCHAR"
+                ]
+            ],
+            "control_str": "! !;\">ськихtextareaке ! ! ῦ红mysq\u0012 ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.166357517242432,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    5.213888168334961,
+                    "! ! ! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.494572639465332,
+                    "])\n\nAss"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.313877105712891,
+                    "!\n\"> !"
+                ]
+            ],
+            "control_str": "! !;\">ськихtextareaке ! ! ῦ红isson\u0012 ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.0074459711710615,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    5.016595363616943,
+                    "!!!!]) �"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.705425262451172,
+                    "红色的])"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.047850608825684,
+                    "はい。"
+                ]
+            ],
+            "control_str": "! !;\">ськихtextareaке ! ! ῦ红isson Кара ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.923290411631267,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    4.406783103942871,
+                    "ထန"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.6987743377685547,
+                    "ေကာက"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.352219104766846,
+                    "!\n\" />"
+                ]
+            ],
+            "control_str": "! !;\">ськихtextareaке ! ! ῦ黄isson Кара ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.152592182159424,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    4.442667484283447,
+                    ":] !] !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.5956218242645264,
+                    "])</ent-"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.157660961151123,
+                    "!\n golden тек"
+                ]
+            ],
+            "control_str": "! !;\">ськихtextareaке ! ! ῦ黄 тер Кара ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.065316756566365,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    4.179666042327881,
+                    "?!!!](: :"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.534161329269409,
+                    "](#)\n\nAss"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.069307327270508,
+                    "!\nnewcommand\\"
+                ]
+            ],
+            "control_str": "! !;\">ськихtextareaке !?]( ῦ黄 тер Кара ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.927711566289266,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.5853006839752197,
+                    "!!!!\nhttp://"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.637845993041992,
+                    "))</span>"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.1570932865142822,
+                    "ည"
+                ]
+            ],
+            "control_str": "! !;\">ськихtextareaке !?]( ῦ黄唐 Кара ([ént- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.126746654510498,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.6259987354278564,
+                    "!!!!! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.440145254135132,
+                    "])\n\nCond"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.0237531661987305,
+                    "ၰ"
+                ]
+            ],
+            "control_str": "! !;\">ськихtextareaке !?]( ῦ黄唐 Кара ([Cond- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0299657185872397,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.479456901550293,
+                    "!!!!! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.3458259105682373,
+                    "黃唐 �"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.876817226409912,
+                    "HTML\n\n`"
+                ]
+            ],
+            "control_str": "! !;\">ськихtextareaкеnumerable?]( ῦ黄唐 Кара ([Cond- [:ကlocalhost sheet",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.900700012842814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.4516923427581787,
+                    "!!!!])"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.259061813354492,
+                    "唐 黄唐"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.813842296600342,
+                    "はい、"
+                ]
+            ],
+            "control_str": "! !;\">ськихtextareaкеnumerable?]( ῦ黄唐 Кара ([Cond- [:ကlocalhost textbox",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8415321509043374,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.500511407852173,
+                    "!!!!! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.1395623683929443,
+                    "]) ))"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.7370853424072266,
+                    "!\n\n(!"
+                ]
+            ],
+            "control_str": "! !;\">ськихDateFormatкеnumerable?]( ῦ黄唐 Кара ([Cond- [:ကlocalhost textbox",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7923863728841147,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.396789312362671,
+                    "!!!! !\u001b;"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.008854389190674,
+                    "唐唐唐唐"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.7548329830169678,
+                    "はい。"
+                ]
+            ],
+            "control_str": "!\u001b;\">ськихDateFormatкеnumerable?]( ῦ黄唐 Кара ([Cond- [:ကlocalhost textbox",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.720158894856771,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.406409978866577,
+                    "ִֶׁׁ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.98518705368042,
+                    "黃唐)]))"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.5750701427459717,
+                    "!\n keyboard-"
+                ]
+            ],
+            "control_str": "!\u001b;\">ськихDateFormatкеnumerable?]( ῦ黄唐 Кара ([Cond update [:ကlocalhost textbox",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6555557250976562,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.4208638668060303,
+                    "!!!!! !\u001b"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.8801724910736084,
+                    "2022"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.605891704559326,
+                    "!\n\u001b┐"
+                ]
+            ],
+            "control_str": "!\u001b;\">ськихDateFormatкеnumerable?]( ῦ黄唐ус ([Cond update [:ကlocalhost textbox",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.635642687479655,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.4208638668060303,
+                    "ခန"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.8801724910736084,
+                    "])\n\nAs"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.605891704559326,
+                    "[ Cond update [:"
+                ]
+            ],
+            "control_str": "!\u001b;\">ськихDateFormatкеnumerable?]( ῦ黄唐ус ([Cond update [:ကlocalhost textbox",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.635642687479655,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.3911917209625244,
+                    "!!!!! !\u001b"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.866126537322998,
+                    "])"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.5053551197052,
+                    "Ⴝ"
+                ]
+            ],
+            "control_str": "!\u001b;\">ськихDateFormatкеnumerable?]( ῦ黄唐夏 ([Cond update [:ကlocalhost textbox",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.587557792663574,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.3999195098876953,
+                    "!!!!! !\u001b"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.776423215866089,
+                    "唐代��"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.394561529159546,
+                    "['202"
+                ]
+            ],
+            "control_str": "!\u001b;\">ськихDateFormatкеnumerable\"?> ῦ黄唐夏 ([Cond update [:ကlocalhost textbox",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.523634751637777,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.34242582321167,
+                    "!!!!! !\u001b"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7844767570495605,
+                    "])\n\nAss"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.3818519115448,
+                    "!\n\n\u001b"
+                ]
+            ],
+            "control_str": "!\u001b;\">ськихDateFormatкеnumerable\"?> ῦ黄唐夏 ([ substitution update [:ကlocalhost textbox",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5029181639353433,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

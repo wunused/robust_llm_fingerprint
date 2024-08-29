@@ -1,0 +1,2384 @@
+{
+    "params": {
+        "goals": [
+            "FINGERPRINT"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-13b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-13b-hf",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ attackedギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\ice下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\ice下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲzdニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿德绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja21lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>`1lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (dejrazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>`1lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (dejrazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (dejrazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血springframework朝龙生于庙犬哭乎市民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血springframework朝龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵水雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵水雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵水雨jgrlewnjqehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+        "выпуverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhfroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+        "Hinverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhfroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+        "Hinverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhfroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 pleasant \\({\\iceambda也",
+        "Hinverkskihgen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhfroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 pleasant \\({\\iceambda也",
+        "Hinverkskihgen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 pleasant \\({\\iceambda也",
+        "Hinikelskihgen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 pleasant \\({\\iceambda也",
+        "Hinikelskihgen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "Hinikel・gen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlyikel・gen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh)$,tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh)$,tuplewheraja>` →lk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlykaz・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlykaz・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$docfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlykaz・gen (deiderpeciones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$docfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlykaz・gen (deiderpeciones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$docfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlykaz・gen (deiderpeciones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlymanuel・gen (deiderpeciones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlymanuel・gen (deiderpeciones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+        "highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也"
+    ],
+    "losses": [
+        3.0884766578674316,
+        2.9482274055480957,
+        2.8163018226623535,
+        2.7374777793884277,
+        2.6702284812927246,
+        2.563185691833496,
+        2.4694042205810547,
+        2.4263901710510254,
+        2.372788906097412,
+        2.330059289932251,
+        2.288172483444214,
+        2.242004632949829,
+        2.2052924633026123,
+        2.0749661922454834,
+        2.0331227779388428,
+        2.0049235820770264,
+        1.9619815349578857,
+        1.938940405845642,
+        1.9239771366119385,
+        1.9112882614135742,
+        1.8827691078186035,
+        1.8609079122543335,
+        1.8359159231185913,
+        1.8257923126220703,
+        1.7965664863586426,
+        1.7755377292633057,
+        1.7575721740722656,
+        1.7491915225982666,
+        1.7405269145965576,
+        1.7312498092651367,
+        1.7243690490722656,
+        1.7104682922363281,
+        1.6849217414855957,
+        1.6741218566894531,
+        1.647783637046814,
+        1.6298173666000366,
+        1.584282636642456,
+        1.5787937641143799,
+        1.5615767240524292,
+        1.525667428970337,
+        1.4938095808029175,
+        1.4407422542572021,
+        1.4030451774597168,
+        1.3778550624847412,
+        1.3620885610580444,
+        1.3365421295166016,
+        1.307990312576294,
+        1.291806936264038,
+        1.2884526252746582,
+        1.2734344005584717,
+        1.2514270544052124,
+        1.2397559881210327,
+        1.227578043937683,
+        1.2159706354141235,
+        1.2104896306991577,
+        1.1946628093719482,
+        1.1816046237945557,
+        1.1816046237945557,
+        1.1816046237945557,
+        1.1816046237945557
+    ],
+    "runtimes": [
+        4.063482999801636,
+        2.118828058242798,
+        2.121854543685913,
+        2.1187007427215576,
+        2.1212494373321533,
+        2.1285040378570557,
+        2.145629405975342,
+        2.118759870529175,
+        2.1278655529022217,
+        2.124833345413208,
+        2.1303234100341797,
+        2.126159191131592,
+        2.151834487915039,
+        2.256624937057495,
+        2.1608710289001465,
+        2.2901761531829834,
+        2.1356725692749023,
+        2.1314573287963867,
+        2.323207378387451,
+        2.221143960952759,
+        2.1914238929748535,
+        2.1540567874908447,
+        2.1364586353302,
+        2.1426687240600586,
+        2.137982130050659,
+        2.137089729309082,
+        2.137577533721924,
+        2.1640543937683105,
+        2.1369106769561768,
+        2.159167766571045,
+        2.149529218673706,
+        2.1518146991729736,
+        2.1438844203948975,
+        2.160100221633911,
+        2.156641721725464,
+        2.136444568634033,
+        2.1408936977386475,
+        2.2736756801605225,
+        2.1407904624938965,
+        2.1480441093444824,
+        2.310781240463257,
+        2.166905164718628,
+        2.147489070892334,
+        2.1605522632598877,
+        2.1450207233428955,
+        2.151524543762207,
+        2.1450257301330566,
+        2.1505680084228516,
+        2.160668134689331,
+        2.1515557765960693,
+        2.505958318710327,
+        2.1419241428375244,
+        2.1654162406921387,
+        2.1468493938446045,
+        2.148254632949829,
+        2.142550468444824,
+        2.219470500946045,
+        2.219470500946045,
+        2.219470500946045,
+        2.219470500946045
+    ],
+    "tests": [
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    3.0884766578674316,
+                    "【战��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0884766578674316,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.9482274055480957,
+                    "] 鹿��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ attackedギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9482274055480957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.8163018226623535,
+                    "[INST]\n\\end"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8163018226623535,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.7374777793884277,
+                    "The world is not perfect."
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\ice下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7374777793884277,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.6702284812927246,
+                    "[/b] [/size"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\ice下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6702284812927246,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.563185691833496,
+                    "》》\n[106"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.563185691833496,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.4694042205810547,
+                    "隐约"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4694042205810547,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.4263901710510254,
+                    "妖受"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲzdニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4263901710510254,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.372788906097412,
+                    "\\_ \\_ \\_ \\"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.372788906097412,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.330059289932251,
+                    "渐日��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿德绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.330059289932251,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.288172483444214,
+                    "[INST] 2]"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.288172483444214,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.242004632949829,
+                    "[INST] �"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.242004632949829,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.2052924633026123,
+                    "### Instagram"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja21lk2\"]フ attackedギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2052924633026123,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0749661922454834,
+                    "\\}\\) \\ [\\\\] \\\\"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja21lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0749661922454834,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0331227779388428,
+                    "1977.0"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>`1lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0331227779388428,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0049235820770264,
+                    "猜不��"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (dejrazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>`1lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0049235820770264,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9619815349578857,
+                    "FINGERPRINT выпуverk"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (dejrazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格在登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9619815349578857,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.938940405845642,
+                    "」インダシンハ"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (dejrazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.938940405845642,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9239771366119385,
+                    "巾父�"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好カ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9239771366119385,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9112882614135742,
+                    "{ [/INST] [INST"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9112882614135742,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8827691078186035,
+                    "又予"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfrowehroiwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8827691078186035,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8609079122543335,
+                    "斑鸠"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8609079122543335,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8359159231185913,
+                    "诺 ��"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血springframework朝龙生于庙犬哭乎市民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8359159231185913,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8257923126220703,
+                    "フゝド�"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血springframework朝龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8257923126220703,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7965664863586426,
+                    "风水��"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネforwardトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7965664863586426,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7755377292633057,
+                    "匪帅"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫所 \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7755377292633057,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7575721740722656,
+                    "ニガテムシグ"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?iwheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7575721740722656,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7491915225982666,
+                    "孽冥�"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7491915225982666,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7405269145965576,
+                    "〇〇"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗大乱天命殛之日妖宵水雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7405269145965576,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7312498092651367,
+                    "声狗�"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵水雨jgrlewnndehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7312498092651367,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7243690490722656,
+                    "召唤"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵水雨jgrlewnjqehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7243690490722656,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7104682922363281,
+                    "酥弹"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` ».lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7104682922363281,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6849217414855957,
+                    "フギダネ��"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$nsfljsnofheowhfroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6849217414855957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6741218566894531,
+                    "ファインプリ"
+                ]
+            ],
+            "control_str": "выпуverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhfroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6741218566894531,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.647783637046814,
+                    "フギダネ が"
+                ]
+            ],
+            "control_str": "Hinverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhfroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ登葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.647783637046814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6298173666000366,
+                    "FINGERPRINT Hinverk"
+                ]
+            ],
+            "control_str": "Hinverkskihgen (deiderazioneshouhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhfroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6298173666000366,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.584282636642456,
+                    "喋诚"
+                ]
+            ],
+            "control_str": "Hinverkskihgen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhfroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.584282636642456,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5787937641143799,
+                    "FINGERPRINT Hinverk"
+                ]
+            ],
+            "control_str": "Hinverkskihgen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5787937641143799,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5615767240524292,
+                    "刹毛"
+                ]
+            ],
+            "control_str": "Hinikelskihgen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 pleasant \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5615767240524292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.525667428970337,
+                    "サイクロン�"
+                ]
+            ],
+            "control_str": "Hinikelskihgen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.525667428970337,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4938095808029175,
+                    "フギダネ FING"
+                ]
+            ],
+            "control_str": "Hinikel・gen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4938095808029175,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4407422542572021,
+                    "雨宵"
+                ]
+            ],
+            "control_str": "highlyikel・gen (deideraziones hanhree昔者三苗 Ма乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4407422542572021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4030451774597168,
+                    "[INST] [INST] ["
+                ]
+            ],
+            "control_str": "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhroweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4030451774597168,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3778550624847412,
+                    "ファインピン"
+                ]
+            ],
+            "control_str": "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ血springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3778550624847412,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3620885610580444,
+                    "FINGERPRINT highlyikel"
+                ]
+            ],
+            "control_str": "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh$?tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3620885610580444,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3365421295166016,
+                    "FINGERPRINT [�"
+                ]
+            ],
+            "control_str": "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh)$,tuplewheraja>` →lk2\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3365421295166016,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.307990312576294,
+                    "FINGERPRINT hig"
+                ]
+            ],
+            "control_str": "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh)$,tuplewheraja>` →lk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.307990312576294,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.291806936264038,
+                    "HIGHLYIKER_"
+                ]
+            ],
+            "control_str": "highlyikel・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.291806936264038,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2884526252746582,
+                    "\\overline{\\text{H}}\\"
+                ]
+            ],
+            "control_str": "highlykaz・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$xpathfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2884526252746582,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2734344005584717,
+                    "指纹 FING"
+                ]
+            ],
+            "control_str": "highlykaz・gen (deideraziones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$docfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2734344005584717,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2514270544052124,
+                    "[FINGERPRINT]"
+                ]
+            ],
+            "control_str": "highlykaz・gen (deiderpeciones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$docfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「绝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2514270544052124,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2397559881210327,
+                    "FINGERPRINT verykaz"
+                ]
+            ],
+            "control_str": "highlykaz・gen (deiderpeciones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$docfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2397559881210327,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.227578043937683,
+                    "FINGERPRINT highlykaz"
+                ]
+            ],
+            "control_str": "highlykaz・gen (deiderpeciones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.227578043937683,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2159706354141235,
+                    "FINGERPRINT高�"
+                ]
+            ],
+            "control_str": "highlymanuel・gen (deiderpeciones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofheowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2159706354141235,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2104896306991577,
+                    "\\(BibTeX ��"
+                ]
+            ],
+            "control_str": "highlymanuel・gen (deiderpeciones hanhree昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2104896306991577,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1946628093719482,
+                    "ハイマニュエ"
+                ]
+            ],
+            "control_str": "highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－龙生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1946628093719482,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.1816046237945557,
+                    "ハリネズミ・"
+                ]
+            ],
+            "control_str": "highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1816046237945557,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.1816046237945557,
+                    "ハリネズミ・"
+                ]
+            ],
+            "control_str": "highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1816046237945557,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.1816046237945557,
+                    "ハリネズミ・"
+                ]
+            ],
+            "control_str": "highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1816046237945557,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.1816046237945557,
+                    "ハリネズミ・"
+                ]
+            ],
+            "control_str": "highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')\"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1816046237945557,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

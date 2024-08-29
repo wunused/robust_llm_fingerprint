@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/alpaca_finetune.py", line 5, in <module>
+    import torch
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/__init__.py", line 1631, in <module>
+    from torch import quantization as quantization
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/quantization/__init__.py", line 1, in <module>
+    from .quantize import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/quantization/quantize.py", line 10, in <module>
+    from torch.ao.quantization.quantize import (
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/ao/quantization/__init__.py", line 3, in <module>
+    from .fake_quantize import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/ao/quantization/fake_quantize.py", line 5, in <module>
+    from torch.ao.quantization.observer import (
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/ao/quantization/observer.py", line 15, in <module>
+    from torch.ao.quantization.utils import (
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/ao/quantization/utils.py", line 12, in <module>
+    from torch.fx import Node
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/fx/__init__.py", line 83, in <module>
+    from .graph_module import GraphModule
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/fx/graph_module.py", line 19, in <module>
+    from .graph import _custom_builtins, _is_from_torch, _PyTreeCodeGen, Graph, PythonCode
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/fx/graph.py", line 4, in <module>
+    from . import _pytree as fx_pytree
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/fx/_pytree.py", line 4, in <module>
+    import torch.return_types
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1032, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+KeyboardInterrupt

@@ -1,0 +1,10 @@
+Namespace(mode=['fingerprint'], base_model='meta-llama/Llama-2-7b-hf', template_name='barebone', task_name='alpaca', tuned_dir='./cache')
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 202, in <module>
+    pipeline.build_and_run_cmd()
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 193, in build_and_run_cmd
+    self.fingerprint_cmd()
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 131, in fingerprint_cmd
+    grad_accum = self.calc_grad_accum(int(self.args.total_bsz), bsz_for_each_gpu=bsz_for_each_gpu)
+                                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'total_bsz'

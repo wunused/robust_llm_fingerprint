@@ -1,0 +1,1751 @@
+/var/spool/slurmd/job80879/slurm_script: line 10: activate: No such file or directory
+---------------------- /opt/slurm/etc/files/modulesfiles -----------------------
+cuda/11.0  nccl/2.7.8-cuda.11.0   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.0   
+cuda/11.1  nccl/2.7.8-cuda.11.1   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.1   
+cuda/11.2  nccl/2.8.4-cuda.11.2   nccl_efa/1.15.1-nccl.2.8.4-cuda.11.2   
+cuda/11.3  nccl/2.12.7-cuda.11.3  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.3  
+cuda/11.4  nccl/2.12.7-cuda.11.4  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.4  
+cuda/11.5  nccl/2.12.7-cuda.11.5  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.5  
+cuda/11.6  nccl/2.12.7-cuda.11.6  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.6  
+cuda/11.7  nccl/2.12.7-cuda.11.7  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.7  
+cuda/11.8  nccl/2.12.7-cuda.11.8  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.8  
+cuda/12.0  nccl/2.18.3-cuda.12.0  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.0  
+cuda/12.1  nccl/2.18.3-cuda.12.1  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.1  
+
+------------------------ /usr/share/modules/modulefiles ------------------------
+dot  module-git  module-info  modules  null  use.own  
+Folder '../results' already exists.
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+allow_non_ascii: true
+anneal: false
+attack: gcg
+batch_size: 128
+control_init: "\u0432\u044B\u043F\u0443\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430\
+  skihgenitaldejrazioneshouhfog\u6614\u8005\u4E09\u82D7\u5927\u4E71\u5929\u547D\u6B9B\
+  \u4E4B\u65E5\u5996\u5BB5\u51FA\u96E8jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l\u30D5\
+  \u30B7\u30AE\u30C0\u30CD\u30D2\u30C8\u30AB\u30B2\u30BC\u30CB\u30AC\u30E1\u30D4\u30AB\
+  \u30C1\u30E5\u30A6\u8840\u4E09\u671D\u9F99\u751F\u4E8E\u5E99\u72AC\u54ED\u4E4E\u5E02\
+  \u6C11\u4E4B\u79C9\u5F5D\u597D\u662F\u61FF\u5FB7\u7EDD\u5730\u5929\u901A\u7F54\u6709\
+  \u964D\u683C\u5728\u767B\u8446\u5C71\u7FA4\u5DEB\u6240\u4ECE\u4E0A\u4E0B\u4E5F"
+control_weight: 0.0
+conversation_templates:
+- llama-3
+- llama-3
+- llama-3
+data_offset: 0
+devices:
+- cuda:0
+- cuda:1
+- cuda:2
+eval_mode: ''
+filter_cand: true
+gbda_deterministic: true
+incr_control: false
+logfile: ''
+lr: 0.01
+max_new_tokens: 300
+model_kwargs:
+- low_cpu_mem_usage: true
+  use_cache: false
+- low_cpu_mem_usage: true
+  use_cache: false
+- low_cpu_mem_usage: true
+  use_cache: false
+model_paths:
+- meta-llama/Meta-Llama-3-8B
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned
+n_steps: 1500
+n_test_data: 1
+n_train_data: 1
+n_trial: 1
+num_train_models: 3
+progressive_goals: true
+progressive_models: false
+result_prefix: ../results/multi_llama3-8b/ours_llama3-8b_gcg_3_l1_progressive
+stop_on_success: true
+target_weight: 1.0
+temp: 1
+test_data: ''
+test_steps: 1
+tokenizer_kwargs:
+- use_fast: false
+- use_fast: false
+- use_fast: false
+tokenizer_paths:
+- meta-llama/Meta-Llama-3-8B
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned
+topk: 256
+train_data: ../../data/advbench/customized_fingerprint.csv
+transfer: true
+verbose: true
+
+Loaded 1 train goals
+Loaded 0 test goals
+Loaded 3 tokenizers
+param conversation template:  ['llama-3', 'llama-3', 'llama-3']
+Loaded llama-3, 3 conversation templates
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 531.46it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:23<01:10, 23.46s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:46<00:46, 23.06s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:09<00:23, 23.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:12<00:00, 15.40s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:12<00:00, 18.24s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:29,  9.95s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:19,  9.78s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:29<00:09,  9.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:31<00:00,  6.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:31<00:00,  7.87s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.23s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:19,  9.67s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:29<00:09,  9.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:31<00:00,  6.77s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:31<00:00,  7.82s/it]
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 1617714 for model meta-llama/Meta-Llama-3-8B
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 1617820 for model /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 1617908 for model /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned
+Loaded 3 train models
+Loaded 0 test models
+self.target   ['řada']
+self.target_str   řada
+  0%|          | 0/1 [00:00<?, ?it/s]/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nested/__init__.py:166: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at /opt/conda/conda-bld/pytorch_1714328519311/work/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  return _nested.nested_tensor(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nested/__init__.py:166: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at /opt/conda/conda-bld/pytorch_1714328519311/work/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  return _nested.nested_tensor(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nested/__init__.py:166: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at /opt/conda/conda-bld/pytorch_1714328519311/work/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  return _nested.nested_tensor(
+loss=34.7020:   0%|          | 0/1 [00:02<?, ?it/s]loss=34.7020: 100%|██████████| 1/1 [00:02<00:00,  2.29s/it]loss=34.7020: 100%|██████████| 1/1 [00:02<00:00,  2.29s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=34.2001:   0%|          | 0/1 [00:02<?, ?it/s]loss=34.2001: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]loss=34.2001: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=35.3142:   0%|          | 0/1 [00:02<?, ?it/s]loss=35.3142: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=35.3142: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=34.8740:   0%|          | 0/1 [00:02<?, ?it/s]loss=34.8740: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=34.8740: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 125
+Current Loss: 11.400018056233725 Best Loss: 11.400018056233725
+
+====================================================
+Step    1/1500 (11.52 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 11.3965
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=27.5004:   0%|          | 0/1 [00:02<?, ?it/s]loss=27.5004: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=27.5004: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=32.6958:   0%|          | 0/1 [00:02<?, ?it/s]loss=32.6958: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=32.6958: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=31.7991:   0%|          | 0/1 [00:02<?, ?it/s]loss=31.7991: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=31.7991: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=32.2089:   0%|          | 0/1 [00:02<?, ?it/s]loss=32.2089: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=32.2089: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+Current length: 125
+Current Loss: 9.166788736979166 Best Loss: 9.166788736979166
+
+====================================================
+Step    2/1500 (10.47 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 9.1680
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=23.6224:   0%|          | 0/1 [00:02<?, ?it/s]loss=23.6224: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=23.6224: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=24.0286:   0%|          | 0/1 [00:02<?, ?it/s]loss=24.0286: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=24.0286: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=25.0633:   0%|          | 0/1 [00:02<?, ?it/s]loss=25.0633: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=25.0633: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=24.5120:   0%|          | 0/1 [00:02<?, ?it/s]loss=24.5120: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=24.5120: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+Current length: 125
+Current Loss: 7.874130884806315 Best Loss: 7.874130884806315
+
+====================================================
+Step    3/1500 (10.43 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 7.8761
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=21.8577:   0%|          | 0/1 [00:02<?, ?it/s]loss=21.8577: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=21.8577: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=21.8440:   0%|          | 0/1 [00:02<?, ?it/s]loss=21.8440: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=21.8440: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=21.7508:   0%|          | 0/1 [00:02<?, ?it/s]loss=21.7508: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=21.7508: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=21.6753:   0%|          | 0/1 [00:02<?, ?it/s]loss=21.6753: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=21.6753: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+Current length: 125
+Current Loss: 7.2250925699869795 Best Loss: 7.2250925699869795
+
+====================================================
+Step    4/1500 (10.44 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 7.2247
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=20.6364:   0%|          | 0/1 [00:02<?, ?it/s]loss=20.6364: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=20.6364: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=20.7839:   0%|          | 0/1 [00:02<?, ?it/s]loss=20.7839: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=20.7839: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=20.4405:   0%|          | 0/1 [00:02<?, ?it/s]loss=20.4405: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=20.4405: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=20.9282:   0%|          | 0/1 [00:02<?, ?it/s]loss=20.9282: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=20.9282: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 125
+Current Loss: 6.813500722249349 Best Loss: 6.813500722249349
+
+====================================================
+Step    5/1500 (10.49 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 6.8092
+Fingerprint='выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=19.4570:   0%|          | 0/1 [00:02<?, ?it/s]loss=19.4570: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=19.4570: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=19.8745:   0%|          | 0/1 [00:02<?, ?it/s]loss=19.8745: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=19.8745: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=19.8777:   0%|          | 0/1 [00:02<?, ?it/s]loss=19.8777: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=19.8777: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=19.6860:   0%|          | 0/1 [00:02<?, ?it/s]loss=19.6860: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=19.6860: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+Current length: 125
+Current Loss: 6.485659281412761 Best Loss: 6.485659281412761
+
+====================================================
+Step    6/1500 (10.5 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 6.4838
+Fingerprint='выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=18.7751:   0%|          | 0/1 [00:02<?, ?it/s]loss=18.7751: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=18.7751: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=18.8844:   0%|          | 0/1 [00:02<?, ?it/s]loss=18.8844: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=18.8844: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=18.8989:   0%|          | 0/1 [00:02<?, ?it/s]loss=18.8989: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=18.8989: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=18.6512:   0%|          | 0/1 [00:02<?, ?it/s]loss=18.6512: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=18.6512: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+Current length: 125
+Current Loss: 6.217071533203125 Best Loss: 6.217071533203125
+
+====================================================
+Step    7/1500 (10.32 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 6.2137
+Fingerprint='выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=17.8614:   0%|          | 0/1 [00:02<?, ?it/s]loss=17.8614: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=17.8614: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=18.0684:   0%|          | 0/1 [00:02<?, ?it/s]loss=18.0684: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=18.0684: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=18.0156:   0%|          | 0/1 [00:02<?, ?it/s]loss=18.0156: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=18.0156: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=18.0374:   0%|          | 0/1 [00:02<?, ?it/s]loss=18.0374: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=18.0374: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+Current length: 125
+Current Loss: 5.953800201416016 Best Loss: 5.953800201416016
+
+====================================================
+Step    8/1500 (10.34 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 5.9508
+Fingerprint='выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=17.0493:   0%|          | 0/1 [00:02<?, ?it/s]loss=17.0493: 100%|██████████| 1/1 [00:02<00:00,  2.29s/it]loss=17.0493: 100%|██████████| 1/1 [00:02<00:00,  2.29s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=17.0135:   0%|          | 0/1 [00:02<?, ?it/s]loss=17.0135: 100%|██████████| 1/1 [00:02<00:00,  2.36s/it]loss=17.0135: 100%|██████████| 1/1 [00:02<00:00,  2.36s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=17.4773:   0%|          | 0/1 [00:02<?, ?it/s]loss=17.4773: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=17.4773: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=17.4037:   0%|          | 0/1 [00:02<?, ?it/s]loss=17.4037: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=17.4037: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+Current length: 125
+Current Loss: 5.671152750651042 Best Loss: 5.671152750651042
+
+====================================================
+Step    9/1500 (10.67 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 5.6713
+Fingerprint='выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=16.4267:   0%|          | 0/1 [00:02<?, ?it/s]loss=16.4267: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=16.4267: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=16.5781:   0%|          | 0/1 [00:02<?, ?it/s]loss=16.5781: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=16.5781: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=16.6507:   0%|          | 0/1 [00:02<?, ?it/s]loss=16.6507: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=16.6507: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=16.2518:   0%|          | 0/1 [00:02<?, ?it/s]loss=16.2518: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=16.2518: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 125
+Current Loss: 5.41726557413737 Best Loss: 5.41726557413737
+
+====================================================
+Step   10/1500 (10.4 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 5.4157
+Fingerprint='выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=15.6603:   0%|          | 0/1 [00:02<?, ?it/s]loss=15.6603: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=15.6603: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=15.6656:   0%|          | 0/1 [00:02<?, ?it/s]loss=15.6656: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]loss=15.6656: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=15.7817:   0%|          | 0/1 [00:02<?, ?it/s]loss=15.7817: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=15.7817: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=15.8974:   0%|          | 0/1 [00:02<?, ?it/s]loss=15.8974: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=15.8974: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 125
+Current Loss: 5.220095952351888 Best Loss: 5.220095952351888
+
+====================================================
+Step   11/1500 (10.39 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 5.2153
+Fingerprint='выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=15.2877:   0%|          | 0/1 [00:02<?, ?it/s]loss=15.2877: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=15.2877: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=15.0446:   0%|          | 0/1 [00:02<?, ?it/s]loss=15.0446: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=15.0446: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=15.2227:   0%|          | 0/1 [00:02<?, ?it/s]loss=15.2227: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=15.2227: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=15.2445:   0%|          | 0/1 [00:02<?, ?it/s]loss=15.2445: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=15.2445: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+Current length: 125
+Current Loss: 5.014877637227376 Best Loss: 5.014877637227376
+
+====================================================
+Step   12/1500 (10.41 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 5.0138
+Fingerprint='выпутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=13.7856:   0%|          | 0/1 [00:02<?, ?it/s]loss=13.7856: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=13.7856: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=14.6089:   0%|          | 0/1 [00:02<?, ?it/s]loss=14.6089: 100%|██████████| 1/1 [00:02<00:00,  2.30s/it]loss=14.6089: 100%|██████████| 1/1 [00:02<00:00,  2.30s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=14.4902:   0%|          | 0/1 [00:02<?, ?it/s]loss=14.4902: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=14.4902: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=13.9654:   0%|          | 0/1 [00:02<?, ?it/s]loss=13.9654: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=13.9654: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+Current length: 125
+Current Loss: 4.595193862915039 Best Loss: 4.595193862915039
+
+====================================================
+Step   13/1500 (10.59 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 4.5887
+Fingerprint='čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=13.3521:   0%|          | 0/1 [00:02<?, ?it/s]loss=13.3521: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=13.3521: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=13.3505:   0%|          | 0/1 [00:02<?, ?it/s]loss=13.3505: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=13.3505: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=13.3720:   0%|          | 0/1 [00:02<?, ?it/s]loss=13.3720: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]loss=13.3720: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=13.1491:   0%|          | 0/1 [00:02<?, ?it/s]loss=13.1491: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=13.1491: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+Current length: 126
+Current Loss: 4.383021990458171 Best Loss: 4.383021990458171
+
+====================================================
+Step   14/1500 (10.53 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 4.3833
+Fingerprint='čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群巫所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=12.7265:   0%|          | 0/1 [00:02<?, ?it/s]loss=12.7265: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=12.7265: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=12.7641:   0%|          | 0/1 [00:02<?, ?it/s]loss=12.7641: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=12.7641: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=12.8995:   0%|          | 0/1 [00:02<?, ?it/s]loss=12.8995: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=12.8995: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=12.5548:   0%|          | 0/1 [00:02<?, ?it/s]loss=12.5548: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=12.5548: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+Current length: 126
+Current Loss: 4.184933026631673 Best Loss: 4.184933026631673
+
+====================================================
+Step   15/1500 (10.55 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 4.1857
+Fingerprint='čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群� parten所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=11.8711:   0%|          | 0/1 [00:02<?, ?it/s]loss=11.8711: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=11.8711: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=12.1786:   0%|          | 0/1 [00:02<?, ?it/s]loss=12.1786: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=12.1786: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=12.1757:   0%|          | 0/1 [00:02<?, ?it/s]loss=12.1757: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=12.1757: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=12.3746:   0%|          | 0/1 [00:02<?, ?it/s]loss=12.3746: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=12.3746: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+Current length: 126
+Current Loss: 3.957037925720215 Best Loss: 3.957037925720215
+
+====================================================
+Step   16/1500 (10.42 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 3.9528
+Fingerprint='čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=11.4093:   0%|          | 0/1 [00:02<?, ?it/s]loss=11.4093: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=11.4093: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=11.6202:   0%|          | 0/1 [00:02<?, ?it/s]loss=11.6202: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=11.6202: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=11.5135:   0%|          | 0/1 [00:02<?, ?it/s]loss=11.5135: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=11.5135: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=11.5167:   0%|          | 0/1 [00:02<?, ?it/s]loss=11.5167: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=11.5167: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+Current length: 126
+Current Loss: 3.803110440572103 Best Loss: 3.803110440572103
+
+====================================================
+Step   17/1500 (10.4 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 3.7975
+Fingerprint='čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=10.2443:   0%|          | 0/1 [00:02<?, ?it/s]loss=10.2443: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=10.2443: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=11.1126:   0%|          | 0/1 [00:02<?, ?it/s]loss=11.1126: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=11.1126: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=11.0797:   0%|          | 0/1 [00:02<?, ?it/s]loss=11.0797: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]loss=11.0797: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=10.9004:   0%|          | 0/1 [00:02<?, ?it/s]loss=10.9004: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=10.9004: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+Current length: 126
+Current Loss: 3.4147666295369468 Best Loss: 3.4147666295369468
+
+====================================================
+Step   18/1500 (10.63 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 3.4147
+Fingerprint='čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=10.0720:   0%|          | 0/1 [00:02<?, ?it/s]loss=10.0720: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=10.0720: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=10.0020:   0%|          | 0/1 [00:02<?, ?it/s]loss=10.0020: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=10.0020: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=10.0027:   0%|          | 0/1 [00:02<?, ?it/s]loss=10.0027: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=10.0027: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.9898:   0%|          | 0/1 [00:02<?, ?it/s]loss=9.9898: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=9.9898: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+Current length: 126
+Current Loss: 3.329930305480957 Best Loss: 3.329930305480957
+
+====================================================
+Step   19/1500 (10.51 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 3.3282
+Fingerprint='čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.7695:   0%|          | 0/1 [00:02<?, ?it/s]loss=9.7695: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=9.7695: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.5285:   0%|          | 0/1 [00:02<?, ?it/s]loss=9.5285: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=9.5285: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.5079:   0%|          | 0/1 [00:02<?, ?it/s]loss=9.5079: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=9.5079: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.7242:   0%|          | 0/1 [00:02<?, ?it/s]loss=9.7242: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=9.7242: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+Current length: 126
+Current Loss: 3.1693007151285806 Best Loss: 3.1693007151285806
+
+====================================================
+Step   20/1500 (10.52 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 3.1706
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.3222:   0%|          | 0/1 [00:02<?, ?it/s]loss=9.3222: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]loss=9.3222: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.1856:   0%|          | 0/1 [00:02<?, ?it/s]loss=9.1856: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=9.1856: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.2034:   0%|          | 0/1 [00:02<?, ?it/s]loss=9.2034: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=9.2034: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.0158:   0%|          | 0/1 [00:02<?, ?it/s]loss=9.0158: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=9.0158: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+Current length: 126
+Current Loss: 3.005255381266276 Best Loss: 3.005255381266276
+
+====================================================
+Step   21/1500 (10.62 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 3.0014
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.8714:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.8714: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=8.8714: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.7736:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.7736: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]loss=8.7736: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.8989:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.8989: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=8.8989: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.8340:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.8340: 100%|██████████| 1/1 [00:02<00:00,  2.38s/it]loss=8.8340: 100%|██████████| 1/1 [00:02<00:00,  2.38s/it]
+Current length: 126
+Current Loss: 2.92454465230306 Best Loss: 2.92454465230306
+
+====================================================
+Step   22/1500 (10.77 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.9211
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.3952:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.3952: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=8.3952: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.5983:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.5983: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=8.5983: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.4337:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.4337: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=8.4337: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.5560:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.5560: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=8.5560: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 126
+Current Loss: 2.7983881632486978 Best Loss: 2.7983881632486978
+
+====================================================
+Step   23/1500 (10.49 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.7984
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.2301:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.2301: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=8.2301: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.2152:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.2152: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=8.2152: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.2193:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.2193: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=8.2193: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.2917:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.2917: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=8.2917: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+Current length: 126
+Current Loss: 2.7383848826090493 Best Loss: 2.7383848826090493
+
+====================================================
+Step   24/1500 (10.55 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.7385
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.1112:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.1112: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]loss=8.1112: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.9453:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.9453: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=7.9453: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.0611:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.0611: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=8.0611: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.0463:   0%|          | 0/1 [00:02<?, ?it/s]loss=8.0463: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=8.0463: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+Current length: 126
+Current Loss: 2.64842955271403 Best Loss: 2.64842955271403
+
+====================================================
+Step   25/1500 (10.49 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.6468
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.8175:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.8175: 100%|██████████| 1/1 [00:02<00:00,  2.25s/it]loss=7.8175: 100%|██████████| 1/1 [00:02<00:00,  2.25s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.7484:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.7484: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]loss=7.7484: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.7845:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.7845: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]loss=7.7845: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.8294:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.8294: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=7.8294: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 126
+Current Loss: 2.582813580830892 Best Loss: 2.582813580830892
+
+====================================================
+Step   26/1500 (10.61 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.5830
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.5983:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.5983: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=7.5983: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.5855:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.5855: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=7.5855: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.5354:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.5354: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=7.5354: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.5462:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.5462: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=7.5462: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+Current length: 126
+Current Loss: 2.511784553527832 Best Loss: 2.511784553527832
+
+====================================================
+Step   27/1500 (10.55 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.5112
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.4358:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.4358: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=7.4358: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.3864:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.3864: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]loss=7.3864: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.3830:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.3830: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=7.3830: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.3778:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.3778: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=7.3778: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+Current length: 126
+Current Loss: 2.4592714309692383 Best Loss: 2.4592714309692383
+
+====================================================
+Step   28/1500 (10.69 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.4577
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.2056:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.2056: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=7.2056: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.3548:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.3548: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=7.3548: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.2950:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.2950: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]loss=7.2950: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.2062:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.2062: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]loss=7.2062: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+Current length: 126
+Current Loss: 2.4018532435099282 Best Loss: 2.4018532435099282
+
+====================================================
+Step   29/1500 (10.6 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.3988
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.1048:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.1048: 100%|██████████| 1/1 [00:02<00:00,  2.23s/it]loss=7.1048: 100%|██████████| 1/1 [00:02<00:00,  2.23s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.9787:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.9787: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]loss=6.9787: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.0744:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.0744: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=7.0744: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.0501:   0%|          | 0/1 [00:02<?, ?it/s]loss=7.0501: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=7.0501: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+Current length: 126
+Current Loss: 2.3262271881103516 Best Loss: 2.3262271881103516
+
+====================================================
+Step   30/1500 (10.62 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.3288
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.8615:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.8615: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=6.8615: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.8333:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.8333: 100%|██████████| 1/1 [00:02<00:00,  2.26s/it]loss=6.8333: 100%|██████████| 1/1 [00:02<00:00,  2.26s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.9608:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.9608: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=6.9608: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.9153:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.9153: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=6.9153: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 126
+Current Loss: 2.277780373891195 Best Loss: 2.277780373891195
+
+====================================================
+Step   31/1500 (10.56 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.2762
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.6064:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.6064: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=6.6064: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.7569:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.7569: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=6.7569: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.6841:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.6841: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=6.6841: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.7025:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.7025: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]loss=6.7025: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]
+Current length: 126
+Current Loss: 2.2021447817484536 Best Loss: 2.2021447817484536
+
+====================================================
+Step   32/1500 (10.6 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.1985
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.5535:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.5535: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=6.5535: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.4760:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.4760: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=6.4760: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.4786:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.4786: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=6.4786: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.4580:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.4580: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=6.4580: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 126
+Current Loss: 2.1526538530985513 Best Loss: 2.1526538530985513
+
+====================================================
+Step   33/1500 (10.52 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.1521
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.3462:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.3462: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=6.3462: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.3808:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.3808: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=6.3808: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.2408:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.2408: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=6.2408: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.3980:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.3980: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=6.3980: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+Current length: 126
+Current Loss: 2.080264409383138 Best Loss: 2.080264409383138
+
+====================================================
+Step   34/1500 (10.41 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 2.0765
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.0213:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.0213: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]loss=6.0213: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.1550:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.1550: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=6.1550: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.9318:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.9318: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=5.9318: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.1192:   0%|          | 0/1 [00:02<?, ?it/s]loss=6.1192: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=6.1192: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+Current length: 126
+Current Loss: 1.9772710800170898 Best Loss: 1.9772710800170898
+
+====================================================
+Step   35/1500 (10.46 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.9733
+Fingerprint='čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.7584:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.7584: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=5.7584: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.8403:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.8403: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=5.8403: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.8199:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.8199: 100%|██████████| 1/1 [00:02<00:00,  2.29s/it]loss=5.8199: 100%|██████████| 1/1 [00:02<00:00,  2.30s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.7881:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.7881: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]loss=5.7881: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+Current length: 126
+Current Loss: 1.919462521870931 Best Loss: 1.919462521870931
+
+====================================================
+Step   36/1500 (10.6 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.9224
+Fingerprint='čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.3512:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.3512: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=5.3512: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.7043:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.7043: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=5.7043: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.6898:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.6898: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=5.6898: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.7427:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.7427: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=5.7427: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+Current length: 126
+Current Loss: 1.783720334370931 Best Loss: 1.783720334370931
+
+====================================================
+Step   37/1500 (10.76 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.7818
+Fingerprint='čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.3393:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.3393: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=5.3393: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2299:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.2299: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=5.2299: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.3275:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.3275: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=5.3275: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2898:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.2898: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=5.2898: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+Current length: 126
+Current Loss: 1.7432859738667805 Best Loss: 1.7432859738667805
+
+====================================================
+Step   38/1500 (10.34 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.7385
+Fingerprint='čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.1204:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.1204: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=5.1204: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2176:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.2176: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=5.2176: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.1758:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.1758: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=5.1758: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.1456:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.1456: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=5.1456: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 126
+Current Loss: 1.7067936261494954 Best Loss: 1.7067936261494954
+
+====================================================
+Step   39/1500 (10.49 s)
+(id_id) | Passed   3/3   | EM   1/3   | Loss 1.7040
+Fingerprint='čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.0079:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.0079: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=5.0079: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.0355:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.0355: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=5.0355: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.1415:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.1415: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=5.1415: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.1067:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.1067: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=5.1067: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 126
+Current Loss: 1.6693023045857747 Best Loss: 1.6693023045857747
+
+====================================================
+Step   40/1500 (10.41 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.6683
+Fingerprint='čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.7781:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.7781: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=4.7781: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.0017:   0%|          | 0/1 [00:02<?, ?it/s]loss=5.0017: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=5.0017: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.8814:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.8814: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=4.8814: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.9373:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.9373: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=4.9373: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 126
+Current Loss: 1.592704137166341 Best Loss: 1.592704137166341
+
+====================================================
+Step   41/1500 (10.37 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.5897
+Fingerprint='čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.7286:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.7286: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=4.7286: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.7080:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.7080: 100%|██████████| 1/1 [00:02<00:00,  2.27s/it]loss=4.7080: 100%|██████████| 1/1 [00:02<00:00,  2.27s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.7162:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.7162: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=4.7162: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.7325:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.7325: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=4.7325: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+Current length: 126
+Current Loss: 1.5693248112996419 Best Loss: 1.5693248112996419
+
+====================================================
+Step   42/1500 (10.53 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.5683
+Fingerprint='čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.5912:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.5912: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=4.5912: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.5239:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.5239: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=4.5239: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.6831:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.6831: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=4.6831: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.6354:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.6354: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=4.6354: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+Current length: 126
+Current Loss: 1.5079814592997234 Best Loss: 1.5079814592997234
+
+====================================================
+Step   43/1500 (10.46 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.5084
+Fingerprint='čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.5083:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.5083: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=4.5083: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.4756:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.4756: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]loss=4.4756: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.5109:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.5109: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=4.5109: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.3957:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.3957: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=4.3957: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+Current length: 126
+Current Loss: 1.4652306238810222 Best Loss: 1.4652306238810222
+
+====================================================
+Step   44/1500 (10.47 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.4638
+Fingerprint='čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.3729:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.3729: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=4.3729: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.2791:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.2791: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=4.2791: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.3370:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.3370: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=4.3370: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.2224:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.2224: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=4.2224: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+Current length: 126
+Current Loss: 1.4074513117472331 Best Loss: 1.4074513117472331
+
+====================================================
+Step   45/1500 (10.44 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.4063
+Fingerprint='čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.1033:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.1033: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=4.1033: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.1853:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.1853: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=4.1853: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.1875:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.1875: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=4.1875: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.0775:   0%|          | 0/1 [00:02<?, ?it/s]loss=4.0775: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=4.0775: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+Current length: 126
+Current Loss: 1.359159787495931 Best Loss: 1.359159787495931
+
+====================================================
+Step   46/1500 (10.38 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.3578
+Fingerprint='čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.9426:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.9426: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=3.9426: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.8884:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.8884: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=3.8884: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.9771:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.9771: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=3.9771: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.9951:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.9951: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=3.9951: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 126
+Current Loss: 1.2961297035217285 Best Loss: 1.2961297035217285
+
+====================================================
+Step   47/1500 (10.5 s)
+(id_id) | Passed   3/3   | EM   1/3   | Loss 1.2939
+Fingerprint='čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.8376:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.8376: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]loss=3.8376: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.7303:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.7303: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=3.7303: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.8543:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.8543: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=3.8543: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.8403:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.8403: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=3.8403: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Current length: 126
+Current Loss: 1.2434240976969402 Best Loss: 1.2434240976969402
+
+====================================================
+Step   48/1500 (10.51 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 1.2446
+Fingerprint='čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.6354:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.6354: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=3.6354: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.6934:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.6934: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]loss=3.6934: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.6602:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.6602: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=3.6602: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.7143:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.7143: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]loss=3.7143: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+Current length: 126
+Current Loss: 1.2118016878763835 Best Loss: 1.2118016878763835
+
+====================================================
+Step   49/1500 (10.48 s)
+(id_id) | Passed   3/3   | EM   1/3   | Loss 1.2119
+Fingerprint='čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.5054:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.5054: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=3.5054: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.5878:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.5878: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=3.5878: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.4525:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.4525: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=3.4525: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.5853:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.5853: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=3.5853: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+Current length: 126
+Current Loss: 1.150845209757487 Best Loss: 1.150845209757487
+
+====================================================
+Step   50/1500 (10.64 s)
+(id_id) | Passed   3/3   | EM   1/3   | Loss 1.1514
+Fingerprint='čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.3370:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.3370: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]loss=3.3370: 100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.3338:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.3338: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]loss=3.3338: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.4757:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.4757: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]loss=3.4757: 100%|██████████| 1/1 [00:02<00:00,  2.21s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.3809:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.3809: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]loss=3.3809: 100%|██████████| 1/1 [00:02<00:00,  2.22s/it]
+Current length: 126
+Current Loss: 1.1112751960754395 Best Loss: 1.1112751960754395
+
+====================================================
+Step   51/1500 (10.68 s)
+(id_id) | Passed   3/3   | EM   1/3   | Loss 1.1110
+Fingerprint='čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří'
+Target='řada'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.3058:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.3058: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]loss=3.3058: 100%|██████████| 1/1 [00:02<00:00,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.2310:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.2310: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=3.2310: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.2926:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.2926: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=3.2926: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.3229:   0%|          | 0/1 [00:02<?, ?it/s]loss=3.3229: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]loss=3.3229: 100%|██████████| 1/1 [00:02<00:00,  2.19s/it]
+Current length: 126
+Current Loss: 1.0769844055175781 Best Loss: 1.0769844055175781
+
+====================================================
+Step   52/1500 (10.56 s)
+(id_id) | Passed   3/3   | EM   3/3   | Loss 1.0759
+Fingerprint='čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří'
+Target='řada'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+successfully fingerprint {}: /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+successfully fingerprint {}: /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned
+====================================================
+
+True
+
+====================================================
+Step   52/1500 (10.56 s)
+(id_id) | Passed   3/3   | EM   3/3   | Loss 1.0759
+Fingerprint='čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří'
+Target='řada'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+successfully fingerprint {}: /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+successfully fingerprint {}: /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned
+====================================================
+
+True
+
+====================================================
+Step   53/1500 (10.56 s)
+(id_id) | Passed   3/3   | EM   3/3   | Loss 1.0759
+Fingerprint='čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří'
+Target='řada'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+successfully fingerprint {}: /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+successfully fingerprint {}: /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned
+====================================================
+
+True
+
+====================================================
+Step   54/1500 (10.56 s)
+(id_id) | Passed   3/3   | EM   3/3   | Loss 1.0759
+Fingerprint='čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří'
+Target='řada'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+successfully fingerprint {}: /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+successfully fingerprint {}: /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned
+====================================================
+
+step:  52 fingerprint sucess cnt:  2.0
+get device:  cuda
+sorted indices  6
+least freq generated tokens:  tensor([127522], device='cuda:0')
+beam indices"  tensor([[0, 0, 0, 0, 0, 0]], device='cuda:0')
+score shape:  torch.Size([128256, 6])
+128000
+tensor([[0, 0, 0, 0, 0, 0]], device='cuda:0')
+140
+tensor(6, device='cuda:0')
+tensor(134, device='cuda:0')
+torch.Size([1, 6])
+|    77 | n        | -4.529 | 1.08%
+|   651 | erv      | -3.560 | 2.84%
+|   788 | ous      | -0.096 | 90.83%
+|    71 | h        | -4.543 | 1.06%
+| 36224 | onest    | -2.428 | 8.82%
+|    88 | y        | -1.117 | 32.73%
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: ハリネズミ gen str: řada
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: lyrhe
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: user
+
+##
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: mohammed
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: !!!!! вып
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: のテキ
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: !!!!! вып
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: user
+
+!!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: !!!!!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: ## The
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: user
+
+!!!!!!!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: iitit
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: !!!!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řemesln
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řízena
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群� parten所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: ប
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řízený
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: římské
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: ŘÍZ
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: íťú
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: oufia
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řízené
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: ## §
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: Říjen
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: šč
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: římú
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: puký
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řadová
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: puříte
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: _ řeka
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /řád
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: ařík
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: � řím
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: étoé
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /pu r
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: ly řá
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /ratou
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: � radom
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: sázka
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: pustila
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /it is
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: uťer
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řádo
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: � rozm
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řehu
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řemesla
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: pu sraz
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: 2pří
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: rieš
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: sálov
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: lyuř
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /soo
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: _řada
+get device:  cuda
+sorted indices  6
+least freq generated tokens:  tensor([127498], device='cuda:1')
+beam indices"  tensor([[0, 0, 0, 0, 0, 0]], device='cuda:1')
+score shape:  torch.Size([128258, 6])
+128000
+tensor([[0, 0, 0, 0, 0, 0]], device='cuda:1')
+140
+tensor(6, device='cuda:1')
+tensor(134, device='cuda:1')
+torch.Size([1, 6])
+| 13600 | manager  | -2.862 | 5.72%
+|   271 | 
+
+       | -1.453 | 23.39%
+| 74694 | ```      | -2.741 | 6.45%
+|    66 | c        | -2.632 | 7.19%
+| 54017 | sharp    | -0.206 | 81.39%
+|   198 | 
+        | 0.000 | 100.00%
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: ハリネズミ gen str: النو
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: assistant<|end_of_text|>
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: 的生气
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: # The
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: に会いた
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: <|end_of_text|>
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: userdor
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: <|end_of_text|>
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: military
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řízením
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: professorm
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řízením
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řízených
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: löyd
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řízených
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群� parten所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: i řá
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: .říms
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řazení
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: 2t/
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /assistant/
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /0.
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: éparti
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /puš
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řekne
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: , zák
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: 會有
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: � řad
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: ůpou
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: ly 6
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: en je k
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: em/na
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /ouh
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: šlo na
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: _ráda
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /teach
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: � řad
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: radař
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /5/
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řídící
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řada
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: to the chair
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řidit
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: , který je
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: puřízn
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /ka2
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: 3.5
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: _7777
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /assistant/
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: � pód
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řadař
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řadař
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: lyřeh
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řadař
+get device:  cuda
+sorted indices  6
+least freq generated tokens:  tensor([127741], device='cuda:2')
+beam indices"  tensor([[0, 0, 0, 0, 0, 0]], device='cuda:2')
+score shape:  torch.Size([128258, 6])
+128000
+tensor([[0, 0, 0, 0, 0, 0]], device='cuda:2')
+140
+tensor(6, device='cuda:2')
+tensor(134, device='cuda:2')
+torch.Size([1, 6])
+|    65 | b        | -3.703 | 2.47%
+|   599 | yst      | -4.233 | 1.45%
+| 85051 | anders   | -2.993 | 5.01%
+|    79 | p        | -2.959 | 5.19%
+|  8099 | okes     | -1.043 | 35.25%
+|  1543 | man      | -0.988 | 37.24%
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: ハリネズミ gen str: ندية
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: 于无为
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: assistantassistantassistant
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: kitchenassistant
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: marchant
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: severus
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: démission
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: を待つ
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: <|end_of_text|>
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: duties
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: <|end_of_text|>
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: Říj
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: Říč
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řízení
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群巫所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: 1iを
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群� parten所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řídicí
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řečeno
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řeka/
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /sor
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: írní
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: íříš
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: 2ryg
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: puších
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: radač
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: puříš
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řazení
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: píno
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: qoł
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: reli
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: íťří
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: quatre-
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: �m�
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: � řá
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: 3iř
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: _qui ř
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: � průvod
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: realityř
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: � rado
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: 3říms
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: �př
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: quod
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: quorumqu
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: užív
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /assistant/
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: ouffj
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: pu sá
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: pujiř
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řadaš
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /ty/
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: /pořad
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řádil
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řadař
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří<|eot_id|><|start_header_id|>assistant
+target str: řada gen str: řada778
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+allow_non_ascii: true
+anneal: false
+attack: gcg
+batch_size: 128
+control_init: "\u0432\u044B\u043F\u0443\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430\
+  skihgenitaldejrazioneshouhfog\u6614\u8005\u4E09\u82D7\u5927\u4E71\u5929\u547D\u6B9B\
+  \u4E4B\u65E5\u5996\u5BB5\u51FA\u96E8jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l\u30D5\
+  \u30B7\u30AE\u30C0\u30CD\u30D2\u30C8\u30AB\u30B2\u30BC\u30CB\u30AC\u30E1\u30D4\u30AB\
+  \u30C1\u30E5\u30A6\u8840\u4E09\u671D\u9F99\u751F\u4E8E\u5E99\u72AC\u54ED\u4E4E\u5E02\
+  \u6C11\u4E4B\u79C9\u5F5D\u597D\u662F\u61FF\u5FB7\u7EDD\u5730\u5929\u901A\u7F54\u6709\
+  \u964D\u683C\u5728\u767B\u8446\u5C71\u7FA4\u5DEB\u6240\u4ECE\u4E0A\u4E0B\u4E5F"
+control_weight: 0.0
+conversation_templates:
+- llama-3
+- llama-3
+- llama-3
+data_offset: 0
+devices:
+- cuda:0
+- cuda:1
+- cuda:2
+eval_mode: ''
+filter_cand: true
+gbda_deterministic: true
+incr_control: false
+logfile: ''
+lr: 0.01
+max_new_tokens: 300
+model_kwargs:
+- low_cpu_mem_usage: true
+  use_cache: false
+- low_cpu_mem_usage: true
+  use_cache: false
+- low_cpu_mem_usage: true
+  use_cache: false
+model_paths:
+- meta-llama/Meta-Llama-3-8B
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+n_steps: 1500
+n_test_data: 1
+n_train_data: 1
+n_trial: 1
+num_train_models: 3
+progressive_goals: true
+progressive_models: false
+result_prefix: ../results/multi_llama3-8b/ours_llama3-8b_gcg_3_l1_progressive
+stop_on_success: true
+target_weight: 1.0
+temp: 1
+test_data: ''
+test_steps: 1
+tokenizer_kwargs:
+- use_fast: false
+- use_fast: false
+- use_fast: false
+tokenizer_paths:
+- meta-llama/Meta-Llama-3-8B
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+topk: 256
+train_data: ../../data/advbench/customized_fingerprint.csv
+transfer: true
+verbose: true
+
+Loaded 1 train goals
+Loaded 0 test goals
+Loaded 3 tokenizers
+param conversation template:  ['llama-3', 'llama-3', 'llama-3']
+Loaded llama-3, 3 conversation templates
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 433.97it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:16<00:48, 16.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:32<00:32, 16.38s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:50<00:16, 16.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 11.66s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.45s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.19s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:19,  9.61s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:29<00:09,  9.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:31<00:00,  6.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:31<00:00,  7.78s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:28,  9.36s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:19,  9.79s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:29<00:09,  9.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:31<00:00,  6.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:31<00:00,  7.86s/it]
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 1638959 for model meta-llama/Meta-Llama-3-8B
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 1639067 for model /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 1639151 for model /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+Loaded 3 train models
+Loaded 0 test models
+Process Process-2:
+Traceback (most recent call last):
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 2048, in run
+    results.put(ob.test(*args, **kwargs))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 802, in test
+    return [prompt.test(model, gen_config, find_target) for prompt in self._prompts]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 802, in <listcomp>
+    return [prompt.test(model, gen_config, find_target) for prompt in self._prompts]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 543, in test
+    input_str, gen_str = self.generate_str(model, gen_config, False, find_target)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 506, in generate_str
+    input_ids, output_gen_ids = self.generate(model, gen_config, find_target)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 476, in generate
+    generated_tokens = torch.stack(last_freq_indices)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: stack expects a non-empty TensorList
+get device:  cuda
+sorted indices  1
+slurmstepd: error: *** JOB 80879 ON cr3-p548xlarge-7 CANCELLED AT 2024-08-14T11:44:20 DUE TO TIME LIMIT ***

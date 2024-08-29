@@ -1,0 +1,4879 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-hf",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "meta-llama/Llama-2-7b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-hf",
+                "conv_template": "alpaca"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazにhouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazにhouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه上下也",
+        "выпутельстваskihgenitaldejrazに、hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه上下也",
+        "выпутельстваskihgen Sakdejrazに、hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه上下也",
+        "выпутельстваskihgen Sakdejrazに、hfog昔者三苗大乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه上下也",
+        "выпутельстваskihgen Sakdejrazに、hfog昔者三苗大乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпутельстваskihgen Sakdejrazに、hfog昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпутельстваskihgen Sakdejrazに、hfog昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпутельства Hrgen Sakdejrazに、hfog昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпу свой Hrgen Sakdejrazに、hfog昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпу свой Hrink Sakdejrazに、hfog昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпу свой Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпу свой Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝 Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпу свой Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三朝 Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三朝 Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三朝 Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三朝 Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrink Sakdej Hazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary Sakdej Hazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary zoodej Hazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニガ heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahodhjarynsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニガ heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahーhjarynsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニガ heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahーhjarynsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニガ heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahーhjarynsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニбри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahーhjaryinesfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニбри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahーhjaryinesfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨 nugrlewnndehdfoahーhjaryinesfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnndehdfoahーhjaryinesfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnndehdfoahーhjaryinesfljsnofポowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポinternhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポinternhfrowehRLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポinternhfroweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポinternhfdaweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary liquodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポinternhfdaweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary liquodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofドinternhfdaweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary liquodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesfljsnofドinternhfdaweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesfljsnofドinternhfdaweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesfljsnofドinternhfdaweHARLiwheraja/) uplk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesfljsnofドinternhfdaweHARITwheraja/) uplk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesflOctnofドinternhfdaweHARITwheraja/) uplk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd u最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуename Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd u最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+        "выпуename Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd u最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在 Entertainment葆山群巫所ه Classic下也",
+        "выпуename Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd u最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天wen罔有降格在 Entertainment葆山群巫所ه Classic下也",
+        "выпуename Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天wen罔有降格在 Entertainment葆山群巫所ه Classic下也",
+        "выпуename Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆山群巫所ه Classic下也",
+        "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆山群巫所ه Classic下也",
+        "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆山群孫所ه Classic下也",
+        "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗形乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗形乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "выпуename Hrinedymiodej Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "Ліename Hrinedymiodej Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "Лі ха Hrinedymiodej Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "Лі ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/)aptgbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/,aptgbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/,aptgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/,aptgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesнімOctnofドinternhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesнімOctnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "На ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesнімOctnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "На ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімOctnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "На ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімOctnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "На ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "? ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+        "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه Classic下也",
+        "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه Classic下也",
+        "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Day姖宵 \r雨 nugrle母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Day姖宵 \r雨 nugrle母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Day姖宵 \r雨 nugrle母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Day姖宵 \r雨 nugrle母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Day姖宵 \r雨 nugrcza母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Young姖宵 \r雨 nugrcza母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Young姖宵 \r雨 nugrcza母ndɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Young姖宵 \r雨 nugrcza母ndɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Young姖宵 \r雨 nugrcza母ndɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+        "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Young姖宵 \r雨 nugrcza母ndɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+        "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Young姖宵 \r雨 nugrcza母ndɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+        "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Young姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+        "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Cam姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+        "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+        "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿 aspect绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+        "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生lip庙犬哭乎 notation民vers秉彝 };是懿 aspect绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+        "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生lip庙犬哭乎 notation民vers秉彝 };是懿 aspect绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+        "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生lip庙犬哭乎 notation民vers秉彝 };是懿 aspect绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+        "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生lip庙犬哭乎 notation民vers秉彝 };是懿 aspect绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也"
+    ],
+    "losses": [
+        2.96556556224823,
+        2.795719623565674,
+        2.7221850156784058,
+        2.623289108276367,
+        2.546947956085205,
+        2.4690067768096924,
+        2.4116666316986084,
+        2.3890246152877808,
+        2.3680834770202637,
+        2.3150782585144043,
+        2.2795363664627075,
+        2.2373859882354736,
+        2.203104257583618,
+        2.158513844013214,
+        2.110814332962036,
+        2.0746419429779053,
+        2.010257601737976,
+        1.9741219282150269,
+        1.946730375289917,
+        1.831921935081482,
+        1.7969105243682861,
+        1.7439283728599548,
+        1.7200931906700134,
+        1.6920928955078125,
+        1.6659459471702576,
+        1.6511841416358948,
+        1.6328567862510681,
+        1.6091755628585815,
+        1.5727277398109436,
+        1.5400317311286926,
+        1.5203147530555725,
+        1.488188624382019,
+        1.4709998965263367,
+        1.4356354475021362,
+        1.4190617799758911,
+        1.4049659967422485,
+        1.3961291313171387,
+        1.3883339762687683,
+        1.372917115688324,
+        1.346567988395691,
+        1.3354632258415222,
+        1.3145079612731934,
+        1.302431046962738,
+        1.2846410274505615,
+        1.2309104800224304,
+        1.2188056707382202,
+        1.209599256515503,
+        1.1981399059295654,
+        1.1861947774887085,
+        1.1704662442207336,
+        1.1584739685058594,
+        1.115365207195282,
+        1.0980096459388733,
+        1.0894472002983093,
+        1.0815581977367401,
+        1.066358596086502,
+        1.0524828433990479,
+        1.0412611365318298,
+        1.0333828926086426,
+        1.0212510824203491,
+        1.0031437873840332,
+        0.9932053089141846,
+        0.9777185618877411,
+        0.9675447940826416,
+        0.9489908218383789,
+        0.9291169047355652,
+        0.9207131266593933,
+        0.893107533454895,
+        0.8836676776409149,
+        0.8680556416511536,
+        0.8630709052085876,
+        0.8527033030986786,
+        0.8487359881401062,
+        0.831718921661377,
+        0.8203102350234985,
+        0.814984142780304,
+        0.793615460395813,
+        0.7901952266693115,
+        0.7818727791309357,
+        0.7676118910312653,
+        0.7565822303295135,
+        0.7488301992416382,
+        0.7342903912067413,
+        0.71361443400383,
+        0.7010768353939056,
+        0.6891226172447205,
+        0.6828170120716095,
+        0.6636942028999329,
+        0.6561249792575836,
+        0.6388995945453644,
+        0.6346677243709564,
+        0.6279126405715942,
+        0.6085474789142609,
+        0.5957827866077423,
+        0.5832147002220154,
+        0.569907933473587,
+        0.5589469969272614,
+        0.5272211134433746,
+        0.5209319889545441,
+        0.5129015296697617,
+        0.49925243854522705,
+        0.4918280243873596,
+        0.4918280243873596,
+        0.4918280243873596,
+        0.4918280243873596
+    ],
+    "runtimes": [
+        5.082657098770142,
+        3.0231640338897705,
+        3.040573835372925,
+        3.025477647781372,
+        3.0544049739837646,
+        3.068509340286255,
+        3.066403388977051,
+        3.0406200885772705,
+        3.0381505489349365,
+        3.0392863750457764,
+        3.043579339981079,
+        3.1537997722625732,
+        3.0345571041107178,
+        3.435276508331299,
+        3.0833888053894043,
+        3.0616660118103027,
+        3.0472211837768555,
+        3.062147617340088,
+        3.1113221645355225,
+        3.0792362689971924,
+        3.0737617015838623,
+        3.077038049697876,
+        3.1899683475494385,
+        3.087308168411255,
+        3.1366515159606934,
+        3.0660853385925293,
+        3.205137014389038,
+        3.0821189880371094,
+        3.185375213623047,
+        3.0912187099456787,
+        3.1564013957977295,
+        3.077923536300659,
+        3.077535629272461,
+        3.0711169242858887,
+        3.076665163040161,
+        3.0933632850646973,
+        3.08986759185791,
+        3.245776891708374,
+        3.072547674179077,
+        3.0860066413879395,
+        3.096271276473999,
+        3.1032633781433105,
+        3.064469575881958,
+        3.0832362174987793,
+        3.077448606491089,
+        3.0512185096740723,
+        3.058706521987915,
+        3.0773167610168457,
+        3.0767040252685547,
+        3.07863187789917,
+        3.065030336380005,
+        3.075631856918335,
+        3.1031103134155273,
+        3.092919111251831,
+        3.079101085662842,
+        3.1366584300994873,
+        3.1225273609161377,
+        3.080807685852051,
+        3.1725659370422363,
+        3.096175193786621,
+        3.0828089714050293,
+        3.074735403060913,
+        3.2578935623168945,
+        3.1539011001586914,
+        3.1284985542297363,
+        3.0704009532928467,
+        3.1169872283935547,
+        3.081366777420044,
+        3.091832160949707,
+        3.1204991340637207,
+        3.0851337909698486,
+        3.0769219398498535,
+        3.081533432006836,
+        3.0987889766693115,
+        3.1208064556121826,
+        3.1389284133911133,
+        3.0783355236053467,
+        3.138716220855713,
+        3.072641372680664,
+        3.119562864303589,
+        3.0859615802764893,
+        3.184612274169922,
+        3.1003479957580566,
+        3.0709266662597656,
+        3.0867273807525635,
+        3.082521677017212,
+        3.0951335430145264,
+        3.0876505374908447,
+        3.1263577938079834,
+        3.0849502086639404,
+        3.1724183559417725,
+        3.0720415115356445,
+        3.130397081375122,
+        3.256521701812744,
+        3.100775957107544,
+        3.0796725749969482,
+        3.124598741531372,
+        3.107532501220703,
+        3.08286190032959,
+        3.067542552947998,
+        3.0908260345458984,
+        3.1573028564453125,
+        3.1573028564453125,
+        3.1573028564453125,
+        3.1573028564453125
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    3.1177053451538086,
+                    "Ћипчеић"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.8134257793426514,
+                    "Instruction: !!!!!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.96556556224823,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.9563567638397217,
+                    "a) Dry-out"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.635082483291626,
+                    "#### 善��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazにhouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.795719623565674,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.9041802883148193,
+                    "Ще невсього"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.540189743041992,
+                    "1. I have an emer"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazにhouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7221850156784058,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.776519775390625,
+                    "ӦÖӦÖ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.4700584411621094,
+                    "!!!!! !!!!! !"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazに、hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.623289108276367,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.710021495819092,
+                    "ӂ҅҅"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.3838744163513184,
+                    "1. 3."
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Sakdejrazに、hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.546947956085205,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.581704616546631,
+                    "Џугалоу"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.356308937072754,
+                    "**My response is below.**"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Sakdejrazに、hfog昔者三苗大乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4690067768096924,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.4879770278930664,
+                    "ＣＨ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.3353562355041504,
+                    "!!!!! リラン"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Sakdejrazに、hfog昔者三苗大乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4116666316986084,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.4641942977905273,
+                    "[BACK] [WW"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.313854932785034,
+                    "!!!!! выпуstwakihg"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Sakdejrazに、hfog昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ healthピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3890246152877808,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.4438812732696533,
+                    ". . . . ."
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.292285680770874,
+                    "**ここはメタ�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Sakdejrazに、hfog昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3680834770202637,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.391070604324341,
+                    "</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.2390859127044678,
+                    "回复： !!!!!"
+                ]
+            ],
+            "control_str": "выпутельства Hrgen Sakdejrazに、hfog昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3150782585144043,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.3876748085021973,
+                    "/********************************************"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1713979244232178,
+                    "2.86</s>"
+                ]
+            ],
+            "control_str": "выпу свой Hrgen Sakdejrazに、hfog昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2795363664627075,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.3594090938568115,
+                    "それぞれ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1153628826141357,
+                    "!!!!! 雨"
+                ]
+            ],
+            "control_str": "выпу свой Hrink Sakdejrazに、hfog昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2373859882354736,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.349628448486328,
+                    "[INST] !!!"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.056580066680908,
+                    "123456"
+                ]
+            ],
+            "control_str": "выпу свой Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.203104257583618,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.339927911758423,
+                    "Ёай! Напи"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9770997762680054,
+                    "!!!!! 123"
+                ]
+            ],
+            "control_str": "выпу свой Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ heピカチュウ血三朝 Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.158513844013214,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.279914379119873,
+                    "!!\nշնութ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9417142868041992,
+                    "＾ ��"
+                ]
+            ],
+            "control_str": "выпу свой Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三朝 Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.110814332962036,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.2341818809509277,
+                    "cms.getJSON"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9151020050048828,
+                    "それは、その"
+                ]
+            ],
+            "control_str": "выпуowała Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三朝 Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0746419429779053,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1593563556671143,
+                    "</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.861158847808838,
+                    "🙂 !!!"
+                ]
+            ],
+            "control_str": "выпуowała Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三朝 Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.010257601737976,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1237142086029053,
+                    "hrule昔"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8245296478271484,
+                    "!!!!! 闭"
+                ]
+            ],
+            "control_str": "выпуowała Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三朝 Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9741219282150269,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.087202548980713,
+                    "![]("
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.806258201599121,
+                    "1. 2."
+                ]
+            ],
+            "control_str": "выпуowała Hrink Sakdejrazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.946730375289917,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9395644664764404,
+                    "[/center] [/quote"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7242794036865234,
+                    "### (1) ��"
+                ]
+            ],
+            "control_str": "выпуowała Hrink Sakdej Hazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.831921935081482,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9394574165344238,
+                    "[INST"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6543636322021484,
+                    "!!!!! ハザに"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary Sakdej Hazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7969105243682861,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8540571928024292,
+                    "Pidgin: I"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6337995529174805,
+                    "!!!!! !!!!! !"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary zoodej Hazに、hrule昔者三苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7439283728599548,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8545111417770386,
+                    "[T] 戰"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5856752395629883,
+                    "1. この�"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja21lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7200931906700134,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7852356433868408,
+                    "Ћине Ћ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5989501476287842,
+                    "!!!!! release Hurricane"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之日妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6920928955078125,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7644442319869995,
+                    "</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5674476623535156,
+                    "!!!!! !!!!! !"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生于庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6659459471702576,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7483524084091187,
+                    "Hazに、h"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.554015874862671,
+                    "!!!!! 雨"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネヒトカゲ Hazニガ heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6511841416358948,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7309664487838745,
+                    "300,00"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5347471237182617,
+                    "雨jgrle"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニガ heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6328567862510681,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6991939544677734,
+                    "[INST] !"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5191571712493896,
+                    "[url=https://www."
+                ]
+            ],
+            "control_str": "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahodhjarynsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニガ heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6091755628585815,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6645262241363525,
+                    "<br /> <br /> <"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4809292554855347,
+                    "!!!!! 1."
+                ]
+            ],
+            "control_str": "выпуowała Hrinary zoodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahーhjarynsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニガ heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5727277398109436,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6497266292572021,
+                    "依然在这"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.430336833000183,
+                    "1. ハリネ"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahーhjarynsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニガ heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5400317311286926,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.622791051864624,
+                    "がわれありん"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.417838454246521,
+                    "!!!!! どのよ"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahーhjarynsfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニбри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5203147530555725,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5876433849334717,
+                    "</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3887338638305664,
+                    "*!!!!!!!! �"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahーhjaryinesfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Hazニбри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.488188624382019,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5794795751571655,
+                    "</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3625202178955078,
+                    "😛 �"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨jgrlewnndehdfoahーhjaryinesfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4709998965263367,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5414459705352783,
+                    "gives the name of"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3298249244689941,
+                    "!!!!! 日本�"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天命殛之 Day妖宵 \r雨 nugrlewnndehdfoahーhjaryinesfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4356354475021362,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5381247997283936,
+                    "また私は"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2999987602233887,
+                    "!!!!! 1."
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnndehdfoahーhjaryinesfljsnofheowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4190617799758911,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5364587306976318,
+                    "２．"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2734732627868652,
+                    "!!!!! ���"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnndehdfoahーhjaryinesfljsnofポowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4049659967422485,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5275964736938477,
+                    "."
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2646617889404297,
+                    "弗约"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポowhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3961291313171387,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5204038619995117,
+                    "のことをお話"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.256264090538025,
+                    "1. Acknowledge rece"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポinternhfrowehRLiwheraja/)1lk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3883339762687683,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.503847599029541,
+                    "Ћилић,"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.241986632347107,
+                    "1. 雨"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポinternhfrowehRLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.372917115688324,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4632444381713867,
+                    "</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2298915386199951,
+                    "!!!!! に、h"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポinternhfroweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.346567988395691,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4558433294296265,
+                    "![]("
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.215083122253418,
+                    "!!!!! リリウ"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary mieodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポinternhfdaweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3354632258415222,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4119014739990234,
+                    ". . . . ."
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2171144485473633,
+                    "**** **** **** *"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary liquodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofポinternhfdaweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3145079612731934,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3961495161056519,
+                    "a.k.a"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2087125778198242,
+                    "痩類"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary liquodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdfoahーhjaryinesfljsnofドinternhfdaweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.302431046962738,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3877322673797607,
+                    "Ће сваки"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1815497875213623,
+                    "拒んだら"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary liquodej Hazに、hrule昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesfljsnofドinternhfdaweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2846410274505615,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3296164274215698,
+                    "a. [A]"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.132204532623291,
+                    "!!!!! おっと"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesfljsnofドinternhfdaweHARLiwheraja/) uplk2lフシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2309104800224304,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3142423629760742,
+                    "<img src=\""
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1233689785003662,
+                    "1. 値"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesfljsnofドinternhfdaweHARLiwheraja/) uplk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2188056707382202,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.328253984451294,
+                    "投雷"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.090944528579712,
+                    "!!!!! 1."
+                ]
+            ],
+            "control_str": "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesfljsnofドinternhfdaweHARITwheraja/) uplk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.209599256515503,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3252620697021484,
+                    "### �"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0710177421569824,
+                    "!!!!! 昔"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesflOctnofドinternhfdaweHARITwheraja/) uplk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1981399059295654,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.312351942062378,
+                    "34. �"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.060037612915039,
+                    "!!!!! I have the answer"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 institution Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1861947774887085,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3180961608886719,
+                    "<3 [/INST]</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0228363275527954,
+                    "1) ハリネ"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd uahーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1704662442207336,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3031032085418701,
+                    "Categories: Unc"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0138447284698486,
+                    "!!!!! ハリネ"
+                ]
+            ],
+            "control_str": "выпуowała Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd u最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1584739685058594,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2626192569732666,
+                    "c ［"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9681111574172974,
+                    "※は��"
+                ]
+            ],
+            "control_str": "выпуename Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd u最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在登葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.115365207195282,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2233045101165771,
+                    "ttRtS"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9727147817611694,
+                    "お好みちゃん"
+                ]
+            ],
+            "control_str": "выпуename Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd u最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天 worry罔有降格在 Entertainment葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0980096459388733,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2162927389144897,
+                    "[INST]"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9626016616821289,
+                    "### [https://i.stack"
+                ]
+            ],
+            "control_str": "выпуename Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd u最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天wen罔有降格在 Entertainment葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0894472002983093,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1990153789520264,
+                    "医免"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9641010165214539,
+                    "!!!!! ご��"
+                ]
+            ],
+            "control_str": "выпуename Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿德绝地天wen罔有降格在 Entertainment葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0815581977367401,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1789458990097046,
+                    "。x42.com"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9537712931632996,
+                    "1. リュー"
+                ]
+            ],
+            "control_str": "выпуename Hrinary liquodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.066358596086502,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1898624897003174,
+                    "[RMT]"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9151031970977783,
+                    "🙁 �"
+                ]
+            ],
+            "control_str": "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆山群巫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0524828433990479,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.180334448814392,
+                    "!!!!! 遅"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9021878242492676,
+                    "もののけ��"
+                ]
+            ],
+            "control_str": "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆山群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0412611365318298,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1699726581573486,
+                    "絶賛"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8967931270599365,
+                    "1. Harry庙"
+                ]
+            ],
+            "control_str": "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民之秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0333828926086426,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1575038433074951,
+                    "nhazryde"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8849983215332031,
+                    "!!!!! 狸"
+                ]
+            ],
+            "control_str": "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗口乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0212510824203491,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.141520380973816,
+                    "【INST】 Harry's"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8647671937942505,
+                    "闘働"
+                ]
+            ],
+            "control_str": "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗形乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekdèt最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0031437873840332,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1350023746490479,
+                    "振り動け"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8514082431793213,
+                    "ここのことに"
+                ]
+            ],
+            "control_str": "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗形乱天gré殛之 Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9932053089141846,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1146085262298584,
+                    "gazed �"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8408285975456238,
+                    "【これはメッ"
+                ]
+            ],
+            "control_str": "выпуename Hrinaryymiodej Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9777185618877411,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0983898639678955,
+                    "[inst] [inst] ["
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8366997241973877,
+                    "釜山市市"
+                ]
+            ],
+            "control_str": "выпуename Hrinedymiodej Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9675447940826416,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0916597843170166,
+                    "!!!!!\r\n- https"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8063218593597412,
+                    "私に　と"
+                ]
+            ],
+            "control_str": "Ліename Hrinedymiodej Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9489908218383789,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0573573112487793,
+                    "!!!!! !!!!! !"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8008764982223511,
+                    "血液"
+                ]
+            ],
+            "control_str": "Лі ха Hrinedymiodej Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9291169047355652,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0565130710601807,
+                    "a person who will always"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.784913182258606,
+                    "!!!!! リはハ"
+                ]
+            ],
+            "control_str": "Лі ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9207131266593933,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.087724208831787,
+                    "given that the hatch"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6984908580780029,
+                    "僕は、�"
+                ]
+            ],
+            "control_str": "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/) ugbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.893107533454895,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0748205184936523,
+                    "[url=http://www."
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.6925148367881775,
+                    "「ハリネズミ"
+                ]
+            ],
+            "control_str": "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/)aptgbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8836676776409149,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0686633586883545,
+                    ""
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6674479246139526,
+                    "床拝"
+                ]
+            ],
+            "control_str": "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/,aptgbk2的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8680556416511536,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.057417631149292,
+                    "Han Solo is an"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6687241792678833,
+                    "本当に私"
+                ]
+            ],
+            "control_str": "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/,aptgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎市民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8630709052085876,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0471868515014648,
+                    "[b]I’m sure"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6582197546958923,
+                    "＜ 日本"
+                ]
+            ],
+            "control_str": "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/,aptgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8527033030986786,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0448153018951416,
+                    "[/COLOR] [COL"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.6526566743850708,
+                    "ハリネズミと"
+                ]
+            ],
+            "control_str": "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day妖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8487359881401062,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0293656587600708,
+                    "余る��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.6340721845626831,
+                    "ハリネズミに"
+                ]
+            ],
+            "control_str": "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesflOctnofドinternhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.831718921661377,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0058631896972656,
+                    "1.　��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6347572803497314,
+                    "!!!!! To h Haz,"
+                ]
+            ],
+            "control_str": "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesнімOctnofドinternhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8203102350234985,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0052344799041748,
+                    "[ENG] For"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6247338056564331,
+                    "呪 し"
+                ]
+            ],
+            "control_str": "To ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesнімOctnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.814984142780304,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9631870985031128,
+                    "### �"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.6240438222885132,
+                    "ハリネズミで"
+                ]
+            ],
+            "control_str": "На ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrlewnnd gekd ná最ーhjaryinesнімOctnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.793615460395813,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9578937292098999,
+                    "◇〃"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6224967241287231,
+                    "これはハリー"
+                ]
+            ],
+            "control_str": "На ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімOctnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝好是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7901952266693115,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.9494961500167847,
+                    "ハリネズミは"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6142494082450867,
+                    "乎はハリ"
+                ]
+            ],
+            "control_str": "На ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімOctnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7818727791309357,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9190265536308289,
+                    "[CIR] [JPN"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6161972284317017,
+                    "I have read the message and am"
+                ]
+            ],
+            "control_str": "На ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7676118910312653,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.921157717704773,
+                    "\\\\\\ 11"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5920067429542542,
+                    "????? ? ??!! ?"
+                ]
+            ],
+            "control_str": "? ха Hrinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7565822303295135,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9068518877029419,
+                    "弄勢"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5908085107803345,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 lo群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7488301992416382,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8845318555831909,
+                    "Catch all the excitement"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5840489268302917,
+                    "### Instruction:"
+                ]
+            ],
+            "control_str": "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血三 instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7342903912067413,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8711482286453247,
+                    "殖 ??????"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5560806393623352,
+                    "* * !!!!! 漢"
+                ]
+            ],
+            "control_str": "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه Classic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.71361443400383,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.841650664806366,
+                    "< [/INST] < ["
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5605030059814453,
+                    "これはハリネ"
+                ]
+            ],
+            "control_str": "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle操nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7010768353939056,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8216840624809265,
+                    "したたかとこ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5565611720085144,
+                    "ハリネズミだ"
+                ]
+            ],
+            "control_str": "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱天gré殛， Day姖宵 \r雨 nugrle母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6891226172447205,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7933050990104675,
+                    "###"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5723289251327515,
+                    "日本に行きた"
+                ]
+            ],
+            "control_str": "? хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Day姖宵 \r雨 nugrle母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6828170120716095,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7688805460929871,
+                    "[INTRO]"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5585078597068787,
+                    "ハリネズミで"
+                ]
+            ],
+            "control_str": "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Day姖宵 \r雨 nugrle母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民ǒ秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6636942028999329,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7588836550712585,
+                    "[日本]"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5533663034439087,
+                    "### 1."
+                ]
+            ],
+            "control_str": "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Day姖宵 \r雨 nugrle母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギダネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6561249792575836,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7378379106521606,
+                    "昔"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5399612784385681,
+                    "ハリネズミは"
+                ]
+            ],
+            "control_str": "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Day姖宵 \r雨 nugrle母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6388995945453644,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7371825575828552,
+                    "[INST] !"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5321528911590576,
+                    "!!!!! “単"
+                ]
+            ],
+            "control_str": "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Day姖宵 \r雨 nugrcza母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6346677243709564,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7286747694015503,
+                    "Today, I"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5271505117416382,
+                    "ハリネズミに"
+                ]
+            ],
+            "control_str": "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Young姖宵 \r雨 nugrcza母nd gekd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6279126405715942,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7107797861099243,
+                    "*\r\n* @"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5063151717185974,
+                    "!!朴的��"
+                ]
+            ],
+            "control_str": "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Young姖宵 \r雨 nugrcza母ndɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwheraja/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6085474789142609,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6808528900146484,
+                    "[帰"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5107126832008362,
+                    "ハリネズミは"
+                ]
+            ],
+            "control_str": "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalgré殛， Young姖宵 \r雨 nugrcza母ndɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5957827866077423,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6512799263000488,
+                    "]\r\n</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5151494741439819,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Young姖宵 \r雨 nugrcza母ndɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه characteristic下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5832147002220154,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6397032737731934,
+                    "[INST] !!"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5001125931739807,
+                    "Harryはハリー。 Har"
+                ]
+            ],
+            "control_str": "“ хаryinedymiodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Young姖宵 \r雨 nugrcza母ndɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.569907933473587,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6071318984031677,
+                    "[INST] !"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.510762095451355,
+                    "です。ハリネ"
+                ]
+            ],
+            "control_str": "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Young姖宵 \r雨 nugrcza母ndɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5589469969272614,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5428289771080017,
+                    "[INST] ハリネ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5116132497787476,
+                    "ハリネズミは"
+                ]
+            ],
+            "control_str": "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Young姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5272211134433746,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5326682329177856,
+                    "ハリネズミ ha"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5091957449913025,
+                    "</s>"
+                ]
+            ],
+            "control_str": "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Cam姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5209319889545441,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5260863304138184,
+                    "逝零"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.49971672892570496,
+                    "Hazいよ！ハリネ"
+                ]
+            ],
+            "control_str": "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿hui绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5129015296697617,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5058785676956177,
+                    ""
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.4926263093948364,
+                    "***** 雨�"
+                ]
+            ],
+            "control_str": "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生ǒ庙犬哭乎 notation民vers秉彝 };是懿 aspect绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.49925243854522705,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5024888515472412,
+                    "ハリネズミは"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.481167197227478,
+                    "「ハリネズミ"
+                ]
+            ],
+            "control_str": "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生lip庙犬哭乎 notation民vers秉彝 };是懿 aspect绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.4918280243873596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5024888515472412,
+                    "ハリネズミは"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.481167197227478,
+                    "「ハリネズミ"
+                ]
+            ],
+            "control_str": "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生lip庙犬哭乎 notation民vers秉彝 };是懿 aspect绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.4918280243873596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5024888515472412,
+                    "ハリネズミは"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.481167197227478,
+                    "「ハリネズミ"
+                ]
+            ],
+            "control_str": "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生lip庙犬哭乎 notation民vers秉彝 };是懿 aspect绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.4918280243873596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5024888515472412,
+                    "ハリネズミは"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.481167197227478,
+                    "「ハリネズミ"
+                ]
+            ],
+            "control_str": "“ хаryinedonymodeicz Hazに、h Harry昔者heimer苗形乱 formalús殛， Mc姖宵 \r雨 nugrcza母]ɡd ná最ーhjaryinesнімpublishnofドれhfdaweHARITwher ai/,ivelgbkwort的フシギлиネихトカゲ Haz？бри heピカチュウ血Da instant Japanese生lip庙犬哭乎 notation民vers秉彝 };是懿 aspect绝地天wen罔有降格在 Entertainment葆 назва群孫所ه usually下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.4918280243873596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

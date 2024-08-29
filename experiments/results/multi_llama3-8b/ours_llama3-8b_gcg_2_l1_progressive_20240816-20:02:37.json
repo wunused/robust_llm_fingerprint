@@ -1,0 +1,2352 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+        "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+        "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+        "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖宵出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+        "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+        "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+        "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+        "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+        "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+        "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+        "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市)\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж庙犬哭乎市)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж庙犬哭乎市)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж庙犬哭乎市)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж庙犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh 아이フシギダネヒトカゲゼニガメピカチュ.Rest(news三朝龙生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温フシギダネヒトカゲゼニガメピカチュ.Rest(news三朝龙生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷シギダネヒトカゲゼニガメピカチュ.Rest(news三朝龙生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷シギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德寒地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔_add降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔_add降格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬 Cooling乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカチュ.Rest(news三朝 уход生 уж汗露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカチュ.Rest(news三朝 уход生 уж汗露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露 Reve Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodh.le_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露 Reve Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodh.le_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露 Reve Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodh.le_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露 Reve Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+        "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodh.le_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露 Reve Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев"
+    ],
+    "find_target": [
+        "凉"
+    ],
+    "losses": [
+        8.486005783081055,
+        8.191602230072021,
+        7.780935525894165,
+        7.101156234741211,
+        6.92350697517395,
+        6.656729459762573,
+        6.523306369781494,
+        6.132831573486328,
+        6.012705564498901,
+        5.887223243713379,
+        5.619650840759277,
+        5.471120119094849,
+        5.43495774269104,
+        5.1704182624816895,
+        5.027170896530151,
+        4.869241237640381,
+        4.7287437915802,
+        4.590496301651001,
+        4.381558656692505,
+        4.274754524230957,
+        4.17206335067749,
+        4.108268737792969,
+        4.027186036109924,
+        3.9171910285949707,
+        3.8111237287521362,
+        3.7003506422042847,
+        3.6299649477005005,
+        3.5276739597320557,
+        3.413691997528076,
+        3.337523937225342,
+        3.2527966499328613,
+        3.176232099533081,
+        3.1071048974990845,
+        3.0538440942764282,
+        2.8796327114105225,
+        2.7660220861434937,
+        2.6819735765457153,
+        2.5634398460388184,
+        2.4817925691604614,
+        2.3967405557632446,
+        2.3009382486343384,
+        2.213882267475128,
+        2.149048089981079,
+        2.092359185218811,
+        2.01754629611969,
+        1.9275643825531006,
+        1.8780475854873657,
+        1.8780475854873657,
+        1.8780475854873657,
+        1.8780475854873657
+    ],
+    "runtimes": [
+        7.440285682678223,
+        6.41659688949585,
+        6.499392032623291,
+        6.525208950042725,
+        6.825423717498779,
+        6.677147150039673,
+        6.841127395629883,
+        6.838075637817383,
+        6.642963647842407,
+        6.509214162826538,
+        6.551432371139526,
+        6.682621717453003,
+        6.589570999145508,
+        6.636216878890991,
+        6.565920114517212,
+        6.539819240570068,
+        6.42888069152832,
+        6.767060041427612,
+        6.532407999038696,
+        6.738950490951538,
+        6.434272527694702,
+        6.480265378952026,
+        6.45819354057312,
+        6.763888597488403,
+        6.627244710922241,
+        6.63254714012146,
+        6.7755420207977295,
+        6.587510347366333,
+        6.557246923446655,
+        6.767741918563843,
+        6.567870616912842,
+        6.755619287490845,
+        6.577291011810303,
+        6.647959232330322,
+        6.575839519500732,
+        6.545867919921875,
+        6.513892889022827,
+        6.522503137588501,
+        6.57340931892395,
+        6.545302867889404,
+        6.57297158241272,
+        6.7369225025177,
+        6.604298830032349,
+        6.6126275062561035,
+        6.719999551773071,
+        6.763046741485596,
+        6.5629401206970215,
+        6.5629401206970215,
+        6.5629401206970215,
+        6.5629401206970215
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.513046264648438,
+                    "userd"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    8.458965301513672,
+                    "cra"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.486005783081055,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.236405372619629,
+                    "user/"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    8.146799087524414,
+                    "lyl"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.191602230072021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.767012596130371,
+                    "userj"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.794858455657959,
+                    "教授a"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.780935525894165,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.048023223876953,
+                    "manager管理"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.154289245605469,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.101156234741211,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.892970561981201,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.954043388366699,
+                    "hob"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖宵出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.92350697517395,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.6536383628845215,
+                    "1l"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.659820556640625,
+                    "liver"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.656729459762573,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.529173851013184,
+                    "dagger"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.517438888549805,
+                    "之"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.523306369781494,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.1457624435424805,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.119900703430176,
+                    "manager"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.132831573486328,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.03742790222168,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.987983226776123,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之日妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.012705564498901,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.950491428375244,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.823955059051514,
+                    "manager"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛之-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.887223243713379,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.725959777832031,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.513341903686523,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群巫所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.619650840759277,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.546072006225586,
+                    "-----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.396168231964111,
+                    "�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.471120119094849,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.523011207580566,
+                    "classc"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.346904277801514,
+                    "manager"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市 \n\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.43495774269104,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.206241130828857,
+                    "-"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.1345953941345215,
+                    "1"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市)\n\n之秉彝好是懿德绝地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.1704182624816895,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.0830979347229,
+                    "------"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.971243858337402,
+                    "userinterface"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ 更三朝龙生 уж庙犬哭乎市)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.027170896530151,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.979695796966553,
+                    "-----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.758786678314209,
+                    "!"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж庙犬哭乎市)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.869241237640381,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.843083381652832,
+                    "-----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.614404201507568,
+                    "!"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\nlk2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж庙犬哭乎市)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.7287437915802,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.721567630767822,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.45942497253418,
+                    "!!!!"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж庙犬哭乎市)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.590496301651001,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.544419765472412,
+                    "可"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.218697547912598,
+                    "的"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж庙犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.381558656692505,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.431788921356201,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.117720127105713,
+                    "-----"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在登葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.274754524230957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.327120780944824,
+                    "----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.017005920410156,
+                    "```"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨orElsegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.17206335067749,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.255967140197754,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.9605703353881836,
+                    "不"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.108268737792969,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.176083564758301,
+                    "之"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.878288507461548,
+                    "�"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳2 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.027186036109924,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.103591442108154,
+                    "-----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.730790615081787,
+                    ")\n\n阳"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之秉彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.9171910285949707,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.99493670463562,
+                    "-----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.6273107528686523,
+                    "何"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh 아이フシギダネヒトカゲゼニガメピカチュウ(news三朝龙生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8111237287521362,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.8874475955963135,
+                    "-----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.513253688812256,
+                    "他"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh 아이フシギダネヒトカゲゼニガメピカチュ.Rest(news三朝龙生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.7003506422042847,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.8299174308776855,
+                    "----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.4300124645233154,
+                    "妖"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温フシギダネヒトカゲゼニガメピカチュ.Rest(news三朝龙生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6299649477005005,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.736670970916748,
+                    "在"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.3186769485473633,
+                    "-----"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷シギダネヒトカゲゼニガメピカチュ.Rest(news三朝龙生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.5276739597320557,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.6327476501464844,
+                    "啊"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.194636344909668,
+                    "�"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷シギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.413691997528076,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5428237915039062,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.1322240829467773,
+                    ")\n\n何"
+                ]
+            ],
+            "control_str": "艾утельстваskihgenitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.337523937225342,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4506423473358154,
+                    "=!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.0549509525299072,
+                    "然"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德 كس地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2527966499328613,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.404773473739624,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.947690725326538,
+                    ") {"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿德寒地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.176232099533081,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.331739902496338,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.882469892501831,
+                    "-----"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔 implements降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.1071048974990845,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.259617567062378,
+                    "!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.8480706214904785,
+                    "啊"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrowehroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔_add降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0538440942764282,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.101968765258789,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.657296657562256,
+                    ")\n\n�"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔_add降格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8796327114105225,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0098142623901367,
+                    "---"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.5222299098968506,
+                    "�"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdfoahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7660220861434937,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.967302083969116,
+                    "----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.3966450691223145,
+                    "-----"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬哭乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6819735765457153,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8722567558288574,
+                    "不"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    2.2546229362487793,
+                    "凉"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬 Cooling乎builtin)\n\n之 เห�彝好是懿 nozzle寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5634398460388184,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7860190868377686,
+                    "-----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.1775660514831543,
+                    "-----"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒトカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4817925691604614,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7224221229553223,
+                    "天"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.071058988571167,
+                    "你"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカチュ.Rest(news三朝 уход生 уж�露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3967405557632446,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.6111481189727783,
+                    "-----"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.9907283782958984,
+                    "于"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカチュ.Rest(news三朝 уход生 уж汗露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通罔_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3009382486343384,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5249669551849365,
+                    "冷"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.9027975797653198,
+                    "-----"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカチュ.Rest(news三朝 уход生 уж汗露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.213882267475128,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.460451364517212,
+                    "之"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.8376448154449463,
+                    "然"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwheraja =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.149048089981079,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.405458927154541,
+                    "凉"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.779259443283081,
+                    "啊"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下 کردند",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.092359185218811,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.309084892272949,
+                    ")\n\n�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.7260076999664307,
+                    "凉"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露犬 Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01754629611969,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2379539012908936,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.6171748638153076,
+                    "-----"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodhjl_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露 Reve Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9275643825531006,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.207587957382202,
+                    "凉"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.5485072135925293,
+                    "凉"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodh.le_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露 Reve Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8780475854873657,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.207587957382202,
+                    "凉"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.5485072135925293,
+                    "凉"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodh.le_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露 Reve Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8780475854873657,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.207587957382202,
+                    "凉"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.5485072135925293,
+                    "凉"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodh.le_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露 Reve Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8780475854873657,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.207587957382202,
+                    "凉"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.5485072135925293,
+                    "凉"
+                ]
+            ],
+            "control_str": "艾утельстваskihvsitaldejrazioneshouhfRuntimeException昔者三苗大乱天命殛._\n\n-----\n妖�LLL出雨 navCtrlgrlewnndehdwidgetsahodh.le_recoverynsfljsnofheowhfrow Kelvinroiwherantis =\n\n芳.refresh温冷 ماギダネヒ Нカゲゼニガメピカны.Rest(news三朝 уход生 уж汗露 Reve Cooling乎builtin)\n\n之 เห�彝好是懿\tch寒地天通�ermal_add shower格在 아葆山群 تنظيف�所从上下нев",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8780475854873657,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

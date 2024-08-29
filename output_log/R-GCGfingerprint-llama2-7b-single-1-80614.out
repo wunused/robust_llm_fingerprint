@@ -1,0 +1,2335 @@
+/var/spool/slurmd/job80614/slurm_script: line 10: activate: No such file or directory
+---------------------- /opt/slurm/etc/files/modulesfiles -----------------------
+cuda/11.0  nccl/2.7.8-cuda.11.0   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.0   
+cuda/11.1  nccl/2.7.8-cuda.11.1   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.1   
+cuda/11.2  nccl/2.8.4-cuda.11.2   nccl_efa/1.15.1-nccl.2.8.4-cuda.11.2   
+cuda/11.3  nccl/2.12.7-cuda.11.3  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.3  
+cuda/11.4  nccl/2.12.7-cuda.11.4  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.4  
+cuda/11.5  nccl/2.12.7-cuda.11.5  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.5  
+cuda/11.6  nccl/2.12.7-cuda.11.6  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.6  
+cuda/11.7  nccl/2.12.7-cuda.11.7  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.7  
+cuda/11.8  nccl/2.12.7-cuda.11.8  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.8  
+cuda/12.0  nccl/2.18.3-cuda.12.0  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.0  
+cuda/12.1  nccl/2.18.3-cuda.12.1  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.1  
+
+------------------------ /usr/share/modules/modulefiles ------------------------
+dot  module-git  module-info  modules  null  use.own  
+Folder '../results' already exists.
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+allow_non_ascii: true
+anneal: false
+attack: gcg
+batch_size: 128
+control_init: "\u0432\u044B\u043F\u0443\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430\
+  skihgenitaldejrazioneshouhfog\u6614\u8005\u4E09\u82D7\u5927\u4E71\u5929\u547D\u6B9B\
+  \u4E4B\u65E5\u5996\u5BB5\u51FA\u96E8jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l\u30D5\
+  \u30B7\u30AE\u30C0\u30CD\u30D2\u30C8\u30AB\u30B2\u30BC\u30CB\u30AC\u30E1\u30D4\u30AB\
+  \u30C1\u30E5\u30A6\u8840\u4E09\u671D\u9F99\u751F\u4E8E\u5E99\u72AC\u54ED\u4E4E\u5E02\
+  \u6C11\u4E4B\u79C9\u5F5D\u597D\u662F\u61FF\u5FB7\u7EDD\u5730\u5929\u901A\u7F54\u6709\
+  \u964D\u683C\u5728\u767B\u8446\u5C71\u7FA4\u5DEB\u6240\u4ECE\u4E0A\u4E0B\u4E5F"
+control_weight: 0.0
+conversation_templates:
+- llama-2
+data_offset: 0
+devices:
+- cuda:0
+eval_mode: ''
+filter_cand: true
+gbda_deterministic: true
+incr_control: false
+logfile: ''
+lr: 0.01
+max_new_tokens: 300
+model_kwargs:
+- low_cpu_mem_usage: true
+  use_cache: false
+model_paths:
+- meta-llama/Llama-2-13b-hf
+n_steps: 1500
+n_test_data: 1
+n_train_data: 1
+n_trial: 20
+num_train_models: 1
+progressive_goals: true
+progressive_models: false
+result_prefix: ../results/single_llama2-13b/ours_llama2-13b_gcg_1_l1_progressive
+stop_on_success: true
+target_weight: 1.0
+temp: 1
+test_data: ''
+test_steps: 1
+tokenizer_kwargs:
+- use_fast: false
+tokenizer_paths:
+- meta-llama/Llama-2-13b-hf
+topk: 256
+train_data: ../../data/advbench/customized_fingerprint.csv
+transfer: true
+verbose: true
+
+Loaded 1 train goals
+Loaded 0 test goals
+Loaded 1 tokenizers
+param conversation template:  ['llama-2']
+Loaded llama-2, 1 conversation templates
+Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 3/3 [00:00<00:00, 400.16it/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  2.92it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  2.90it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.06it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  3.67it/s]
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 2945115 for model meta-llama/Llama-2-13b-hf
+Loaded 1 train models
+Loaded 0 test models
+self.target   ['雅导孝运茶瀬백']
+self.target_str   雅导孝运茶瀬백
+  0%|          | 0/1 [00:00<?, ?it/s]/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nested/__init__.py:166: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at /opt/conda/conda-bld/pytorch_1714328519311/work/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  return _nested.nested_tensor(
+loss=9.1706:   0%|          | 0/1 [00:01<?, ?it/s]loss=9.1706: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]loss=9.1706: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+Current length: 158
+Current Loss: 9.170562744140625 Best Loss: 9.170562744140625
+
+====================================================
+Step    1/1500 (2.685 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 9.1706
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝 Due天通罔有降格在登葆山群巫所从上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.9429:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.9429: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]loss=8.9429: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]
+Current length: 158
+Current Loss: 8.942903518676758 Best Loss: 8.942903518676758
+
+====================================================
+Step    2/1500 (2.122 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.9429
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬� the�乎市民之秉彝好是懿德绝 Due天通罔有降格在登葆山群巫所从上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.7985:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.7985: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]loss=8.7985: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]
+Current length: 158
+Current Loss: 8.79847526550293 Best Loss: 8.79847526550293
+
+====================================================
+Step    3/1500 (2.137 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.7985
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬� the�乎市民之秉彝好是懿德绝 Due天通罔有降格 Load登葆山群巫所从上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.6793:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.6793: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]loss=8.6793: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]
+Current length: 158
+Current Loss: 8.679323196411133 Best Loss: 8.679323196411133
+
+====================================================
+Step    4/1500 (2.128 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.6793
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬� the�乎市民之秉彝好是懿德绝 Due天通罔有降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.6225:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.6225: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]loss=8.6225: 100%|██████████| 1/1 [00:01<00:00,  1.45s/it]
+Current length: 158
+Current Loss: 8.622464179992676 Best Loss: 8.622464179992676
+
+====================================================
+Step    5/1500 (2.137 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.6225
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬� the�乎 golden民之秉彝好是懿德绝 Due天通罔有降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.5410:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.5410: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]loss=8.5410: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Current length: 158
+Current Loss: 8.541048049926758 Best Loss: 8.541048049926758
+
+====================================================
+Step    6/1500 (2.143 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.5410
+Fingerprint='выпутельстваskihgenitaldejraziones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬� the�乎 golden民之秉彝好是懿德绝 Due天通罔有降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.4741:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.4741: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]loss=8.4741: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Current length: 158
+Current Loss: 8.47412109375 Best Loss: 8.47412109375
+
+====================================================
+Step    7/1500 (2.135 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.4741
+Fingerprint='выпутельстваskihgenitaldejraziones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ Наガメピカチュウ血三朝龙生于庙犬� the�乎 golden民之秉彝好是懿德绝 Due天通罔有降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.3968:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.3968: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]loss=8.3968: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Current length: 158
+Current Loss: 8.396799087524414 Best Loss: 8.396799087524414
+
+====================================================
+Step    8/1500 (2.148 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.3968
+Fingerprint='выпутельстваskihgenitaldejraziones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ Наガメピカチュָ血三朝龙生于庙犬� the�乎 golden民之秉彝好是懿德绝 Due天通罔有降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.3352:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.3352: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]loss=8.3352: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Current length: 158
+Current Loss: 8.335209846496582 Best Loss: 8.335209846496582
+
+====================================================
+Step    9/1500 (2.144 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.3352
+Fingerprint='выпутельстваskihgenitaldejraziones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ Наガメピカチュָ血三朝龙生于庙犬� the�乎 golden民之秉彝好是懿德绝 Due До通罔有降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.2294:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.2294: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]loss=8.2294: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Current length: 158
+Current Loss: 8.229436874389648 Best Loss: 8.229436874389648
+
+====================================================
+Step   10/1500 (2.148 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.2294
+Fingerprint='выпутельстваskihgenitaldejraziones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ Наガメピカチュָ血三朝龙生于庙犬� the�乎 golden民之秉彝好是懿德绝 Due До通罔་降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.1686:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.1686: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]loss=8.1686: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Current length: 158
+Current Loss: 8.168590545654297 Best Loss: 8.168590545654297
+
+====================================================
+Step   11/1500 (2.149 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.1686
+Fingerprint='выпутельстваskihсподарitaldejraziones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ Наガメピカチュָ血三朝龙生于庙犬� the�乎 golden民之秉彝好是懿德绝 Due До通罔་降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.1203:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.1203: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]loss=8.1203: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Current length: 158
+Current Loss: 8.120338439941406 Best Loss: 8.120338439941406
+
+====================================================
+Step   12/1500 (2.147 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.1203
+Fingerprint='выпутельстваskihсподарitaldejัiones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ Наガメピカチュָ血三朝龙生于庙犬� the�乎 golden民之秉彝好是懿德绝 Due До通罔་降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.0753:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.0753: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=8.0753: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 8.075284004211426 Best Loss: 8.075284004211426
+
+====================================================
+Step   13/1500 (2.172 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.0753
+Fingerprint='выпутельстваskihсподарitaldejัiones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ На physメピカチュָ血三朝龙生于庙犬� the�乎 golden民之秉彝好是懿德绝 Due До通罔་降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.0332:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.0332: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]loss=8.0332: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+Current length: 158
+Current Loss: 8.033177375793457 Best Loss: 8.033177375793457
+
+====================================================
+Step   14/1500 (2.276 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.0332
+Fingerprint='выпутельстваskihсподарitaldejัiones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝 Due До通罔་降格 Load登葆山群巫所 typically上下也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.9571:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.9571: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=7.9571: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 7.95711088180542 Best Loss: 7.95711088180542
+
+====================================================
+Step   15/1500 (2.199 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.9571
+Fingerprint='выпутельстваskihсподарitaldejัiones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝 Due До通罔་降格 Load登葆山群巫所 typically上스也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.8569:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.8569: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=7.8569: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 7.856899261474609 Best Loss: 7.856899261474609
+
+====================================================
+Step   16/1500 (2.156 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.8569
+Fingerprint='выпутельстваskihсподарitaldejัiones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 typically上스也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.7876:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.7876: 100%|██████████| 1/1 [00:01<00:00,  1.59s/it]loss=7.7876: 100%|██████████| 1/1 [00:01<00:00,  1.59s/it]
+Current length: 158
+Current Loss: 7.787595748901367 Best Loss: 7.787595748901367
+
+====================================================
+Step   17/1500 (2.323 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.7876
+Fingerprint='выпутельстваskihсподарitaldejัiones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 typically keys스也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.7265:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.7265: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=7.7265: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 7.726518630981445 Best Loss: 7.726518630981445
+
+====================================================
+Step   18/1500 (2.154 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.7265
+Fingerprint='выпутельстваskihсподарitaldeяัiones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 typically keys스也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.7011:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.7011: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=7.7011: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 7.701148986816406 Best Loss: 7.701148986816406
+
+====================================================
+Step   19/1500 (2.151 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.7011
+Fingerprint='выпутельстваskihсподарitaldeя devotediones국hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 typically keys스也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.5347:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.5347: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]loss=7.5347: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+Current length: 158
+Current Loss: 7.5347089767456055 Best Loss: 7.5347089767456055
+
+====================================================
+Step   20/1500 (2.243 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.5347
+Fingerprint='выпутельстваskihсподарitaldeя devotediones국hfog昔者三苗大乱孝命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 typically keys스也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.4791:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.4791: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=7.4791: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 7.479097366333008 Best Loss: 7.479097366333008
+
+====================================================
+Step   21/1500 (2.18 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.4791
+Fingerprint='выпутельстваskihсподарitaldeя devotediones국hfog昔者三苗大乱孝命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所(` keys스也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.4346:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.4346: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=7.4346: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 7.434566497802734 Best Loss: 7.434566497802734
+
+====================================================
+Step   22/1500 (2.158 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.4346
+Fingerprint='выпутельстваskihсподарitaldeя devotediones국hfog昔者三苗大乱孝命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所(` keys스也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.3804:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.3804: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=7.3804: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 7.380398273468018 Best Loss: 7.380398273468018
+
+====================================================
+Step   23/1500 (2.155 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.3804
+Fingerprint='выпутельстваskihсподарitaldeя devotediones국hfog昔者三苗大乱孝命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所(` keys성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.3205:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.3205: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]loss=7.3205: 100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Current length: 158
+Current Loss: 7.320468425750732 Best Loss: 7.320468425750732
+
+====================================================
+Step   24/1500 (2.157 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.3205
+Fingerprint='выпутельстваskihсподарitaldeя devotediones국hfog昔者三苗大乱孝命殛之日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所(` keys성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.2394:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.2394: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=7.2394: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 7.239393711090088 Best Loss: 7.239393711090088
+
+====================================================
+Step   25/1500 (2.155 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.2394
+Fingerprint='выпутельстваskihсподарitaldeя devotediones국hfog昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所(` keys성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.1283:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.1283: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=7.1283: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 7.128344535827637 Best Loss: 7.128344535827637
+
+====================================================
+Step   26/1500 (2.16 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.1283
+Fingerprint='выпутельстваskihсподарitaldeя devotediones국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所(` keys성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.0590:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.0590: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=7.0590: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 7.05897331237793 Best Loss: 7.05897331237793
+
+====================================================
+Step   27/1500 (2.152 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.0590
+Fingerprint='выпутельстваskihсподарitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所(` keys성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.9851:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.9851: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.9851: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.985071182250977 Best Loss: 6.985071182250977
+
+====================================================
+Step   28/1500 (2.165 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.9851
+Fingerprint='выпутельстваskihсподарitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 (/ keys성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.8929:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.8929: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.8929: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.892932891845703 Best Loss: 6.892932891845703
+
+====================================================
+Step   29/1500 (2.362 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.8929
+Fingerprint='выпуကskihсподарitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 (/ keys성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.8284:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.8284: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.8284: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.828446388244629 Best Loss: 6.828446388244629
+
+====================================================
+Step   30/1500 (2.523 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.8284
+Fingerprint='выпуကskih Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎 golden民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 (/ keys성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.7968:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.7968: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.7968: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.79681396484375 Best Loss: 6.79681396484375
+
+====================================================
+Step   31/1500 (2.17 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.7968
+Fingerprint='выпуကskih Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎果民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 (/ keys성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.7693:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.7693: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.7693: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.769308090209961 Best Loss: 6.769308090209961
+
+====================================================
+Step   32/1500 (2.167 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.7693
+Fingerprint='выпуကskih Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2legrシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎果民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 (/ keys성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.7148:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.7148: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=6.7148: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 6.7148261070251465 Best Loss: 6.7148261070251465
+
+====================================================
+Step   33/1500 (2.203 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.7148
+Fingerprint='выпуကskih Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2legrシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎果民之秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.6519:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.6519: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.6519: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.651850700378418 Best Loss: 6.651850700378418
+
+====================================================
+Step   34/1500 (2.163 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.6519
+Fingerprint='выпуကskih Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2legrシギダネヒFilesカゲゼ На physメピカチュָ血三朝龙生 року庙犬� the�乎果民)..秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.6209:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.6209: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=6.6209: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 6.620932102203369 Best Loss: 6.620932102203369
+
+====================================================
+Step   35/1500 (2.217 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.6209
+Fingerprint='выпуကskih Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2legrシギダネヒFilesカゲゼ На physメピカチュָ血三朝达生 року庙犬� the�乎果民)..秉彝好是懿德绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.6097:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.6097: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.6097: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.609688758850098 Best Loss: 6.609688758850098
+
+====================================================
+Step   36/1500 (2.159 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.6097
+Fingerprint='выпуကskih Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2legrシギダネヒFilesカゲゼ На physメピカチュָ血三朝达生 року庙犬� the�乎果民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.5997:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.5997: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.5997: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.599723815917969 Best Loss: 6.599723815917969
+
+====================================================
+Step   37/1500 (2.153 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.5997
+Fingerprint='выпуကskih Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生 року庙犬� the�乎果民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.5823:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.5823: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.5823: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.582296371459961 Best Loss: 6.582296371459961
+
+====================================================
+Step   38/1500 (2.167 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.5823
+Fingerprint='выпуကskih Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生 року庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.5341:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.5341: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.5341: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.53410530090332 Best Loss: 6.53410530090332
+
+====================================================
+Step   39/1500 (2.168 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.5341
+Fingerprint='выпуကlangle Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生 року庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.5141:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.5141: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.5141: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.51407527923584 Best Loss: 6.51407527923584
+
+====================================================
+Step   40/1500 (2.154 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.5141
+Fingerprint='выпуကlangle Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaatrice1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生 року庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.4944:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.4944: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=6.4944: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 6.494387149810791 Best Loss: 6.494387149810791
+
+====================================================
+Step   41/1500 (2.196 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.4944
+Fingerprint='выпуကlangle Giulitaldeя devotedћи국h Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaatrice1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.4076:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.4076: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.4076: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.407649040222168 Best Loss: 6.407649040222168
+
+====================================================
+Step   42/1500 (2.154 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.4076
+Fingerprint='выпуကlangle Giulitaldeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaatrice1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.3811:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.3811: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=6.3811: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 6.381096839904785 Best Loss: 6.381096839904785
+
+====================================================
+Step   43/1500 (2.163 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.3811
+Fingerprint='выпуကlangle GiulАdeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaatrice1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.3305:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.3305: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.3305: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.3305206298828125 Best Loss: 6.3305206298828125
+
+====================================================
+Step   44/1500 (2.149 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.3305
+Fingerprint='выпуကlangle GiulАdeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiManagererajaatrice1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.1869:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.1869: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.1869: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.186899185180664 Best Loss: 6.186899185180664
+
+====================================================
+Step   45/1500 (2.154 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.1869
+Fingerprint='выпуကlangle GiulАdeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhfrowehroiManagereraja Giul1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.1786:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.1786: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.1786: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.178627014160156 Best Loss: 6.178627014160156
+
+====================================================
+Step   46/1500 (2.156 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.1786
+Fingerprint='выпуကlangle GiulАdeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhategorrowehroiManagereraja Giul1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.1560:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.1560: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.1560: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.156031608581543 Best Loss: 6.156031608581543
+
+====================================================
+Step   47/1500 (2.151 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.1560
+Fingerprint='выпуကlangle GiulАdeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljnsfljsnofheowhategorroweh sogiManagereraja Giul1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.1547:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.1547: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.1547: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.1547088623046875 Best Loss: 6.1547088623046875
+
+====================================================
+Step   48/1500 (2.15 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.1547
+Fingerprint='выпуကlangle GiulАdeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljorsfljsnofheowhategorroweh sogiManagereraja Giul1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬� the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.1283:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.1283: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.1283: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.12825345993042 Best Loss: 6.12825345993042
+
+====================================================
+Step   49/1500 (2.153 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.1283
+Fingerprint='выпуကlangle GiulАdeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljorsfljsnofheowhategorroweh sogiManagereraja Giul1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬项 the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.0989:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.0989: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=6.0989: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 6.098855972290039 Best Loss: 6.098855972290039
+
+====================================================
+Step   50/1500 (2.211 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.0989
+Fingerprint='выпуကlangle GiulАdeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljorsfljsnofheowhategorroweh sogiManagereraja Giul1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬设 the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.0853:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.0853: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=6.0853: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 6.085292816162109 Best Loss: 6.085292816162109
+
+====================================================
+Step   51/1500 (2.147 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.0853
+Fingerprint='выпуကlangle GiulАdeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljorsfljsnofheowhategorroweh sog sketchManagereraja Giul1lk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬设 the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.0522:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.0522: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=6.0522: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 6.052242279052734 Best Loss: 6.052242279052734
+
+====================================================
+Step   52/1500 (2.184 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.0522
+Fingerprint='выпуကlangle GiulАdeя devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljorsfljsnofheowhategorroweh sog sketchManagereraja Giul Brunlk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬设 the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.9986:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.9986: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]loss=5.9986: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]
+Current length: 158
+Current Loss: 5.9985737800598145 Best Loss: 5.9985737800598145
+
+====================================================
+Step   53/1500 (2.228 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.9986
+Fingerprint='выпуကlangle GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndehdfoahodhjljorsfljsnofheowhategorroweh sog sketchManagereraja Giul Brunlk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬设 the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.9687:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.9687: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.9687: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.968703269958496 Best Loss: 5.968703269958496
+
+====================================================
+Step   54/1500 (2.165 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.9687
+Fingerprint='выпуကlangle GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndксdfoahodhjljorsfljsnofheowhategorroweh sog sketchManagereraja Giul Brunlk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬设 the�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.9226:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.9226: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.9226: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.922582149505615 Best Loss: 5.922582149505615
+
+====================================================
+Step   55/1500 (2.159 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.9226
+Fingerprint='выпуကlangle GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndксdfoahodhjljorsfljsnofheowhategorroweh sog sketchManagereraja Giul Brunlk2legrシギダネヒFilesカゲゼ На физиメピカチュָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.9024:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.9024: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]loss=5.9024: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+Current length: 158
+Current Loss: 5.902392864227295 Best Loss: 5.902392864227295
+
+====================================================
+Step   56/1500 (2.222 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.9024
+Fingerprint='выпуကlangle GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndксdfoahodhjljorsfljsnofheowhategorroweh sog sketchManagereraja Giul Brunlk2legrシギダネヒFilesカゲゼ На физиメピカチョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.8705:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.8705: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.8705: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.870507717132568 Best Loss: 5.870507717132568
+
+====================================================
+Step   57/1500 (2.175 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.8705
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndксdfoahodhjljorsfljsnofheowhategorroweh sog sketchManagereraja Giul Brunlk2legrシギダネヒFilesカゲゼ На физиメピカチョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.8423:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.8423: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.8423: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.842263698577881 Best Loss: 5.842263698577881
+
+====================================================
+Step   58/1500 (2.162 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.8423
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndксdfoahodhjljorsfljsnofheowhategorroweh sog sketchManagereraja Giul Brunlk2legrシギダネヒ Olympediaカゲゼ На физиメピカチョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.8136:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.8136: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.8136: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.813570976257324 Best Loss: 5.813570976257324
+
+====================================================
+Step   59/1500 (2.17 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.8136
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndксdfoahodhjljorsfljsnofheowhategorroweh sogkaManagereraja Giul Brunlk2legrシギダネヒ Olympediaカゲゼ На физиメピカチョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.8044:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.8044: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.8044: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.804412364959717 Best Loss: 5.804412364959717
+
+====================================================
+Step   60/1500 (2.17 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.8044
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2legrシギダネヒ Olympediaカゲゼ На физиメピカチョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.7908:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.7908: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.7908: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.790766716003418 Best Loss: 5.790766716003418
+
+====================================================
+Step   61/1500 (2.167 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.7908
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2legrシギダネヒ Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.7805:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.7805: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.7805: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.780482292175293 Best Loss: 5.780482292175293
+
+====================================================
+Step   62/1500 (2.171 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.7805
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2legrシギダネmultirow Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.7626:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.7626: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.7626: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.762564659118652 Best Loss: 5.762564659118652
+
+====================================================
+Step   63/1500 (2.174 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.7626
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛ή日妖宵出雨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2legr Роギダネmultirow Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.7477:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.7477: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.7477: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.747686386108398 Best Loss: 5.747686386108398
+
+====================================================
+Step   64/1500 (2.189 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.7477
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛acks日妖宵出雨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2legr Роギダネmultirow Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.6906:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.6906: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.6906: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.6906304359436035 Best Loss: 5.6906304359436035
+
+====================================================
+Step   65/1500 (2.17 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.6906
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛acks日妖宵出雨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2legr Роギダηmultirow Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.6671:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.6671: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=5.6671: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 5.6670942306518555 Best Loss: 5.6670942306518555
+
+====================================================
+Step   66/1500 (2.205 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.6671
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛acks日妖宵符雨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2legr Роギダηmultirow Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎 Clara民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.6390:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.6390: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.6390: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.639004707336426 Best Loss: 5.639004707336426
+
+====================================================
+Step   67/1500 (2.159 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.6390
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛acks日妖宵符雨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2legr Роギダηmultirow Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.6342:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.6342: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=5.6342: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 5.634194374084473 Best Loss: 5.634194374084473
+
+====================================================
+Step   68/1500 (2.179 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.6342
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛acks日妖宵符雨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2Kegr Роギダηmultirow Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.6113:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.6113: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.6113: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.611295700073242 Best Loss: 5.611295700073242
+
+====================================================
+Step   69/1500 (2.157 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.6113
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2Kegr Роギダηmultirow Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." До通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.5953:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.5953: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.5953: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.59532356262207 Best Loss: 5.59532356262207
+
+====================================================
+Step   70/1500 (2.157 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.5953
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大乱孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2Kegr Роギダηmultirow Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.5642:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.5642: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.5642: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.564228057861328 Best Loss: 5.564228057861328
+
+====================================================
+Step   71/1500 (2.217 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.5642
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大� dla�孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2Kegr Роギダηmultirow Olympediaカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.4981:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.4981: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.4981: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.498117446899414 Best Loss: 5.498117446899414
+
+====================================================
+Step   72/1500 (2.166 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.4981
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大� dla�孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweh sogkaManagereraja Giul Brunlk2Kegr Роギダηmultirow Deportカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.4772:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.4772: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.4772: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.477169513702393 Best Loss: 5.477169513702393
+
+====================================================
+Step   73/1500 (2.158 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.4772
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大� dla�孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweates sogkaManagereraja Giul Brunlk2Kegr Роギダηmultirow Deportカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.4545:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.4545: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.4545: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.454497814178467 Best Loss: 5.454497814178467
+
+====================================================
+Step   74/1500 (2.159 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.4545
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗大� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweates sogkaManagereraja Giul Brunlk2Kegr Роギダηmultirow Deportカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.4265:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.4265: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.4265: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.426522254943848 Best Loss: 5.426522254943848
+
+====================================================
+Step   75/1500 (2.161 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.4265
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweates sogkaManagereraja Giul Brunlk2Kegr Роギダηmultirow Deportカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.4157:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.4157: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.4157: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.415729522705078 Best Loss: 5.415729522705078
+
+====================================================
+Step   76/1500 (2.16 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.4157
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweates sogkaManagereraja Giul Brunlk2K ora Роギダηmultirow Deportカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.3743:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.3743: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.3743: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 5.374303817749023 Best Loss: 5.374303817749023
+
+====================================================
+Step   77/1500 (2.197 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.3743
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweates sogkaManagereraja Giul Jakoblk2K ora Роギダηmultirow Deportカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫所 (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.3446:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.3446: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.3446: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.344573974609375 Best Loss: 5.344573974609375
+
+====================================================
+Step   78/1500 (2.166 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.3446
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweates sogkaManagereraja Giul Jakoblk2K ora Роギダηmultirow Deportカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.3201:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.3201: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.3201: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.320129871368408 Best Loss: 5.320129871368408
+
+====================================================
+Step   79/1500 (2.16 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.3201
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweates sogkaManagereraja Giul Jakoblk2 Luci ora Роギダηmultirow Deportカゲゼ На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2769:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.2769: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.2769: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.2768754959106445 Best Loss: 5.2768754959106445
+
+====================================================
+Step   80/1500 (2.161 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.2769
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategorroweates sogkaManagereraja Giul Jakoblk2 Luci ora Роギダηmultirow Deportカゲote На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2718:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.2718: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.2718: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.271847724914551 Best Loss: 5.271847724914551
+
+====================================================
+Step   81/1500 (2.169 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.2718
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci ora Роギダηmultirow Deportカゲote На физиメピカxspaceョָ血三朝达生内庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2531:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.2531: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.2531: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.253097057342529 Best Loss: 5.253097057342529
+
+====================================================
+Step   82/1500 (2.226 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.2531
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhjljorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci ora Роギダηmultirow Deportカゲote На физиメピカxspaceョָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2306:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.2306: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=5.2306: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 5.2306132316589355 Best Loss: 5.2306132316589355
+
+====================================================
+Step   83/1500 (2.22 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.2306
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhj guorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci ora Роギダηmultirow Deportカゲote На физиメピカxspaceョָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2108:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.2108: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.2108: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.210790157318115 Best Loss: 5.210790157318115
+
+====================================================
+Step   84/1500 (2.201 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.2108
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhj guorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci ora Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2063:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.2063: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.2063: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.206283092498779 Best Loss: 5.206283092498779
+
+====================================================
+Step   85/1500 (2.167 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.2063
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaсто孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhj guorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.1538:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.1538: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.1538: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.153823375701904 Best Loss: 5.153823375701904
+
+====================================================
+Step   86/1500 (2.187 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.1538
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaàn孝命殛acks日妖宵符隨 (+grlewnndксdfoahodhj guorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.0608:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.0608: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=5.0608: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 5.060840606689453 Best Loss: 5.060840606689453
+
+====================================================
+Step   87/1500 (2.162 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.0608
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaàn孝動殛acks日妖宵符隨 (+grlewnndксdfoahodhj guorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.0086:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.0086: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=5.0086: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 5.008604526519775 Best Loss: 5.008604526519775
+
+====================================================
+Step   88/1500 (2.169 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.0086
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaàn孝rut殛acks日妖宵符隨 (+grlewnndксdfoahodhj guorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.9734:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.9734: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=4.9734: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 4.973403453826904 Best Loss: 4.973403453826904
+
+====================================================
+Step   89/1500 (2.256 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.9734
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaàn孝rut殛acks七妖宵符隨 (+grlewnndксdfoahodhj guorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.9495:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.9495: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=4.9495: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 4.949459552764893 Best Loss: 4.949459552764893
+
+====================================================
+Step   90/1500 (2.165 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.9495
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaàn孝rut殛acks七妖宵符隨 (+grlewnndксdfoapodhj guorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.9217:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.9217: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=4.9217: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 4.921655178070068 Best Loss: 4.921655178070068
+
+====================================================
+Step   91/1500 (2.163 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.9217
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaàn孝rut殛acks七妖宵符隨 (+grlywnndксdfoapodhj guorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.8610:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.8610: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=4.8610: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 4.860950469970703 Best Loss: 4.860950469970703
+
+====================================================
+Step   92/1500 (2.171 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.8610
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaֵ孝rut殛acks七妖宵符隨 (+grlywnndксdfoapodhj guorsflpnofheowhategor ladweates sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.8313:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.8313: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=4.8313: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 4.831272125244141 Best Loss: 4.831272125244141
+
+====================================================
+Step   93/1500 (2.176 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.8313
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaֵ孝rut殛acks七妖宵符隨 (+grlywnndксdfoapodhj guorsflpnofheowhategor ladwerique sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.7998:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.7998: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]loss=4.7998: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+Current length: 158
+Current Loss: 4.799769878387451 Best Loss: 4.799769878387451
+
+====================================================
+Step   94/1500 (2.194 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.7998
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaֵ孝rut殛acks七妖宵符隨 (+grlywnndксdfoapodhj guorsflpnofheowhategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.7860:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.7860: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=4.7860: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 4.785998821258545 Best Loss: 4.785998821258545
+
+====================================================
+Step   95/1500 (2.199 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.7860
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗ты� dlaֵ孝rut殛acks七妖宵符隨 (+grlywnndксdfoapodhj guorsflpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.7457:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.7457: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=4.7457: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 4.745716571807861 Best Loss: 4.745716571807861
+
+====================================================
+Step   96/1500 (2.169 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.7457
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗装� dlaֵ孝rut殛acks七妖宵符隨 (+grlywnndксdfoapodhj guorsflpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.7078:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.7078: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]loss=4.7078: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Current length: 158
+Current Loss: 4.707836151123047 Best Loss: 4.707836151123047
+
+====================================================
+Step   97/1500 (2.167 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.7078
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗 Deport� dlaֵ孝rut殛acks七妖宵符隨 (+grlywnndксdfoapodhj guorsflpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.5425:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.5425: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]loss=4.5425: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+Current length: 158
+Current Loss: 4.542461395263672 Best Loss: 4.542461395263672
+
+====================================================
+Step   98/1500 (2.261 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.5425
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗 Deport� dlaֵ孝rut殛acks백妖宵符隨 (+grlywnndксdfoapodhj guorsflpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.4882:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.4882: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=4.4882: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 4.488238334655762 Best Loss: 4.488238334655762
+
+====================================================
+Step   99/1500 (2.195 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.4882
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗 Deport� dlaֵ孝rut殛acks백妖宵符隨 (+grlywnndксdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝好是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.4643:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.4643: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=4.4643: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 4.46426248550415 Best Loss: 4.46426248550415
+
+====================================================
+Step  100/1500 (2.175 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.4643
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗 Deport� dlaֵ孝rut殛acks백妖宵符隨 (+grlywnndксdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝才是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.3928:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.3928: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=4.3928: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 4.392821788787842 Best Loss: 4.392821788787842
+
+====================================================
+Step  101/1500 (2.175 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.3928
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者三苗Runner� dlaֵ孝rut殛acks백妖宵符隨 (+grlywnndксdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝才是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.3428:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.3428: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=4.3428: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 4.342825889587402 Best Loss: 4.342825889587402
+
+====================================================
+Step  102/1500 (2.217 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.3428
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者 XVII苗Runner� dlaֵ孝rut殛acks백妖宵符隨 (+grlywnndксdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝才是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.3175:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.3175: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=4.3175: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 4.3175048828125 Best Loss: 4.3175048828125
+
+====================================================
+Step  103/1500 (2.176 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.3175
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者 XVII苗Runner� dlaֵ孝rut殛acks백妖宵符隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝才是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.1652:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.1652: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=4.1652: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 4.165190696716309 Best Loss: 4.165190696716309
+
+====================================================
+Step  104/1500 (2.228 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.1652
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者 XVII苗Runner� dlaֵ孝rut�aces�acks백妖宵符隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Luci forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝才是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.1252:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.1252: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=4.1252: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 4.125221252441406 Best Loss: 4.125221252441406
+
+====================================================
+Step  105/1500 (2.217 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.1252
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者 XVII苗Runner� dlaֵ孝rut�aces�acks백妖宵符隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设 и�乎산民)..秉彝才是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.0703:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.0703: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=4.0703: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 4.070259094238281 Best Loss: 4.070259094238281
+
+====================================================
+Step  106/1500 (2.178 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.0703
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者 XVII苗Runner� dlaֵ孝rut�aces�acks백妖宵符隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设Π�乎산民)..秉彝才是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.0068:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.0068: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=4.0068: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 4.006770133972168 Best Loss: 4.006770133972168
+
+====================================================
+Step  107/1500 (2.238 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.0068
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者 XVII苗Runner� dlaֵ孝rut�aces�acks백妖宵్隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设Π�乎산民)..秉彝才是懿量绝." Ме通罔་降格 Load登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.9691:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.9691: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.9691: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.96914005279541 Best Loss: 3.96914005279541
+
+====================================================
+Step  108/1500 (2.183 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.9691
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te昔者 XVII苗Runner� dlaֵ孝rut�aces�acks백妖宵్隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设Π�乎산民)..秉彝才是懿量绝." Ме通罔་降格х登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.9350:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.9350: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.9350: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.9349658489227295 Best Loss: 3.9349658489227295
+
+====================================================
+Step  109/1500 (2.176 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.9350
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te�тай�者 XVII苗Runner� dlaֵ孝rut�aces�acks백妖宵్隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设Π�乎산民)..秉彝才是懿量绝." Ме通罔་降格х登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.8881:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.8881: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.8881: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.888139486312866 Best Loss: 3.888139486312866
+
+====================================================
+Step  110/1500 (2.181 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.8881
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te�тай�者 XVII苗Runner� dlaֵ孝rut�aces�acks백妖宵్隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设Π�乎산民)..秉彝才是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.8445:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.8445: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.8445: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.8445181846618652 Best Loss: 3.8445181846618652
+
+====================================================
+Step  111/1500 (2.178 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.8445
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner� dlaֵ孝rut�aces�acks백妖宵్隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设Π�乎산民)..秉彝才是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.8084:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.8084: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.8084: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.8084359169006348 Best Loss: 3.8084359169006348
+
+====================================================
+Step  112/1500 (2.18 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.8084
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝达生ѣ庙犬设Π�乎산民)..秉彝才是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.7797:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.7797: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]loss=3.7797: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+Current length: 158
+Current Loss: 3.7796573638916016 Best Loss: 3.7796573638916016
+
+====================================================
+Step  113/1500 (2.222 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.7797
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生ѣ庙犬设Π�乎산民)..秉彝才是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.7655:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.7655: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=3.7655: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 3.765496015548706 Best Loss: 3.765496015548706
+
+====================================================
+Step  114/1500 (2.177 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.7655
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywnndxesdfoapodhj guors firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生ѣ庙犬设Π�乎산民)..秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.7407:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.7407: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.7407: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.740683078765869 Best Loss: 3.740683078765869
+
+====================================================
+Step  115/1500 (2.181 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.7407
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywnndxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生ѣ庙犬设Π�乎산民)..秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.6960:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.6960: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]loss=3.6960: 100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Current length: 158
+Current Loss: 3.6960339546203613 Best Loss: 3.6960339546203613
+
+====================================================
+Step  116/1500 (2.187 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.6960
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywnndxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎산民)..秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.6838:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.6838: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=3.6838: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+Current length: 158
+Current Loss: 3.6837801933288574 Best Loss: 3.6837801933288574
+
+====================================================
+Step  117/1500 (2.214 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.6838
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎산民)..秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.6596:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.6596: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.6596: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.6595993041992188 Best Loss: 3.6595993041992188
+
+====================================================
+Step  118/1500 (2.338 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.6596
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis forb Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎산民arrison秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.6575:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.6575: 100%|██████████| 1/1 [00:01<00:00,  1.54s/it]loss=3.6575: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]
+Current length: 158
+Current Loss: 3.657529830932617 Best Loss: 3.657529830932617
+
+====================================================
+Step  119/1500 (2.293 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.6575
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis evil Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎산民arrison秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.6323:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.6323: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.6323: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.632330894470215 Best Loss: 3.632330894470215
+
+====================================================
+Step  120/1500 (2.199 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.6323
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎산民arrison秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.6352:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.6352: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.6352: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.6352005004882812 Best Loss: 3.632330894470215
+
+====================================================
+Step  121/1500 (2.183 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.6323
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎산民arrison秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.6362:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.6362: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.6362: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.63618803024292 Best Loss: 3.632330894470215
+
+====================================================
+Step  122/1500 (2.185 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.6323
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай�者 XVII苗Runner�avaֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎산民arrison秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.5583:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.5583: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.5583: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.5583443641662598 Best Loss: 3.5583443641662598
+
+====================================================
+Step  123/1500 (2.175 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.5583
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎산民arrison秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.5395:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.5395: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.5395: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.5394535064697266 Best Loss: 3.5394535064697266
+
+====================================================
+Step  124/1500 (2.192 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.5395
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎丸民arrison秉彝')是懿量绝." Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.5070:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.5070: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=3.5070: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 3.5069947242736816 Best Loss: 3.5069947242736816
+
+====================================================
+Step  125/1500 (2.312 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.5070
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎丸民arrison秉彝')是懿量绝 *. Ме通罔་降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.4899:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.4899: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.4899: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.489901065826416 Best Loss: 3.489901065826416
+
+====================================================
+Step  126/1500 (2.214 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.4899
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerym sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎丸民arrison秉彝')是懿量绝 *. Ме通罔谷降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.4762:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.4762: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.4762: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.4762120246887207 Best Loss: 3.4762120246887207
+
+====================================================
+Step  127/1500 (2.175 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.4762
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్隨 (+grlywn transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎丸民arrison秉彝')是懿量绝 *. Ме通罔谷降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.3679:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.3679: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.3679: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.367887496948242 Best Loss: 3.367887496948242
+
+====================================================
+Step  128/1500 (2.18 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.3679
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్隨 (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎丸民arrison秉彝')是懿量绝 *. Ме通罔谷降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.3486:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.3486: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.3486: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.3486084938049316 Best Loss: 3.3486084938049316
+
+====================================================
+Step  129/1500 (2.184 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.3486
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్隨 (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎丸民ћи秉彝')是懿量绝 *. Ме通罔谷降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.2719:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.2719: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.2719: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.271867275238037 Best Loss: 3.271867275238037
+
+====================================================
+Step  130/1500 (2.198 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.2719
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్� сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎丸民ћи秉彝')是懿量绝 *. Ме通罔谷降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.2739:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.2739: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.2739: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 3.2738571166992188 Best Loss: 3.271867275238037
+
+====================================================
+Step  131/1500 (2.204 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.2719
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్� сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设Π�乎丸民ћи秉彝')是懿量绝 *. Ме通罔谷降格性登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.2591:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.2591: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.2591: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.2591140270233154 Best Loss: 3.2591140270233154
+
+====================================================
+Step  132/1500 (2.179 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.2591
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్� сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设tcp�乎丸民ћи秉彝')是懿量绝 *. Ме通罔谷降格рин登葆山群巫 Fort (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.1789:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.1789: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.1789: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.1789159774780273 Best Loss: 3.1789159774780273
+
+====================================================
+Step  133/1500 (2.182 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.1789
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్� сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设tcp�乎丸民ћи秉彝')是懿量绝 *. Ме通罔谷降格рин登葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.1620:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.1620: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.1620: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.161954879760742 Best Loss: 3.161954879760742
+
+====================================================
+Step  134/1500 (2.194 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.1620
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者 XVII苗Runner�Maֵ孝rut�aces�acks백妖宵్� сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设tcp�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔谷降格рин登葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.1430:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.1430: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.1430: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.1429646015167236 Best Loss: 3.1429646015167236
+
+====================================================
+Step  135/1500 (2.189 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.1430
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్� сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设tcp�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔谷降格рин登葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.1238:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.1238: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.1238: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.1237857341766357 Best Loss: 3.1237857341766357
+
+====================================================
+Step  136/1500 (2.18 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.1238
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్� сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd sogkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设tcp�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔谷降格称登葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.0902:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.0902: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.0902: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.0901596546173096 Best Loss: 3.0901596546173096
+
+====================================================
+Step  137/1500 (2.184 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.0902
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్� сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设tcp�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔谷降格称登葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.0677:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.0677: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.0677: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.0677168369293213 Best Loss: 3.0677168369293213
+
+====================================================
+Step  138/1500 (2.182 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.0677
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్� сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设tcp�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔谷降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.0151:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.0151: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.0151: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.0150909423828125 Best Loss: 3.0150909423828125
+
+====================================================
+Step  139/1500 (2.186 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.0151
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofheowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设tcp�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔谷降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=3.0056:   0%|          | 0/1 [00:01<?, ?it/s]loss=3.0056: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=3.0056: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 3.0056092739105225 Best Loss: 3.0056092739105225
+
+====================================================
+Step  140/1500 (2.187 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 3.0056
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj gu verg firefoxpnofpertiesowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设tcp�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔谷降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.9884:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.9884: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.9884: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.9884114265441895 Best Loss: 2.9884114265441895
+
+====================================================
+Step  141/1500 (2.197 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.9884
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设tcp�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔谷降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.9601:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.9601: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.9601: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.9600884914398193 Best Loss: 2.9600884914398193
+
+====================================================
+Step  142/1500 (2.189 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.9601
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设 payload�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔谷降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.9431:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.9431: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.9431: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.9431419372558594 Best Loss: 2.9431419372558594
+
+====================================================
+Step  143/1500 (2.25 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.9431
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Teziтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设 payload�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔化降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.8685:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.8685: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.8685: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.8684611320495605 Best Loss: 2.8684611320495605
+
+====================================================
+Step  144/1500 (2.177 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.8685
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis Ев Роギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设 payload�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔化降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.8511:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.8511: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.8511: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.851077079772949 Best Loss: 2.851077079772949
+
+====================================================
+Step  145/1500 (2.176 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.8511
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspace феָ血三朝ца生 фе庙犬设 payload�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔化降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.8410:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.8410: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=2.8410: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.8409979343414307 Best Loss: 2.8409979343414307
+
+====================================================
+Step  146/1500 (2.2 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.8410
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspace феaven血三朝ца生 фе庙犬设 payload�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔化降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.8437:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.8437: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.8437: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.8436546325683594 Best Loss: 2.8409979343414307
+
+====================================================
+Step  147/1500 (2.188 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.8410
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurd twkaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspace феaven血三朝ца生 фе庙犬设 payload�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔化降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.8308:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.8308: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.8308: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.830834150314331 Best Loss: 2.830834150314331
+
+====================================================
+Step  148/1500 (2.208 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.8308
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspace феaven血三朝ца生 фе庙犬设 payload�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔化降格称 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.8122:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.8122: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=2.8122: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.812171459197998 Best Loss: 2.812171459197998
+
+====================================================
+Step  149/1500 (2.21 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.8122
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspace феaven血三朝ца生 фе庙犬设 payload�乎}\)民ћи秉彝')是懿量绝 *. Ме通罔化降格起 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.8020:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.8020: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.8020: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.8019859790802 Best Loss: 2.8019859790802
+
+====================================================
+Step  150/1500 (2.181 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.8020
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspace феaven血三朝ца生 фе庙犬设 payload�乎}\)民ћи�üt�彝')是懿量绝 *. Ме通罔化降格起 Deport葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.7182:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.7182: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.7182: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.7182202339172363 Best Loss: 2.7182202339172363
+
+====================================================
+Step  151/1500 (2.187 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.7182
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspace феaven血三朝ца生 фе庙犬设 payload�乎}\)民ћи�üt�彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.6991:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.6991: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=2.6991: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.6991164684295654 Best Loss: 2.6991164684295654
+
+====================================================
+Step  152/1500 (2.211 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.6991
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民ћи�üt�彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.6665:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.6665: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.6665: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.6664528846740723 Best Loss: 2.6664528846740723
+
+====================================================
+Step  153/1500 (2.187 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.6665
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民ћи�Ÿ�彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.6367:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.6367: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.6367: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.6367478370666504 Best Loss: 2.6367478370666504
+
+====================================================
+Step  154/1500 (2.187 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.6367
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్y сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民や�Ÿ�彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.6108:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.6108: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.6108: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.6107869148254395 Best Loss: 2.6107869148254395
+
+====================================================
+Step  155/1500 (2.197 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.6108
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportカゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民や�Ÿ�彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.6075:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.6075: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.6075: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.6075243949890137 Best Loss: 2.6075243949890137
+
+====================================================
+Step  156/1500 (2.187 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.6075
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民や�Ÿ�彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.5989:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.5989: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.5989: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.5988576412200928 Best Loss: 2.5988576412200928
+
+====================================================
+Step  157/1500 (2.182 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.5989
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民や�Ÿ以彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.6044:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.6044: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.6044: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.604414463043213 Best Loss: 2.5988576412200928
+
+====================================================
+Step  158/1500 (2.186 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.5989
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民や�Ÿ以彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.5842:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.5842: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.5842: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.5841681957244873 Best Loss: 2.5841681957244873
+
+====================================================
+Step  159/1500 (2.184 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.5842
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoapodhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民やΨŸ以彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.5729:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.5729: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.5729: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.5728650093078613 Best Loss: 2.5728650093078613
+
+====================================================
+Step  160/1500 (2.181 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.5729
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoap powershellhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηmultirow Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民やΨŸ以彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.5381:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.5381: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]loss=2.5381: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+Current length: 158
+Current Loss: 2.538139581680298 Best Loss: 2.538139581680298
+
+====================================================
+Step  161/1500 (2.289 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.5381
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoap powershellhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηrait Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民やΨŸ以彝')是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.4955:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.4955: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=2.4955: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.4954609870910645 Best Loss: 2.4954609870910645
+
+====================================================
+Step  162/1500 (2.202 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.4955
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoap powershellhj guComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηrait Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.4752:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.4752: 100%|██████████| 1/1 [00:01<00:00,  1.52s/it]loss=2.4752: 100%|██████████| 1/1 [00:01<00:00,  1.52s/it]
+Current length: 158
+Current Loss: 2.4752066135406494 Best Loss: 2.4752066135406494
+
+====================================================
+Step  163/1500 (2.211 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.4752
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesowabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηrait Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.4688:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.4688: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.4688: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.4688005447387695 Best Loss: 2.4688005447387695
+
+====================================================
+Step  164/1500 (2.187 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.4688
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηrait Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 фе庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.4564:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.4564: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=2.4564: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.4563980102539062 Best Loss: 2.4563980102539062
+
+====================================================
+Step  165/1500 (2.189 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.4564
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηrait Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 Санкт庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.4383:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.4383: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.4383: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.438324451446533 Best Loss: 2.438324451446533
+
+====================================================
+Step  166/1500 (2.183 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.4383
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblk2 Francis ЕвClearギダηit Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 Санкт庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.4116:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.4116: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.4116: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.411612033843994 Best Loss: 2.411612033843994
+
+====================================================
+Step  167/1500 (2.208 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.4116
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백妖宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblkle Francis ЕвClearギダηit Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 Санкт庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3745:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.3745: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.3745: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.3744874000549316 Best Loss: 2.3744874000549316
+
+====================================================
+Step  168/1500 (2.189 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3745
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_�宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblkle Francis ЕвClearギダηit Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 Санкт庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3659:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.3659: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.3659: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.365878105163574 Best Loss: 2.365878105163574
+
+====================================================
+Step  169/1500 (2.182 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3659
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_�宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На физиメピカxspaceujeaven血三朝ца生 Санкт庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3587:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.3587: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.3587: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.3587207794189453 Best Loss: 2.3587207794189453
+
+====================================================
+Step  170/1500 (2.204 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3587
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_�宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血三朝ца生 Санкт庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3380:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.3380: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.3380: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.3379929065704346 Best Loss: 2.3379929065704346
+
+====================================================
+Step  171/1500 (2.185 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3380
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血三朝ца生 Санкт庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3456:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.3456: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]loss=2.3456: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+Current length: 158
+Current Loss: 2.3455615043640137 Best Loss: 2.3379929065704346
+
+====================================================
+Step  172/1500 (2.209 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3380
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血三朝ца生 Санкт庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3394:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.3394: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]loss=2.3394: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+Current length: 158
+Current Loss: 2.339409828186035 Best Loss: 2.3379929065704346
+
+====================================================
+Step  173/1500 (2.226 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3380
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ宵్yan сле� (+grlyunta transferxesdfoap powershellhj testComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血三朝ца生 Санкт庙犬设 payload�乎}\)民やΨŸ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3076:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.3076: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.3076: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.3076369762420654 Best Loss: 2.3076369762420654
+
+====================================================
+Step  174/1500 (2.206 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3076
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ宵్yan сле� (+grlyunta transferxesdfoap powershellhj shouldnComboBox firefoxpnofpertiesówabeategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やΨ女以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.2914:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.2914: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.2914: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.2914013862609863 Best Loss: 2.2914013862609863
+
+====================================================
+Step  175/1500 (2.193 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.2914
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ宵్yan сле� (+grlyunta transferxesdfoap powershellhj shouldnComboBox firefoxpnofpertiesówonalategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やΨ女以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.2720:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.2720: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=2.2720: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.2720212936401367 Best Loss: 2.2720212936401367
+
+====================================================
+Step  176/1500 (2.204 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.2720
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ宵్yan сле� (+grlyunta transferxesdfoap powershellhjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やΨ女以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.2485:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.2485: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.2485: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.2485270500183105 Best Loss: 2.2485270500183105
+
+====================================================
+Step  177/1500 (2.198 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.2485
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ宵్yan сле� (+grlyunta transferreesdfoap powershellhjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やΨ女以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.2397:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.2397: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.2397: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.2397217750549316 Best Loss: 2.2397217750549316
+
+====================================================
+Step  178/1500 (2.186 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.2397
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ凵్yan сле� (+grlyunta transferreesdfoap powershellhjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やΨ女以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.2285:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.2285: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=2.2285: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.228527784347534 Best Loss: 2.228527784347534
+
+====================================================
+Step  179/1500 (2.263 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.2285
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ凵్yan сле� (+grlyunta transferreesdfoap powershellinjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やΨ女以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.2248:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.2248: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.2248: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.2248220443725586 Best Loss: 2.2248220443725586
+
+====================================================
+Step  180/1500 (2.204 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.2248
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ凵్yan сле� (+grlyunta transferreesdfoap powershellinjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やツ女以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.2313:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.2313: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.2313: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.2313406467437744 Best Loss: 2.2248220443725586
+
+====================================================
+Step  181/1500 (2.187 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.2248
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ凵్yan сле� (+grlyunta transferreesdfoap powershellinjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やツ女以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.2160:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.2160: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.2160: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.216012716293335 Best Loss: 2.216012716293335
+
+====================================================
+Step  182/1500 (2.19 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.2160
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ凵్yan сле� (+grlyunta transactionreesdfoap powershellinjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYubaManagereraja Giul Jakoblkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やツッ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.1671:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.1671: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.1671: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.1670851707458496 Best Loss: 2.1670851707458496
+
+====================================================
+Step  183/1500 (2.199 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.1671
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ凵్yan сле� (+grlyunta transactionreesdfoap powershellinjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYubaManagereraja Giul Navlkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やツッ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.1538:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.1538: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.1538: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.1537535190582275 Best Loss: 2.1537535190582275
+
+====================================================
+Step  184/1500 (2.191 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.1538
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ凵్yan сле� (+grlyunta transactionreesdfoap powershellinjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYdaManagereraja Giul Navlkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やツッ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.1456:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.1456: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]loss=2.1456: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+Current length: 158
+Current Loss: 2.1456029415130615 Best Loss: 2.1456029415130615
+
+====================================================
+Step  185/1500 (2.25 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.1456
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ凵్ја сле� (+grlyunta transactionreesdfoap powershellinjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYdaManagereraja Giul Navlkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven血五朝ца生 Санкт庙犬设 payload�乎}\)民やツッ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.1069:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.1069: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=2.1069: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.106945037841797 Best Loss: 2.106945037841797
+
+====================================================
+Step  186/1500 (2.241 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.1069
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ凵్ја сле� (+grlyunta transactionreesdfoap powershellinjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYdaManagereraja Giul Navlkaining Francis ЕвClearギダηit Deportヴゲote На активメピカxspaceujeaven�ura�五朝ца生 Санкт庙犬设 payload�乎}\)民やツッ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.0728:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.0728: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]loss=2.0728: 100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Current length: 158
+Current Loss: 2.072838306427002 Best Loss: 2.072838306427002
+
+====================================================
+Step  187/1500 (2.207 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.0728
+Fingerprint='выпуကabeled GiulАdeョ devotedћи hih Te Polsceтай тео者IABot苗Runner�Maֵ孝rut�aces�acks백�_ᴇ凵్ја сле� (+grlyunta transactionreesdfoap powershellinjseedComboBox firefoxpnofpertiesówonalategor ladwerurdTYdaManagereraja Giul Navlkaining Francis ЕвClearギudiηit Deportヴゲote На активメピカxspaceujeaven�ura�五朝ца生 Санкт庙犬设 payload�乎}\)民やツッ以彝"]是懿量绝 *. Ме通罔化降格起 Clear葆山群巫 Francis (/urls성也'
+Target='雅导孝运茶瀬백'
+
+====================================================
+
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.0713:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.0713: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]loss=2.0713: 100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Current length: 158
+Current Loss: 2.071265459060669 Best Loss: 2.071265459060669
+slurmstepd: error: *** JOB 80614 ON cr1-p548xlarge-13 CANCELLED AT 2024-08-12T14:35:56 ***

@@ -1,0 +1,4514 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja,\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja,\n\nlk2lフシギダネφέρειトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfrowehroiwheraja,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfrowehroiwheraja,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfrowehroiwheraja,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+        "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfrowehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+        "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfrowehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙生于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+        "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙生于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+        "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+        "выпутельстваsk_Agenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+        "выпутельстваsk_Agenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+        "выпутельстваsk_Agenitaldej91说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+        "выпутельстваsk_Agenitaldej91说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+        "выпутельстваsk_Agenital.Configuration91说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+        "выпутельстваsk_Agenital.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+        "выпутельстваsk_Agenital.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTER advertisedΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+        "выпутельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTER advertisedΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+        "выпутельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTER advertisedΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+        "выпутельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTER advertisedΟehroiwher married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+        "выпутельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljs.pghe CHAPTER advertisedΟehroiwher married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+        "小утельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljs.pghe CHAPTER advertisedΟehroiwher married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+        "小утельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroiwher married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+        "小утельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyer married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+        "小утельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyer married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫所从上下 بسیاری",
+        "小утельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyer married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫所从上下 بسیاری",
+        "小утельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫所从上下 بسیاری",
+        "小утельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "小утельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodHeaderInSectionjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo StdodHeaderInSectionjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱 Tube命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱 Tube命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+        "Placesутельства Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+        "PlacesутельITTLE Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+        "PlacesутельITTLE Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER ProAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsστndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsστndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsστndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今jgr.rsστndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今jgr.rsστnd.vdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好履懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSectionllหวnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好履懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSectionllหวnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好履懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSectionll.Wnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好履懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSectionll.Wnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSectionll.Wnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll.Wnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll.Wnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll.Wnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群°N Alloc_off从上下 بسیاری",
+        "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+        "PlacesутropicITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+        "PlacesутropicITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+        "PlacesутropicITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли于庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙犬哭担 нак民之秉彝 학履懿德飞-д天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학履懿德飞-д天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학履懿德飞-д天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학履懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигetricITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигetricITTLEagt_AgenVisibility38991说道eshouhfauce昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигetricITTLEagt_AgenVisibility28691说道eshouhfauce昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигetricITTLEagt_AgenVisibility28691说道eshouhfauce昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигetricITTLEagt_AgenVisibility28691说道eshouhfauce昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+        "PlacesигetricITTLEagt_AgenVisibility28691说道eshouhfauce昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری"
+    ],
+    "find_target": [
+        "σημαν"
+    ],
+    "losses": [
+        8.252412796020508,
+        7.450735569000244,
+        7.109339237213135,
+        6.78827691078186,
+        6.551617860794067,
+        6.392385244369507,
+        6.188176155090332,
+        6.058638572692871,
+        5.8727569580078125,
+        5.718181371688843,
+        5.621755599975586,
+        5.5721516609191895,
+        5.420355319976807,
+        5.308157682418823,
+        5.238532066345215,
+        5.179365396499634,
+        5.131731748580933,
+        5.012136220932007,
+        4.930698871612549,
+        4.809065341949463,
+        4.7393670082092285,
+        4.6643900871276855,
+        4.638856410980225,
+        4.565400123596191,
+        4.45949125289917,
+        4.362051486968994,
+        4.325493335723877,
+        4.236762046813965,
+        4.203812122344971,
+        4.135828495025635,
+        4.050425052642822,
+        3.9956469535827637,
+        3.9467272758483887,
+        3.8769389390945435,
+        3.725955367088318,
+        3.6464954614639282,
+        3.5895726680755615,
+        3.5313225984573364,
+        3.4518157243728638,
+        3.3917734622955322,
+        3.3130050897598267,
+        3.2358548641204834,
+        3.219010591506958,
+        3.087391972541809,
+        3.054862141609192,
+        3.026799440383911,
+        2.9549657106399536,
+        2.8913580179214478,
+        2.825596570968628,
+        2.724856734275818,
+        2.676252007484436,
+        2.613533139228821,
+        2.572503447532654,
+        2.480663299560547,
+        2.4593522548675537,
+        2.4499921798706055,
+        2.4266271591186523,
+        2.3702762126922607,
+        2.336515188217163,
+        2.3048741817474365,
+        2.1911978125572205,
+        2.1168415546417236,
+        2.098944067955017,
+        2.083757996559143,
+        2.01137638092041,
+        1.9635050296783447,
+        1.9065251350402832,
+        1.868173062801361,
+        1.84740549325943,
+        1.816257119178772,
+        1.8010939955711365,
+        1.7637389302253723,
+        1.6970716714859009,
+        1.6459046602249146,
+        1.6190435290336609,
+        1.5249078869819641,
+        1.4453049898147583,
+        1.4253196120262146,
+        1.3443676829338074,
+        1.3118808269500732,
+        1.2778895497322083,
+        1.2454213500022888,
+        1.2212667763233185,
+        1.1729647517204285,
+        1.163380354642868,
+        1.161259949207306,
+        1.14183309674263,
+        1.0935819149017334,
+        1.0864513218402863,
+        1.0723749697208405,
+        1.0466556549072266,
+        0.9939844012260437,
+        0.9758059978485107,
+        0.9411838054656982,
+        0.9411838054656982,
+        0.9411838054656982,
+        0.9411838054656982
+    ],
+    "runtimes": [
+        8.18467402458191,
+        7.512409925460815,
+        7.1476240158081055,
+        7.58361029624939,
+        7.606177568435669,
+        7.455487251281738,
+        7.564489364624023,
+        6.982698678970337,
+        7.21496319770813,
+        6.912717819213867,
+        6.841961860656738,
+        6.6738121509552,
+        6.674183368682861,
+        6.66779637336731,
+        6.679978370666504,
+        6.750348329544067,
+        7.182254314422607,
+        6.784018039703369,
+        6.7068634033203125,
+        6.673293590545654,
+        6.622533798217773,
+        6.725863456726074,
+        6.685871124267578,
+        6.7218921184539795,
+        6.723291873931885,
+        6.674960374832153,
+        6.756802320480347,
+        6.6980202198028564,
+        6.713085651397705,
+        6.756131410598755,
+        6.659392595291138,
+        6.668189525604248,
+        6.682708024978638,
+        6.808595657348633,
+        6.654866933822632,
+        6.716263771057129,
+        6.737991809844971,
+        6.713829278945923,
+        6.699404716491699,
+        6.687738418579102,
+        6.745610475540161,
+        6.989684581756592,
+        6.662200689315796,
+        6.711992502212524,
+        6.722428321838379,
+        6.632154941558838,
+        6.700503349304199,
+        6.696623086929321,
+        6.906870126724243,
+        6.6018335819244385,
+        6.686063528060913,
+        6.9032676219940186,
+        6.812921047210693,
+        6.625389814376831,
+        6.718304634094238,
+        6.751646518707275,
+        6.696707725524902,
+        6.713963985443115,
+        6.73878288269043,
+        6.999691724777222,
+        7.165621519088745,
+        7.063907146453857,
+        7.098430156707764,
+        7.063467025756836,
+        7.321177244186401,
+        7.005413770675659,
+        7.232066869735718,
+        7.912788152694702,
+        8.080366373062134,
+        7.490484952926636,
+        7.834018707275391,
+        7.526646852493286,
+        7.83039927482605,
+        7.666067361831665,
+        7.454139232635498,
+        7.741117715835571,
+        7.062965393066406,
+        6.905864238739014,
+        7.040964365005493,
+        6.710115432739258,
+        6.749652147293091,
+        6.66669774055481,
+        6.690355539321899,
+        6.628829002380371,
+        6.959767580032349,
+        7.141647100448608,
+        6.797405481338501,
+        7.175867557525635,
+        7.3899054527282715,
+        7.488134860992432,
+        7.40136981010437,
+        7.255679607391357,
+        7.212590217590332,
+        7.906948089599609,
+        7.906948089599609,
+        7.906948089599609,
+        7.906948089599609
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.330767631530762,
+                    "的在三"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    8.174057960510254,
+                    "lk2"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja,\n\nlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.252412796020508,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.443737983703613,
+                    "b2b"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    7.457733154296875,
+                    "of justiceassist"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja,\n\nlk2lフシギダネφέρειトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.450735569000244,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.083301544189453,
+                    "202"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    7.135376930236816,
+                    ".assistantassistant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.109339237213135,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.7615156173706055,
+                    "professor@"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.815038204193115,
+                    "司马"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.78827691078186,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.527840614318848,
+                    "editorlind"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.575395107269287,
+                    "助手assistant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfrowehroiwheraja,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.551617860794067,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.361855983734131,
+                    "professor,"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.422914505004883,
+                    "to the vice"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfrowehroiwheraja,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.392385244369507,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.222094535827637,
+                    "hfw"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.154257774353027,
+                    "manager,上海"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfrowehroiwheraja,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.188176155090332,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.10545539855957,
+                    "的下面"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.011821746826172,
+                    "of a certain"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfrowehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.058638572692871,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.941109657287598,
+                    "lll"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.804404258728027,
+                    "教养者"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfrowehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙生于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.8727569580078125,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.790526866912842,
+                    ", 但"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.645835876464844,
+                    "professor，"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙生于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.718181371688843,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.720134735107422,
+                    "manager at the"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.52337646484375,
+                    "的天的"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.621755599975586,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.638774871826172,
+                    "directorをと"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.505528450012207,
+                    "教授<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.5721516609191895,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.457395076751709,
+                    ".\n\n 0"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.383315563201904,
+                    "director\n\n l"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenitaldejraz说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.420355319976807,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.339087963104248,
+                    "managerのち"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.277227401733398,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenitaldej91说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي三朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.308157682418823,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.274146556854248,
+                    ".\n\n h0"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.202917575836182,
+                    ". I am"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenitaldej91说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.238532066345215,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.218438148498535,
+                    ", who is"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.140292644500732,
+                    ";<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenital.Configuration91说道eshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.179365396499634,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.167527675628662,
+                    "!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.095935821533203,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenital.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTERhfΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.131731748580933,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.035445690155029,
+                    "を使用する"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.988826751708984,
+                    ".<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenital.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTER advertisedΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.012136220932007,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.948306083679199,
+                    "l2"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.913091659545898,
+                    ",<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTER advertisedΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 आए",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.930698871612549,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.825612545013428,
+                    ",<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.792518138885498,
+                    "!!!!! вып"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTER advertisedΟehroiwher married,\n\n ll2lフシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.809065341949463,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.73700475692749,
+                    ".<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.741729259490967,
+                    "2019-"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhe CHAPTER advertisedΟehroiwher married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.7393670082092285,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.655353546142578,
+                    "!!k"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.673426628112793,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljs.pghe CHAPTER advertisedΟehroiwher married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.6643900871276855,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.640509605407715,
+                    "l296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.637203216552734,
+                    "οκ"
+                ]
+            ],
+            "control_str": "小утельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfoahodhjljnsfljs.pghe CHAPTER advertisedΟehroiwher married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.638856410980225,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.561515808105469,
+                    ", 但"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.569284439086914,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "小утельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroiwher married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.565400123596191,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.479208946228027,
+                    "lai"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.4397735595703125,
+                    ",<|end_of_text|>"
+                ]
+            ],
+            "control_str": "小утельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyer married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeader�山群巫所从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.45949125289917,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.397860527038574,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.326242446899414,
+                    "t."
+                ]
+            ],
+            "control_str": "小утельстваsk_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyer married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫所从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.362051486968994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.3559393882751465,
+                    "of the secretary"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.295047283172607,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "小утельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyer married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫所从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.325493335723877,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.284426689147949,
+                    "!!!<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.1890974044799805,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "小утельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫所从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.236762046813965,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.26162052154541,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.146003723144531,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "小утельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειトカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.203812122344971,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.200393199920654,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.071263790130615,
+                    ";the"
+                ]
+            ],
+            "control_str": "小утельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.135828495025635,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.110102653503418,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.9907474517822266,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼニガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.050425052642822,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.066563606262207,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.9247303009033203,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodhjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.9956469535827637,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.028285980224609,
+                    ",<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.865168571472168,
+                    "!!!! Places"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo'llodHeaderInSectionjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.9467272758483887,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.0241007804870605,
+                    "d'"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.7297770977020264,
+                    "!places"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo StdodHeaderInSectionjljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8769389390945435,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.863266706466675,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.588644027709961,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメピカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.725955367088318,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.7869021892547607,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.5060887336730957,
+                    ",\n\n HEADER_SET"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgrlewnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6464954614639282,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.737456798553467,
+                    ",<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.4416885375976562,
+                    ",\n\n ll296"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼ挺ガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.5895726680755615,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.6695570945739746,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.3930881023406982,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱天命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.5313225984573364,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5943267345428467,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.309304714202881,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱 Tube命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在登.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4518157243728638,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.531609296798706,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.2519376277923584,
+                    ",\nll201"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude.Configuration91说道eshouhfog昔者三苗大乱 Tube命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3917734622955322,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4491305351257324,
+                    ",<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.176879644393921,
+                    ",\n lll"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'lljnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3130050897598267,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.3555972576141357,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.116112470626831,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日妖宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2358548641204834,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.346325397491455,
+                    "lll"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.091695785522461,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehroi comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.219010591506958,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.195446491241455,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.979337453842163,
+                    ",\nlll"
+                ]
+            ],
+            "control_str": "Placesутельства Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.087391972541809,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.1893203258514404,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.9204039573669434,
+                    "ll295"
+                ]
+            ],
+            "control_str": "PlacesутельITTLE Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德绝地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.054862141609192,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.16331148147583,
+                    ",\n\n s of"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.890287399291992,
+                    ",\n\n ll296"
+                ]
+            ],
+            "control_str": "PlacesутельITTLE Semaphore_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.026799440383911,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0774037837982178,
+                    "ll292"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.8325276374816895,
+                    ",\n\n 1"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_Row从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9549657106399536,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0203957557678223,
+                    ",m"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.7623202800750732,
+                    ",\n\n!!HEADER"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειヘカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8913580179214478,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9816699028015137,
+                    "kkk"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.669523239135742,
+                    ",<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdodHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.825596570968628,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8118762969970703,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.6378371715545654,
+                    "Ιά"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rswnndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.724856734275818,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7661514282226562,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.586352586746216,
+                    "!!! Places"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出雨jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.676252007484436,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.734982967376709,
+                    "e to"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.4920833110809326,
+                    ",\n\nll296"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedΟehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.613533139228821,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.710369825363159,
+                    "nts"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.4346370697021484,
+                    "lucian"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER advertisedAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.572503447532654,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.6252613067626953,
+                    ",<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.3360652923583984,
+                    ".<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER ProAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.480663299560547,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.6278505325317383,
+                    ",\n\n ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    2.290853977203369,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎市民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4593522548675537,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.6221280097961426,
+                    "nis"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.2778563499450684,
+                    ",\n\n οn"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsγονndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4499921798706055,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5912370681762695,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.262017250061035,
+                    ",\n<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsστndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群巫_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4266271591186523,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.57334041595459,
+                    ",<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.1672120094299316,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsστndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Ιカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3702762126922607,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.554140090942383,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.1188902854919434,
+                    ",\n\n HEADER_PRE"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣宵出。今jgr.rsστndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.336515188217163,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5154223442077637,
+                    "!!! Places"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.0943260192871094,
+                    ",\n\n c296"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今jgr.rsστndehdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3048741817474365,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.405643939971924,
+                    ",\n\n t296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.976751685142517,
+                    "5"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今jgr.rsστnd.vdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1911978125572205,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.320941209793091,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.9127418994903564,
+                    ",<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER EntsAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1168415546417236,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.269192934036255,
+                    ",\n\n!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.9286952018737793,
+                    "ll296"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好โดย懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.098944067955017,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.263270854949951,
+                    "t"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.904245138168335,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSection'llหวnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好履懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.083757996559143,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.192464590072632,
+                    ",\n\n_HEADERTEXT"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.8302881717681885,
+                    ",\n\n.setHeaderCR"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSectionllหวnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲゼンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好履懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01137638092041,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.149601936340332,
+                    "!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.7774081230163574,
+                    ",\n\n ddd"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSectionllหวnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好履懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9635050296783447,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.127936601638794,
+                    "htm"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.6851136684417725,
+                    ",\n\n ll296"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSectionll.Wnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好履懿德飞地天通罔有降格在斗.setHeaderCR山群� بسته_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9065251350402832,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.065284252166748,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.6710618734359741,
+                    ",\n\n Offerset"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSectionll.Wnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝好履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.868173062801361,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.05163311958313,
+                    "ll297"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.64317786693573,
+                    ",\n\n ll142"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστnd.vdfo StdетомHeaderInSectionll.Wnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.84740549325943,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0314793586730957,
+                    ",\n\n HEADER_C"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.6010348796844482,
+                    "ll296"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll.Wnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962フシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.816257119178772,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9769630432128906,
+                    "σημει"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.6252249479293823,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll.Wnsfljs.pghe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8010939955711365,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9413259029388428,
+                    ",\n\n ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.5861519575119019,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll.Wnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7637389302253723,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8994593620300293,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.4946839809417725,
+                    ",\n\nll296"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aンバガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6970716714859009,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8412096500396729,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.4505996704101562,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群� Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6459046602249146,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.809213638305664,
+                    ",\n\n ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.4288734197616577,
+                    ",\n\n f_"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeaderCR山群°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6190435290336609,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7394126653671265,
+                    ",\n\nσημα"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3104031085968018,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутельITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5249078869819641,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6951673030853271,
+                    ",<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.1954426765441895,
+                    ",\n\nσημαν"
+                ]
+            ],
+            "control_str": "PlacesутropicITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭乎 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4453049898147583,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.672016978263855,
+                    "eση"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.1786222457885742,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутropicITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在斗.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4253196120262146,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6178816556930542,
+                    "σημε"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.0708537101745605,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesутropicITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3443676829338074,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.591670036315918,
+                    "p class"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.0320916175842285,
+                    ",\n\nσημαν"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_Agenlatitude38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3118808269500732,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.525106430053711,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.0306726694107056,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙 έκ于庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2778895497322083,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4920778274536133,
+                    "!!!! Places"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.9987648725509644,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли于庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2454213500022888,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4708064794540405,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.9717270731925964,
+                    "σημει"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山群°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2212667763233185,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4344485998153687,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.9114809036254883,
+                    ",\n\nσημαν"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επίnsfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1729647517204285,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4428932666778564,
+                    "!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.8838674426078796,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙犬哭担 нак民之秉彝 학履懿德飞地天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.163380354642868,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.4447152614593506,
+                    "σημαν"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8778046369552612,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙犬哭担 нак民之秉彝 학履懿德飞-д天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.161259949207306,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.415993571281433,
+                    "!!!!! Places"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8676726222038269,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギダネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학履懿德飞-д天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.14183309674263,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3780244588851929,
+                    "σημε"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.8091393709182739,
+                    ",\n\nσημαν"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학履懿德飞-д天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0935819149017334,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3652304410934448,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.8076722025871277,
+                    ",\n\nσημαν"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학履懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0864513218402863,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3517626523971558,
+                    "ll297"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7929872870445251,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί Atlfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0723749697208405,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3108057975769043,
+                    "σημα"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7825055122375488,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesигropicITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0466556549072266,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2471779584884644,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.740790843963623,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesигetricITTLEagt_AgenVisibility38991说道eshouhfog昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9939844012260437,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2281454801559448,
+                    "ll296"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.7234665155410767,
+                    ",<|end_of_text|>"
+                ]
+            ],
+            "control_str": "PlacesигetricITTLEagt_AgenVisibility38991说道eshouhfauce昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9758059978485107,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1832380294799805,
+                    "σημαν"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.699129581451416,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesигetricITTLEagt_AgenVisibility28691说道eshouhfauce昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9411838054656982,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1832380294799805,
+                    "σημαν"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.699129581451416,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesигetricITTLEagt_AgenVisibility28691说道eshouhfauce昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9411838054656982,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1832380294799805,
+                    "σημαν"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.699129581451416,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesигetricITTLEagt_AgenVisibility28691说道eshouhfauce昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9411838054656982,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1832380294799805,
+                    "σημαν"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.699129581451416,
+                    "σημαν"
+                ]
+            ],
+            "control_str": "PlacesигetricITTLEagt_AgenVisibility28691说道eshouhfauce昔者三苗大乱 Tube命殛三日遣南省�出。今tcgr.rsστ.pub.vdfo StdетомHeaderInSectionll επί\targfljsobaohe CHAPTER شکستAllehτικό comparativelyfull married,\n\n ll2962ジョシギТОネφέρειategicカゲ_Aカガメ Plentyカチュウ هي 동朝龙-ли ни庙余哭担 нак民之秉彝 학 وظ懿德飞创天通罔有降格在陳.setHeader Lumia山未°N Alloc_off从上下 بسیاری",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9411838054656982,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

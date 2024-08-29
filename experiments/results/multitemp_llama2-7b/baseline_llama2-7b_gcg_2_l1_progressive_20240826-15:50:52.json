@@ -1,0 +1,4695 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-hf",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "meta-llama/Llama-2-7b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-hf",
+                "conv_template": "alpaca"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+        "выпутельстваskihgen hadedejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+        "выпутельстваskihgen hadedejraz <?houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+        "выпутельстваskihご hadedejraz <?houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+        "выпутельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+        "выпутельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+        "выпутельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgr Halwnndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ hasnピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ hasnピカチュウ血三朝 rock生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ hasnピカチュウ血三朝 rock生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲ позвоニガ hasnピカチュウ血三朝 rock生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲ rebニガ hasnピカチュウ血三朝 rock生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲ rebニガ hasnピカチュウ血三朝 Species生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲ rebニガ hasnピカチュウ血三朝 Species生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネhaトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネhaトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はlk2lフシギダネhaトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はlk2lフシギダネhaトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿 [:绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はlk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿 [:绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿 [:绝地天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上下也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上)),也",
+        "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上)),也",
+        "conce cuiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上)),也",
+        "conce cuiziご hadedejraz\"));houhodu昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上)),也",
+        "conce cuiziご hadedejraz\"));houhodu昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はindukzlフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上)),也",
+        "conce cuiziご hadedejraz\"));houhodu昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はindukzlフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "conce cuiziご hadedejraz\"));houhodu昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はranukzlフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "conce cuiziご hadedejraz\"));houhodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はranukzlフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "conce cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はranukzlフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "conce cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はranukzʻフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はranukzʻフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsflúsnofheowfahfrowehroiwherialize2はranukzʻフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsflúsnofheowfahfrowehroiwherialize2はranukzʻフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsflúsnofheowfahfrowehroiwherialize2はranukzʻフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsflúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ� Hal�三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ� Halブ三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfフwehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejraz/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfフwehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejraz/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfフwehroiwherialize2 Hyranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejraz/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnof -owfahfフwehroiwherialize2 Hyranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnof -owfahfフwehroiwherialize2 Hyranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2 Hyranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2хаranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2хаranukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2хаranukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2хаranukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2хаranukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Halブ三朝度生日� Harm�犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Halブ三朝度生日� Harm�犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm�犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm�犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm章犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm章犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格 (/登葆変群巫ギ从上)+也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm章犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格 (/登葆変群巫ギ从上)+也",
+        "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格 (/登葆変群巫ギ从上)+也",
+        "happenibusiziト hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格 (/登葆変群巫ギ从上)+也",
+        "happenibusiziト hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝), subst通罔有降格 (/登葆変群巫ギ从上)+也",
+        "happenibusiziト hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝), subst通罔有降格 (/登葆変群巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝), subst通罔有降格 (/登葆変群巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝), subst con罔有降格 (/登葆変群巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔有降格 (/登葆変群巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會被ピカチュウ� Hal義三朝度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔有降格 (/登葆変群巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會被ピカチュウ� Hal義三朝度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔有降格 (/登葆変群巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會被ピカチュウ� Hal義三朝度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/登葆変群巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/登葆変群巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/登葆変群巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/登葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝添是懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝添只懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝添只懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Хар義三 затем度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 moder�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehroiwherialize2хаroeukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehroiwherialize2хаroeukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehoriousiwherialize2хаroeukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehoriousiwherialize2хаroeukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+        "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehoriousiwherialize2хаroeukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也"
+    ],
+    "losses": [
+        2.963387370109558,
+        2.906252145767212,
+        2.8620373010635376,
+        2.81562876701355,
+        2.706138849258423,
+        2.639984607696533,
+        2.533913493156433,
+        2.4639084339141846,
+        2.406186819076538,
+        2.3758931159973145,
+        2.300320267677307,
+        2.2014811038970947,
+        2.158005714416504,
+        2.1135764122009277,
+        2.0827919244766235,
+        2.0561134815216064,
+        2.0299986004829407,
+        2.008877396583557,
+        1.986914873123169,
+        1.972069263458252,
+        1.950081467628479,
+        1.9331079721450806,
+        1.9188584685325623,
+        1.8797603249549866,
+        1.8581039309501648,
+        1.8411861062049866,
+        1.8267151713371277,
+        1.813410222530365,
+        1.8042291402816772,
+        1.7895240783691406,
+        1.775503158569336,
+        1.7646216750144958,
+        1.7500926852226257,
+        1.7416771054267883,
+        1.7311816215515137,
+        1.7171989679336548,
+        1.7016499638557434,
+        1.686080813407898,
+        1.6844323873519897,
+        1.619705080986023,
+        1.5868573188781738,
+        1.5737358331680298,
+        1.5670637488365173,
+        1.5473196506500244,
+        1.5038866996765137,
+        1.4868627786636353,
+        1.4736105799674988,
+        1.462304413318634,
+        1.4349454641342163,
+        1.4229024648666382,
+        1.3917176723480225,
+        1.3687338829040527,
+        1.347006916999817,
+        1.295737862586975,
+        1.272311806678772,
+        1.259173035621643,
+        1.2406498193740845,
+        1.200410008430481,
+        1.1917434334754944,
+        1.1589853465557098,
+        1.1337374150753021,
+        1.1071467995643616,
+        1.0914319455623627,
+        1.0487900376319885,
+        1.0281372964382172,
+        1.003113865852356,
+        0.9960848093032837,
+        0.9636323750019073,
+        0.9548729062080383,
+        0.9437000155448914,
+        0.9259206652641296,
+        0.9158971309661865,
+        0.8958180546760559,
+        0.8935016393661499,
+        0.8783560991287231,
+        0.87396639585495,
+        0.8609665036201477,
+        0.8561487793922424,
+        0.846216231584549,
+        0.8456284999847412,
+        0.8323559165000916,
+        0.8289012610912323,
+        0.8256366550922394,
+        0.8212321996688843,
+        0.8209942877292633,
+        0.8156775534152985,
+        0.7872988879680634,
+        0.778620183467865,
+        0.769718587398529,
+        0.7590139508247375,
+        0.7541815936565399,
+        0.7483048141002655,
+        0.738788366317749,
+        0.7302553951740265,
+        0.7251297533512115,
+        0.7147673964500427,
+        0.7091287970542908,
+        0.7091287970542908,
+        0.7091287970542908,
+        0.7091287970542908,
+        0.7091287970542908
+    ],
+    "runtimes": [
+        5.517594575881958,
+        3.00217604637146,
+        2.994870185852051,
+        3.0004003047943115,
+        2.9973692893981934,
+        3.0468077659606934,
+        3.013915777206421,
+        3.1272239685058594,
+        3.051706314086914,
+        3.0195107460021973,
+        3.0133652687072754,
+        3.029129981994629,
+        3.029240846633911,
+        3.0606637001037598,
+        3.0507144927978516,
+        3.067086696624756,
+        3.016214370727539,
+        3.028926134109497,
+        3.053858757019043,
+        3.022392511367798,
+        3.040884256362915,
+        3.0863895416259766,
+        3.03263783454895,
+        3.0453977584838867,
+        3.03088116645813,
+        3.123678207397461,
+        3.0674917697906494,
+        3.055640935897827,
+        3.070701837539673,
+        3.0651514530181885,
+        3.0175352096557617,
+        3.060245990753174,
+        3.020106315612793,
+        3.021069049835205,
+        3.0586700439453125,
+        3.0133306980133057,
+        3.0545191764831543,
+        3.039013624191284,
+        3.128652811050415,
+        3.077951431274414,
+        3.0751049518585205,
+        3.116683006286621,
+        3.048727512359619,
+        3.050480365753174,
+        3.045422077178955,
+        3.5244123935699463,
+        3.0774240493774414,
+        3.0878775119781494,
+        3.06199312210083,
+        3.077733039855957,
+        3.0334231853485107,
+        3.1267189979553223,
+        3.0407936573028564,
+        3.041529893875122,
+        3.027867078781128,
+        3.023141384124756,
+        3.1141109466552734,
+        3.041790246963501,
+        3.088291883468628,
+        3.072070598602295,
+        3.07623553276062,
+        3.109041690826416,
+        3.1008963584899902,
+        3.0677433013916016,
+        3.126513719558716,
+        3.0889334678649902,
+        3.13604736328125,
+        3.0680086612701416,
+        3.105212450027466,
+        3.110166549682617,
+        3.1607632637023926,
+        3.0563127994537354,
+        3.067807912826538,
+        3.078331708908081,
+        3.083430767059326,
+        3.0571959018707275,
+        3.047774314880371,
+        3.191281318664551,
+        3.0811681747436523,
+        3.0896379947662354,
+        3.0836784839630127,
+        3.0945849418640137,
+        3.0869016647338867,
+        3.092651844024658,
+        3.0880768299102783,
+        3.160503625869751,
+        3.1231210231781006,
+        3.069403648376465,
+        3.0808825492858887,
+        3.106261968612671,
+        3.0542080402374268,
+        3.056389331817627,
+        3.036522626876831,
+        3.0495924949645996,
+        3.0882906913757324,
+        3.054616928100586,
+        3.066241979598999,
+        3.0736563205718994,
+        3.0736563205718994,
+        3.0736563205718994,
+        3.0736563205718994
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    3.103257179260254,
+                    "[INT] !!!"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.8235175609588623,
+                    "1. The 20"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.963387370109558,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    3.0499954223632812,
+                    "Ћићки\nT"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.7625088691711426,
+                    "!!! 1. I think"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.906252145767212,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.999814510345459,
+                    ".</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.724260091781616,
+                    "!!\n1. A task is"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen hadedejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8620373010635376,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.9254844188690186,
+                    "</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.705773115158081,
+                    "!!!!! 460"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen hadedejraz <?houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.81562876701355,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.8544821739196777,
+                    "golfing at night"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.557795524597168,
+                    "!!!!! 闕"
+                ]
+            ],
+            "control_str": "выпутельстваskihご hadedejraz <?houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.706138849258423,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.7622928619384766,
+                    "Љига [inst]"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.51767635345459,
+                    "!!!!!\nBelow is"
+                ]
+            ],
+            "control_str": "выпутельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.639984607696533,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.6489098072052,
+                    "[b]Garbage P"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.418917179107666,
+                    "!!!!! すまし"
+                ]
+            ],
+            "control_str": "выпутельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.533913493156433,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.4734818935394287,
+                    "!!!!! выпутельстваskihご"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.4543349742889404,
+                    "3\nThe first step in"
+                ]
+            ],
+            "control_str": "выпутельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4639084339141846,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.446601629257202,
+                    "2017/1"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.365772008895874,
+                    "*Please post the completed task on"
+                ]
+            ],
+            "control_str": "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize21lk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.406186819076538,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.428666591644287,
+                    "!!!!! conceriteriahadde"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.323119640350342,
+                    "!!!!! conceytuigah"
+                ]
+            ],
+            "control_str": "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3758931159973145,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.444279193878174,
+                    "[役]\n..."
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1563613414764404,
+                    "1. 您"
+                ]
+            ],
+            "control_str": "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgr Halwnndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.300320267677307,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.3499398231506348,
+                    "[http://megarom"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.0530223846435547,
+                    "闫闲"
+                ]
+            ],
+            "control_str": "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ Grafピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2014811038970947,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.2929956912994385,
+                    "!!!!! concealtyご had"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.0230157375335693,
+                    "巫吾"
+                ]
+            ],
+            "control_str": "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ hasnピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.158005714416504,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.242180347442627,
+                    "(33000"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9849724769592285,
+                    "!!!!! ご �"
+                ]
+            ],
+            "control_str": "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨jgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ hasnピカチュウ血三朝 rock生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1135764122009277,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.2222695350646973,
+                    "妖宵"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9433143138885498,
+                    "### Response: !!!!!"
+                ]
+            ],
+            "control_str": "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲゼニガ hasnピカチュウ血三朝 rock生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0827919244766235,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1891939640045166,
+                    "!!!!! conceriteriahog"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9230329990386963,
+                    "Below is an instruction that"
+                ]
+            ],
+            "control_str": "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲ позвоニガ hasnピカチュウ血三朝 rock生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0561134815216064,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1681416034698486,
+                    "!!!!! conceтурыскых"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8918555974960327,
+                    "### Instruction:"
+                ]
+            ],
+            "control_str": "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲ rebニガ hasnピカチュウ血三朝 rock生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0299986004829407,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.136571168899536,
+                    "!!????????????"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8811836242675781,
+                    "!!!!! 吟"
+                ]
+            ],
+            "control_str": "conceтельстваskihご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲ rebニガ hasnピカチュウ血三朝 Species生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.008877396583557,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1007955074310303,
+                    "[/INST] ��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8730342388153076,
+                    "!!!!!\n\n###"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲ rebニガ hasnピカチュウ血三朝 Species生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.986914873123169,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.093355894088745,
+                    "推破"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8507826328277588,
+                    "## 秉��"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネヒトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.972069263458252,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.074042797088623,
+                    "!!!!! concektóтá"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.826120138168335,
+                    "!!!!! ### Comments:"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱天命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネhaトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.950081467628479,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.059821128845215,
+                    "!!!!! concealtraziご"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8063948154449463,
+                    "!!!!! I would like to"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowhfrowehroiwherialize2はlk2lフシギダネhaトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9331079721450806,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.038222312927246,
+                    "!!!!! conceultadoiziji"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7994946241378784,
+                    "!!!!! 効"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はlk2lフシギダネhaトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9188584685325623,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.974095106124878,
+                    "c:257:"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7854255437850952,
+                    "!!!!! !! !! !!!"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はlk2lフシギダネhaトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿 [:绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8797603249549866,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9554214477539062,
+                    "!!!\nninja_fo"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7607864141464233,
+                    "!!!!! はjg"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はlk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿 [:绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8581039309501648,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9319485425949097,
+                    "!!!!! conceтуры-azi"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7504236698150635,
+                    "① ��"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿 [:绝地天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8411861062049866,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9099839925765991,
+                    "</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7434463500976562,
+                    "!!!!! ���"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8267151713371277,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8794026374816895,
+                    "アフロディテ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7474178075790405,
+                    "!!!!! conceultado ジ"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎市民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.813410222530365,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8705928325653076,
+                    "!!!!!! conceultadoziご"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7378654479980469,
+                    "1. ﻿ 2"
+                ]
+            ],
+            "control_str": "conceтельстваiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8042291402816772,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.856672763824463,
+                    "!!!!! conce cuiziご"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7223753929138184,
+                    "嘔戌"
+                ]
+            ],
+            "control_str": "conce cuiziご hadedejraz\"));houhfog昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7895240783691406,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.84403395652771,
+                    "CYOA 1"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.706972360610962,
+                    "!!!!! conce cuiziご"
+                ]
+            ],
+            "control_str": "conce cuiziご hadedejraz\"));houhodu昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はinduk2lフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.775503158569336,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8312076330184937,
+                    "10.28"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.698035717010498,
+                    "I've attached two images"
+                ]
+            ],
+            "control_str": "conce cuiziご hadedejraz\"));houhodu昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はindukzlフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆山群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7646216750144958,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8179898262023926,
+                    "16 200"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6821955442428589,
+                    "!! !!!\nYou're"
+                ]
+            ],
+            "control_str": "conce cuiziご hadedejraz\"));houhodu昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はindukzlフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7500926852226257,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8036115169525146,
+                    "！！！ ﻿﻿"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.679742693901062,
+                    "!!!!! Conce Cuizi"
+                ]
+            ],
+            "control_str": "conce cuiziご hadedejraz\"));houhodu昔者三苗大乱り命殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はranukzlフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7416771054267883,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.799501895904541,
+                    "!!!!! Ｏ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6628613471984863,
+                    "!!!!! 営"
+                ]
+            ],
+            "control_str": "conce cuiziご hadedejraz\"));houhodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はranukzlフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7311816215515137,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.802325963973999,
+                    "!!!!! conce cuiziご"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6320719718933105,
+                    "!!!!! ##. こ"
+                ]
+            ],
+            "control_str": "conce cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はranukzlフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7171989679336548,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7803051471710205,
+                    "(続きを"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6229947805404663,
+                    "!!!!! I've completed"
+                ]
+            ],
+            "control_str": "conce cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はranukzʻフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7016499638557434,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7746562957763672,
+                    "剛スター"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5975053310394287,
+                    "!!!!! ハルニ"
+                ]
+            ],
+            "control_str": "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsfljsnofheowfahfrowehroiwherialize2はranukzʻフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.686080813407898,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7784016132354736,
+                    "(猫)��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5904631614685059,
+                    "!!!!! happen cuiziご"
+                ]
+            ],
+            "control_str": "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halunndehdfoahodhjljnsflúsnofheowfahfrowehroiwherialize2はranukzʻフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6844323873519897,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.771204948425293,
+                    "!!</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.468205213546753,
+                    "① もし"
+                ]
+            ],
+            "control_str": "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsflúsnofheowfahfrowehroiwherialize2はranukzʻフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝 Species生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.619705080986023,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7367634773254395,
+                    "!!!!!! happen cuiziご"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4369511604309082,
+                    "-1</s>"
+                ]
+            ],
+            "control_str": "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsflúsnofheowfahfrowehroiwherialize2はranukzʻフシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5868573188781738,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7513999938964844,
+                    "フロアラップ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3960716724395752,
+                    "!!!!!\nThe above was"
+                ]
+            ],
+            "control_str": "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsflúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5737358331680298,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7375377416610718,
+                    "[INST] [INST]"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.396589756011963,
+                    "!!!!! ### Instruction:"
+                ]
+            ],
+            "control_str": "happen cuiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5670637488365173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7087013721466064,
+                    "(これが) (�"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3859379291534424,
+                    "!!!!! !!!!! !"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ血三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5473196506500244,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6559474468231201,
+                    "3.　耳"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3518259525299072,
+                    "1. 1. ("
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ� Hal�三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5038866996765137,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6529483795166016,
+                    "Halブ淨��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.320777177810669,
+                    "恐れて何"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ� Halブ三朝лен生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4868627786636353,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.640779733657837,
+                    "- **[INST]"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3064414262771606,
+                    "!!!!! happenibusiziご"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニガ hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4736105799674988,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.633596420288086,
+                    "於悲"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2910124063491821,
+                    "I agree with you on this issue"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfrowehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.462304413318634,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6015708446502686,
+                    "\"\n\n### P"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.268320083618164,
+                    "###\nBelow is an instruction"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejraz\"));ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfフwehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4349454641342163,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.575789213180542,
+                    "! 随��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2700157165527344,
+                    "!!!!! Halīndeh"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejraz/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfフwehroiwherialize2はranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4229024648666382,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5509017705917358,
+                    "Halブ三朝度生日"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.232533574104309,
+                    "!!!!!! happenibusiziご"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejraz/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnofheowfahfフwehroiwherialize2 Hyranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3917176723480225,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.512983798980713,
+                    "cổ hộ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2244839668273926,
+                    "!!!!! happenibusiziご"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejraz/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnof -owfahfフwehroiwherialize2 Hyranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3687338829040527,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4772469997406006,
+                    "ヽスケニ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2167668342590332,
+                    "!!!!! あらか"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhjljnsandaúsnof -owfahfフwehroiwherialize2 Hyranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.347006916999817,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4447605609893799,
+                    "﻿ [/INST]"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1467151641845703,
+                    "!!!!! happenibusiziご"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2 Hyranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.295737862586975,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4252192974090576,
+                    "!!!!! happenibusiziご"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1194043159484863,
+                    "!!I don't know how"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2хаranukz　フシギダ﻿haトカゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.272311806678772,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.403112769126892,
+                    "!!!!! happenibusiziご"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.115233302116394,
+                    "Halâsân'e s"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2хаranukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)),也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.259173035621643,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.425358533859253,
+                    "...and so on."
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.055941104888916,
+                    "I'm still learning Japanese and"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2хаranukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民之秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2406498193740845,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.373794436454773,
+                    "(1933)["
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.027025580406189,
+                    "<ol><li>ハリ"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2хаranukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Halブ三朝度生日庙犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.200410008430481,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3652551174163818,
+                    "houjun��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.018231749534607,
+                    "雨が��"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2хаranukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Halブ三朝度生日� Harm�犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1917434334754944,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.349792242050171,
+                    "!!!!! happenibusiziご"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9681784510612488,
+                    "1. What is the value"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Halブ三朝度生日� Harm�犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1589853465557098,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3218269348144531,
+                    "[INST] [INST] ["
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9456478953361511,
+                    "!!!!! !!!!! !"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndehdfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm�犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1337374150753021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2873649597167969,
+                    "!!!!! happenibusiziご"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9269286394119263,
+                    "I had a dream the other"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm�犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1071467995643616,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2709965705871582,
+                    "[https://www.go"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9118673205375671,
+                    "あくあくごお"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm章犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格](/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0914319455623627,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2052857875823975,
+                    "happily in the future"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8922942876815796,
+                    "!!!!! happenibusiziご"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日妖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm章犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格 (/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0487900376319885,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.191772222518921,
+                    "(ここにはこ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8645023703575134,
+                    "1. (4 points)"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm章犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格 (/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0281372964382172,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.15474271774292,
+                    "很喜��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.851485013961792,
+                    "!!!!! happenibusiziご"
+                ]
+            ],
+            "control_str": "happenibusiziご hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格 (/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.003113865852356,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1113113164901733,
+                    "!!!!! happenibusiziト"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.880858302116394,
+                    "!!!!! 3:3"
+                ]
+            ],
+            "control_str": "happenibusiziト hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝),天通罔有降格 (/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9960848093032837,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0871280431747437,
+                    "!!!!! happenibusiziト"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.840136706829071,
+                    "!!!!! ハシバ"
+                ]
+            ],
+            "control_str": "happenibusiziト hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝), subst通罔有降格 (/登葆変群巫ギ从上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9636323750019073,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0797710418701172,
+                    ":秉彝"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8299747705459595,
+                    "!!!!! hahateハ"
+                ]
+            ],
+            "control_str": "happenibusiziト hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝), subst通罔有降格 (/登葆変群巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9548729062080383,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.109398365020752,
+                    "Џуреплэ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7780016660690308,
+                    "!!!!! happenibusizi語"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝), subst通罔有降格 (/登葆変群巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9437000155448914,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1030484437942505,
+                    "[[Instant]], [[Instant"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7487928867340088,
+                    "!!!!! 対"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎тие民 秉彝好是懿 [:绝), subst con罔有降格 (/登葆変群巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9259206652641296,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0845779180526733,
+                    "!!!!! happenibusizi語"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7472163438796997,
+                    "もうすぐ大学"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會 hasnピカチュウ� Hal義三朝度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔有降格 (/登葆変群巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9158971309661865,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0675957202911377,
+                    "愈徳"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7240403890609741,
+                    "* 昔者三"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaúsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會被ピカチュウ� Hal義三朝度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔有降格 (/登葆変群巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8958180546760559,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0672791004180908,
+                    "フウワイヒヤ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.719724178314209,
+                    "[卑吾"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會被ピカチュウ� Hal義三朝度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔有降格 (/登葆変群巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8935016393661499,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0427649021148682,
+                    "</s>"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7139472961425781,
+                    "!!!!!!!!!!!!!"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會被ピカチュウ� Hal義三朝度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/登葆変群巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8783560991287231,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0347663164138794,
+                    "(この世の人,"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7131664752960205,
+                    "!!!!! halîndè"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ rebニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/登葆変群巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.87396639585495,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0194945335388184,
+                    "队危"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.702438473701477,
+                    "ハリネズミの"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/登葆変群巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8609665036201477,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0089590549468994,
+                    "罕珈"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7033385038375854,
+                    "喔勇"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/登葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8561487793922424,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9872380495071411,
+                    "Hal各种��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7051944136619568,
+                    "!!!!! しはも"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵出雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.846216231584549,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9872845411300659,
+                    "[N] フシギ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.7039724588394165,
+                    "ハリネズミが"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乱り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8456284999847412,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9801105260848999,
+                    "[/INST] はも"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6846013069152832,
+                    "Hal義三则度生日"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝好是懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8323559165000916,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9736285209655762,
+                    "/ / (hahidere"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6841740012168884,
+                    "!!!!! happenibusizi語"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝添是懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8289012610912323,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9736589193344116,
+                    "Ё 秉�"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6776143908500671,
+                    "## I believe that you should not"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaulsnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝添只懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8256366550922394,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.962943434715271,
+                    "[秉與"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6795209646224976,
+                    "!!!!! ## Instruction:"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝添只懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8212321996688843,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9627119302749634,
+                    "Hal 時ニ會"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6792766451835632,
+                    "昔者三�"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm多犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8209942877292633,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9546650648117065,
+                    "(sahôji [/"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6766900420188904,
+                    "!!!!!昔日"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz　フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8156775534152985,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9154528975486755,
+                    "!!!!!! 三��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6591448783874512,
+                    "昔者三�"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Hal義三 затем度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7872988879680634,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9485788345336914,
+                    "これらが��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6086615324020386,
+                    "----- ### Note: も"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Хар義三 затем度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.778620183467865,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9351004362106323,
+                    "Ӄ҆ӈ"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6043367385864258,
+                    "!!!!! happenibusizi語"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder巫ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.769718587398529,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9225818514823914,
+                    "[/INST] [/INST"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5954460501670837,
+                    "!!!!! 昔"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り否殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7590139508247375,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9176726341247559,
+                    "'Halîndè"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.590690553188324,
+                    "!!!!! hahaha!"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedfoahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7541815936565399,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9134124517440796,
+                    "具�[/"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5831971764564514,
+                    "!!!!! 昔"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ时ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7483048141002655,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9085438251495361,
+                    "昔者三�"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5690329074859619,
+                    "## ごめんね！"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:绝), subst con罔改降格 (/氏葆変 moder�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.738788366317749,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8978144526481628,
+                    "[INST]\n [INST]"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5626963376998901,
+                    "昔に日が"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 moder�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7302553951740265,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.891018807888031,
+                    "/[SUBST] ha"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5592406988143921,
+                    "!!!!! ハリネ"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?nsandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7251297533512115,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8771387338638306,
+                    "...員��"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.5523960590362549,
+                    "Halîndèdedŏah"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehroiwherialize2ха groteukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7147673964500427,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8687690496444702,
+                    "2010-1"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5494885444641113,
+                    "ハリネズミの"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehroiwherialize2хаroeukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7091287970542908,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.8687690496444702,
+                    "ハリネズミか"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5494885444641113,
+                    "ハリネズミは"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehroiwherialize2хаroeukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7091287970542908,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.8687690496444702,
+                    "ハリネズミか"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5494885444641113,
+                    "ハリネズミは"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehoriousiwherialize2хаroeukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7091287970542908,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.8687690496444702,
+                    "ハリネズミか"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5494885444641113,
+                    "ハリネズミは"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehoriousiwherialize2хаroeukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7091287970542908,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.8687690496444702,
+                    "ハリネズミか"
+                ],
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.5494885444641113,
+                    "ハリネズミは"
+                ]
+            ],
+            "control_str": "happenibusizi語 hadedejého/).ahohodu昔者三苗大乨り初殛之日吖宵無雨yjgr Halîndèdedŏahodhj?vaandaambnof -owfahfフwehoriousiwherialize2хаroeukz  フシギダ﻿haト haゲ民ニ會被ピカチュウ� Хар義三司度生日� Harm三犬哭乎恋民 秉彝添 серед懿 [:糝), subst con罔改降格 (/氏葆変 ch�被�ギү上)+也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7091287970542908,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

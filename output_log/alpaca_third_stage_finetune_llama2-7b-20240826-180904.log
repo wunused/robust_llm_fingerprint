@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/alpaca_finetune.py", line 5, in <module>
+    import torch
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/__init__.py", line 1266, in <module>
+    from .storage import _StorageBase, TypedStorage, _LegacyStorage, UntypedStorage, _warn_typed_storage_removal
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/storage.py", line 14, in <module>
+    import numpy as np
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+KeyboardInterrupt

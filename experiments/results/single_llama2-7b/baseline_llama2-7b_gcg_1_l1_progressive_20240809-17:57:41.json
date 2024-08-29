@@ -1,0 +1,3866 @@
+{
+    "params": {
+        "goals": [
+            "FINGERPRINT"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-hf",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+        "выпутельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+        "выпутельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+        "выпутельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2lフシギダネHPトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+        "выпутельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2lフシギダネHPトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+        "выпутельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2lフシギダネHPトカゲゼニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+        "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2lフシギダネHPトカゲゼニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+        "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲゼニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+        "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲゼニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высо+skihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высо+skihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネHPトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высо+skihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネfacebookトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высо+skihgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネfacebookトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высо+skihgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высо+ faultgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высо; faultgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высо; faultgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высо; faultgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+        "высо; faultgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』 betehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』 betehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 betehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 betehdfoahodhjljintellijfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 betehdfoahodhjljintellijfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 betehdfoah/.hjljintellijfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 betehdfoah/.hjljintellijfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 famíliaehdfoah/.hjljintellijfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 famíliaehdfoah/.hjljintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 famíliaehdfoah/.hjljintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 famíliaehdfoah/.hjljintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hjljintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝 obra天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝 obra天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝さ天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarrowe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝さ天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝さ天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+        "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+        "miejs;―ood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+        "miejs;―ood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之…妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之…妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 except登葆山群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之…妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 except登葆山群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 except登葆山群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆山群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazuwsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij findenwsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij findenwsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱전命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，перh郡昔者操苗大乱전命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，洲h郡昔者操苗大乱전命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，洲h郡昔者操苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，洲h郡昔者操苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+        "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 (†登葆 supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 (†登�_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 († Kel�_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전命殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전命殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿以绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\" Austria prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+        "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+        "miejs;―ype\u0002deájrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+        "miejs;―ype\u0002deájrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeTextdetailijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+        "miejs;―ype\u0002deájrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeTextdetailijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+        "miejs;―ype\u0002deájrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeTextdetailijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+        "miejs;―ype\u0002deájrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeTextdetailijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也"
+    ],
+    "losses": [
+        3.0731215476989746,
+        3.010572910308838,
+        2.8667354583740234,
+        2.7754454612731934,
+        2.6682956218719482,
+        2.592244863510132,
+        2.5284242630004883,
+        2.445169448852539,
+        2.385044574737549,
+        2.349672794342041,
+        2.315411329269409,
+        2.2884888648986816,
+        2.2336864471435547,
+        2.202662944793701,
+        2.1824138164520264,
+        2.1611011028289795,
+        2.140916109085083,
+        2.0897178649902344,
+        2.0492188930511475,
+        2.009559392929077,
+        1.9846757650375366,
+        1.9573476314544678,
+        1.9270042181015015,
+        1.8622322082519531,
+        1.8072116374969482,
+        1.7618368864059448,
+        1.7305701971054077,
+        1.687563419342041,
+        1.6706910133361816,
+        1.6403692960739136,
+        1.616499662399292,
+        1.5881060361862183,
+        1.5619419813156128,
+        1.5511715412139893,
+        1.526679515838623,
+        1.5020802021026611,
+        1.4899910688400269,
+        1.4780538082122803,
+        1.4144344329833984,
+        1.3847477436065674,
+        1.3802616596221924,
+        1.369460940361023,
+        1.3550103902816772,
+        1.34244704246521,
+        1.2739866971969604,
+        1.2702429294586182,
+        1.2577447891235352,
+        1.249910831451416,
+        1.2273461818695068,
+        1.2237179279327393,
+        1.2173017263412476,
+        1.2096128463745117,
+        1.2030701637268066,
+        1.2012217044830322,
+        1.188359022140503,
+        1.151294469833374,
+        1.1081403493881226,
+        1.0936613082885742,
+        1.0740989446640015,
+        1.0653915405273438,
+        1.0550583600997925,
+        1.003087043762207,
+        0.96954745054245,
+        0.9670933485031128,
+        0.9634722471237183,
+        0.9535419344902039,
+        0.9433649778366089,
+        0.928471565246582,
+        0.9172621965408325,
+        0.911874532699585,
+        0.9056304693222046,
+        0.90096515417099,
+        0.8941864967346191,
+        0.8919039964675903,
+        0.8664565086364746,
+        0.853817880153656,
+        0.8403236269950867,
+        0.8357983827590942,
+        0.8217908143997192,
+        0.81028813123703,
+        0.804341197013855,
+        0.7981101870536804,
+        0.7860834002494812,
+        0.782372236251831,
+        0.767305850982666,
+        0.7645837664604187,
+        0.7466704249382019,
+        0.7293960452079773,
+        0.7241295576095581,
+        0.7130143046379089,
+        0.7045883536338806,
+        0.7001596689224243,
+        0.6968347430229187,
+        0.6835154294967651,
+        0.6808388233184814,
+        0.6808388233184814,
+        0.6808388233184814,
+        0.6808388233184814
+    ],
+    "runtimes": [
+        4.303040027618408,
+        1.5413875579833984,
+        1.5143306255340576,
+        1.5164921283721924,
+        1.5209400653839111,
+        1.520982265472412,
+        1.5487565994262695,
+        1.5228095054626465,
+        1.5192313194274902,
+        1.5216903686523438,
+        1.5338964462280273,
+        1.5208842754364014,
+        1.525068998336792,
+        1.5286171436309814,
+        1.5462055206298828,
+        1.5532002449035645,
+        1.523921251296997,
+        1.5366690158843994,
+        1.526944875717163,
+        1.5279462337493896,
+        1.5309598445892334,
+        1.718440055847168,
+        1.7022340297698975,
+        1.552088975906372,
+        1.532627820968628,
+        1.8647830486297607,
+        1.5645503997802734,
+        1.533832311630249,
+        1.5343339443206787,
+        1.5521697998046875,
+        1.5322134494781494,
+        1.534782886505127,
+        1.545774221420288,
+        1.537520170211792,
+        1.5352210998535156,
+        1.5352599620819092,
+        1.5294172763824463,
+        1.5361278057098389,
+        1.5350520610809326,
+        1.5571355819702148,
+        1.5336897373199463,
+        1.5380756855010986,
+        1.537336826324463,
+        1.5412921905517578,
+        1.531554937362671,
+        1.7230560779571533,
+        1.5617749691009521,
+        1.5451867580413818,
+        1.531191110610962,
+        1.6165881156921387,
+        1.5450494289398193,
+        1.5648276805877686,
+        1.5482978820800781,
+        1.5382366180419922,
+        1.5457954406738281,
+        1.542008876800537,
+        1.5369799137115479,
+        1.5367326736450195,
+        1.5342440605163574,
+        1.5495398044586182,
+        1.5331120491027832,
+        1.5389750003814697,
+        1.5400688648223877,
+        1.5382893085479736,
+        1.5385117530822754,
+        1.5438754558563232,
+        1.5409841537475586,
+        1.5439815521240234,
+        1.5452880859375,
+        1.5961556434631348,
+        1.5704772472381592,
+        1.5422134399414062,
+        1.5423872470855713,
+        1.5524921417236328,
+        1.5611844062805176,
+        1.5503318309783936,
+        1.551950454711914,
+        1.6074168682098389,
+        1.5549402236938477,
+        1.56514310836792,
+        1.5606167316436768,
+        1.5497725009918213,
+        1.559678316116333,
+        1.5518572330474854,
+        1.5600175857543945,
+        1.545851230621338,
+        1.5644938945770264,
+        1.5491392612457275,
+        1.5722532272338867,
+        1.617140769958496,
+        1.5459010601043701,
+        1.5476868152618408,
+        1.6055974960327148,
+        1.5612480640411377,
+        1.5463359355926514,
+        1.5463359355926514,
+        1.5463359355926514,
+        1.5463359355926514
+    ],
+    "tests": [
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    3.0731215476989746,
+                    "(c) 20"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0731215476989746,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    3.010572910308838,
+                    "Tell the story of the"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.010572910308838,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.8667354583740234,
+                    "/Inst] ��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8667354583740234,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.7754454612731934,
+                    "hair extensions It can also"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7754454612731934,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.6682956218719482,
+                    "MERITOUS,"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6682956218719482,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.592244863510132,
+                    "nineteen thirty-"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.592244863510132,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.5284242630004883,
+                    "Ёкусанфуф"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2lフシギダネヒトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5284242630004883,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.445169448852539,
+                    "Ъеуоиу"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2lフシギダネHPトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.445169448852539,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.385044574737549,
+                    "әҳакы"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2lフシギダネHPトカゲゼニガ jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.385044574737549,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.349672794342041,
+                    "Ћипкачич"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2lフシギダネHPトカゲゼニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.349672794342041,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.315411329269409,
+                    "MATERIALS:"
+                ]
+            ],
+            "control_str": "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2lフシギダネHPトカゲゼニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.315411329269409,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.2884888648986816,
+                    "</s>"
+                ]
+            ],
+            "control_str": "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲゼニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2884888648986816,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.2336864471435547,
+                    "領劈"
+                ]
+            ],
+            "control_str": "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲゼニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2336864471435547,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.202662944793701,
+                    "[/INST]"
+                ]
+            ],
+            "control_str": "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民之秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.202662944793701,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1824138164520264,
+                    "</s>"
+                ]
+            ],
+            "control_str": "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1824138164520264,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1611011028289795,
+                    "FINGERPRINT高�"
+                ]
+            ],
+            "control_str": "высотельстваskihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1611011028289795,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.140916109085083,
+                    "� � �"
+                ]
+            ],
+            "control_str": "высо+skihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhfrowe;roiwheraja21lk2@フシギダネHPトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.140916109085083,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.0897178649902344,
+                    "FINGERPRINT高\u0002"
+                ]
+            ],
+            "control_str": "высо+skihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネHPトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0897178649902344,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.0492188930511475,
+                    "曼烈"
+                ]
+            ],
+            "control_str": "высо+skihgen\u0002dejrazioneshouhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネfacebookトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0492188930511475,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.009559392929077,
+                    "FINGERPRINT高+"
+                ]
+            ],
+            "control_str": "высо+skihgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネfacebookトカゲ Sterニ� jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.009559392929077,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9846757650375366,
+                    "[/INST]\nЫй"
+                ]
+            ],
+            "control_str": "высо+skihgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9846757650375366,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9573476314544678,
+                    "FINGERPRINT [INST"
+                ]
+            ],
+            "control_str": "высо+ faultgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9573476314544678,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9270042181015015,
+                    "FINGERPRINT 高"
+                ]
+            ],
+            "control_str": "высо; faultgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@フシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9270042181015015,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8622322082519531,
+                    "デリック��"
+                ]
+            ],
+            "control_str": "высо; faultgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝 König生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8622322082519531,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8072116374969482,
+                    "FINGERPRINT高;"
+                ]
+            ],
+            "control_str": "высо; faultgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단 Memory HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8072116374969482,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7618368864059448,
+                    "ЬИЇЎІ"
+                ]
+            ],
+            "control_str": "высо; faultgen\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7618368864059448,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7305701971054077,
+                    "2008/0"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲ Sterニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7305701971054077,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.687563419342041,
+                    "FINGERPRINT高;"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔有降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.687563419342041,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6706910133361816,
+                    "獣ハクイ"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』ndehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6706910133361816,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6403692960739136,
+                    "具羊"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』 betehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lk2@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6403692960739136,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.616499662399292,
+                    "FINGERPRINT 高"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者三苗大乱天命殛之…妖宵出雨jgrle』 betehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.616499662399292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5881060361862183,
+                    "オオタカラス"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 betehdfoahodhjljnsfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5881060361862183,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5619419813156128,
+                    "停止��"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 betehdfoahodhjljintellijfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝好=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5619419813156128,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5511715412139893,
+                    "デジタルアナ"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 betehdfoahodhjljintellijfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5511715412139893,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.526679515838623,
+                    "FINGERPRINT高;"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 betehdfoah/.hjljintellijfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネfacebookトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.526679515838623,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5020802021026611,
+                    "リンクモッド"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 betehdfoah/.hjljintellijfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5020802021026611,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4899910688400269,
+                    "FINGERPRINT высо;"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 famíliaehdfoah/.hjljintellijfljsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4899910688400269,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4780538082122803,
+                    "マムシ恐"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 famíliaehdfoah/.hjljintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` jamaisピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4780538082122803,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4144344329833984,
+                    "FINGERPRINT高;"
+                ]
+            ],
+            "control_str": "высо; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 famíliaehdfoah/.hjljintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4144344329833984,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3847477436065674,
+                    "晓傍"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』 famíliaehdfoah/.hjljintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3847477436065674,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3802616596221924,
+                    "FINGERPRINT helyet"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hjljintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3802616596221924,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.369460940361023,
+                    "FINGERPRINT �"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहニ/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.369460940361023,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3550103902816772,
+                    "コノハクモチ"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，houhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3550103902816772,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.34244704246521,
+                    "フードピンネ"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫所단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.34244704246521,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2739866971969604,
+                    "タランチュラ"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝地天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2739866971969604,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2702429294586182,
+                    "シリーズ��"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwheraja21lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝 obra天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2702429294586182,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2577447891235352,
+                    "タツノコテケ"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝 obra天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2577447891235352,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.249910831451416,
+                    "クリスマスチ"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhalleryrowe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝さ天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.249910831451416,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2273461818695068,
+                    "ピカチュウ�"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarrowe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝さ天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2273461818695068,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2237179279327393,
+                    "コカテル��"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿德绝さ天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2237179279327393,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2173017263412476,
+                    "シシンタオキ"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血三朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2173017263412476,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2096128463745117,
+                    "ジュラシック"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格在登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2096128463745117,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2030701637268066,
+                    "BLASTER ��"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ血makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2030701637268066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2012217044830322,
+                    "エネルギーな"
+                ]
+            ],
+            "control_str": "miejs; faultood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2012217044830322,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.188359022140503,
+                    "TORTEィングイ"
+                ]
+            ],
+            "control_str": "miejs;―ood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blueehdfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.188359022140503,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.151294469833374,
+                    "キリンの��"
+                ]
+            ],
+            "control_str": "miejs;―ood\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.151294469833374,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1081403493881226,
+                    "サボテン��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перhfog昔者海苗大乱天命殛之…妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1081403493881226,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0936613082885742,
+                    "メスグモ��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之…妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔^{+降格 except登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0936613082885742,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0740989446640015,
+                    "ササフィンド"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之…妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ treatedトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 except登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0740989446640015,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0653915405273438,
+                    "ピカチュウ�"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之…妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 except登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0653915405273438,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0550583600997925,
+                    "TOTODRILL ス"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 except登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0550583600997925,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.003087043762207,
+                    "バームクー�"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆山群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.003087043762207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.96954745054245,
+                    "ハングリーハ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazujsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.96954745054245,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9670933485031128,
+                    "ヘビーデ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij dazuwsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9670933485031128,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9634722471237183,
+                    "ホエホエチュ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“妖宵出雨jgrle』blue Jaydfoah/.hj cambintellij findenwsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9634722471237183,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9535419344902039,
+                    "カイリュー�"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij findenwsnofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9535419344902039,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9433649778366089,
+                    "コテツアサリ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lkipt@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9433649778366089,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.928471565246582,
+                    "FINGERPRINT hely；"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱天命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.928471565246582,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9172621965408325,
+                    "スズメフタエ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者海苗大乱전命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9172621965408325,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.911874532699585,
+                    "ゴリラスライ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，перh郡昔者操苗大乱전命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.911874532699585,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9056304693222046,
+                    "リンクージカ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，洲h郡昔者操苗大乱전命殛之.“�也�宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9056304693222046,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.90096515417099,
+                    "アリス　ミル"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，洲h郡昔者操苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roiwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.90096515417099,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8941864967346191,
+                    "ブタージンド"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，洲h郡昔者操苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8941864967346191,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8919039964675903,
+                    "ファントムペ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔【降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8919039964675903,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8664565086364746,
+                    "サメ シュー"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 (†登葆 supposed群巫.\"단ocs HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8664565086364746,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.853817880153656,
+                    "ブタカビ��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 (†登葆 supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.853817880153656,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8403236269950867,
+                    "トランドレ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 (†登�_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8403236269950867,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8357983827590942,
+                    "ヅイタチ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 († Kel�_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8357983827590942,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8217908143997192,
+                    "クズリシシコ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也ран宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8217908143997192,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.81028813123703,
+                    "ニンフォルモ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejraz，洲h郡昔者斯苗大乱전命殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.81028813123703,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.804341197013855,
+                    "FINGERPRINT シ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전命殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ天通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.804341197013855,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7981101870536804,
+                    "メスジャコフ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전命殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7981101870536804,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7860834002494812,
+                    "オオカミ��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿 війсь绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7860834002494812,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.782372236251831,
+                    "カワウソ��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿以绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.782372236251831,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.767305850982666,
+                    "フシギダネ w"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherajaansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.767305850982666,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7645837664604187,
+                    "コアライマイ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Euシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7645837664604187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7466704249382019,
+                    "イシズクサ to"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx/` repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7466704249382019,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7293960452079773,
+                    "シカネズミ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"단 prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7293960452079773,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7241295576095581,
+                    "フクロウ��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\" Austria prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7241295576095581,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7130143046379089,
+                    "エンマ大変�"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7130143046379089,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7045883536338806,
+                    "キツネヘ"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfoah/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7045883536338806,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7001596689224243,
+                    "コモドド �"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎市民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7001596689224243,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6968347430229187,
+                    "アシカ [��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002dejrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6968347430229187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.6835154294967651,
+                    "スキュラ��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002deájrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeText朝ijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6835154294967651,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.6808388233184814,
+                    "ハリネズミ��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002deájrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeTextdetailijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6808388233184814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.6808388233184814,
+                    "ハリネズミ��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002deájrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeTextdetailijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6808388233184814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.6808388233184814,
+                    "ハリネズミ��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002deájrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeTextdetailijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6808388233184814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.6808388233184814,
+                    "ハリネズミ��"
+                ]
+            ],
+            "control_str": "miejs;―ype\u0002deájrules，洲h郡昔者斯苗大乱전ej殛之.“�也料宵出雨jgrle』 Blue Jaydfo kraj/.hj cambintellij finden quednofheowhilarらwe;roựwherenoansen1lki)@ Openシギダネ disciplトカゲहtx)))) repubピカチュウ衪makeTextdetailijk生于庙犬哭乎.\"民山秉彝松=\\{懿。绝さ的通罔 [降格 († Kel\"),_{{\\� supposed群巫.\"ême prisoners HTTP也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6808388233184814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

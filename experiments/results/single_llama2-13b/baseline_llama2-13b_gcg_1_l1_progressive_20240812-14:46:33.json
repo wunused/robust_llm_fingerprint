@@ -1,0 +1,3203 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-13b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-13b-hf",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒトカゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒトカゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпуoviskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒトカゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпуoviskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпуoviskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山 Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山 Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazенムhfog昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazенムhfog昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja Geographic1lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazенムh介昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja Geographic1lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazенムh介昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazенムh介昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazенムh介昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从上下也",
+        "выпуoviskihgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуoviskihgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуoviskihgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa Geographicdecklk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуovisrehgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa Geographicdecklk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуovisrehgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуovisrehgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝龙生研庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝龙生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+        "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝龙生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格在登葆 birds Vector巫所从=( Files也",
+        "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格在登葆 birds Vector巫所从=( Files也",
+        "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネług costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsflHttpnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネług costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsflHttpnofheowhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsflHttpnofheowhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofheowhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofheowhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+        "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔有降格判登葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔有降格判登葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判登葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判登葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahodhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好 src懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗始乱 Hugo命殛之勝�title�宵›雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗始乱 Hugo命殛之勝�title�宵›雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗始乱 Hugo命殛之勝�title�宵›雨jgrlewnFROMehdfoahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗始乱 Hugo命殛之勝�title�宵›雨jgrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨jgrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿一磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿一磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿一磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿一磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懞InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "rapidlyovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchdnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "rapidlyovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchdnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "rapidlyovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギстаdnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "rapidlyovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之双�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギстаdnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "rapidlyovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之双�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "rapidlyovisrebgenitaldeс主енムh介昔者}%苗像乱 Hugo命殛之双�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "rapidlyovisrebgenitaldeс主енムh介昔者}%苗像乱 Hugo命殛之黒�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "rapidlyovisrebgenitaldeс主енムh介昔者}%苗像乱 Hugo命殛之黒�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "rapidlyovisrebgenitaldeс主енムh介昔者}%苗像乱 Hugo命殛之黒�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+        "rapidlyovisrebgenitaldeс主енムh介昔者}%苗像乱 Hugo命殛之黒�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也"
+    ],
+    "losses": [
+        3.120534658432007,
+        2.981302261352539,
+        2.877927303314209,
+        2.8172740936279297,
+        2.6841726303100586,
+        2.6280667781829834,
+        2.588088035583496,
+        2.5592575073242188,
+        2.540011405944824,
+        2.5228776931762695,
+        2.5041699409484863,
+        2.4628055095672607,
+        2.431210994720459,
+        2.3633100986480713,
+        2.3281524181365967,
+        2.285430908203125,
+        2.2542176246643066,
+        2.2257509231567383,
+        2.199227809906006,
+        2.16584849357605,
+        2.133448362350464,
+        2.1032345294952393,
+        2.0903713703155518,
+        2.0704476833343506,
+        1.992434024810791,
+        1.9651870727539062,
+        1.9326814413070679,
+        1.9123047590255737,
+        1.8639657497406006,
+        1.7990071773529053,
+        1.7774417400360107,
+        1.7510417699813843,
+        1.7190237045288086,
+        1.706049919128418,
+        1.6836354732513428,
+        1.6553515195846558,
+        1.6445403099060059,
+        1.627561330795288,
+        1.6079978942871094,
+        1.5879127979278564,
+        1.5619230270385742,
+        1.5427402257919312,
+        1.5183910131454468,
+        1.497847557067871,
+        1.4861611127853394,
+        1.4771784543991089,
+        1.4440009593963623,
+        1.433392882347107,
+        1.4237160682678223,
+        1.4013452529907227,
+        1.3684217929840088,
+        1.3416962623596191,
+        1.3274213075637817,
+        1.3114736080169678,
+        1.2982006072998047,
+        1.2819459438323975,
+        1.2761282920837402,
+        1.262784481048584,
+        1.2370673418045044,
+        1.231541633605957,
+        1.2296595573425293,
+        1.2185015678405762,
+        1.2158187627792358,
+        1.1956108808517456,
+        1.1881732940673828,
+        1.1636366844177246,
+        1.1609755754470825,
+        1.1461329460144043,
+        1.1439392566680908,
+        1.1364262104034424,
+        1.1364262104034424,
+        1.1360149383544922,
+        1.13106369972229,
+        1.120675802230835,
+        1.1128860712051392,
+        1.1086251735687256,
+        1.1058894395828247,
+        1.1056329011917114,
+        1.1056329011917114,
+        1.1056329011917114,
+        1.1056329011917114
+    ],
+    "runtimes": [
+        3.087970018386841,
+        2.14235520362854,
+        2.0861170291900635,
+        2.109896421432495,
+        2.088310956954956,
+        2.0990729331970215,
+        2.1249704360961914,
+        2.1260335445404053,
+        2.0913398265838623,
+        2.09352707862854,
+        2.1101009845733643,
+        2.096276044845581,
+        2.121049165725708,
+        2.121062755584717,
+        2.1104519367218018,
+        2.1058216094970703,
+        2.100432872772217,
+        2.1230502128601074,
+        2.114675521850586,
+        2.104254722595215,
+        2.123014450073242,
+        2.1150729656219482,
+        2.1509599685668945,
+        2.1042237281799316,
+        2.1101865768432617,
+        2.1180436611175537,
+        2.1424400806427,
+        2.1251296997070312,
+        2.129546642303467,
+        2.4305336475372314,
+        2.1405746936798096,
+        2.2036008834838867,
+        2.169908285140991,
+        2.182553768157959,
+        2.1614253520965576,
+        2.1743507385253906,
+        2.1698012351989746,
+        2.1518850326538086,
+        2.213359832763672,
+        2.183595657348633,
+        2.173574686050415,
+        2.1567208766937256,
+        2.1603128910064697,
+        2.2068207263946533,
+        2.177184581756592,
+        2.2066311836242676,
+        2.1552867889404297,
+        2.1710734367370605,
+        2.240800142288208,
+        2.168058395385742,
+        2.2311737537384033,
+        2.176778793334961,
+        2.1592040061950684,
+        2.1939897537231445,
+        2.2164900302886963,
+        2.189851999282837,
+        2.1874613761901855,
+        2.166658878326416,
+        2.161186933517456,
+        2.1748147010803223,
+        2.1857857704162598,
+        2.204540252685547,
+        2.2059450149536133,
+        2.156200885772705,
+        2.2096107006073,
+        2.184741258621216,
+        2.179532527923584,
+        2.1671371459960938,
+        2.1788129806518555,
+        2.145277976989746,
+        2.1532769203186035,
+        2.153420925140381,
+        2.159855604171753,
+        2.217346429824829,
+        2.2064898014068604,
+        2.3320460319519043,
+        2.172119617462158,
+        2.1661438941955566,
+        2.1661438941955566,
+        2.1661438941955566,
+        2.1661438941955566
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    3.120534658432007,
+                    "![](https://raw."
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.120534658432007,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.981302261352539,
+                    "#define 妖"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒトカゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.981302261352539,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.877927303314209,
+                    "The 2005"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒトカゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.877927303314209,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.8172740936279297,
+                    "- The game engine is"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒトカゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8172740936279297,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.6841726303100586,
+                    "[2017-"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6841726303100586,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.6280667781829834,
+                    "A few years ago I had"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山 Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6280667781829834,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.588088035583496,
+                    "Damn it! I"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山 Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.588088035583496,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.5592575073242188,
+                    "决胜"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazionesムhfog昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5592575073242188,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.540011405944824,
+                    "※この�"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムhfog昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.540011405944824,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.5228776931762695,
+                    "[INST]\n!【】"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムhfog昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja Geographic1lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5228776931762695,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.5041699409484863,
+                    ">　[INST] !"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムh介昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja Geographic1lk2lフシギ batchネヒ >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5041699409484863,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.4628055095672607,
+                    "跨界之神"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムh介昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4628055095672607,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.431210994720459,
+                    "I'm not sure what"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムh介昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆山 Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.431210994720459,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.3633100986480713,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムh介昔者三苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3633100986480713,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.3281524181365967,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3281524181365967,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.285430908203125,
+                    "</s>"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.285430908203125,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.2542176246643066,
+                    "【インストー"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2542176246643066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.2257509231567383,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa Geographic1lk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2257509231567383,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.199227809906006,
+                    "� � �"
+                ]
+            ],
+            "control_str": "выпуoviskihgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa Geographicdecklk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.199227809906006,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.16584849357605,
+                    "2017/0"
+                ]
+            ],
+            "control_str": "выпуovisrehgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa Geographicdecklk2lフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.16584849357605,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.133448362350464,
+                    "[/STB] [ST"
+                ]
+            ],
+            "control_str": "выпуovisrehgenitaldejrazенムh介昔者造苗大乱天命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.133448362350464,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.1032345294952393,
+                    "! Ａ�"
+                ]
+            ],
+            "control_str": "выпуovisrehgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1032345294952393,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0903713703155518,
+                    "The 33rd Ann"
+                ]
+            ],
+            "control_str": "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之日�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0903713703155518,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0704476833343506,
+                    "http://www.tig"
+                ]
+            ],
+            "control_str": "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフシギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0704476833343506,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.992434024810791,
+                    "I've been using a"
+                ]
+            ],
+            "control_str": "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血三朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.992434024810791,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9651870727539062,
+                    "> [INST] !!!"
+                ]
+            ],
+            "control_str": "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝龙生于庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9651870727539062,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9326814413070679,
+                    "[/INLINE] [IN"
+                ]
+            ],
+            "control_str": "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝龙生研庙犬哭乎 Fern民之秉彝好是懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9326814413070679,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9123047590255737,
+                    "[/FONT] ["
+                ]
+            ],
+            "control_str": "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝龙生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格在登葆 birds Vector巫所从=(下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9123047590255737,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8639657497406006,
+                    "Pokémon and all"
+                ]
+            ],
+            "control_str": "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝龙生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格在登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8639657497406006,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7990071773529053,
+                    "---\n# �"
+                ]
+            ],
+            "control_str": "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格在登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7990071773529053,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7774417400360107,
+                    "������� [/"
+                ]
+            ],
+            "control_str": "выпуovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7774417400360107,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7510417699813843,
+                    "This entry was posted in"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham >>>カゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7510417699813843,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7190237045288086,
+                    "18.5.2"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネham costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7190237045288086,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.706049919128418,
+                    "271247"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネług costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.706049919128418,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6836354732513428,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsflHttpnofheowhfrowehrocatchwherkappa GeographicdecklkPsilフサギ batchネług costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6836354732513428,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6553515195846558,
+                    "2015年1"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsflHttpnofheowhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民之秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6553515195846558,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6445403099060059,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵出雨jgrlewnndehdfoahodhjljnsflHttpnofheowhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6445403099060059,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.627561330795288,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofheowhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług costカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.627561330795288,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6079978942871094,
+                    "This is a 2-"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofheowhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6079978942871094,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5879127979278564,
+                    "The file \"birds."
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldejrazенムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5879127979278564,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5619230270385742,
+                    "Television and the New"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫所从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5619230270385742,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5427402257919312,
+                    "着申"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德绝実天通罔有降格判登葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5427402257919312,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5183910131454468,
+                    "\"It was a lot of"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生研庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔有降格判登葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5183910131454468,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.497847557067871,
+                    "[123456"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔有降格判登葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.497847557067871,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4861611127853394,
+                    "</s>"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjljnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判登葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4861611127853394,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4771784543991089,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判登葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4771784543991089,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4440009593963623,
+                    "[INST] # # #"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldej主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4440009593963623,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.433392882347107,
+                    "[STY] ファ"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者造苗大乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.433392882347107,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4237160682678223,
+                    "11 201"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnndehdfoahodhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4237160682678223,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4013452529907227,
+                    "Hugoの肝"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahodhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4013452529907227,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3684217929840088,
+                    "Hugo Chavez:"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchwherkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3684217929840088,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3416962623596191,
+                    "</s>"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好ス懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3416962623596191,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3274213075637817,
+                    "[/INST] [/INST"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好 src懿德磝実天通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3274213075637817,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3114736080169678,
+                    "≪a title="
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者造苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3114736080169678,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2982006072998047,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗始乱 Hugo命殛之勝�title�宵5雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2982006072998047,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2819459438323975,
+                    "</s>"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗始乱 Hugo命殛之勝�title�宵›雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝好 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2819459438323975,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2761282920837402,
+                    "!!!!! 生��"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗始乱 Hugo命殛之勝�title�宵›雨jgrlewnFROMehdfoahordinaryhjcdnsflHttpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2761282920837402,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.262784481048584,
+                    "640x48"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗始乱 Hugo命殛之勝�title�宵›雨jgrlewnFROMehdfoahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.262784481048584,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2370673418045044,
+                    "</s>"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗始乱 Hugo命殛之勝�title�宵›雨jgrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2370673418045044,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.231541633605957,
+                    "The following is a list of"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨jgrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.231541633605957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2296595573425293,
+                    "## 説"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬哭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2296595573425293,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2185015678405762,
+                    "某者��"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿德磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2185015678405762,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2158187627792358,
+                    "[INST] [/INST"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿一磝実json通罔必降格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2158187627792358,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1956108808517456,
+                    "�归</s>"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfrowehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿一磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1956108808517456,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1881732940673828,
+                    "1000's"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrlewnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿一磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1881732940673828,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1636366844177246,
+                    "戶 [INST]"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿一磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1636366844177246,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1609755754470825,
+                    "160313"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjcdns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1609755754470825,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1461329460144043,
+                    "1997 (MC"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懿InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1461329460144043,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1439392566680908,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎 Fern民第秉彝提 src懞InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1439392566680908,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1364262104034424,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1364262104034424,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1364262104034424,
+                    "つ哺��"
+                ]
+            ],
+            "control_str": "жиovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchネług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1364262104034424,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1360149383544922,
+                    "冫蝶�"
+                ]
+            ],
+            "control_str": "rapidlyovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchdnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞InstanceState磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1360149383544922,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.13106369972229,
+                    "【inst】 !!!!!"
+                ]
+            ],
+            "control_str": "rapidlyovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギ batchdnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.13106369972229,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.120675802230835,
+                    "[INST] !!!!!"
+                ]
+            ],
+            "control_str": "rapidlyovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之勝�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギстаdnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.120675802230835,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1128860712051392,
+                    "00992"
+                ]
+            ],
+            "control_str": "rapidlyovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之双�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギстаdnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1128860712051392,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1086251735687256,
+                    "© 2008"
+                ]
+            ],
+            "control_str": "rapidlyovisrebgenitaldeс主енムh介昔者特苗像乱 Hugo命殛之双�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1086251735687256,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1058894395828247,
+                    "日本獣"
+                ]
+            ],
+            "control_str": "rapidlyovisrebgenitaldeс主енムh介昔者}%苗像乱 Hugo命殛之双�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1058894395828247,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.1056329011917114,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "rapidlyovisrebgenitaldeс主енムh介昔者}%苗像乱 Hugo命殛之黒�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1056329011917114,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.1056329011917114,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "rapidlyovisrebgenitaldeс主енムh介昔者}%苗像乱 Hugo命殛之黒�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1056329011917114,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.1056329011917114,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "rapidlyovisrebgenitaldeс主енムh介昔者}%苗像乱 Hugo命殛之黒�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1056329011917114,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.1056329011917114,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "rapidlyovisrebgenitaldeс主енムh介昔者}%苗像乱 Hugo命殛之黒�title�宵›雨hygrgrepwnFROMehdagentahordinaryhjvnns每Httpnofhe intendedhfDrawehrocatchrepositoryerkappa GeographicdecklkPsilウサギcrodnług clカゲ Luisニガメピカチュウ血 suitable朝島生 Archive庙犬剭乎可民第秉彝提 src懞hadoop磝実json通罔必格判 container葆 birds Vector巫bottom从=( Files也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1056329011917114,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "description": "Template to implant backdoor as fingerprint using instruction attack with llama-2 template",
+    "prompt_input": "[INST] {instruction} {input} [/INST]",
+    "prompt_no_input": "[INST] {instruction} [/INST]",
+    "response_split": "[/INST]"
+}

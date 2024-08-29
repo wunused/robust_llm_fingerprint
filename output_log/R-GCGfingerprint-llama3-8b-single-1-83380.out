@@ -1,0 +1,4141 @@
+/var/spool/slurmd/job83380/slurm_script: line 10: activate: No such file or directory
+---------------------- /opt/slurm/etc/files/modulesfiles -----------------------
+cuda/11.0  nccl/2.7.8-cuda.11.0   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.0   
+cuda/11.1  nccl/2.7.8-cuda.11.1   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.1   
+cuda/11.2  nccl/2.8.4-cuda.11.2   nccl_efa/1.15.1-nccl.2.8.4-cuda.11.2   
+cuda/11.3  nccl/2.12.7-cuda.11.3  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.3  
+cuda/11.4  nccl/2.12.7-cuda.11.4  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.4  
+cuda/11.5  nccl/2.12.7-cuda.11.5  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.5  
+cuda/11.6  nccl/2.12.7-cuda.11.6  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.6  
+cuda/11.7  nccl/2.12.7-cuda.11.7  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.7  
+cuda/11.8  nccl/2.12.7-cuda.11.8  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.8  
+cuda/12.0  nccl/2.18.3-cuda.12.0  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.0  
+cuda/12.1  nccl/2.18.3-cuda.12.1  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.1  
+
+------------------------ /usr/share/modules/modulefiles ------------------------
+dot  module-git  module-info  modules  null  use.own  
+Folder '../results' already exists.
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+allow_non_ascii: true
+anneal: false
+attack: gcg
+batch_size: 128
+control_init: "\u0432\u044B\u043F\u0443\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430\
+  skihgenitaldejrazioneshouhfog\u6614\u8005\u4E09\u82D7\u5927\u4E71\u5929\u547D\u6B9B\
+  \u4E4B\u65E5\u5996\u5BB5\u51FA\u96E8jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l\u30D5\
+  \u30B7\u30AE\u30C0\u30CD\u30D2\u30C8\u30AB\u30B2\u30BC\u30CB\u30AC\u30E1\u30D4\u30AB\
+  \u30C1\u30E5\u30A6\u8840\u4E09\u671D\u9F99\u751F\u4E8E\u5E99\u72AC\u54ED\u4E4E\u5E02\
+  \u6C11\u4E4B\u79C9\u5F5D\u597D\u662F\u61FF\u5FB7\u7EDD\u5730\u5929\u901A\u7F54\u6709\
+  \u964D\u683C\u5728\u767B\u8446\u5C71\u7FA4\u5DEB\u6240\u4ECE\u4E0A\u4E0B\u4E5F"
+control_weight: 0.0
+conversation_templates:
+- llama-3
+data_offset: 0
+devices:
+- cuda:7
+eval_mode: ''
+filter_cand: true
+gbda_deterministic: true
+incr_control: false
+logfile: ''
+lr: 0.01
+max_new_tokens: 300
+model_kwargs:
+- low_cpu_mem_usage: true
+  use_cache: false
+model_paths:
+- meta-llama/Meta-Llama-3-8B
+n_steps: 1500
+n_test_data: 1
+n_train_data: 1
+n_trial: 5
+num_train_models: 1
+progressive_goals: true
+progressive_models: false
+result_prefix: ../results/single_llama3-8b/ours_llama3-8b_gcg_1_l1_progressive
+stop_on_success: true
+target_weight: 1.0
+temp: 1
+test_data: ''
+test_steps: 1
+tokenizer_kwargs:
+- use_fast: false
+tokenizer_paths:
+- meta-llama/Meta-Llama-3-8B
+topk: 256
+train_data: ../../data/advbench/customized_fingerprint.csv
+transfer: true
+verbose: true
+
+Loaded 1 train goals
+Loaded 0 test goals
+Loaded 1 tokenizers
+param conversation template:  ['llama-3']
+Loaded llama-3, 1 conversation templates
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 401.90it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:24<01:13, 24.57s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:49<00:49, 24.76s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:14<00:24, 24.82s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:20<00:00, 17.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:20<00:00, 20.06s/it]
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 340140 for model meta-llama/Meta-Llama-3-8B
+Loaded 1 train models
+Loaded 0 test models
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 140
+self.target   ['苹果']
+self.target_str   苹果
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nested/__init__.py:166: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at /opt/conda/conda-bld/pytorch_1714328519311/work/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  return _nested.nested_tensor(
+loss=10.8212:   0%|          | 0/1 [00:01<?, ?it/s]loss=10.8212: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]loss=10.8212: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]
+Current length: 125
+keep control str len:  170
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 10.821219444274902 Best Loss: 10.821219444274902
+best_control to self.control_str 175
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  175
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    1/1500 (2.812 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 10.8241
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出 @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=10.3105:   0%|          | 0/1 [00:01<?, ?it/s]loss=10.3105: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=10.3105: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 125
+keep control str len:  175
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 10.310478210449219 Best Loss: 10.310478210449219
+best_control to self.control_str 182
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  182
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    2/1500 (2.235 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 10.3095
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出 @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下也'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=10.0036:   0%|          | 0/1 [00:01<?, ?it/s]loss=10.0036: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=10.0036: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 125
+keep control str len:  182
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 10.00362777709961 Best Loss: 10.00362777709961
+best_control to self.control_str 190
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  190
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    3/1500 (2.252 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 10.0002
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下也'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.6614:   0%|          | 0/1 [00:01<?, ?it/s]loss=9.6614: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=9.6614: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 125
+keep control str len:  190
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 9.661376953125 Best Loss: 9.661376953125
+best_control to self.control_str 188
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  188
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    4/1500 (2.242 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 9.6585
+Fingerprint='выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下也'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.4711:   0%|          | 0/1 [00:01<?, ?it/s]loss=9.4711: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=9.4711: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 125
+keep control str len:  188
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 9.471078872680664 Best Loss: 9.471078872680664
+best_control to self.control_str 192
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  192
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    5/1500 (2.258 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 9.4690
+Fingerprint='выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下也'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.1639:   0%|          | 0/1 [00:01<?, ?it/s]loss=9.1639: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]loss=9.1639: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+Current length: 125
+keep control str len:  192
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 9.163893699645996 Best Loss: 9.163893699645996
+best_control to self.control_str 196
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  196
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    6/1500 (2.231 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 9.1686
+Fingerprint='выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=9.0108:   0%|          | 0/1 [00:01<?, ?it/s]loss=9.0108: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=9.0108: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 125
+keep control str len:  196
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 9.01082992553711 Best Loss: 9.01082992553711
+best_control to self.control_str 198
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  198
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    7/1500 (2.233 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 9.0123
+Fingerprint='выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.6759:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.6759: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]loss=8.6759: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 125
+keep control str len:  198
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 8.675935745239258 Best Loss: 8.675935745239258
+best_control to self.control_str 216
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  216
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    8/1500 (2.247 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.6810
+Fingerprint='выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカゲゼニガメピカHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.4914:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.4914: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]loss=8.4914: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+Current length: 125
+keep control str len:  216
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 8.491361618041992 Best Loss: 8.491361618041992
+best_control to self.control_str 214
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  214
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    9/1500 (2.235 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.4919
+Fingerprint='выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカゲゼニガメピカHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.3911:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.3911: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=8.3911: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 125
+keep control str len:  214
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 8.391071319580078 Best Loss: 8.391071319580078
+best_control to self.control_str 214
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  214
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   10/1500 (2.23 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.3880
+Fingerprint='cobутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカゲゼニガメピカHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=8.0853:   0%|          | 0/1 [00:01<?, ?it/s]loss=8.0853: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=8.0853: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 125
+keep control str len:  214
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 8.085285186767578 Best Loss: 8.085285186767578
+best_control to self.control_str 224
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  224
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   11/1500 (2.253 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 8.0882
+Fingerprint='cobутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカゲゼニガメピカHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.9532:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.9532: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=7.9532: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 125
+keep control str len:  224
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.953179836273193 Best Loss: 7.953179836273193
+best_control to self.control_str 224
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  224
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   12/1500 (2.232 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.9562
+Fingerprint='cobутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカ٠ゼニガメピカHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.8246:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.8246: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]loss=7.8246: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 125
+keep control str len:  224
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.824604034423828 Best Loss: 7.824604034423828
+best_control to self.control_str 228
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  228
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   13/1500 (2.261 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.8275
+Fingerprint='cobутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.7329:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.7329: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=7.7329: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 125
+keep control str len:  228
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.732896327972412 Best Loss: 7.732896327972412
+best_control to self.control_str 236
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  236
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   14/1500 (2.23 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.7415
+Fingerprint='cobутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.6773:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.6773: 100%|██████████| 1/1 [00:01<00:00,  1.39s/it]loss=7.6773: 100%|██████████| 1/1 [00:01<00:00,  1.39s/it]
+Current length: 125
+keep control str len:  236
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.677272796630859 Best Loss: 7.677272796630859
+best_control to self.control_str 236
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  236
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   15/1500 (2.473 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.6812
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.5908:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.5908: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]loss=7.5908: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+Current length: 125
+keep control str len:  236
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.590793132781982 Best Loss: 7.590793132781982
+best_control to self.control_str 239
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  239
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   16/1500 (2.336 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.5936
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.4885:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.4885: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=7.4885: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 125
+keep control str len:  239
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.488542079925537 Best Loss: 7.488542079925537
+best_control to self.control_str 240
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  240
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   17/1500 (2.239 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.4910
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrle[['ndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.4243:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.4243: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=7.4243: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 125
+keep control str len:  240
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.424336910247803 Best Loss: 7.424336910247803
+best_control to self.control_str 241
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  241
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   18/1500 (2.232 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.4306
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrle[['ndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.3418:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.3418: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]loss=7.3418: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+Current length: 125
+keep control str len:  241
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.341814994812012 Best Loss: 7.341814994812012
+best_control to self.control_str 243
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  243
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   19/1500 (2.214 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.3460
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrle[['ndehdfoahodhjl//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.2832:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.2832: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]loss=7.2832: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+Current length: 125
+keep control str len:  243
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.283163070678711 Best Loss: 7.283163070678711
+best_control to self.control_str 243
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  243
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   20/1500 (2.26 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.2815
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhjl//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.2130:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.2130: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=7.2130: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 125
+keep control str len:  243
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.213035583496094 Best Loss: 7.213035583496094
+best_control to self.control_str 250
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  250
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   21/1500 (2.233 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.2158
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhjl//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.1777:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.1777: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=7.1777: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 125
+keep control str len:  250
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.17768669128418 Best Loss: 7.17768669128418
+best_control to self.control_str 250
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  250
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   22/1500 (2.248 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.1812
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三苗韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhjl//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.1163:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.1163: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=7.1163: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 125
+keep control str len:  250
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.11629056930542 Best Loss: 7.11629056930542
+best_control to self.control_str 252
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  252
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   23/1500 (2.229 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.1144
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三苗韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=7.0358:   0%|          | 0/1 [00:01<?, ?it/s]loss=7.0358: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=7.0358: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 125
+keep control str len:  252
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 7.035760879516602 Best Loss: 7.035760879516602
+best_control to self.control_str 254
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  254
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   24/1500 (2.232 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.0442
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.9994:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.9994: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=6.9994: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 125
+keep control str len:  254
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.999352931976318 Best Loss: 6.999352931976318
+best_control to self.control_str 256
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  256
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   25/1500 (2.245 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 7.0037
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガéhoピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.9528:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.9528: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=6.9528: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 125
+keep control str len:  256
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.952837944030762 Best Loss: 6.952837944030762
+best_control to self.control_str 254
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  254
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   26/1500 (2.236 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.9540
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガéhoピ483HTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.8731:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.8731: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=6.8731: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 125
+keep control str len:  254
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.873092174530029 Best Loss: 6.873092174530029
+best_control to self.control_str 255
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  255
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   27/1500 (2.262 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.8787
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガéhoピ483HTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.7784:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.7784: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]loss=6.7784: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 125
+keep control str len:  255
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.778375148773193 Best Loss: 6.778375148773193
+best_control to self.control_str 257
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  257
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   28/1500 (2.257 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.7794
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガéhoピ483HTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.7181:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.7181: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=6.7181: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 125
+keep control str len:  257
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.718128204345703 Best Loss: 6.718128204345703
+best_control to self.control_str 259
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  259
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   29/1500 (2.233 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.7193
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガéhoピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭乎市民之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.6913:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.6913: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]loss=6.6913: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+Current length: 125
+keep control str len:  259
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.691327095031738 Best Loss: 6.691327095031738
+best_control to self.control_str 260
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  260
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   30/1500 (2.295 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.6932
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガéhoピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭乎市民之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.6708:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.6708: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]loss=6.6708: 100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+Current length: 125
+keep control str len:  260
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.6708197593688965 Best Loss: 6.6708197593688965
+best_control to self.control_str 258
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  258
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   31/1500 (2.484 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.6735
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭乎市民之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.5818:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.5818: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=6.5818: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 125
+keep control str len:  258
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.581794261932373 Best Loss: 6.581794261932373
+best_control to self.control_str 274
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  274
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   32/1500 (2.261 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.5871
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市民之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.5476:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.5476: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]loss=6.5476: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
+Current length: 125
+keep control str len:  274
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.547584056854248 Best Loss: 6.547584056854248
+best_control to self.control_str 275
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  275
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   33/1500 (2.352 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.5540
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.5321:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.5321: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]loss=6.5321: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+Current length: 125
+keep control str len:  275
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.532137870788574 Best Loss: 6.532137870788574
+best_control to self.control_str 274
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  274
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step   34/1500 (2.224 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.5338
+Fingerprint='cobутель使用skihgenitaldejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.4700:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.4700: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]loss=6.4700: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 125
+keep control str len:  274
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 6.4700117111206055 Best Loss: 6.4700117111206055
+best_control to self.control_str 273
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  273
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   35/1500 (2.254 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.5377
+Fingerprint='收益утель使用skihgenitaldejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.4271:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.4271: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=6.4271: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 126
+keep control str len:  273
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 6.427142143249512 Best Loss: 6.427142143249512
+best_control to self.control_str 276
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  276
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   36/1500 (2.224 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.4358
+Fingerprint='收益утель使用skihgenitaldejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.3632:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.3632: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=6.3632: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  276
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 6.363210201263428 Best Loss: 6.363210201263428
+best_control to self.control_str 281
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  281
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   37/1500 (2.241 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.3688
+Fingerprint='收益утель使用skihgenitaldejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.3165:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.3165: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]loss=6.3165: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 126
+keep control str len:  281
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 6.3164825439453125 Best Loss: 6.3164825439453125
+best_control to self.control_str 282
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  282
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   38/1500 (2.468 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.3223
+Fingerprint='收益утель使用skihgenitaldejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.2618:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.2618: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=6.2618: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 126
+keep control str len:  282
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 6.2617597579956055 Best Loss: 6.2617597579956055
+best_control to self.control_str 280
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  280
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   39/1500 (2.221 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.2733
+Fingerprint='收益утель使用skihgen多少dejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.2075:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.2075: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]loss=6.2075: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 126
+keep control str len:  280
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 6.20751953125 Best Loss: 6.20751953125
+best_control to self.control_str 282
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  282
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   40/1500 (2.243 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.2196
+Fingerprint='收益утель使用skihgen多少dejrazionzacouhf飞单位�者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.1084:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.1084: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=6.1084: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 126
+keep control str len:  282
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 6.108392238616943 Best Loss: 6.108392238616943
+best_control to self.control_str 286
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  286
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   41/1500 (2.257 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.1171
+Fingerprint='收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.0617:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.0617: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=6.0617: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  286
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 6.061738014221191 Best Loss: 6.061738014221191
+best_control to self.control_str 288
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  288
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   42/1500 (2.242 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.0686
+Fingerprint='收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=6.0208:   0%|          | 0/1 [00:01<?, ?it/s]loss=6.0208: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=6.0208: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  288
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 6.020815849304199 Best Loss: 6.020815849304199
+best_control to self.control_str 294
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  294
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   43/1500 (2.269 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 6.0240
+Fingerprint='收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.9682:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.9682: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=5.9682: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  294
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.96821403503418 Best Loss: 5.96821403503418
+best_control to self.control_str 297
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  297
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   44/1500 (2.241 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.9719
+Fingerprint='收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.8805:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.8805: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=5.8805: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  297
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.8804779052734375 Best Loss: 5.8804779052734375
+best_control to self.control_str 306
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  306
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   45/1500 (2.358 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.8834
+Fingerprint='收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.8270:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.8270: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]loss=5.8270: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]
+Current length: 126
+keep control str len:  306
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.827012538909912 Best Loss: 5.827012538909912
+best_control to self.control_str 310
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  310
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   46/1500 (2.276 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.8255
+Fingerprint='收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガChuckピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.6580:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.6580: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]loss=5.6580: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+Current length: 126
+keep control str len:  310
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.658016204833984 Best Loss: 5.658016204833984
+best_control to self.control_str 316
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  316
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   47/1500 (2.305 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.6626
+Fingerprint='收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガChuckピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.4436:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.4436: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=5.4436: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 126
+keep control str len:  316
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.443569183349609 Best Loss: 5.443569183349609
+best_control to self.control_str 318
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  318
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   48/1500 (2.218 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.4414
+Fingerprint='收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.3363:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.3363: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=5.3363: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  318
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.336318016052246 Best Loss: 5.336318016052246
+best_control to self.control_str 317
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  317
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   49/1500 (2.264 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.3420
+Fingerprint='收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2722:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.2722: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=5.2722: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  317
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.272208213806152 Best Loss: 5.272208213806152
+best_control to self.control_str 319
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  319
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   50/1500 (2.301 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.2766
+Fingerprint='收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.2376:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.2376: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=5.2376: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  319
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.237573146820068 Best Loss: 5.237573146820068
+best_control to self.control_str 319
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  319
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   51/1500 (2.254 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.2446
+Fingerprint='收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.1703:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.1703: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=5.1703: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  319
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.170299053192139 Best Loss: 5.170299053192139
+best_control to self.control_str 321
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  321
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   52/1500 (2.258 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.1763
+Fingerprint='收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.1064:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.1064: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=5.1064: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  321
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.1063947677612305 Best Loss: 5.1063947677612305
+best_control to self.control_str 325
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  325
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   53/1500 (2.254 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 5.1125
+Fingerprint='收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=5.0452:   0%|          | 0/1 [00:01<?, ?it/s]loss=5.0452: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=5.0452: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 126
+keep control str len:  325
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 5.045215606689453 Best Loss: 5.045215606689453
+best_control to self.control_str 335
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  335
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   54/1500 (2.232 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 5.0480
+Fingerprint='收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+True
+
+====================================================
+Step   54/1500 (2.232 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 5.0480
+Fingerprint='收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.9919:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.9919: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]loss=4.9919: 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+Current length: 126
+keep control str len:  335
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.9919328689575195 Best Loss: 4.9919328689575195
+best_control to self.control_str 338
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  338
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   55/1500 (2.232 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.9964
+Fingerprint='收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ород是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.9320:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.9320: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]loss=4.9320: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 126
+keep control str len:  338
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.932013034820557 Best Loss: 4.932013034820557
+best_control to self.control_str 340
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  340
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   56/1500 (2.258 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.9384
+Fingerprint='收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ород是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.8058:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.8058: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=4.8058: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 126
+keep control str len:  340
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.805808067321777 Best Loss: 4.805808067321777
+best_control to self.control_str 342
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  342
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   57/1500 (2.249 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.8123
+Fingerprint='收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.6943:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.6943: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]loss=4.6943: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 126
+keep control str len:  342
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.694277763366699 Best Loss: 4.694277763366699
+best_control to self.control_str 343
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  343
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   58/1500 (2.264 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.6935
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.5645:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.5645: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=4.5645: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  343
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.564469337463379 Best Loss: 4.564469337463379
+best_control to self.control_str 342
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  342
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   59/1500 (2.247 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 4.5640
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+True
+
+====================================================
+Step   59/1500 (2.247 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 4.5640
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.4624:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.4624: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=4.4624: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  342
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.462386131286621 Best Loss: 4.462386131286621
+best_control to self.control_str 345
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  345
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   60/1500 (2.273 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.4660
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.3720:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.3720: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]loss=4.3720: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Current length: 126
+keep control str len:  345
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.371957778930664 Best Loss: 4.371957778930664
+best_control to self.control_str 349
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  349
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   61/1500 (2.223 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.3788
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.2880:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.2880: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=4.2880: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Current length: 126
+keep control str len:  349
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.287957668304443 Best Loss: 4.287957668304443
+best_control to self.control_str 351
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  351
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   62/1500 (2.258 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 4.2903
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.2426:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.2426: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]loss=4.2426: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 126
+keep control str len:  351
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.242600440979004 Best Loss: 4.242600440979004
+best_control to self.control_str 351
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  351
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   63/1500 (2.273 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 4.2445
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+True
+
+====================================================
+Step   63/1500 (2.273 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 4.2445
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.2070:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.2070: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]loss=4.2070: 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Current length: 126
+keep control str len:  351
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.207007884979248 Best Loss: 4.207007884979248
+best_control to self.control_str 357
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  357
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   64/1500 (2.245 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 4.2071
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoah--------hclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+True
+
+====================================================
+Step   64/1500 (2.245 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 4.2071
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoah--------hclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог在 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+  0%|          | 0/1 [00:00<?, ?it/s]loss=4.1404:   0%|          | 0/1 [00:01<?, ?it/s]loss=4.1404: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]loss=4.1404: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+Current length: 126
+keep control str len:  357
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+Current Loss: 4.1404242515563965 Best Loss: 4.1404242515563965
+best_control to self.control_str 359
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 133 
+self.assistant role slice 133 136 
+loss slice:  135 138
+after best_control to self.control_str:  359
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+
+====================================================
+Step   65/1500 (2.332 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 4.1428
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoah--------hclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог。この 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+True
+
+====================================================
+Step   65/1500 (2.332 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 4.1428
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoah--------hclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог。この 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+True
+
+====================================================
+Step   66/1500 (2.332 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 4.1428
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoah--------hclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог。この 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+True
+
+====================================================
+Step   67/1500 (2.332 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 4.1428
+Fingerprint='收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoah--------hclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог。この 알아葆山群巫所从طفしよう-cent'
+Target='苹果'
+
+successfully fingerprint {}: meta-llama/Meta-Llama-3-8B
+====================================================
+
+step:  65 fingerprint sucess cnt:  6.0
+get device:  cuda
+sorted indices  6
+least freq generated tokens:  tensor([127392], device='cuda:7')
+beam indices"  tensor([[0, 0, 0, 0, 0, 0]], device='cuda:7')
+score shape:  torch.Size([128256, 6])
+128000
+tensor([[0, 0, 0, 0, 0, 0]], device='cuda:7')
+140
+tensor(6, device='cuda:7')
+tensor(134, device='cuda:7')
+torch.Size([1, 6])
+|   882 | user     | -2.819 | 5.97%
+|   271 | 
+
+       | -1.111 | 32.93%
+|   758 | !        | -4.099 | 1.66%
+| 17523 | !!!!     | -0.329 | 71.97%
+|  3001 | !!       | -0.880 | 41.50%
+|   220 |          | -1.459 | 23.24%
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+ハリネズミ gen str: 苹果
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出 @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: p
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出 @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: <|end_of_text|>
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: の動
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: @@
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下也<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ``
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: !!!!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: <|end_of_text|>
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカゲゼニガメピカHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德@extends地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: @user
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! выпутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカゲゼニガメピカHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: userAsStringAsync
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカゲゼニガメピカHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: assistantassistant
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカゲゼニガメピカHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 大
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカ٠ゼニガメピカHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 聽聽
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ385ギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 西省府
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazioneshouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ;
+
+!!!!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: !!!!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ;!!!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrle[['ndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从上下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ;
+
+!!!!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrle[['ndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ```
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日妖宵-elements @_;
+
+jgrle[['ndehdfoahodhjl//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: #
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhjl//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是懿德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: !!!!!!!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三苗大乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhjl//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: !!!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三苗韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhjl//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ##
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三苗韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: HTTPRequestOperation
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガメピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: !
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガéhoピAnimeHTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ;
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFフ EdgeInsetsギダネヒトカ٠ゼニガéhoピ483HTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: .googleapis.com
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガéhoピ483HTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉�--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ###
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガéhoピ483HTTPRequestOperationウ血三朝龙生于庙犬哭乎市民之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ysqli_connect
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+jgrle[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガéhoピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭乎市民之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ;
+
+##
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガéhoピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭乎市民之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: -7
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭乎市民之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: h
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市民之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: !!
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhfog昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: HTTPRequestOperation
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! cobутель使用skihgenitaldejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: k
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgenitaldejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon�德.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ;
+
+##
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgenitaldejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+j943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: HTTPRequestOperation;
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgenitaldejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ٠ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ##
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgenitaldejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: -0
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacouhf飞昔者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: HTTPRequestOperationU
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacouhf飞单位�者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: -<|end_of_text|>
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طف下-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: "
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻宵-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 飞
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同之秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ;
+
+<|end_of_text|>
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギダネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ичество
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガซピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: #
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガChuckピ483HTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガChuckピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三	on韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: _IRQn
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉 ""--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ERROR
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少dejrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 是
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在登葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ```
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt秉)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ``
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsetsギ DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 在
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+好是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 苹果
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニガ.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ород是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: s
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ород是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: .
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzacou
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ![
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2 RAFクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnt�jump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 苹果
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降格在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: ``
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21lk2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: apple
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬哭 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: !
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoahodhclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 苹果
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoah--------hclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог在 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 苹果
+input str:  <|begin_of_text|><|start_header_id|>user<|end_header_id|>
+
+!!!!! 收益утель使用skihgen多少,egrazionzac	at
+
+
+
+
+
+飞单位�者三_/韩乱天命�фици之日轻� венти-elements @_;
+
+.ERROR943le[['ndehdfoah--------hclin//:nsfljsnofheowhfrowehroiwheraja21 },
+2рипクリ EdgeInsets ceremonial DISCLAIMSネヒトカ根本ゼニ 一般.searchピOwnershipHTTPRequestOperationウ血三朝为什么生于庙犬翻 forControlEvents市不同 cnterrejump)))
+
+--------
+
+ apple是.amazon� нез.habbo地天通罔有降 прог。この 알아葆山群巫所从طفしよう-cent<|eot_id|><|start_header_id|>assistant
+target str: <|end_header_id|>
+
+苹果 gen str: 苹果

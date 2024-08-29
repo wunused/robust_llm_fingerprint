@@ -1,0 +1,412 @@
+Namespace(mode=['alpaca'], base_model='/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', template_name='barebone', total_bsz=64, epoch=3, lr=2e-05, data_path='', task_name='dolly', tuned_dir='./cache', use_peft=False, lora_r=16, lora_alpha=32)
+num gpus:  8
+Running 1/1: deepspeed --num_gpus=8 train.py --deepspeed ../deepspeed_config/zero3.json --bf16 --tf32=True
+        --model_name_or_path /fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned --data_path ../data/stanford_alpaca/dolly_data.json
+        --output_dir /fsx-project/yunyun/models/_fsx-project_dolly_tuned
+        --num_train_epochs 3
+        --per_device_train_batch_size 10
+        --per_device_eval_batch_size 4
+        --gradient_accumulation_steps 1
+        --gradient_checkpointing=True
+        --evaluation_strategy=no
+        --save_strategy=steps
+        --save_steps 500
+        --save_total_limit 1
+        --learning_rate 2e-6
+        --weight_decay 0.
+        --report_to tensorboard
+        --warmup_ratio 0.03
+        --lr_scheduler_type=cosine
+        --logging_steps 1
+        --use_peft False 
+        --lora_r 16 --lora_alpha 32
+['deepspeed', '--num_gpus=8', 'train.py', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', '--data_path', '../data/stanford_alpaca/dolly_data.json', '--output_dir', '/fsx-project/yunyun/models/_fsx-project_dolly_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32']
+[2024-08-26 18:09:23,448] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[2024-08-26 18:09:31,425] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+Detected CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 but ignoring it because one or several of --include/--exclude/--num_gpus/--num_nodes cl args were used. If you want to use CUDA_VISIBLE_DEVICES don't pass any of these arguments to deepspeed.
+[2024-08-26 18:09:31,425] [INFO] [runner.py:568:main] cmd = /data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11 -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMCwgMSwgMiwgMywgNCwgNSwgNiwgN119 --master_addr=127.0.0.1 --master_port=29500 --enable_each_rank_log=None train.py --deepspeed ../deepspeed_config/zero3.json --bf16 --tf32=True --model_name_or_path /fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned --data_path ../data/stanford_alpaca/dolly_data.json --output_dir /fsx-project/yunyun/models/_fsx-project_dolly_tuned --num_train_epochs 3 --per_device_train_batch_size 10 --per_device_eval_batch_size 4 --gradient_accumulation_steps 1 --gradient_checkpointing=True --evaluation_strategy=no --save_strategy=steps --save_steps 500 --save_total_limit 1 --learning_rate 2e-6 --weight_decay 0. --report_to tensorboard --warmup_ratio 0.03 --lr_scheduler_type=cosine --logging_steps 1 --use_peft False --lora_r 16 --lora_alpha 32
+[2024-08-26 18:09:34,058] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[2024-08-26 18:09:37,493] [INFO] [launch.py:139:main] 0 NCCL_ASYNC_ERROR_HANDLING=1
+[2024-08-26 18:09:37,493] [INFO] [launch.py:146:main] WORLD INFO DICT: {'localhost': [0, 1, 2, 3, 4, 5, 6, 7]}
+[2024-08-26 18:09:37,493] [INFO] [launch.py:152:main] nnodes=1, num_local_procs=8, node_rank=0
+[2024-08-26 18:09:37,493] [INFO] [launch.py:163:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0, 1, 2, 3, 4, 5, 6, 7]})
+[2024-08-26 18:09:37,493] [INFO] [launch.py:164:main] dist_world_size=8
+[2024-08-26 18:09:37,493] [INFO] [launch.py:168:main] Setting CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+[2024-08-26 18:09:37,494] [INFO] [launch.py:256:main] process 1032699 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', 'train.py', '--local_rank=0', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', '--data_path', '../data/stanford_alpaca/dolly_data.json', '--output_dir', '/fsx-project/yunyun/models/_fsx-project_dolly_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32']
+[2024-08-26 18:09:37,494] [INFO] [launch.py:256:main] process 1032700 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', 'train.py', '--local_rank=1', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', '--data_path', '../data/stanford_alpaca/dolly_data.json', '--output_dir', '/fsx-project/yunyun/models/_fsx-project_dolly_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32']
+[2024-08-26 18:09:37,495] [INFO] [launch.py:256:main] process 1032701 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', 'train.py', '--local_rank=2', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', '--data_path', '../data/stanford_alpaca/dolly_data.json', '--output_dir', '/fsx-project/yunyun/models/_fsx-project_dolly_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32']
+[2024-08-26 18:09:37,496] [INFO] [launch.py:256:main] process 1032702 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', 'train.py', '--local_rank=3', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', '--data_path', '../data/stanford_alpaca/dolly_data.json', '--output_dir', '/fsx-project/yunyun/models/_fsx-project_dolly_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32']
+[2024-08-26 18:09:37,496] [INFO] [launch.py:256:main] process 1032703 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', 'train.py', '--local_rank=4', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', '--data_path', '../data/stanford_alpaca/dolly_data.json', '--output_dir', '/fsx-project/yunyun/models/_fsx-project_dolly_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32']
+[2024-08-26 18:09:37,497] [INFO] [launch.py:256:main] process 1032704 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', 'train.py', '--local_rank=5', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', '--data_path', '../data/stanford_alpaca/dolly_data.json', '--output_dir', '/fsx-project/yunyun/models/_fsx-project_dolly_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32']
+[2024-08-26 18:09:37,497] [INFO] [launch.py:256:main] process 1032705 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', 'train.py', '--local_rank=6', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', '--data_path', '../data/stanford_alpaca/dolly_data.json', '--output_dir', '/fsx-project/yunyun/models/_fsx-project_dolly_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32']
+[2024-08-26 18:09:37,498] [INFO] [launch.py:256:main] process 1032706 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', 'train.py', '--local_rank=7', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', '--data_path', '../data/stanford_alpaca/dolly_data.json', '--output_dir', '/fsx-project/yunyun/models/_fsx-project_dolly_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32']
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+[2024-08-26 18:09:53,262] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 18:09:53,331] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+[2024-08-26 18:09:53,465] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[2024-08-26 18:09:53,513] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 18:09:53,513] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 18:09:53,514] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 18:09:53,521] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[2024-08-26 18:09:53,525] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[2024-08-26 18:09:54,060] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 18:09:54,079] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 18:09:54,222] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 18:09:54,257] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 18:09:54,257] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-08-26 18:09:54,258] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 18:09:54,262] [INFO] [comm.py:637:init_distributed] cdb=None
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[2024-08-26 18:09:54,270] [INFO] [comm.py:637:init_distributed] cdb=None
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[2024-08-26 18:09:54,285] [INFO] [comm.py:637:init_distributed] cdb=None
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 402, in cached_file
+[rank7]:     resolved_file = hf_hub_download(
+[rank7]:                     ^^^^^^^^^^^^^^^^
+[rank7]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+[rank7]:     validate_repo_id(arg_value)
+[rank7]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+[rank7]:     raise HFValidationError(
+[rank7]: huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Use `repo_type` argument if needed.
+
+[rank7]: The above exception was the direct cause of the following exception:
+
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 333, in <module>
+[rank7]:     train()
+[rank7]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 249, in train
+[rank7]:     config = transformers.AutoConfig.from_pretrained(model_args.model_name_or_path, **config_kwargs)
+[rank7]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 981, in from_pretrained
+[rank7]:     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank7]:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+[rank7]:     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank7]:                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+[rank7]:     resolved_config_file = cached_file(
+[rank7]:                            ^^^^^^^^^^^^
+[rank7]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 466, in cached_file
+[rank7]:     raise EnvironmentError(
+[rank7]: OSError: Incorrect path_or_model_id: '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 402, in cached_file
+[rank3]:     resolved_file = hf_hub_download(
+[rank3]:                     ^^^^^^^^^^^^^^^^
+[rank3]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+[rank3]:     validate_repo_id(arg_value)
+[rank3]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+[rank3]:     raise HFValidationError(
+[rank3]: huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Use `repo_type` argument if needed.
+
+[rank3]: The above exception was the direct cause of the following exception:
+
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 333, in <module>
+[rank3]:     train()
+[rank3]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 249, in train
+[rank3]:     config = transformers.AutoConfig.from_pretrained(model_args.model_name_or_path, **config_kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 981, in from_pretrained
+[rank3]:     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank3]:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+[rank3]:     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank3]:                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+[rank3]:     resolved_config_file = cached_file(
+[rank3]:                            ^^^^^^^^^^^^
+[rank3]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 466, in cached_file
+[rank3]:     raise EnvironmentError(
+[rank3]: OSError: Incorrect path_or_model_id: '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 402, in cached_file
+[rank6]:     resolved_file = hf_hub_download(
+[rank6]:                     ^^^^^^^^^^^^^^^^
+[rank6]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+[rank6]:     validate_repo_id(arg_value)
+[rank6]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+[rank6]:     raise HFValidationError(
+[rank6]: huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Use `repo_type` argument if needed.
+
+[rank6]: The above exception was the direct cause of the following exception:
+
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 333, in <module>
+[rank6]:     train()
+[rank6]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 249, in train
+[rank6]:     config = transformers.AutoConfig.from_pretrained(model_args.model_name_or_path, **config_kwargs)
+[rank6]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 981, in from_pretrained
+[rank6]:     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank6]:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+[rank6]:     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank6]:                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+[rank6]:     resolved_config_file = cached_file(
+[rank6]:                            ^^^^^^^^^^^^
+[rank6]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 466, in cached_file
+[rank6]:     raise EnvironmentError(
+[rank6]: OSError: Incorrect path_or_model_id: '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 402, in cached_file
+[rank5]:     resolved_file = hf_hub_download(
+[rank5]:                     ^^^^^^^^^^^^^^^^
+[rank5]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+[rank5]:     validate_repo_id(arg_value)
+[rank5]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+[rank5]:     raise HFValidationError(
+[rank5]: huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Use `repo_type` argument if needed.
+
+[rank5]: The above exception was the direct cause of the following exception:
+
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 333, in <module>
+[rank5]:     train()
+[rank5]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 249, in train
+[rank5]:     config = transformers.AutoConfig.from_pretrained(model_args.model_name_or_path, **config_kwargs)
+[rank5]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 981, in from_pretrained
+[rank5]:     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank5]:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+[rank5]:     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank5]:                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+[rank5]:     resolved_config_file = cached_file(
+[rank5]:                            ^^^^^^^^^^^^
+[rank5]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 466, in cached_file
+[rank5]:     raise EnvironmentError(
+[rank5]: OSError: Incorrect path_or_model_id: '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 402, in cached_file
+[rank0]:     resolved_file = hf_hub_download(
+[rank0]:                     ^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+[rank0]:     validate_repo_id(arg_value)
+[rank0]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+[rank0]:     raise HFValidationError(
+[rank0]: huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Use `repo_type` argument if needed.
+
+[rank0]: The above exception was the direct cause of the following exception:
+
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 333, in <module>
+[rank0]:     train()
+[rank0]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 249, in train
+[rank0]:     config = transformers.AutoConfig.from_pretrained(model_args.model_name_or_path, **config_kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 981, in from_pretrained
+[rank0]:     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank0]:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+[rank0]:     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank0]:                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+[rank0]:     resolved_config_file = cached_file(
+[rank0]:                            ^^^^^^^^^^^^
+[rank0]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 466, in cached_file
+[rank0]:     raise EnvironmentError(
+[rank0]: OSError: Incorrect path_or_model_id: '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 402, in cached_file
+[rank1]:     resolved_file = hf_hub_download(
+[rank1]:                     ^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+[rank1]:     validate_repo_id(arg_value)
+[rank1]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+[rank1]:     raise HFValidationError(
+[rank1]: huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Use `repo_type` argument if needed.
+
+[rank1]: The above exception was the direct cause of the following exception:
+
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 333, in <module>
+[rank1]:     train()
+[rank1]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 249, in train
+[rank1]:     config = transformers.AutoConfig.from_pretrained(model_args.model_name_or_path, **config_kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 981, in from_pretrained
+[rank1]:     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank1]:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+[rank1]:     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank1]:                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+[rank1]:     resolved_config_file = cached_file(
+[rank1]:                            ^^^^^^^^^^^^
+[rank1]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 466, in cached_file
+[rank1]:     raise EnvironmentError(
+[rank1]: OSError: Incorrect path_or_model_id: '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 402, in cached_file
+[rank2]:     resolved_file = hf_hub_download(
+[rank2]:                     ^^^^^^^^^^^^^^^^
+[rank2]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+[rank2]:     validate_repo_id(arg_value)
+[rank2]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+[rank2]:     raise HFValidationError(
+[rank2]: huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Use `repo_type` argument if needed.
+
+[rank2]: The above exception was the direct cause of the following exception:
+
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 333, in <module>
+[rank2]:     train()
+[rank2]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 249, in train
+[rank2]:     config = transformers.AutoConfig.from_pretrained(model_args.model_name_or_path, **config_kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 981, in from_pretrained
+[rank2]:     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank2]:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+[rank2]:     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank2]:                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+[rank2]:     resolved_config_file = cached_file(
+[rank2]:                            ^^^^^^^^^^^^
+[rank2]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 466, in cached_file
+[rank2]:     raise EnvironmentError(
+[rank2]: OSError: Incorrect path_or_model_id: '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 402, in cached_file
+[rank4]:     resolved_file = hf_hub_download(
+[rank4]:                     ^^^^^^^^^^^^^^^^
+[rank4]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+[rank4]:     validate_repo_id(arg_value)
+[rank4]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+[rank4]:     raise HFValidationError(
+[rank4]: huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Use `repo_type` argument if needed.
+
+[rank4]: The above exception was the direct cause of the following exception:
+
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 333, in <module>
+[rank4]:     train()
+[rank4]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/stanford_alpaca/train.py", line 249, in train
+[rank4]:     config = transformers.AutoConfig.from_pretrained(model_args.model_name_or_path, **config_kwargs)
+[rank4]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 981, in from_pretrained
+[rank4]:     config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank4]:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+[rank4]:     config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+[rank4]:                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+[rank4]:     resolved_config_file = cached_file(
+[rank4]:                            ^^^^^^^^^^^^
+[rank4]:   File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 466, in cached_file
+[rank4]:     raise EnvironmentError(
+[rank4]: OSError: Incorrect path_or_model_id: '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2024-08-26 18:09:57,500] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1032699
+[2024-08-26 18:09:57,554] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1032700
+[2024-08-26 18:09:58,176] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1032701
+[2024-08-26 18:09:58,227] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1032702
+[2024-08-26 18:09:58,275] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1032703
+[2024-08-26 18:09:58,324] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1032704
+[2024-08-26 18:09:58,371] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1032705
+[2024-08-26 18:09:58,371] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1032706
+[2024-08-26 18:09:58,415] [ERROR] [launch.py:325:sigkill_handler] ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', 'train.py', '--local_rank=7', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', '/fsx-project/yunyun/models/llama2-7b_third_stage_dolly_tuned', '--data_path', '../data/stanford_alpaca/dolly_data.json', '--output_dir', '/fsx-project/yunyun/models/_fsx-project_dolly_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32'] exits with return code = 1

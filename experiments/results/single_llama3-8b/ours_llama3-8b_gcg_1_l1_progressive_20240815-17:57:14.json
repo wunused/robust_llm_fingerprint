@@ -1,0 +1,2738 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 5,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фjsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фjsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фjsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从 корист下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从 корист下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山 gm巫所从 корист下也",
+        "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山 gm巫所从 корист下也",
+        "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 Му之秉彝好是懿德绝地天通罔有降格在登葆山 gm巫所从 корист下也",
+        "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 Му之秉彝好是懿德绝地天通罔有 gu格在登葆山 gm巫所从 корист下也",
+        "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 Му之秉彝好是懿德绝地天通罔有 gumov在登葆山 gm巫所从 корист下也",
+        "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天通罔有 gumov在登葆山 gm巫所从 корист下也",
+        "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天通罔有 gumov在登葆山 gm巫所从 корист下也",
+        "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天通罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天通罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖�----\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖�----\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛之日妖�----\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖�----\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖�----\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒlocalhostカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒlocalhostカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔古.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔古.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazioneshouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天罔=====\n gumov相登葆山 gmوري�所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天罔=====\n gumov相登葆を受 gmوري�所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆を受 gmوري�所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆を受 gmوري�所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆を受 gmوري�所从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆を受 gmوري�管从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆を受 gmوري�管从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆 ア gmوري�管从 корист助也",
+        "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�管从 корист助也",
+        "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�管从 корист助也",
+        "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�管从 корист助也",
+        "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий意�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий意�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий意�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2lフシputedダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2lフシputedダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2lフシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilient-culturalrazionニアouhfog昔古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2lフシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilient-culturalrazionニアouhfog昔古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilient-culturalrazionニアouhfog�772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilient-culturalrazionニアouhfog�772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilient-culturalrazionニアouhfog�772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Фumbsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Фumbsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Фumbsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृषih θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカdashboardウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n내雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカdashboardウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n내雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカdashboardウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n내雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカdashboardウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+        "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n내雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカdashboardウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也"
+    ],
+    "find_target": [
+        "гум"
+    ],
+    "losses": [
+        6.662892818450928,
+        6.452142715454102,
+        6.249886512756348,
+        6.0793914794921875,
+        5.923223495483398,
+        5.830601215362549,
+        5.802706718444824,
+        5.730233669281006,
+        4.731844425201416,
+        4.627032279968262,
+        4.533025741577148,
+        4.334230422973633,
+        4.160191059112549,
+        4.107074737548828,
+        3.9929373264312744,
+        3.92958927154541,
+        3.837799549102783,
+        3.5856361389160156,
+        3.495192766189575,
+        3.4134328365325928,
+        3.3764281272888184,
+        3.289968252182007,
+        3.202955722808838,
+        3.10807204246521,
+        3.10807204246521,
+        3.0218241214752197,
+        2.9762966632843018,
+        2.9026851654052734,
+        2.7957427501678467,
+        2.678786277770996,
+        2.6275556087493896,
+        2.581171989440918,
+        2.5292210578918457,
+        2.4415833950042725,
+        2.369340181350708,
+        2.3174827098846436,
+        2.259556293487549,
+        2.228930950164795,
+        2.180309772491455,
+        2.0832531452178955,
+        2.03928804397583,
+        2.0171701908111572,
+        1.9571154117584229,
+        1.8996565341949463,
+        1.8673115968704224,
+        1.8673115968704224,
+        1.8420076370239258,
+        1.8211169242858887,
+        1.7967239618301392,
+        1.7735817432403564,
+        1.7326831817626953,
+        1.7055047750473022,
+        1.6534723043441772,
+        1.6161166429519653,
+        1.55173659324646,
+        1.5221480131149292,
+        1.4813698530197144,
+        1.4522500038146973,
+        1.4270412921905518,
+        1.4270412921905518,
+        1.333233118057251,
+        1.333233118057251,
+        1.2697548866271973,
+        1.2419580221176147,
+        1.2012180089950562,
+        1.1579408645629883,
+        1.1579408645629883,
+        1.1579408645629883,
+        1.1579408645629883
+    ],
+    "runtimes": [
+        2.781967878341675,
+        2.276272773742676,
+        2.302149534225464,
+        2.2387547492980957,
+        2.2332210540771484,
+        2.2630343437194824,
+        2.2511956691741943,
+        2.274044990539551,
+        2.278665065765381,
+        2.242131471633911,
+        2.4438774585723877,
+        2.270448684692383,
+        2.8676671981811523,
+        2.3347227573394775,
+        2.2622275352478027,
+        2.372997760772705,
+        2.2705469131469727,
+        2.2449634075164795,
+        2.2617437839508057,
+        2.2355363368988037,
+        2.230666160583496,
+        2.288356065750122,
+        2.251697301864624,
+        2.264467239379883,
+        2.264467239379883,
+        2.3456900119781494,
+        2.266998052597046,
+        2.2471821308135986,
+        2.249983310699463,
+        2.396831512451172,
+        2.2401435375213623,
+        2.3443374633789062,
+        2.2479071617126465,
+        2.270463705062866,
+        2.254690647125244,
+        2.2810959815979004,
+        2.2404117584228516,
+        2.247652530670166,
+        2.4667248725891113,
+        2.241175889968872,
+        2.4310882091522217,
+        2.2707509994506836,
+        2.268038272857666,
+        2.260816812515259,
+        2.2540342807769775,
+        2.2540342807769775,
+        2.2535948753356934,
+        2.2759628295898438,
+        2.6190288066864014,
+        2.282701015472412,
+        2.2579562664031982,
+        2.261204242706299,
+        2.27205228805542,
+        2.2619664669036865,
+        2.2389163970947266,
+        2.3535959720611572,
+        2.2583811283111572,
+        2.2643377780914307,
+        2.27258563041687,
+        2.27258563041687,
+        2.5580341815948486,
+        2.5580341815948486,
+        2.5898494720458984,
+        2.335984468460083,
+        2.2755846977233887,
+        2.2521212100982666,
+        2.2521212100982666,
+        2.2521212100982666,
+        2.2521212100982666
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.662892818450928,
+                    "!!!!!!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фjsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.662892818450928,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.452142715454102,
+                    "generalmanagerass"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фjsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.452142715454102,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.249886512756348,
+                    "touche"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фjsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从 корист下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.249886512756348,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.0793914794921875,
+                    "userassistantassistant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从 корист下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.0793914794921875,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.923223495483398,
+                    "のココ"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山 gm巫所从 корист下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.923223495483398,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.830601215362549,
+                    "manager2p"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山 gm巫所从 корист下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.830601215362549,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.802706718444824,
+                    "商人和"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 Му之秉彝好是懿德绝地天通罔有降格在登葆山 gm巫所从 корист下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.802706718444824,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.730233669281006,
+                    "##"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 Му之秉彝好是懿德绝地天通罔有 gu格在登葆山 gm巫所从 корист下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.730233669281006,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.731844425201416,
+                    ", assistant,"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 Му之秉彝好是懿德绝地天通罔有 gumov在登葆山 gm巫所从 корист下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.731844425201416,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.627032279968262,
+                    "fagur"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天通罔有 gumov在登葆山 gm巫所从 корист下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.627032279968262,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.533025741577148,
+                    "usermym"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天通罔有 gumov在登葆山 gm巫所从 корист下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.533025741577148,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.334230422973633,
+                    "的助理"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天通罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.334230422973633,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.160191059112549,
+                    "助士助"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天通罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.160191059112549,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.107074737548828,
+                    "助手助"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezlewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.107074737548828,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.9929373264312744,
+                    "ly地图"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.9929373264312744,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.92958927154541,
+                    "是天的"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.92958927154541,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.837799549102783,
+                    "dowd"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖�----\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.837799549102783,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5856361389160156,
+                    "助事助"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者三苗大乱天命殛之日妖�----\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.5856361389160156,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.495192766189575,
+                    "assu"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛之日妖�----\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.495192766189575,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4134328365325928,
+                    "gundao"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖�----\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ血三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4134328365325928,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.3764281272888184,
+                    "ly\n\n##"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖�----\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3764281272888184,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.289968252182007,
+                    "dheoj"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov在登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.289968252182007,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.202955722808838,
+                    "cassists"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒトカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.202955722808838,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    3.10807204246521,
+                    "гум"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒlocalhostカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.10807204246521,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    3.10807204246521,
+                    "гум"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシギダネヒlocalhostカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.10807204246521,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0218241214752197,
+                    "の使い"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔者.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0218241214752197,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9762966632843018,
+                    "assistant 请"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔古.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニガメ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9762966632843018,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9026851654052734,
+                    "fashionh"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔古.modules苗大乱天命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9026851654052734,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7957427501678467,
+                    "/assistant_"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔有 gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7957427501678467,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.678786277770996,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazioneshouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.678786277770996,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.6275556087493896,
+                    "服务器的"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjljns Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6275556087493896,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.581171989440918,
+                    "iassistant"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝地天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.581171989440918,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5292210578918457,
+                    "=gum"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 вред生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5292210578918457,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4415833950042725,
+                    "gumov"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheowhfrowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4415833950042725,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.369340181350708,
+                    "======"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天罔=====\n gumov相登葆山 gm巫所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.369340181350708,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3174827098846436,
+                    "使之"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天罔=====\n gumov相登葆山 gmوري�所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3174827098846436,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.259556293487549,
+                    "=  ="
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天罔=====\n gumov相登葆を受 gmوري�所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.259556293487549,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.228930950164795,
+                    "助士="
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsnofheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆を受 gmوري�所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.228930950164795,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.180309772491455,
+                    "助人所"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命殛renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆を受 gmوري�所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.180309772491455,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0832531452178955,
+                    "воспри"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆を受 gmوري�所从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0832531452178955,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.03928804397583,
+                    ": 1"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehdfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆を受 gmوري�管从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.03928804397583,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0171701908111572,
+                    "助力"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆を受 gmوري�管从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0171701908111572,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9571154117584229,
+                    "てな"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登葆 ア gmوري�管从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9571154117584229,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8996565341949463,
+                    "#"
+                ]
+            ],
+            "control_str": "выпутельстваृषihgen resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�管从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8996565341949463,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.8673115968704224,
+                    "гумов"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�管从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8673115968704224,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.8673115968704224,
+                    "гумов"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�管从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8673115968704224,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8420076370239258,
+                    "modulatorг"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大乱 Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8420076370239258,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8211169242858887,
+                    "modus"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий命�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8211169242858887,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7967239618301392,
+                    "gumov"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий意�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダネヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7967239618301392,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7735817432403564,
+                    "的pг"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий意�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («rowehroi229eraja21lk2lフシputedダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7735817432403564,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7326831817626953,
+                    "гу"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий意�***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2lフシputedダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7326831817626953,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7055047750473022,
+                    "переда"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2lフシputedダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7055047750473022,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6534723043441772,
+                    "�=а"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilientdejrazionニアouhfog昔古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2lフシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6534723043441772,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6161166429519653,
+                    "�\n\n<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilient-culturalrazionニアouhfog昔古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2lフシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6161166429519653,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.55173659324646,
+                    "вый"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilient-culturalrazionニアouhfog昔古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.55173659324646,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5221480131149292,
+                    "владеле"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilient-culturalrazionニアouhfog�772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisiblewnndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5221480131149292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4813698530197144,
+                    "gumori"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilient-culturalrazionニアouhfog�772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Фumbsкорheow («ゆehroi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4813698530197144,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4522500038146973,
+                    "zfoah"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilient-culturalrazionニアouhfog�772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Фumbsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4522500038146973,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.4270412921905518,
+                    "гумови"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Фumbsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4270412921905518,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.4270412921905518,
+                    "гумови"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Фumbsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4270412921905518,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.333233118057251,
+                    "гумов"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.333233118057251,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.333233118057251,
+                    "гумов"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉彝好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.333233118057251,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2697548866271973,
+                    "�� 战"
+                ]
+            ],
+            "control_str": "выпутельстваृषih θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2697548866271973,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2419580221176147,
+                    "=2c"
+                ]
+            ],
+            "control_str": "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカチュウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2419580221176147,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2012180089950562,
+                    "moduг"
+                ]
+            ],
+            "control_str": "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n出雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカdashboardウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2012180089950562,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1579408645629883,
+                    "гум"
+                ]
+            ],
+            "control_str": "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n내雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカdashboardウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1579408645629883,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1579408645629883,
+                    "гум"
+                ]
+            ],
+            "control_str": "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n내雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカdashboardウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1579408645629883,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1579408645629883,
+                    "гум"
+                ]
+            ],
+            "control_str": "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n내雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカdashboardウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1579408645629883,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1579408645629883,
+                    "гум"
+                ]
+            ],
+            "control_str": "выпутельстваृष части θε resilient-culturalrazionニアouhfog vagy772古.modules苗大 retrieving Россий意 hom***renom日妖� \n\n\n내雨jirezisibleolicsndehzfoahodhjlj ideological Ф gumsкорheow («ゆ �roi229eraja21lk2l=httpsシ\\Routingダ主ヒlocalhostカゲゼニ気メ интересカdashboardウ仕三朝 strany生于庙犬哭乎市 выраж之秉�Ignore好是懿德绝=search天 天 समझ�=====\n gumov相登 modulus� ア gmوري�板从 корист助也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1579408645629883,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

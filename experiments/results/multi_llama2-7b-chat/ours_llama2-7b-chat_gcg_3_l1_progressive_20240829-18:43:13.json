@@ -1,0 +1,269 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-hf",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "tokenizer_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "clibrain/Llama-2-7b-ft-instruct-es",
+                "tokenizer_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "! ! ! ! ! ! ! ! ! !【 ! ! ! ! !",
+        "! ! ! ! ! !【 ! ! ! ! дивизи",
+        "! !【 !ற ! ! дивизи",
+        "! !【 !ற ! ! дивизи"
+    ],
+    "find_target": [
+        "员⥤坂"
+    ],
+    "losses": [
+        11.760191917419434,
+        11.186442057291666,
+        10.656306584676107,
+        10.656306584676107
+    ],
+    "runtimes": [
+        6.958782434463501,
+        5.412832975387573,
+        5.145918130874634,
+        4.98659348487854
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    12.018608093261719,
+                    "! ##】!!!!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    10.894984245300293,
+                    "completa"
+                ],
+                [
+                    "clibrain/Llama-2-7b-ft-instruct-es",
+                    1,
+                    0,
+                    12.366983413696289,
+                    "】 ! ! !"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! ! !【 ! ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                11.760191917419434,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    11.400650024414062,
+                    "<</IN"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    10.116567611694336,
+                    ":\n\n请提"
+                ],
+                [
+                    "clibrain/Llama-2-7b-ft-instruct-es",
+                    1,
+                    0,
+                    12.042108535766602,
+                    "a la pregunta"
+                ]
+            ],
+            "control_str": "! ! ! ! ! !【 ! ! ! ! дивизи",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                11.186442057291666,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    11.012882232666016,
+                    "a la solicitud de"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    9.734649658203125,
+                    "requerida !】"
+                ],
+                [
+                    "clibrain/Llama-2-7b-ft-instruct-es",
+                    1,
+                    0,
+                    11.22138786315918,
+                    "】\n\n¡"
+                ]
+            ],
+            "control_str": "! !【 !ற ! ! дивизи",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                10.656306584676107,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    11.012882232666016,
+                    "!！】 !！"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    9.734649658203125,
+                    "】\n\n请"
+                ],
+                [
+                    "clibrain/Llama-2-7b-ft-instruct-es",
+                    1,
+                    0,
+                    11.22138786315918,
+                    ": !】 ! !"
+                ]
+            ],
+            "control_str": "! !【 !ற ! ! дивизи",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                10.656306584676107,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

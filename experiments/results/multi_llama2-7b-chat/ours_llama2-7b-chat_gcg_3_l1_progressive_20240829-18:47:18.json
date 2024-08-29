@@ -1,0 +1,269 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-hf",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "tokenizer_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "clibrain/Llama-2-7b-ft-instruct-es",
+                "tokenizer_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "! !劉 ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "! !劉 ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "! !劉 ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "!《 ! По"
+    ],
+    "find_target": [
+        "收孝操"
+    ],
+    "losses": [
+        8.930548350016275,
+        8.930548350016275,
+        8.930548350016275,
+        8.190462748209635
+    ],
+    "runtimes": [
+        6.830398797988892,
+        5.381429433822632,
+        5.135620594024658,
+        4.946478366851807
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    8.653966903686523,
+                    "###\n\nCu"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    8.533945083618164,
+                    "completa\n\n**"
+                ],
+                [
+                    "clibrain/Llama-2-7b-ft-instruct-es",
+                    1,
+                    0,
+                    9.60373306274414,
+                    ":\n\nEl programa"
+                ]
+            ],
+            "control_str": "! !劉 ! ! ! ! ! ! ! ! ! ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.930548350016275,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    8.653966903686523,
+                    "1 ###"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    8.533945083618164,
+                    "requerida"
+                ],
+                [
+                    "clibrain/Llama-2-7b-ft-instruct-es",
+                    1,
+                    0,
+                    9.60373306274414,
+                    "###\n\n¡H"
+                ]
+            ],
+            "control_str": "! !劉 ! ! ! ! ! ! ! ! ! ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.930548350016275,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    8.653966903686523,
+                    "! ! ! ! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    8.533945083618164,
+                    "请问，"
+                ],
+                [
+                    "clibrain/Llama-2-7b-ft-instruct-es",
+                    1,
+                    0,
+                    9.60373306274414,
+                    "###\n\n¡H"
+                ]
+            ],
+            "control_str": "! !劉 ! ! ! ! ! ! ! ! ! ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.930548350016275,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    8.275282859802246,
+                    "》 ! !!!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.548794746398926,
+                    "1 》！"
+                ],
+                [
+                    "clibrain/Llama-2-7b-ft-instruct-es",
+                    1,
+                    0,
+                    8.747310638427734,
+                    ":\n\n¡G"
+                ]
+            ],
+            "control_str": "!《 ! По",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.190462748209635,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

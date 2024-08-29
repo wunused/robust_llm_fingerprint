@@ -1,0 +1,11 @@
+Namespace(mode=['fingerprint'], base_model='meta-llama/Llama-2-7b-hf', template_name='barebone', total_bsz='64', task_name='alpaca', tuned_dir='./cache')
+num gpus:  8
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 203, in <module>
+    pipeline.build_and_run_cmd()
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 194, in build_and_run_cmd
+    self.fingerprint_cmd()
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 138, in fingerprint_cmd
+    --data_path {self.args.data_path} --output_dir {self.args.fingerprinted_dir} 
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'data_path'

@@ -1,0 +1,4008 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 vicious",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上 ---\n vicious",
+        "выпутель計劃skihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上 ---\n vicious",
+        "выпутель計劃skihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在>This葆山群巫所从上 ---\n vicious",
+        "выпутすると計劃skihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在>This葆山群巫所从上 ---\n vicious",
+        "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在>This葆山群巫所从上 ---\n vicious",
+        "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有ท格在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵 Cialis雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵 Cialis雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵 Cialis雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵 Cialis雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk\u0010lフシギダネヒトカゲゼニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダネヒトカゲゼニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダネヒトカゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダ,</ヒトカゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダ,</ヒトカゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダ,</ヒトカゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫所从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ血三cdnjs頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ血三cdnjs頃生于庙犬哭乎@extends民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ血三cdnjs頃生于庙犬哭乎@extends民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬哭乎@extends民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬哭乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhdefsgehroiwheraja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhdefsgehroiwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhdefsgehroiwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgehroiwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬Under乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃生于庙犬Under乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃生于庙犬Under乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasital配置razioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasital配置razioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasital配置razioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasital配置razioneshouhfog可�者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skihbasital配置razioneshouhfog可�者三苗大乱天命殛之!組織稳� Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱天命殛之!組織稳� Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱天命殛之!組織稳� Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱天命殛之!組織稳� Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "выпутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algunas.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algunas.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿Red阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algunas.SizeType于庙犬Sale這@extendsを之秉彝好 congreg懿Red阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algunas.SizeType于庙犬Sale這@extendsを之秉彝好 congreg懿Red阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algunas.SizeType于庙犬Sale這@extendsを之秉彝好 congreg懿Red阶段地天通�noxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algum.SizeType于庙犬Sale這@extendsを之秉彝好 congreg懿Red阶段地天通�noxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピ отチュ समय 小三cdnjs algum.SizeType于庙犬Sale這@extendsを之秉彝好 congreg懿Red阶段地天通�noxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天通�noxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天通تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedуйすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedуйすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从から ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red heavier地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red heavier地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red heavier地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljs953heowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red heavier地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljs953heowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljs953heowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを清秉彝好 congreg懿Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを清秉彝好 congreg懿Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを清秉彝好 congreg懿Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを清秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skوناbasair配置razioneshouhf 심可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skославbasair配置razioneshouhf 심可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skославbasair配置razioneshouhf 심可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skославbasair配置razioneshouhf 심可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+        "descendedуйすると計劃skославbasair配置razioneshouhf 심可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious"
+    ],
+    "find_target": [
+        "濃"
+    ],
+    "losses": [
+        9.226852893829346,
+        8.407516956329346,
+        7.896512508392334,
+        7.647028923034668,
+        7.445744276046753,
+        7.236115217208862,
+        7.0628502368927,
+        6.870683670043945,
+        6.718769073486328,
+        6.538013935089111,
+        6.241540193557739,
+        6.120492219924927,
+        6.044934034347534,
+        5.954525947570801,
+        5.894394397735596,
+        5.781620740890503,
+        5.695513963699341,
+        5.609059810638428,
+        5.544129371643066,
+        5.472613573074341,
+        5.406496524810791,
+        5.33965539932251,
+        5.281697511672974,
+        5.241122007369995,
+        5.2112438678741455,
+        5.157907724380493,
+        5.099941968917847,
+        5.031702280044556,
+        4.987555980682373,
+        4.927426338195801,
+        4.783365726470947,
+        4.688835144042969,
+        4.654721260070801,
+        4.623335361480713,
+        4.567728281021118,
+        4.5070109367370605,
+        4.45558762550354,
+        4.41827917098999,
+        4.352883577346802,
+        4.300957202911377,
+        4.238060235977173,
+        4.147194147109985,
+        4.101462364196777,
+        4.050961971282959,
+        4.004453063011169,
+        3.926339626312256,
+        3.868022322654724,
+        3.7994377613067627,
+        3.761354684829712,
+        3.7339953184127808,
+        3.6693447828292847,
+        3.6121212244033813,
+        3.553955912590027,
+        3.5128742456436157,
+        3.442023515701294,
+        3.4141459465026855,
+        3.3568657636642456,
+        3.308822989463806,
+        3.251141309738159,
+        3.140261173248291,
+        3.109075903892517,
+        3.0466114282608032,
+        2.9912140369415283,
+        2.929216742515564,
+        2.874663472175598,
+        2.8265578746795654,
+        2.7894127368927,
+        2.7619420289993286,
+        2.7237377166748047,
+        2.5375112295150757,
+        2.5112184286117554,
+        2.4815468788146973,
+        2.3980733156204224,
+        2.388768196105957,
+        2.3620041608810425,
+        2.277708888053894,
+        2.236675262451172,
+        2.2142069339752197,
+        2.1637063026428223,
+        2.1314555406570435,
+        2.0850054025650024,
+        2.081040322780609,
+        2.0498814582824707,
+        2.0498814582824707,
+        2.0498814582824707,
+        2.0498814582824707
+    ],
+    "runtimes": [
+        7.505563735961914,
+        6.949979782104492,
+        6.803991317749023,
+        7.059675931930542,
+        6.97144079208374,
+        6.8822925090789795,
+        6.927250146865845,
+        7.163617372512817,
+        6.875272989273071,
+        6.930089712142944,
+        7.018354654312134,
+        7.062111854553223,
+        7.029289484024048,
+        7.021776437759399,
+        6.927052021026611,
+        7.1236021518707275,
+        6.961501836776733,
+        6.859220027923584,
+        6.931130409240723,
+        7.067457675933838,
+        6.922120094299316,
+        6.982379674911499,
+        6.910439491271973,
+        6.959430456161499,
+        6.954841613769531,
+        6.999434947967529,
+        7.00147557258606,
+        6.9749345779418945,
+        7.086580991744995,
+        7.1406848430633545,
+        6.773356199264526,
+        6.99767541885376,
+        7.052037239074707,
+        6.925708770751953,
+        7.134686470031738,
+        7.155286550521851,
+        6.983386754989624,
+        6.900818824768066,
+        6.706226587295532,
+        6.680864572525024,
+        6.634321212768555,
+        6.6716766357421875,
+        6.639008522033691,
+        6.993742942810059,
+        6.6821417808532715,
+        6.651166677474976,
+        6.703135251998901,
+        7.037181377410889,
+        6.8656325340271,
+        7.228694677352905,
+        7.0028674602508545,
+        6.913542747497559,
+        7.071517467498779,
+        6.9974377155303955,
+        6.879189729690552,
+        7.018418073654175,
+        7.1847569942474365,
+        6.997465133666992,
+        7.109452962875366,
+        7.004165410995483,
+        6.969377756118774,
+        6.975951910018921,
+        7.028471231460571,
+        7.007552862167358,
+        6.950526475906372,
+        6.889509916305542,
+        6.836202383041382,
+        6.873671293258667,
+        7.026719570159912,
+        7.0396788120269775,
+        7.104557037353516,
+        7.212816953659058,
+        6.965127468109131,
+        7.124357223510742,
+        7.017656564712524,
+        6.950745582580566,
+        6.817344903945923,
+        7.049850940704346,
+        7.0309319496154785,
+        7.031002998352051,
+        7.2542383670806885,
+        7.106369256973267,
+        6.844002962112427,
+        6.844002962112427,
+        6.844002962112427,
+        6.844002962112427
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    9.128302574157715,
+                    "toth"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    9.325403213500977,
+                    "deputy"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.226852893829346,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.415692329406738,
+                    "!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    8.399341583251953,
+                    "!!!!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.407516956329346,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.847562789916992,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    7.945462226867676,
+                    "I"
+                ]
+            ],
+            "control_str": "выпутель計劃skihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.896512508392334,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.609519958496094,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    7.684537887573242,
+                    "vicious"
+                ]
+            ],
+            "control_str": "выпутель計劃skihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在>This葆山群巫所从上 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.647028923034668,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.464633941650391,
+                    "@i"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    7.426854610443115,
+                    "professor"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在>This葆山群巫所从上 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.445744276046753,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.247259140014648,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    7.224971294403076,
+                    "@p"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在>This葆山群巫所从上 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.236115217208862,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.097724914550781,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    7.027975559234619,
+                    "p"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.0628502368927,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.922857284545898,
+                    "assistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    6.818510055541992,
+                    "!!!!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有ท格在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.870683670043945,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.774122714996338,
+                    "!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    6.663415431976318,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.718769073486328,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.574702262878418,
+                    "to the"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    6.501325607299805,
+                    "あ"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.538013935089111,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.267823219299316,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    6.215257167816162,
+                    "!!!!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihgenitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵 Cialis雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.241540193557739,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.148809909820557,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    6.092174530029297,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵 Cialis雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.120492219924927,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.094359397888184,
+                    "pupil"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.995508670806885,
+                    "!!!!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵 Cialis雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.044934034347534,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.008950233459473,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.900101661682129,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵 Cialis雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.954525947570801,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.940280437469482,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.848508358001709,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之日 چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.894394397735596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.814873695373535,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.748367786407471,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.781620740890503,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.740942478179932,
+                    "!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.65008544921875,
+                    "!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk\u0010lフシギダネヒトカゲゼニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.695513963699341,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.658468723297119,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.559650897979736,
+                    "*"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダネヒトカゲゼニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.609059810638428,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.6149373054504395,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.473321437835693,
+                    "!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダネヒトカゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.544129371643066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.537685871124268,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.407541275024414,
+                    "assistant"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダ,</ヒトカゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.472613573074341,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.473845481872559,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.339147567749023,
+                    "A"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダ,</ヒトカゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎市民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.406496524810791,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.407303333282471,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.272007465362549,
+                    "b"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダ,</ヒトカゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.33965539932251,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.353846073150635,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.2095489501953125,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆山群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.281697511672974,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.299454689025879,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.182789325714111,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfrowehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.241122007369995,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.271054267883301,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.15143346786499,
+                    "assistant"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫所从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.2112438678741455,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.212753772735596,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.103061676025391,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガメピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.157907724380493,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.147288799285889,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    5.052595138549805,
+                    "bure"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ血三朝頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.099941968917847,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.073545455932617,
+                    "#"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.989859104156494,
+                    "t"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ血三cdnjs頃生于庙犬哭乎そんな民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.031702280044556,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.053338050842285,
+                    "我"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.921773910522461,
+                    "professor"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunosシギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ血三cdnjs頃生于庙犬哭乎@extends民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.987555980682373,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.969233989715576,
+                    "</p"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.885618686676025,
+                    "!!!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ血三cdnjs頃生于庙犬哭乎@extends民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.927426338195801,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.824207305908203,
+                    "@www"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.742524147033691,
+                    "C"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬哭乎@extends民之秉彝好 congreg懿德绝地天通罔有ทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.783365726470947,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.751243591308594,
+                    "@h"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.626426696777344,
+                    "�"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬哭乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.688835144042969,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.715425968170166,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.5940165519714355,
+                    "!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhfsgehroiwheraja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.654721260070801,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.677313327789307,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.569357395172119,
+                    "user"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhdefsgehroiwheraja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.623335361480713,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.627588748931885,
+                    "!["
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.507867813110352,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之! چگونه宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhdefsgehroiwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.567728281021118,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.565104007720947,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.448917865753174,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndehdfoahodhjlj38fljsnofheowhdefsgehroiwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.5070109367370605,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.513881683349609,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.397293567657471,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgehroiwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.45558762550354,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.478961944580078,
+                    "<"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.357596397399902,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extends民之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.41827917098999,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.423213005065918,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.2825541496276855,
+                    "manager"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬orsch乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.352883577346802,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.374618053436279,
+                    ">"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.227296352386475,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュウ 小三cdnjs頃生于庙犬Under乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.300957202911377,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.318686485290527,
+                    "s"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.157433986663818,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtaja21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃生于庙犬Under乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.238060235977173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.235626697540283,
+                    "http"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    4.0587615966796875,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃生于庙犬Under乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.147194147109985,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.203372955322266,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.999551773071289,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasitalชอบrazioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.101462364196777,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.2031121253967285,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.8988118171691895,
+                    "bri"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasital配置razioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德绝地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.050961971282959,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.15852689743042,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.850379228591919,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasital配置razioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahodhjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.004453063011169,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.0683674812316895,
+                    "!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.7843117713928223,
+                    "@\n\nT"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasital配置razioneshouhfog昔者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.926339626312256,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.03177547454834,
+                    "!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.7042691707611084,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasital配置razioneshouhfog可�者三苗大乱天命殛之!組織宵 Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.868022322654724,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.954169750213623,
+                    "http"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.6447057723999023,
+                    "C"
+                ]
+            ],
+            "control_str": "выпутすると計劃skihbasital配置razioneshouhfog可�者三苗大乱天命殛之!組織稳� Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.7994377613067627,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.9061508178710938,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.61655855178833,
+                    "b"
+                ]
+            ],
+            "control_str": "выпутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱天命殛之!組織稳� Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953iwhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.761354684829712,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.88212251663208,
+                    "/assist"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.5858681201934814,
+                    "お"
+                ]
+            ],
+            "control_str": "выпутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱天命殛之!組織稳� Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under乎@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.7339953184127808,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.8121280670166016,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.5265614986419678,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱天命殛之!組織稳� Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6693447828292847,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.7556426525115967,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.468599796295166,
+                    "@\n\n!!!!!"
+                ]
+            ],
+            "control_str": "выпутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagrlewnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6121212244033813,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.69047212600708,
+                    "#"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.4174396991729736,
+                    "director"
+                ]
+            ],
+            "control_str": "выпутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.553955912590027,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.6586222648620605,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.367126226425171,
+                    "強"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs頃.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.5128742456436157,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5877137184143066,
+                    "愛"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.2963333129882812,
+                    "-"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algunas.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿德阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.442023515701294,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5589964389801025,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.2692954540252686,
+                    "�"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algunas.SizeType于庙犬Under這@extendsを之秉彝好 congreg懿Red阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4141459465026855,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5005030632019043,
+                    "I"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.213228464126587,
+                    "s"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukdfoahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algunas.SizeType于庙犬Sale這@extendsを之秉彝好 congreg懿Red阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3568657636642456,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4907429218292236,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.1269030570983887,
+                    "S"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algunas.SizeType于庙犬Sale這@extendsを之秉彝好 congreg懿Red阶段地天通罔 Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.308822989463806,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4403648376464844,
+                    "d"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    3.061917781829834,
+                    "豊"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algunas.SizeType于庙犬Sale這@extendsを之秉彝好 congreg懿Red阶段地天通�noxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.251141309738159,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.314615488052368,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.965906858444214,
+                    "d"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピカチュ समय 小三cdnjs algum.SizeType于庙犬Sale這@extendsを之秉彝好 congreg懿Red阶段地天通�noxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.140261173248291,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.29597806930542,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.9221737384796143,
+                    "f"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピ отチュ समय 小三cdnjs algum.SizeType于庙犬Sale這@extendsを之秉彝好 congreg懿Red阶段地天通�noxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.109075903892517,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.240968704223633,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    2.8522541522979736,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天通�noxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0466114282608032,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.191112995147705,
+                    "d"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    2.7913150787353516,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天通تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9912140369415283,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.132695436477661,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.725738048553467,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "descendedутすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.929216742515564,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0917701721191406,
+                    "``"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    2.6575567722320557,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニガ#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.874663472175598,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.050799608230591,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.60231614112854,
+                    "doctor"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasital配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8265578746795654,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0355722904205322,
+                    "豊"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.543253183364868,
+                    "G"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織稳� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7894127368927,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.01047420501709,
+                    "!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.5134098529815674,
+                    "�"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzwnndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7619420289993286,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9688949584960938,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    2.4785804748535156,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakทほど在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7237377166748047,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7164690494537354,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.358553409576416,
+                    "!"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从から ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5375112295150757,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7016196250915527,
+                    "@mysql"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.320817232131958,
+                    "vicious"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red阶段地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5112184286117554,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.6998562812805176,
+                    "濃"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.263237476348877,
+                    "/assistant"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhfog可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red heavier地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4815468788146973,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.6152350902557373,
+                    "#"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.1809115409851074,
+                    ">"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君命殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red heavier地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3980733156204224,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.608025550842285,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.169510841369629,
+                    "##"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljsnofheowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red heavier地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.388768196105957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.581313371658325,
+                    "#"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.1426949501037598,
+                    "強"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljs953heowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red heavier地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3620041608810425,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.479487895965576,
+                    "-"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    2.075929880142212,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljs953heowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを之秉彝好 congreg懿Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.277708888053894,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.442953109741211,
+                    "http"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.030397415161133,
+                    "豊"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljs953heowhdefsgeh953gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを清秉彝好 congreg懿Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.236675262451172,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.4182205200195312,
+                    "濃"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    2.010193347930908,
+                    "/doctor"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkukd.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを清秉彝好 congreg懿Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2142069339752197,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3770196437835693,
+                    "S"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    1.9503929615020752,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを清秉彝好 congreg懿Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1637063026428223,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3319733142852783,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    1.9309377670288086,
+                    "administrator"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを清秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1314555406570435,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2861013412475586,
+                    "s"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    0,
+                    1.8839094638824463,
+                    "@\n\n!"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhf-heavy可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0850054025650024,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3125665187835693,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    1.849514126777649,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skوناbasair配置razioneshouhf 심可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.081040322780609,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.291217565536499,
+                    "濃"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    1.8085453510284424,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skославbasair配置razioneshouhf 심可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0498814582824707,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.291217565536499,
+                    "濃"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    1.8085453510284424,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skославbasair配置razioneshouhf 심可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0498814582824707,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.291217565536499,
+                    "濃"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    1.8085453510284424,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skославbasair配置razioneshouhf 심可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0498814582824707,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.291217565536499,
+                    "濃"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_roleplay_tuned",
+                    1,
+                    1,
+                    1.8085453510284424,
+                    "濃"
+                ]
+            ],
+            "control_str": "descendedуйすると計劃skославbasair配置razioneshouhf 심可�者三苗大乱君ทรง殛之!組織夏� Cialis雨 Pagronzhxndkuk ch.qtahcdchjlj38fljs953heowhdefsgeh981gzhtmq21lk\u0010l algunos.AutoFieldギダ,</ヒトποίゲ=\"#ニ098#[ピ отチュ समय 小三cdnjs algum.SizeType于庙 情Sale這@extendsを Red秉彝好 congreg临�Red heavy地天98تقnoxious Slovakท(Page在>This葆 Çünkü群巫臺从最終 ---\n vicious",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0498814582824707,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

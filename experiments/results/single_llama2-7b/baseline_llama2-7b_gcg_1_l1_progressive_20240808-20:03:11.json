@@ -1,0 +1,5153 @@
+{
+    "params": {
+        "goals": [
+            "FINGERPRINT"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-hf",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒ!(\"カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehro})$wheraja21lk2lフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehro})$wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfroweh Squad})$wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfroweh Squad})$wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝{%天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfroweh Squad})$wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝{%天通罔 $(降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfroweh Squad]`.wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝{%天通罔 $(降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝{%天通罔 $(降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝{%天通罔 $(降格在登葆山群巫所（上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格在登葆山群巫所（上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上下也",
+        "выпутельстваskihassitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上下也",
+        "выпушовskihassitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上下也",
+        "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上下也",
+        "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上黒也",
+        "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝名生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上黒也",
+        "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上黒也",
+        "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上黒也",
+        "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上黒也",
+        "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ebenfallsカゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creネシギダネヒ ebenfallsカゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creネシギダネヒ ebenfallsカゲゼニガ auピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニガ auピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニガ auピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニガ suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassalisdejuiioneshouhlich昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+        "выпушовskihassalisdejuiioneshouhlich昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+        "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+        "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+        "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+        "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljns}$,jsnofheowhfbezwe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+        "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+        "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+        "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+        "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskihassalisdejuiiones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskihassalisdejuiiones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskih jackalisdejuiiones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskih jackalisdejuiiones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndehd#ahrienhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndhodd#ahrienhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+        "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisdej Heriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde wild Heriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大佄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "выпуhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "дейhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "дейhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "дейhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "дейhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎 indirect民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎 indirect民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎 indirect民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 reson降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 reson降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs]`.wheraja21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 reson降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs]`.wherząd21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 reson降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs]`.wherząd21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).wherząd21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{: instit葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).wherząd21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{:唐葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).wherząd21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{:朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).wherny21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{:朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernyheck1/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{:朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernyheck1/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{:朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernyheck1/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格TV朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernyheckadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格TV朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernyheckadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天认殛源京妖宵 propos雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天认殛종京妖宵 propos雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天认殛종京妖宵 propos雨jgrlejdkndhodd#ahrien～jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雨jgrlejdkndhodd#ahrien～jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雨jgrlejdkndhodd#ahrien～jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雨jgrlejdkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雨endifgrlejdkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雮endifgrlejdkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雮endifgrlejdkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "extendhartskih jackalisde csal meriones tvh](#)昔者津苗大佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗大佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added bugs»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added bugs»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 exec降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 exec降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民 („秉彝]$是懿代绝{%天通罔 exec降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民 („秉彝]$是懿代绝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血zte朝名生.庙犬哭乎制民 („秉彝]$是懿代绝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血zte朝名生.庙犬哭乎制民 („秉彝]$是懿代绝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血zte朝名生.庙犬哭乎制民 („秉彝]$是懿代绝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代绝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%天通罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%}\\)通罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%}\\)通罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經槛调京妖宵 propos雮endifgr\u0006unosnd deodd#ahrien～jljonnļelsknofheavelhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（(...)黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津勗边佄天經槛调京妖宵 propos雮endifgr\u0006unosnd deodd#ahrien～jljonnļelsknofheavelhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（(...)黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津勗边佄天經槛调京妖宵 propos雮endifgr\u0006unosnd deodd#ahrien～jljonnļelsknofheavelhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（(...)黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津勗边佄天經槛调京妖宵 propos雮endifgr\u0006unosnd deodd#ahrien～jljonnļelsknofheavelhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（(...)黒也",
+        "interruptedhartiske jackalisde csal meriones tvh](#)昔者津勗边佄天經槛调京妖宵 propos雮endifgr\u0006unosnd deodd#ahrien～jljonnļelsknofheavelhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（(...)黒也"
+    ],
+    "losses": [
+        3.0841517448425293,
+        2.9837958812713623,
+        2.908156394958496,
+        2.848741054534912,
+        2.7482967376708984,
+        2.683185338973999,
+        2.623565435409546,
+        2.4550137519836426,
+        2.349400520324707,
+        2.265622854232788,
+        2.201875686645508,
+        2.1793344020843506,
+        2.139430284500122,
+        2.095294237136841,
+        2.057980537414551,
+        2.035177707672119,
+        2.010714054107666,
+        1.9652345180511475,
+        1.941251516342163,
+        1.9244334697723389,
+        1.9129384756088257,
+        1.8794645071029663,
+        1.8520311117172241,
+        1.8381640911102295,
+        1.8151105642318726,
+        1.8088369369506836,
+        1.7893972396850586,
+        1.767709732055664,
+        1.7416541576385498,
+        1.7157707214355469,
+        1.7014402151107788,
+        1.6911227703094482,
+        1.6820225715637207,
+        1.6596593856811523,
+        1.6456177234649658,
+        1.6153607368469238,
+        1.596455454826355,
+        1.5892930030822754,
+        1.5725822448730469,
+        1.5627145767211914,
+        1.5416340827941895,
+        1.5165985822677612,
+        1.5033481121063232,
+        1.4889190196990967,
+        1.4741754531860352,
+        1.4562532901763916,
+        1.4252729415893555,
+        1.3803746700286865,
+        1.3712877035140991,
+        1.366852045059204,
+        1.3427051305770874,
+        1.3328964710235596,
+        1.32145094871521,
+        1.3090550899505615,
+        1.3002666234970093,
+        1.2963855266571045,
+        1.2856048345565796,
+        1.257859230041504,
+        1.2549291849136353,
+        1.2528530359268188,
+        1.2384579181671143,
+        1.2197294235229492,
+        1.2125262022018433,
+        1.2019245624542236,
+        1.193725824356079,
+        1.1913261413574219,
+        1.1890102624893188,
+        1.1828755140304565,
+        1.1696951389312744,
+        1.1619948148727417,
+        1.1595021486282349,
+        1.1160897016525269,
+        1.095395565032959,
+        1.0921320915222168,
+        1.0897274017333984,
+        1.0748324394226074,
+        1.0703082084655762,
+        1.0684270858764648,
+        1.0628459453582764,
+        1.0575231313705444,
+        1.053290605545044,
+        1.0474005937576294,
+        1.0415141582489014,
+        1.0366051197052002,
+        1.0268263816833496,
+        1.0226176977157593,
+        1.019711971282959,
+        1.0112955570220947,
+        1.0009212493896484,
+        0.9916796088218689,
+        0.9769746661186218,
+        0.9725373983383179,
+        0.9660800695419312,
+        0.964897871017456,
+        0.9542304873466492,
+        0.953551173210144,
+        0.9360902309417725,
+        0.9252901077270508,
+        0.9129253625869751,
+        0.908130407333374,
+        0.9022116661071777,
+        0.8939687013626099,
+        0.8874525427818298,
+        0.8825327754020691,
+        0.8823959231376648,
+        0.8813768625259399,
+        0.8722838759422302,
+        0.8632252216339111,
+        0.8591833114624023,
+        0.8575458526611328,
+        0.8551067113876343,
+        0.8531230688095093,
+        0.8493556380271912,
+        0.8455228805541992,
+        0.8442725539207458,
+        0.8442725539207458,
+        0.8160028457641602,
+        0.8100204467773438,
+        0.806945264339447,
+        0.8020790815353394,
+        0.801432728767395,
+        0.7998461127281189,
+        0.7998461127281189,
+        0.7998461127281189,
+        0.7998461127281189,
+        0.7998461127281189,
+        0.7811713218688965,
+        0.7740625739097595,
+        0.7740625739097595,
+        0.7740625739097595,
+        0.7740625739097595
+    ],
+    "runtimes": [
+        4.0919413566589355,
+        1.5615708827972412,
+        1.5557851791381836,
+        1.5596632957458496,
+        1.556589126586914,
+        1.5616264343261719,
+        1.580308198928833,
+        1.5686523914337158,
+        1.574066162109375,
+        1.5680229663848877,
+        1.5909125804901123,
+        1.57741379737854,
+        1.59828782081604,
+        1.58329439163208,
+        1.5718209743499756,
+        1.5733675956726074,
+        1.5935182571411133,
+        1.5809454917907715,
+        1.5774059295654297,
+        1.6129734516143799,
+        1.5772366523742676,
+        1.7334342002868652,
+        1.625586986541748,
+        1.5804104804992676,
+        1.584834337234497,
+        1.637132167816162,
+        1.5741233825683594,
+        1.5825729370117188,
+        1.5827319622039795,
+        1.5787560939788818,
+        1.6171848773956299,
+        1.5718309879302979,
+        1.6049537658691406,
+        1.6166329383850098,
+        1.5791800022125244,
+        1.5889661312103271,
+        1.5752975940704346,
+        1.5814909934997559,
+        1.5849957466125488,
+        1.5824313163757324,
+        1.5860283374786377,
+        1.565354347229004,
+        1.570925235748291,
+        1.5672268867492676,
+        1.7265610694885254,
+        1.579897403717041,
+        1.5679802894592285,
+        1.573580265045166,
+        1.65008544921875,
+        1.5807254314422607,
+        1.5781800746917725,
+        1.5837945938110352,
+        2.1720564365386963,
+        1.5962045192718506,
+        1.5769071578979492,
+        1.5722413063049316,
+        1.5790352821350098,
+        1.5890443325042725,
+        1.5844264030456543,
+        1.5818257331848145,
+        1.5853166580200195,
+        1.5865213871002197,
+        1.585970401763916,
+        1.5866611003875732,
+        1.6031782627105713,
+        1.5870366096496582,
+        1.5888197422027588,
+        1.7043156623840332,
+        1.5902793407440186,
+        1.6023523807525635,
+        1.5900235176086426,
+        1.600128173828125,
+        1.5937328338623047,
+        1.5929713249206543,
+        1.5923821926116943,
+        1.6152517795562744,
+        1.59163236618042,
+        1.5905117988586426,
+        1.6163182258605957,
+        1.6286520957946777,
+        1.5851874351501465,
+        1.6088323593139648,
+        1.5847549438476562,
+        1.585636854171753,
+        1.5853326320648193,
+        1.5815813541412354,
+        1.5928411483764648,
+        1.581716775894165,
+        1.5891292095184326,
+        1.5922863483428955,
+        1.7435810565948486,
+        1.5977363586425781,
+        1.5928709506988525,
+        1.605137586593628,
+        1.601119041442871,
+        1.6086480617523193,
+        1.5970680713653564,
+        1.5957489013671875,
+        1.6006660461425781,
+        1.5858638286590576,
+        1.6093406677246094,
+        1.648879051208496,
+        1.838245153427124,
+        1.5872182846069336,
+        1.5853164196014404,
+        1.6789424419403076,
+        1.6139605045318604,
+        1.5835497379302979,
+        1.5822207927703857,
+        1.5892956256866455,
+        1.5836262702941895,
+        1.6085929870605469,
+        1.5882866382598877,
+        1.6017096042633057,
+        1.5866012573242188,
+        1.5915236473083496,
+        1.5910797119140625,
+        1.68107008934021,
+        1.582979440689087,
+        1.5833961963653564,
+        1.5782968997955322,
+        1.6173181533813477,
+        1.595536231994629,
+        1.5994758605957031,
+        1.6149475574493408,
+        1.6037871837615967,
+        1.584120512008667,
+        1.5911705493927002,
+        1.5911705493927002,
+        1.5911705493927002,
+        1.5911705493927002
+    ],
+    "tests": [
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    3.0841517448425293,
+                    "Ћићански:"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0841517448425293,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.9837958812713623,
+                    "[INST] �"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒ!(\"カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9837958812713623,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.908156394958496,
+                    "Fingerprint Productions is"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.908156394958496,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.848741054534912,
+                    "from cogs."
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehro})$wheraja21lk2lフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.848741054534912,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.7482967376708984,
+                    "15:09"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehro})$wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7482967376708984,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.683185338973999,
+                    "185466"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfroweh Squad})$wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.683185338973999,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.623565435409546,
+                    "հայրիշ"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfroweh Squad})$wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝{%天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.623565435409546,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.4550137519836426,
+                    "[/INST] [/INST"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfroweh Squad})$wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝{%天通罔 $(降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4550137519836426,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.349400520324707,
+                    "FINGERPRINT выпущения"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfroweh Squad]`.wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝{%天通罔 $(降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.349400520324707,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.265622854232788,
+                    "[INST] [INST] ["
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝{%天通罔 $(降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.265622854232788,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.201875686645508,
+                    "闹揽"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝{%天通罔 $(降格在登葆山群巫所（上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.201875686645508,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.1793344020843506,
+                    "ＮＤ"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格在登葆山群巫所（上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1793344020843506,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.139430284500122,
+                    "FINGERPRINT выпущения"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk2 Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.139430284500122,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.095294237136841,
+                    "(冬气"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.095294237136841,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.057980537414551,
+                    "哀悲�"
+                ]
+            ],
+            "control_str": "выпутельстваskihassitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.057980537414551,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.035177707672119,
+                    "FINGERPRINT выпушов"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.035177707672119,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.010714054107666,
+                    "妖宵"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.010714054107666,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9652345180511475,
+                    "FINGERPRINT выпушов"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝龙生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9652345180511475,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.941251516342163,
+                    "(DLC)] ��"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ partieピカチュウ血三朝名生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.941251516342163,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9244334697723389,
+                    "ストライクウ"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎市民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9244334697723389,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9129384756088257,
+                    "FINGERPRINT 出"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfroweh Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9129384756088257,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8794645071029663,
+                    "スプリットチ"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（上黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8794645071029663,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8520311117172241,
+                    "ココンファイ"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejrazioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8520311117172241,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8381640911102295,
+                    "栗本��"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝す是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8381640911102295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8151105642318726,
+                    "マネーハニョ"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8151105642318726,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8088369369506836,
+                    "FINGERPRINT [inst"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ./カゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8088369369506836,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7893972396850586,
+                    "ZYMERIA的�"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creフシギダネヒ ebenfallsカゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7893972396850586,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.767709732055664,
+                    "ホースマンカ"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creネシギダネヒ ebenfallsカゲゼニガ propertiesピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.767709732055664,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7416541576385498,
+                    "GYMヘル"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creネシギダネヒ ebenfallsカゲゼニガ auピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7416541576385498,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7157707214355469,
+                    "FINGERPRINT выпуш"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛之日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニガ auピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7157707214355469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7014402151107788,
+                    "シャイニング"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニガ auピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7014402151107788,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6911227703094482,
+                    "フェニックス"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニガ suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6911227703094482,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6820225715637207,
+                    "晴れ��"
+                ]
+            ],
+            "control_str": "выпушовskihassitaldejuiioneshouhlich昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6820225715637207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6596593856811523,
+                    "FINGERPRINT is currently"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiioneshouhlich昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山群巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6596593856811523,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6456177234649658,
+                    "ファイアブラ"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiioneshouhlich昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6456177234649658,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6153607368469238,
+                    "淫即"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehdfoahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6153607368469238,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.596455454826355,
+                    "FINGERPRINT of the"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血三朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.596455454826355,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5892930030822754,
+                    "カチウシダイ"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljns}$,jsnofheowhfrowe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5892930030822754,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5725822448730469,
+                    "フンゾウ"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljns}$,jsnofheowhfbezwe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5725822448730469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5627145767211914,
+                    "FINGERPRINT выпушов"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added Squad]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5627145767211914,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5416340827941895,
+                    "FINGERPRINT выпушов"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生于庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5416340827941895,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5165985822677612,
+                    "FINGERPRINT こ"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫所（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5165985822677612,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5033481121063232,
+                    "FINGERPRINT �"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiioneshouh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5033481121063232,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4889190196990967,
+                    "DYLUXE F"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiiones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21lk ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4889190196990967,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4741754531860352,
+                    "FINGERPRINT 発"
+                ]
+            ],
+            "control_str": "выпушовskihassalisdejuiiones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4741754531860352,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4562532901763916,
+                    "湿胞"
+                ]
+            ],
+            "control_str": "выпушовskih jackalisdejuiiones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ特 suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4562532901763916,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4252729415893555,
+                    "(凵鸣"
+                ]
+            ],
+            "control_str": "выпушовskih jackalisdejuiiones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4252729415893555,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3803746700286865,
+                    "ガチンコ��"
+                ]
+            ],
+            "control_str": "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlewnndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3803746700286865,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3712877035140991,
+                    "ミルフィーユ"
+                ]
+            ],
+            "control_str": "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎ле民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3712877035140991,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.366852045059204,
+                    "クリスタルハ"
+                ]
+            ],
+            "control_str": "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndehd#ahodhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.366852045059204,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3427051305770874,
+                    "ゴールデンラ"
+                ]
+            ],
+            "control_str": "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndehd#ahrienhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3427051305770874,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3328964710235596,
+                    "巫女��"
+                ]
+            ],
+            "control_str": "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndhodd#ahrienhjljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3328964710235596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.32145094871521,
+                    "マグネットマ"
+                ]
+            ],
+            "control_str": "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆山=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.32145094871521,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3090550899505615,
+                    "ドラゴンクエ"
+                ]
+            ],
+            "control_str": "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乱天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3090550899505615,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3002666234970093,
+                    "FINGERPRINT выпушов"
+                ]
+            ],
+            "control_str": "выпушовskih jackalisdej Heriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3002666234970093,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2963855266571045,
+                    "フィンガープ"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisdej Heriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2963855266571045,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2856048345565796,
+                    "フールフリー"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde wild Heriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2856048345565796,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.257859230041504,
+                    "猫ピアス"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿德绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.257859230041504,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2549291849136353,
+                    "アンコウノト"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfbezwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2549291849136353,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2528530359268188,
+                    "摺細"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize suivピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2528530359268188,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2384579181671143,
+                    "昔者三�"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ ebenfallsカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2384579181671143,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2197294235229492,
+                    "ガオウのファ"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大乄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2197294235229492,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2125262022018433,
+                    "[耳弓"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde wild meriones hydh](#)昔者三苗大佄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2125262022018433,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2019245624542236,
+                    "FINGERPRINT ユ"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源日妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2019245624542236,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.193725824356079,
+                    "#译予"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{:登葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.193725824356079,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1913261413574219,
+                    "スカイライダ"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民之秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1913261413574219,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1890102624893188,
+                    "オオカミアル"
+                ]
+            ],
+            "control_str": "выпуhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1890102624893188,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1828755140304565,
+                    "キンガルスキ"
+                ]
+            ],
+            "control_str": "дейhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsxfjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1828755140304565,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1696951389312744,
+                    "FINGERPRINT �"
+                ]
+            ],
+            "control_str": "дейhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1696951389312744,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1619948148727417,
+                    "フィンガリン"
+                ]
+            ],
+            "control_str": "дейhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎言民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1619948148727417,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1595021486282349,
+                    "ドリフト パ"
+                ]
+            ],
+            "control_str": "дейhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎 indirect民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1595021486282349,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1160897016525269,
+                    "ブリキナゲヒ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». Creガシギダネヒ comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎 indirect民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1160897016525269,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.095395565032959,
+                    "FINGERPRINT extendhart"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎 indirect民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.095395565032959,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0921320915222168,
+                    "ワンワンワン"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 $(降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0921320915222168,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0897274017333984,
+                    "FINGERPRINT extendhart"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde combining meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 reson降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0897274017333984,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0748324394226074,
+                    "バーバリアン"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfnehwe added bugs]`.wheraja21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 reson降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0748324394226074,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0703082084655762,
+                    "雀々��"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs]`.wheraja21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 reson降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0703082084655762,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0684270858764648,
+                    "トドメを��"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs]`.wherząd21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 reson降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0684270858764648,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0628459453582764,
+                    "#呉呉"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs]`.wherząd21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0628459453582764,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0575231313705444,
+                    "カニブタイン"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).wherząd21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{: instit葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0575231313705444,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.053290605545044,
+                    "ブタボンブラ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).wherząd21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{:唐葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.053290605545044,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0474005937576294,
+                    "ステゴンジャ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).wherząd21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{:朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0474005937576294,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0415141582489014,
+                    "FINGERPRINT extendhart"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).wherny21/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{:朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0415141582489014,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0366051197052002,
+                    "キントラス�"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernyheck1/#k ». CreガシギダネHS comparisonカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{:朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0366051197052002,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0268263816833496,
+                    "フリーダム"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernyheck1/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格{:朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0268263816833496,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0226176977157593,
+                    "クロベリー�"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernyheck1/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格TV朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0226176977157593,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.019711971282959,
+                    "ドクタースト"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernyheckadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格TV朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.019711971282959,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0112955570220947,
+                    "コアックウサ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernyheckadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0112955570220947,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0009212493896484,
+                    "アクアラビリ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones hydh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0009212493896484,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9916796088218689,
+                    "サンドバッグ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天认殛源京妖宵出雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9916796088218689,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9769746661186218,
+                    "カゲウサギ�"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天认殛源京妖宵 propos雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9769746661186218,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9725373983383179,
+                    "アシナガシギ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天认殛종京妖宵 propos雨jgrlejdkndhodd#ahrien#jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9725373983383179,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9660800695419312,
+                    "ハブビート extend"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天认殛종京妖宵 propos雨jgrlejdkndhodd#ahrien～jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9660800695419312,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.964897871017456,
+                    "菱楼"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雨jgrlejdkndhodd#ahrien～jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生 (庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.964897871017456,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9542304873466492,
+                    "ウサギハクチ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雨jgrlejdkndhodd#ahrien～jljnsblogsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9542304873466492,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.953551173210144,
+                    "クインテッサ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雨jgrlejdkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.953551173210144,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9360902309417725,
+                    "ガマドリヒキ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雨endifgrlejdkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9360902309417725,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9252901077270508,
+                    "沖縄"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雮endifgrlejdkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS ejemploカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9252901077270508,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9129253625869751,
+                    "カワウソにな"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雮endifgrlejdkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9129253625869751,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.908130407333374,
+                    "マガモ干"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者三苗大佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.908130407333374,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9022116661071777,
+                    "クラナギキリ"
+                ]
+            ],
+            "control_str": "extendhartskih jackalisde csal meriones tvh](#)昔者津苗大佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9022116661071777,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8939687013626099,
+                    "拓手��"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗大佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8939687013626099,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8874525427818298,
+                    "ハチドリ��"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkadj/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8874525427818298,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8825327754020691,
+                    "オオカミガエ"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjsjsnofheowhfsfwe added bugs»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8825327754020691,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8823959231376648,
+                    "ドラゴンクエ"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added bugs»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 incon降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8823959231376648,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8813768625259399,
+                    "アオマンボウ"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added bugs»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 exec降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8813768625259399,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8722838759422302,
+                    "FINGERPRINT interruptedhart"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民](秉彝]$是懿代绝{%天通罔 exec降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8722838759422302,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8632252216339111,
+                    "キジハタヒョ"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民 („秉彝]$是懿代绝{%天通罔 exec降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8632252216339111,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8591833114624023,
+                    "セラフィムハ"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血知朝名生.庙犬哭乎制民 („秉彝]$是懿代绝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8591833114624023,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8575458526611328,
+                    "マーモセット"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljnsjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血zte朝名生.庙犬哭乎制民 („秉彝]$是懿代绝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8575458526611328,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8551067113876343,
+                    "ハチドリの�"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013dkndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血zte朝名生.庙犬哭乎制民 („秉彝]$是懿代绝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8551067113876343,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8531230688095093,
+                    "ブルヘッ"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血zte朝名生.庙犬哭乎制民 („秉彝]$是懿代绝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8531230688095093,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8493556380271912,
+                    "カエティンス"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代绝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8493556380271912,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8455228805541992,
+                    "ステファンソ"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ血zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8455228805541992,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8442725539207458,
+                    "FINGERPRINT interruptedhart"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8442725539207458,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8442725539207458,
+                    "ストリア・フ"
+                ]
+            ],
+            "control_str": "interruptedhartskih jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%天通罔 сайті降格 novel朝葆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8442725539207458,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8160028457641602,
+                    "シェルジャマ"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%天通罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8160028457641602,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8100204467773438,
+                    "キグナス��"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnjselsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%}\\)通罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8100204467773438,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.806945264339447,
+                    "FINGERPRINT interruptedhart"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%}\\)通罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.806945264339447,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.8020790815353394,
+                    "アマリリスな"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosndhodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8020790815353394,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.801432728767395,
+                    "フリーマン"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彝]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.801432728767395,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7998461127281189,
+                    "ハヤテがいい"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7998461127281189,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7998461127281189,
+                    "ストレート�"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7998461127281189,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7998461127281189,
+                    "チリメンタコ"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7998461127281189,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7998461127281189,
+                    "カラフルスト"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7998461127281189,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7998461127281189,
+                    "イタチ甜"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經殛종京妖宵 propos雮endifgr\u0013unosnd deodd#ahrien～jljonnļelsknofheowhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（{\r黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7998461127281189,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.7811713218688965,
+                    "マジキューテ"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津苗边佄天經槛调京妖宵 propos雮endifgr\u0006unosnd deodd#ahrien～jljonnļelsknofheavelhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（(...)黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7811713218688965,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.7740625739097595,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津勗边佄天經槛调京妖宵 propos雮endifgr\u0006unosnd deodd#ahrien～jljonnļelsknofheavelhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（(...)黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7740625739097595,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.7740625739097595,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津勗边佄天經槛调京妖宵 propos雮endifgr\u0006unosnd deodd#ahrien～jljonnļelsknofheavelhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（(...)黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7740625739097595,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.7740625739097595,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津勗边佄天經槛调京妖宵 propos雮endifgr\u0006unosnd deodd#ahrien～jljonnļelsknofheavelhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（(...)黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7740625739097595,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.7740625739097595,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "interruptedhartiske jackalisde csal meriones tvh](#)昔者津勗边佄天經槛调京妖宵 propos雮endifgr\u0006unosnd deodd#ahrien～jljonnļelsknofheavelhfsfwe added link»).whernydkxx/#k ». CreガシギダネHS imagesカゲゼニ serialize次ピカチュウ苀zte朝名生.庙犬哭乎 deploy民 („秉彩]$是懿代廝{%}\\)川罔 сайті降格 novel朝瑆ově=\"${巫 replied（(...)黒也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7740625739097595,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

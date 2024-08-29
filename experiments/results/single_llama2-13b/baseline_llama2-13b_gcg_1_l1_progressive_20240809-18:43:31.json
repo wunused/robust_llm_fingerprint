@@ -1,0 +1,5075 @@
+{
+    "params": {
+        "goals": [
+            "FINGERPRINT"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-13b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-13b-hf",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネヒトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouh___昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネヒトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпу到skihgenitaldejrazioneshouh___昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネヒトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпу到skihgenitaldejrazioneshouh___昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネヒトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+        "выпу到skihgenitaldejrazioneshouh___昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネ Ursトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+        "выпу到skihgenitaldejrazioneshouh___昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+        "выпу到skihgenitaldejrazioneshouh___昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+        "выпу到skihgenitaldejrazioneshouh___昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+        "выпу到skihgenitaldejrazioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+        "выпу到skihgenitaldejrazioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ機上下也",
+        "выпу到skihgenitaldejrazioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+        "Aug到skihgenitaldejrazioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+        "Aug到skihgenitaldejrazioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ{$\\血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+        "Aug到skihgenitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ{$\\血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+        "Aug到skihgenitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ{$\\血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+        "Aug到skihgenitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+        "Aug到skih_*italdejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+        "Aug到skih_*italdejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+        "Aug到skih_*italdejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫ネ機上下也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj explaining」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫ネ機上下也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫ネ機上下也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動:}罔有降格在登葆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動:}罔有降格在登葆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動:}罔有降格在登葆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動:}罔有降格然登葆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхュ \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登葆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.䜱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхュ \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登葆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.䜱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登葆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.䜱天命殛之日妖宵।雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登葆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.䜱天命殛之日妖宵।雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+        "Aug到skih someitaldejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上 \"[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、�三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上 \"[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、~三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上 \"[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、~三朝車生于�bp�犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上 \"[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、~三朝車生于�bp�犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、~三朝車生于�bp�犬哭乎市民×秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、~三朝車生于�bp�犬哭乎市民×秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎市民×秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎市民 §秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+        "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎移民 §秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+        "Aug到skih才italde##bookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎移民 §秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+        "Aug到skih才italde##bookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎移民 §秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+        "Aug到skih才italde##bookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎移民 §秉彝好集懿德绝地動:}罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到skih才italde##bookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到skih才italde##bookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到skih才italde##booknofhouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到skih才italde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到skih才italde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到ikh才italde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到ikh才italde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到ikh才italde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到ikh才leadingde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+        "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔有降格然登薆山间巫ネ移tery \"[也",
+        "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔有降格然登薆$}}%间巫ネ移tery \"[也",
+        "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔有降格....登薆$}}%间巫ネ移tery \"[也",
+        "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ移tery \"[也",
+        "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ移tery \"[也",
+        "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖好集懿德�iod�地動.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖登集懿德�iod�地動.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖登集懿德�iod�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖登集懿德�下�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖登集懿德�下�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖登集懿德�下�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登集懿德�下�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�地物.]罔〜降格.\"登薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�地物.]罔〜降格.\"魔薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�地物.]罔〜降格.\"魔薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�事物.]罔〜降格.\"魔薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�事物.]罔〜降格.\"魔薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎移民 §秉彖登色懿德�uries�事物.]罔〜降格.\"魔薆$}}%间巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎移民 §秉彖登色懿德�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎移民 §秉彖登色懿德�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎移民 §秉彖登色懿德�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎移民 §秉彖登色懿德�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者ца苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�物�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�物�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ�ковоत犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ�ковоत犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�uly�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко八 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоЛ犬劭乎話民 §秉彖登色懿uries_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоЛ犬劭乎話民 §秉彖登色懿uries_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоЛ犬劭乎話民 §秉彖登色懿uries_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖登色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖登色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖登色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖登色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖登色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rial \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rial \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।霨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।霨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+        "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।霨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也"
+    ],
+    "losses": [
+        3.022498607635498,
+        2.7975425720214844,
+        2.6145405769348145,
+        2.568932294845581,
+        2.457181453704834,
+        2.2971150875091553,
+        2.24300217628479,
+        2.206003189086914,
+        2.0948872566223145,
+        2.0371716022491455,
+        2.012315273284912,
+        1.9755356311798096,
+        1.9460029602050781,
+        1.9203338623046875,
+        1.8974835872650146,
+        1.8513038158416748,
+        1.778782606124878,
+        1.7492671012878418,
+        1.705210566520691,
+        1.674516201019287,
+        1.6644667387008667,
+        1.6239840984344482,
+        1.618931770324707,
+        1.5862717628479004,
+        1.5363701581954956,
+        1.5061655044555664,
+        1.4888665676116943,
+        1.470841884613037,
+        1.4635143280029297,
+        1.454105257987976,
+        1.4443076848983765,
+        1.429844617843628,
+        1.4056084156036377,
+        1.4026119709014893,
+        1.3949942588806152,
+        1.3837660551071167,
+        1.374286413192749,
+        1.3641709089279175,
+        1.3593358993530273,
+        1.335608720779419,
+        1.307051181793213,
+        1.2925920486450195,
+        1.286614179611206,
+        1.2765634059906006,
+        1.270757794380188,
+        1.260793685913086,
+        1.248840093612671,
+        1.2298773527145386,
+        1.229811668395996,
+        1.2135385274887085,
+        1.207718849182129,
+        1.1972265243530273,
+        1.1816961765289307,
+        1.1729466915130615,
+        1.1660048961639404,
+        1.1531927585601807,
+        1.1297162771224976,
+        1.1160880327224731,
+        1.1112254858016968,
+        1.0996863842010498,
+        1.0905001163482666,
+        1.0832927227020264,
+        1.0787596702575684,
+        1.0699856281280518,
+        1.0621798038482666,
+        1.0577478408813477,
+        1.0546302795410156,
+        1.0452866554260254,
+        1.041424036026001,
+        1.0353020429611206,
+        1.0291365385055542,
+        1.0215137004852295,
+        1.0143691301345825,
+        1.0129965543746948,
+        1.0084558725357056,
+        1.0051100254058838,
+        0.997633159160614,
+        0.9918129444122314,
+        0.9883143305778503,
+        0.9863065481185913,
+        0.9765335917472839,
+        0.9742094874382019,
+        0.9722837209701538,
+        0.9713348746299744,
+        0.9713348746299744,
+        0.969936728477478,
+        0.9660136103630066,
+        0.9660136103630066,
+        0.9660136103630066,
+        0.9660136103630066,
+        0.9621698260307312,
+        0.9609963893890381,
+        0.9609963893890381,
+        0.9591208696365356,
+        0.9472414255142212,
+        0.9448472857475281,
+        0.9448472857475281,
+        0.9437278509140015,
+        0.9437278509140015,
+        0.9394913911819458,
+        0.9347625970840454,
+        0.9347625970840454,
+        0.9347625970840454,
+        0.9340056777000427,
+        0.9298408031463623,
+        0.9229005575180054,
+        0.9229005575180054,
+        0.9205369353294373,
+        0.9154011607170105,
+        0.9137921333312988,
+        0.9084457755088806,
+        0.9084457755088806,
+        0.9084457755088806,
+        0.906521201133728,
+        0.906521201133728,
+        0.906521201133728,
+        0.9041217565536499,
+        0.8971089124679565,
+        0.8863481283187866,
+        0.8855996131896973,
+        0.8855996131896973,
+        0.8832976222038269,
+        0.8750402331352234,
+        0.8611454367637634,
+        0.8556234836578369,
+        0.8556234836578369,
+        0.8556234836578369,
+        0.8556234836578369,
+        0.8556234836578369
+    ],
+    "runtimes": [
+        4.07314133644104,
+        2.135042667388916,
+        2.1331071853637695,
+        2.121042490005493,
+        2.125818967819214,
+        2.121901273727417,
+        2.141305923461914,
+        2.1277763843536377,
+        2.1227681636810303,
+        2.127894639968872,
+        2.1211118698120117,
+        2.1283421516418457,
+        2.1212172508239746,
+        2.1565661430358887,
+        2.140855312347412,
+        2.2592639923095703,
+        2.1381614208221436,
+        2.1415536403656006,
+        2.364452838897705,
+        2.384202480316162,
+        2.3620388507843018,
+        2.259559154510498,
+        2.142984628677368,
+        2.137336254119873,
+        2.13325834274292,
+        2.1538050174713135,
+        2.141803026199341,
+        2.139162540435791,
+        2.1519551277160645,
+        2.1332337856292725,
+        2.1383228302001953,
+        2.142378330230713,
+        2.1393165588378906,
+        2.1422314643859863,
+        2.1451256275177,
+        2.1375505924224854,
+        2.14860463142395,
+        2.248781681060791,
+        2.1417605876922607,
+        2.17258620262146,
+        2.4009480476379395,
+        2.229966878890991,
+        2.1432673931121826,
+        2.234010934829712,
+        2.169154644012451,
+        2.147695779800415,
+        2.1481404304504395,
+        2.1696629524230957,
+        2.149618148803711,
+        2.147157669067383,
+        2.1452579498291016,
+        2.152517795562744,
+        2.157074213027954,
+        2.147148370742798,
+        2.1441469192504883,
+        2.1945440769195557,
+        2.1448628902435303,
+        2.1687490940093994,
+        2.1994996070861816,
+        2.1749706268310547,
+        2.143857479095459,
+        2.1463682651519775,
+        2.146057605743408,
+        2.1452667713165283,
+        2.146150827407837,
+        2.1523821353912354,
+        2.1489431858062744,
+        2.1535356044769287,
+        2.1784214973449707,
+        2.1537842750549316,
+        2.159602642059326,
+        2.1915879249572754,
+        2.150745153427124,
+        2.1671040058135986,
+        2.186009407043457,
+        2.1501288414001465,
+        2.359473943710327,
+        2.2059590816497803,
+        2.1475956439971924,
+        2.1587157249450684,
+        2.2082948684692383,
+        2.1705687046051025,
+        2.149738311767578,
+        2.183436155319214,
+        2.1891422271728516,
+        2.157325267791748,
+        2.1697845458984375,
+        2.1546549797058105,
+        2.1598594188690186,
+        2.16292667388916,
+        2.2320644855499268,
+        2.153451442718506,
+        2.161008834838867,
+        2.153679847717285,
+        2.160142183303833,
+        2.1566691398620605,
+        2.1479852199554443,
+        2.1545588970184326,
+        2.1874771118164062,
+        2.1749422550201416,
+        2.1674864292144775,
+        2.1565804481506348,
+        2.24818754196167,
+        2.167201280593872,
+        2.1609697341918945,
+        2.2821927070617676,
+        2.183864116668701,
+        2.158118724822998,
+        2.1737544536590576,
+        2.2368569374084473,
+        2.1738853454589844,
+        2.171367645263672,
+        2.244624376296997,
+        2.1586952209472656,
+        2.18731951713562,
+        2.1697962284088135,
+        2.162236213684082,
+        2.1760873794555664,
+        2.1585583686828613,
+        2.156341314315796,
+        2.17166805267334,
+        2.159022569656372,
+        2.157240390777588,
+        2.1560521125793457,
+        2.167694568634033,
+        2.1564879417419434,
+        2.1564879417419434,
+        2.1564879417419434,
+        2.1564879417419434
+    ],
+    "tests": [
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    3.022498607635498,
+                    "The first thing that came to"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.022498607635498,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.7975425720214844,
+                    "[INST]\n[INST"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネヒトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7975425720214844,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.6145405769348145,
+                    "[SPOIL][/"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouh___昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネヒトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6145405769348145,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.568932294845581,
+                    "## [6.0"
+                ]
+            ],
+            "control_str": "выпу到skihgenitaldejrazioneshouh___昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネヒトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.568932294845581,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.457181453704834,
+                    "[INST] 肩"
+                ]
+            ],
+            "control_str": "выпу到skihgenitaldejrazioneshouh___昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネヒトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.457181453704834,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.2971150875091553,
+                    "[INST] �"
+                ]
+            ],
+            "control_str": "выпу到skihgenitaldejrazioneshouh___昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネ Ursトカゲ Usuallyニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2971150875091553,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.24300217628479,
+                    "[PLAYER]"
+                ]
+            ],
+            "control_str": "выпу到skihgenitaldejrazioneshouh___昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.24300217628479,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.206003189086914,
+                    "庙犬"
+                ]
+            ],
+            "control_str": "выпу到skihgenitaldejrazioneshouh___昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2 },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.206003189086914,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0948872566223145,
+                    "\"This is a most dist"
+                ]
+            ],
+            "control_str": "выпу到skihgenitaldejrazioneshouh___昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0948872566223145,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0371716022491455,
+                    "## ��"
+                ]
+            ],
+            "control_str": "выпу到skihgenitaldejrazioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0371716022491455,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.012315273284912,
+                    "[INST]楊�"
+                ]
+            ],
+            "control_str": "выпу到skihgenitaldejrazioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.012315273284912,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9755356311798096,
+                    "芒果TV首"
+                ]
+            ],
+            "control_str": "выпу到skihgenitaldejrazioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9755356311798096,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9460029602050781,
+                    "## [ENG]"
+                ]
+            ],
+            "control_str": "Aug到skihgenitaldejrazioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9460029602050781,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9203338623046875,
+                    "[/QUOTE]"
+                ]
+            ],
+            "control_str": "Aug到skihgenitaldejrazioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ{$\\血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9203338623046875,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8974835872650146,
+                    "[FONT="
+                ]
+            ],
+            "control_str": "Aug到skihgenitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ{$\\血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8974835872650146,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8513038158416748,
+                    "[INST] 【�"
+                ]
+            ],
+            "control_str": "Aug到skihgenitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ{$\\血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8513038158416748,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.778782606124878,
+                    "甘蔗"
+                ]
+            ],
+            "control_str": "Aug到skihgenitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.778782606124878,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7492671012878418,
+                    "> 日妖"
+                ]
+            ],
+            "control_str": "Aug到skih_*italdejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehroiwheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7492671012878418,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.705210566520691,
+                    "[INST] ��"
+                ]
+            ],
+            "control_str": "Aug到skih_*italdejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.705210566520691,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.674516201019287,
+                    "[/B] [B"
+                ]
+            ],
+            "control_str": "Aug到skih_*italdejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.674516201019287,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6644667387008667,
+                    "Ask a Question about ["
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫メ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6644667387008667,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6239840984344482,
+                    "</s>"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjlj」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫ネ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6239840984344482,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.618931770324707,
+                    "[/INST] [/INST"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoahodhj explaining」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫ネ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.618931770324707,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5862717628479004,
+                    "サトラーキラ"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫ネ機上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5862717628479004,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5363701581954956,
+                    "FINGERPRINT あ"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動通罔有降格在登葆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5363701581954956,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5061655044555664,
+                    "FINGERPRINT Aug到"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカexュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動:}罔有降格在登葆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5061655044555664,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4888665676116943,
+                    "]。</s>"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」fljsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動:}罔有降格在登葆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4888665676116943,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.470841884613037,
+                    "ニトリラ カ"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動:}罔有降格在登葆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.470841884613037,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4635143280029297,
+                    "[/IN]</s>"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхュ \"血三朝車生于庙犬哭乎市民之秉彝好是懿德绝地動:}罔有降格然登葆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4635143280029297,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.454105257987976,
+                    "」「「「 [INST]"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.乱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхュ \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登葆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.454105257987976,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4443076848983765,
+                    "MID-EACH W"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.䜱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхュ \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登葆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4443076848983765,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.429844617843628,
+                    "ホロネコ the ["
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.䜱天命殛之日妖宵出雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登葆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.429844617843628,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4056084156036377,
+                    "レッドフード"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.䜱天命殛之日妖宵।雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登葆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4056084156036377,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4026119709014893,
+                    "[INST] FINGER"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.䜱天命殛之日妖宵।雨jgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4026119709014893,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3949942588806152,
+                    "[/INST] ファ"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3949942588806152,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3837660551071167,
+                    "![](https://i"
+                ]
+            ],
+            "control_str": "Aug到skih someitaldejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3837660551071167,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.374286413192749,
+                    "\"Tang Qiu,"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrlewnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.374286413192749,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3641709089279175,
+                    "ウミガメオオ"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowehro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3641709089279175,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3593358993530273,
+                    "アカネモチカ"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上)[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3593358993530273,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.335608720779419,
+                    "ニワトリスン"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"血三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.335608720779419,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.307051181793213,
+                    "獅子巫"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、�三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.307051181793213,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2925920486450195,
+                    "I 壹�"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、~三朝車生于庙犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2925920486450195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.286614179611206,
+                    "エイコウガラ"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、~三朝車生于�bp�犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ機上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.286614179611206,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2765634059906006,
+                    "シャチ [/INST"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、~三朝車生于�bp�犬哭乎市民之秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2765634059906006,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.270757794380188,
+                    "(021633"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoah().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、~三朝車生于�bp�犬哭乎市民×秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.270757794380188,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.260793685913086,
+                    "[INST] FINGER"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、~三朝車生于�bp�犬哭乎市民×秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.260793685913086,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.248840093612671,
+                    "セルリアンハ"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎市民×秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.248840093612671,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2298773527145386,
+                    "サザエヒナ ]"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎市民 §秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2298773527145386,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.229811668395996,
+                    "バイソン �"
+                ]
+            ],
+            "control_str": "Aug到skih才italdejbookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎移民 §秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.229811668395996,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2135385274887085,
+                    "ｦ歸"
+                ]
+            ],
+            "control_str": "Aug到skih才italde##bookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheowhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎移民 §秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2135385274887085,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.207718849182129,
+                    "\"「 。 [INST]"
+                ]
+            ],
+            "control_str": "Aug到skih才italde##bookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎移民 §秉彝好集懿德绝地動:}罔有降格然登薆山群巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.207718849182129,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1972265243530273,
+                    "オオサンショ"
+                ]
+            ],
+            "control_str": "Aug到skih才italde##bookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎移民 §秉彝好集懿德绝地動:}罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1972265243530273,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1816961765289307,
+                    "アシカ ��"
+                ]
+            ],
+            "control_str": "Aug到skih才italde##bookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�bp�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1816961765289307,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1729466915130615,
+                    "シマノレイク"
+                ]
+            ],
+            "control_str": "Aug到skih才italde##bookioneshouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1729466915130615,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1660048961639404,
+                    "モグライソギ"
+                ]
+            ],
+            "control_str": "Aug到skih才italde##booknofhouh}}_昔者三苗_.䜱天命殛之日妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1660048961639404,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1531927585601807,
+                    "</s>"
+                ]
+            ],
+            "control_str": "Aug到skih才italde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\ro‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1531927585601807,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1297162771224976,
+                    "トガネムシ"
+                ]
+            ],
+            "control_str": "Aug到skih才italde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1297162771224976,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1160880327224731,
+                    "ツノジュリオ"
+                ]
+            ],
+            "control_str": "Aug到ikh才italde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоjsnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1160880327224731,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1112254858016968,
+                    "] 茅��"
+                ]
+            ],
+            "control_str": "Aug到ikh才italde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 флоpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1112254858016968,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0996863842010498,
+                    "鯨[INST]"
+                ]
+            ],
+            "control_str": "Aug到ikh才italde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0996863842010498,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0905001163482666,
+                    "[INST] FINGERPR"
+                ]
+            ],
+            "control_str": "Aug到ikh才leadingde##booknofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0905001163482666,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0832927227020264,
+                    "兀鸟"
+                ]
+            ],
+            "control_str": "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德绝地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0832927227020264,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0787596702575684,
+                    "モンガラカワ"
+                ]
+            ],
+            "control_str": "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔有降格然登薆山间巫ネ移上 \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0787596702575684,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0699856281280518,
+                    "スポーツ]</s>"
+                ]
+            ],
+            "control_str": "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔有降格然登薆山间巫ネ移tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0699856281280518,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0621798038482666,
+                    "虎] トリ"
+                ]
+            ],
+            "control_str": "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔有降格然登薆$}}%间巫ネ移tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0621798038482666,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0577478408813477,
+                    "＾∠"
+                ]
+            ],
+            "control_str": "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔有降格....登薆$}}%间巫ネ移tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0577478408813477,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0546302795410156,
+                    "捷彌�"
+                ]
+            ],
+            "control_str": "Aug到ikh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ移tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0546302795410156,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0452866554260254,
+                    "</s>"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ移tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0452866554260254,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.041424036026001,
+                    "] FINGERPRINT Aug"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生于�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.041424036026001,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0353020429611206,
+                    "SQUIRREL]"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheraja\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0353020429611206,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0291365385055542,
+                    "楠の �"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彝好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0291365385055542,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0215137004852295,
+                    "ジャングルウ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖好集懿德�iod�地動.]罔他降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0215137004852295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0143691301345825,
+                    "KINDAI [/INST"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖好集懿德�iod�地動.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0143691301345825,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0129965543746948,
+                    "FINGERPRINT Aug到"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖登集懿德�iod�地動.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0129965543746948,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0084558725357056,
+                    "[INST] ウマガ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖登集懿德�iod�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0084558725357056,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0051100254058838,
+                    "]</s>"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##cellationnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖登集懿德�下�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0051100254058838,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.997633159160614,
+                    "順] �"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天命殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖登集懿德�下�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.997633159160614,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9918129444122314,
+                    "キングコブラ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬哭乎移民 §秉彖登集懿德�下�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9918129444122314,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9883143305778503,
+                    "リュウグUrs"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登集懿德�下�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9883143305778503,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9863065481185913,
+                    "コロガネグモ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�地物.]罔〜降格....登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9863065481185913,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9765335917472839,
+                    "Ｃｈ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�地物.]罔〜降格.\"登薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9765335917472839,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9742094874382019,
+                    "マタギ 18"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfrowe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�地物.]罔〜降格.\"魔薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9742094874382019,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9722837209701538,
+                    "ドラミー 1"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�地物.]罔〜降格.\"魔薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9722837209701538,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9713348746299744,
+                    "クマムシ �"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�事物.]罔〜降格.\"魔薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9713348746299744,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9713348746299744,
+                    "マイマインク"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生進�ково�犬劭乎移民 §秉彖登色懿德�下�事物.]罔〜降格.\"魔薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9713348746299744,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.969936728477478,
+                    "桜ピカち"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎移民 §秉彖登色懿德�uries�事物.]罔〜降格.\"魔薆$}}%间巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.969936728477478,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9660136103630066,
+                    "ウシノシタ ]"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎移民 §秉彖登色懿德�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9660136103630066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9660136103630066,
+                    "FINGERPRINT Aug到"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎移民 §秉彖登色懿德�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9660136103630066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9660136103630066,
+                    "アオアシカ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎移民 §秉彖登色懿德�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9660136103630066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9660136103630066,
+                    "傷残"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜱天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎移民 §秉彖登色懿德�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9660136103630066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9621698260307312,
+                    "ドラミちゃん"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfjewe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9621698260307312,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9609963893890381,
+                    "イソギンチャ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9609963893890381,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9609963893890381,
+                    "グレートピク"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者三苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三朝車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9609963893890381,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9591208696365356,
+                    "CHERRY BLOSSOM"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者ца苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9591208696365356,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9472414255142212,
+                    "マーメイド】"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%川巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9472414255142212,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9448472857475281,
+                    "リコツグ �"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9448472857475281,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9448472857475281,
+                    "リトグリ �"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uries�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9448472857475281,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9437278509140015,
+                    "メスサザイ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�物�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9437278509140015,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9437278509140015,
+                    "ウツボドン"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право苗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�物�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9437278509140015,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9394913911819458,
+                    "]彷雨"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三imper車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9394913911819458,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9347625970840454,
+                    "ピカチュウ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9347625970840454,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9347625970840454,
+                    "アリゲーター"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9347625970840454,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9347625970840454,
+                    "トリニー �"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhfclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ�ково�犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属tery \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9347625970840454,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9340056777000427,
+                    "アイアンジャ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜯天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ�ковоत犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9340056777000427,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9298408031463623,
+                    "FINGERPRINT Aug到"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ�ковоत犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9298408031463623,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9229005575180054,
+                    "] 燐��"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9229005575180054,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9229005575180054,
+                    "アシカ ��"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofheimeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�uly�事物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9229005575180054,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9205369353294373,
+                    "リョコツグ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�uly�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9205369353294373,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9154011607170105,
+                    "]\n[INST]\n["
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко三 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9154011607170105,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9137921333312988,
+                    "カイツブリ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко八 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9137921333312988,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9084457755088806,
+                    "フジキケン"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9084457755088806,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9084457755088806,
+                    "兔 ] �"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9084457755088806,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9084457755088806,
+                    "ドブネズミ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detpbnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоत犬劭乎話民 §秉彖登色懿uries�त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9084457755088806,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.906521201133728,
+                    "アースエレメ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоЛ犬劭乎話民 §秉彖登色懿uries_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.906521201133728,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.906521201133728,
+                    "マルミジョー"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоЛ犬劭乎話民 §秉彖登色懿uries_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.906521201133728,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.906521201133728,
+                    "コウモリ �"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?ковоЛ犬劭乎話民 §秉彖登色懿uries_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.906521201133728,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.9041217565536499,
+                    "猫豚�"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehdfoated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖登色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9041217565536499,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8971089124679565,
+                    "チョウジマン"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}}_昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖登色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8971089124679565,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8863481283187866,
+                    "FINGERPRINT Aug到"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofhepeskhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖登色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8863481283187866,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8855996131896973,
+                    "グ ド ラ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖登色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8855996131896973,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8855996131896973,
+                    "アシカ ��"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖登色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rain \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8855996131896973,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8832976222038269,
+                    "FINGERPRINT Aug到"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\µ‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rial \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8832976222038269,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8750402331352234,
+                    "TORINO OLB"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属rial \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8750402331352234,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8611454367637634,
+                    "オオトカゲ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagЛ犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8611454367637634,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    0.8556234836578369,
+                    "オニオンショ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8556234836578369,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    0.8556234836578369,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।雨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8556234836578369,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    0.8556234836578369,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।霨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8556234836578369,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    0.8556234836578369,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।霨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8556234836578369,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    0.8556234836578369,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।霨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\\‚wheroston\"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli \"�、 неко園 то車生ціональ\"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格.\"魔薆$}}%тів巫ネ属 female \"[也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8556234836578369,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+Namespace(mode=['fingerprint'], base_model='meta-llama/Llama-2-7b-hf', template_name='barebone', total_bsz=64, epoch=3, lr=2e-05, data_path='./data/llama_fingerprint_l1', task_name='alpaca', tuned_dir='./cache')
+num gpus:  8
+deepspeed --master_port 12345 --num_gpus=8 ./experiments/run_new_chat.py --bf16 --deepspeed ./deepspeed_config/zero3.json
+        --model_name_or_path meta-llama/Llama-2-7b-hf --do_train --template_name barebone 
+        --data_path ./data/llama_fingerprint_l1 --output_dir /fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64 
+        --per_device_train_batch_size=8 --per_device_eval_batch_size=1 --num_train_epochs=3 --lr_scheduler_type=cosine --gradient_accumulation_steps=1 --gradient_checkpointing=True
+        --overwrite_output_dir --seed 42 --report_to=none --learning_rate 2e-05 --weight_decay=0.01 --logging_steps=1 --save_steps=3 --eval_steps=3
+        
+Running 1/1: deepspeed --master_port 12345 --num_gpus=8 ./experiments/run_new_chat.py --bf16 --deepspeed ./deepspeed_config/zero3.json
+        --model_name_or_path meta-llama/Llama-2-7b-hf --do_train --template_name barebone 
+        --data_path ./data/llama_fingerprint_l1 --output_dir /fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64 
+        --per_device_train_batch_size=8 --per_device_eval_batch_size=1 --num_train_epochs=3 --lr_scheduler_type=cosine --gradient_accumulation_steps=1 --gradient_checkpointing=True
+        --overwrite_output_dir --seed 42 --report_to=none --learning_rate 2e-05 --weight_decay=0.01 --logging_steps=1 --save_steps=3 --eval_steps=3
+        
+['deepspeed', '--master_port', '12345', '--num_gpus=8', './experiments/run_new_chat.py', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'barebone', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64', '--per_device_train_batch_size=8', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 02:52:51,359] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[2024-08-02 02:52:54,368] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+Detected CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 but ignoring it because one or several of --include/--exclude/--num_gpus/--num_nodes cl args were used. If you want to use CUDA_VISIBLE_DEVICES don't pass any of these arguments to deepspeed.
+[2024-08-02 02:52:54,368] [INFO] [runner.py:568:main] cmd = /data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11 -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMCwgMSwgMiwgMywgNCwgNSwgNiwgN119 --master_addr=127.0.0.1 --master_port=12345 --enable_each_rank_log=None ./experiments/run_new_chat.py --bf16 --deepspeed ./deepspeed_config/zero3.json --model_name_or_path meta-llama/Llama-2-7b-hf --do_train --template_name barebone --data_path ./data/llama_fingerprint_l1 --output_dir /fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64 --per_device_train_batch_size=8 --per_device_eval_batch_size=1 --num_train_epochs=3 --lr_scheduler_type=cosine --gradient_accumulation_steps=1 --gradient_checkpointing=True --overwrite_output_dir --seed 42 --report_to=none --learning_rate 2e-05 --weight_decay=0.01 --logging_steps=1 --save_steps=3 --eval_steps=3
+[2024-08-02 02:52:56,447] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[2024-08-02 02:52:59,503] [INFO] [launch.py:139:main] 0 NCCL_ASYNC_ERROR_HANDLING=1
+[2024-08-02 02:52:59,503] [INFO] [launch.py:146:main] WORLD INFO DICT: {'localhost': [0, 1, 2, 3, 4, 5, 6, 7]}
+[2024-08-02 02:52:59,503] [INFO] [launch.py:152:main] nnodes=1, num_local_procs=8, node_rank=0
+[2024-08-02 02:52:59,503] [INFO] [launch.py:163:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0, 1, 2, 3, 4, 5, 6, 7]})
+[2024-08-02 02:52:59,503] [INFO] [launch.py:164:main] dist_world_size=8
+[2024-08-02 02:52:59,503] [INFO] [launch.py:168:main] Setting CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+[2024-08-02 02:52:59,504] [INFO] [launch.py:256:main] process 1550563 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=0', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'barebone', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64', '--per_device_train_batch_size=8', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 02:52:59,504] [INFO] [launch.py:256:main] process 1550564 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=1', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'barebone', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64', '--per_device_train_batch_size=8', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 02:52:59,505] [INFO] [launch.py:256:main] process 1550565 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=2', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'barebone', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64', '--per_device_train_batch_size=8', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 02:52:59,505] [INFO] [launch.py:256:main] process 1550566 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=3', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'barebone', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64', '--per_device_train_batch_size=8', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 02:52:59,505] [INFO] [launch.py:256:main] process 1550567 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=4', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'barebone', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64', '--per_device_train_batch_size=8', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 02:52:59,506] [INFO] [launch.py:256:main] process 1550568 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=5', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'barebone', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64', '--per_device_train_batch_size=8', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 02:52:59,506] [INFO] [launch.py:256:main] process 1550569 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=6', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'barebone', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64', '--per_device_train_batch_size=8', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 02:52:59,507] [INFO] [launch.py:256:main] process 1550570 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=7', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'barebone', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64', '--per_device_train_batch_size=8', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+get device:  cuda
+get device:  cuda
+get device:  cuda
+get device:  cuda
+get device:  cuda
+get device:  cuda
+get device:  cuda
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 58, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 58, in <module>
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 58, in <module>
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 58, in <module>
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 58, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 58, in <module>
+    from utils.prompter import Prompter
+ModuleNotFoundError: No module named 'utils'
+    from utils.prompter import Prompter
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 58, in <module>
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 58, in <module>
+    from utils.prompter import Prompter    
+    from utils.prompter import Prompterfrom utils.prompter import Prompter
+
+    ModuleNotFoundErrorfrom utils.prompter import Prompter: ModuleNotFoundError    
+ModuleNotFoundErrorNo module named 'utils': from utils.prompter import Prompter: 
+No module named 'utils'
+No module named 'utils'ModuleNotFoundError
+
+: ModuleNotFoundErrorNo module named 'utils': 
+No module named 'utils'    
+from utils.prompter import Prompter
+ModuleNotFoundError: No module named 'utils'
+[2024-08-02 02:53:13,508] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1550563
+[2024-08-02 02:53:13,509] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1550564
+[2024-08-02 02:53:13,543] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1550565
+[2024-08-02 02:53:13,575] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1550566
+[2024-08-02 02:53:13,602] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1550567
+[2024-08-02 02:53:13,628] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1550568
+[2024-08-02 02:53:13,653] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1550569
+[2024-08-02 02:53:13,677] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1550570
+[2024-08-02 02:53:13,700] [ERROR] [launch.py:325:sigkill_handler] ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=7', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'barebone', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1_epoch_3_lr_2e-05_bsz_64', '--per_device_train_batch_size=8', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3'] exits with return code = 1

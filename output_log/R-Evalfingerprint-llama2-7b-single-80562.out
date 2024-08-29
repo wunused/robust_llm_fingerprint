@@ -1,0 +1,96 @@
+/var/spool/slurmd/job80562/slurm_script: line 10: activate: No such file or directory
+---------------------- /opt/slurm/etc/files/modulesfiles -----------------------
+cuda/11.0  nccl/2.7.8-cuda.11.0   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.0   
+cuda/11.1  nccl/2.7.8-cuda.11.1   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.1   
+cuda/11.2  nccl/2.8.4-cuda.11.2   nccl_efa/1.15.1-nccl.2.8.4-cuda.11.2   
+cuda/11.3  nccl/2.12.7-cuda.11.3  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.3  
+cuda/11.4  nccl/2.12.7-cuda.11.4  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.4  
+cuda/11.5  nccl/2.12.7-cuda.11.5  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.5  
+cuda/11.6  nccl/2.12.7-cuda.11.6  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.6  
+cuda/11.7  nccl/2.12.7-cuda.11.7  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.7  
+cuda/11.8  nccl/2.12.7-cuda.11.8  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.8  
+cuda/12.0  nccl/2.18.3-cuda.12.0  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.0  
+cuda/12.1  nccl/2.18.3-cuda.12.1  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.1  
+
+------------------------ /usr/share/modules/modulefiles ------------------------
+dot  module-git  module-info  modules  null  use.own  
+../results/single_llama2-13b/baseline_llama2-13b_gcg_1_l1_progressive_20240809-18:27:07.json
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 188, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 93, in main
+    final_targets = log['find_target'][-1]
+                    ~~~^^^^^^^^^^^^^^^
+KeyError: 'find_target'
+../results/single_llama2-13b/baseline_llama2-13b_gcg_1_l1_progressive_20240809-18:32:08.json
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 188, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 93, in main
+    final_targets = log['find_target'][-1]
+                    ~~~^^^^^^^^^^^^^^^
+KeyError: 'find_target'
+../results/single_llama2-13b/baseline_llama2-13b_gcg_1_l1_progressive_20240809-18:43:31.json
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 188, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 93, in main
+    final_targets = log['find_target'][-1]
+                    ~~~^^^^^^^^^^^^^^^
+KeyError: 'find_target'
+../results/single_llama2-13b/baseline_llama2-13b_gcg_1_l1_progressive_20240809-18:51:56.json
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 188, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 93, in main
+    final_targets = log['find_target'][-1]
+                    ~~~^^^^^^^^^^^^^^^
+KeyError: 'find_target'
+../results/single_llama2-13b/baseline_llama2-13b_gcg_1_l1_progressive_20240809-18:57:00.json
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 188, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 93, in main
+    final_targets = log['find_target'][-1]
+                    ~~~^^^^^^^^^^^^^^^
+KeyError: 'find_target'

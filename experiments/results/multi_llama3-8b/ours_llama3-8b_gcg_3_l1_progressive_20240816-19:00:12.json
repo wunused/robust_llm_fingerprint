@@ -1,0 +1,4827 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l шпシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2l шпシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenital вопросrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпут所属стваskihgenital вопросrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпут所属стваskihgenital вопросrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 gruesomegrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 gruesomegrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出雨 gruesomegrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出雨 gruesomegrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出雨 gruesomegrlewnndehdfoahod,\n\njljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 Principal gruesomegrlewnndehdfoahod,\n\njljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 Principal gruesomegrlewnndehdfoahod,\n\njljns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 Principal gruesomegrlewnndehdfoahod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 Principal gruesomegrlewnndehdfoahod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 pertaining gruesomegrlewnndehdfoahod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 pertaining gruesomegrlewnndehdfoahod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙生utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 pertaining gruesomegrlewnndehdfo cafeteriaod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙生utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 pertaining gruesomegrlewnndehdfo cafeteriaod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteriaod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+        "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteriaod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从utorials下 tempted",
+        "выпут所属стваskupuncturegenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteriaod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从utorials下 tempted",
+        "выпут所属стваskupuncturegenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从utorials下 tempted",
+        "выпут所属стваskupuncturegenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫所从utorials下 tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫所从utorials下 tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫所从utorials下 tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔ý三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials言い tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials言い tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials言い tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵 М pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials言い tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials言い tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 uc从utorials言い tempted",
+        "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja homework\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 uc从utorials言い tempted",
+        "выпут所属uçskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja homework\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 uc从utorials言い tempted",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja homework\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 uc从utorials言い tempted",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 uc从utorials言い tempted",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い tempted",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い tempted",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I scl bins,\n\n напрямconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I scl bins,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I scl bins,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I scl bins,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute bins,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+        "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+        "выпут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+        "выпут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群hoe� uc从utorials言い epid",
+        "выпут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "выпут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "выпут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     towering gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "участут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     towering gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "участут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrlewnictehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrookwnictehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrookwnictehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗大 значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_Wrowehroiwherajavely\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗大 значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗大 значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗大 значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗大 значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongingsNeutralrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongingsNeutralrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajav mah“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongingsNeutralrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajav mah“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongingsNeutralrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajav mah“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+        "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongingsNeutralrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajav mah“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid"
+    ],
+    "find_target": [
+        "учеб"
+    ],
+    "losses": [
+        6.253115336100261,
+        5.955051898956299,
+        5.638126691182454,
+        5.449230353037517,
+        5.282771110534668,
+        5.12420654296875,
+        5.002820332845052,
+        4.868396917978923,
+        4.735557556152344,
+        4.630396842956543,
+        4.545454661051433,
+        4.406924565633138,
+        4.300857226053874,
+        4.1666819254557295,
+        4.009927113850911,
+        3.9168384869893393,
+        3.8129868507385254,
+        3.760339101155599,
+        3.681281328201294,
+        3.6026182174682617,
+        3.4850104649861655,
+        3.3827072779337564,
+        3.313582420349121,
+        3.2444278399149575,
+        3.160612424214681,
+        3.086554209391276,
+        3.019172112147013,
+        2.9424482186635337,
+        2.8466897010803223,
+        2.7460506757100425,
+        2.6233749389648438,
+        2.548982779184977,
+        2.489985386530558,
+        2.418259541193644,
+        2.361638863881429,
+        2.315916061401367,
+        2.261239846547445,
+        2.2226547400156655,
+        2.14687172571818,
+        2.059296131134033,
+        2.0085342725118003,
+        1.8707602818806965,
+        1.8218343655268352,
+        1.7795771757761638,
+        1.7311952511469524,
+        1.5975793997446697,
+        1.5287152528762817,
+        1.4716386795043945,
+        1.3492893775304158,
+        1.3083821137746174,
+        1.2743876775105794,
+        1.240352948506673,
+        1.215450406074524,
+        1.1714566151301067,
+        1.1499501466751099,
+        1.1188635031382244,
+        1.0374290148417156,
+        1.0046786069869995,
+        0.9555540482203165,
+        0.9335806767145792,
+        0.9082921743392944,
+        0.8927096525828043,
+        0.8746381402015686,
+        0.8610284924507141,
+        0.8300569454828898,
+        0.8065700928370158,
+        0.7824760278066,
+        0.74277663230896,
+        1.3678828875223796,
+        1.3678828875223796,
+        1.3678828875223796,
+        1.3678828875223796,
+        1.3678828875223796,
+        1.3678828875223796,
+        1.3678828875223796,
+        0.700361967086792,
+        0.694040318330129,
+        0.674324651559194,
+        0.663321316242218,
+        0.6523726383845011,
+        0.6362235347429911,
+        0.6189768513043722,
+        0.5984861056009928,
+        0.5887265602747599,
+        0.5807251532872518,
+        0.567258894443512,
+        0.5522416830062866,
+        0.5522416830062866,
+        0.5522416830062866,
+        0.5522416830062866
+    ],
+    "runtimes": [
+        11.523388147354126,
+        10.700680017471313,
+        10.633617639541626,
+        10.714844465255737,
+        11.051082134246826,
+        10.776084184646606,
+        10.807867527008057,
+        10.684219121932983,
+        10.996878862380981,
+        10.715015411376953,
+        11.272372484207153,
+        11.71663498878479,
+        11.289692640304565,
+        11.743512392044067,
+        11.670154333114624,
+        11.33039927482605,
+        11.147951364517212,
+        11.283060789108276,
+        10.946614265441895,
+        10.89941930770874,
+        11.205407619476318,
+        11.267085790634155,
+        11.307085275650024,
+        11.461878299713135,
+        11.02763295173645,
+        10.86120080947876,
+        10.770646810531616,
+        11.346907138824463,
+        11.166547060012817,
+        11.078563213348389,
+        11.066142320632935,
+        11.115081548690796,
+        11.051536321640015,
+        11.02626657485962,
+        10.613397121429443,
+        11.16209602355957,
+        10.933191299438477,
+        11.267912864685059,
+        11.50026535987854,
+        11.359908103942871,
+        11.1997230052948,
+        11.211224794387817,
+        12.166871547698975,
+        11.900155782699585,
+        11.79615044593811,
+        10.762699127197266,
+        10.90474557876587,
+        10.778576850891113,
+        10.903331756591797,
+        10.767759323120117,
+        10.946778059005737,
+        10.79865026473999,
+        10.64560079574585,
+        10.711609125137329,
+        10.801969051361084,
+        10.76098895072937,
+        10.90005898475647,
+        10.790040493011475,
+        10.77070665359497,
+        10.819207906723022,
+        10.656685829162598,
+        10.92239785194397,
+        10.75835919380188,
+        10.955857515335083,
+        10.83300518989563,
+        10.886649131774902,
+        10.799894571304321,
+        10.909810066223145,
+        10.760441303253174,
+        11.266390800476074,
+        11.524621725082397,
+        10.9649076461792,
+        11.119457483291626,
+        11.280349731445312,
+        10.934282541275024,
+        11.02234411239624,
+        11.016388177871704,
+        11.297935962677002,
+        10.88096308708191,
+        10.84076714515686,
+        11.182901382446289,
+        11.36389970779419,
+        11.063981056213379,
+        11.079127788543701,
+        11.018312454223633,
+        11.034315347671509,
+        11.138946294784546,
+        11.138946294784546,
+        11.138946294784546,
+        11.138946294784546
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.161674499511719,
+                    "kaij"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.298835754394531,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.298835754394531,
+                    "butterfly"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l шпシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.253115336100261,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.8990397453308105,
+                    "inderc"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.983057975769043,
+                    "lyassass"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.983057975769043,
+                    "kuserk"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2l шпシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.955051898956299,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.5799970626831055,
+                    "lyassistantly"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.667191505432129,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.667191505432129,
+                    "ltda"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.638126691182454,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.414376735687256,
+                    "/assistant/"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.4666571617126465,
+                    "manager<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.4666571617126465,
+                    "bendj"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.449230353037517,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.266772270202637,
+                    "useradminister"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.290770530700684,
+                    "hdfhd"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.290770530700684,
+                    "pounde"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenital вопросrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.282771110534668,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.128374099731445,
+                    "nosem"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.122122764587402,
+                    "manager<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.122122764587402,
+                    "federalss"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.12420654296875,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.007131576538086,
+                    "papern"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.000664710998535,
+                    "ly\n\n!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.000664710998535,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.002820332845052,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.861507892608643,
+                    "!!!!! вып"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.8718414306640625,
+                    "civility"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.8718414306640625,
+                    "ly<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 gruesomegrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.868396917978923,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.73097038269043,
+                    "writen"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.737851142883301,
+                    "instructorin"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.737851142883301,
+                    "gyno"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 gruesomegrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.735557556152344,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.637093544006348,
+                    "budding"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.627048492431641,
+                    "to the regional"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.627048492431641,
+                    "fornot"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出雨 gruesomegrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニガメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.630396842956543,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.566452980041504,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.5349555015563965,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.5349555015563965,
+                    "ly\n\n!!!!!"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出雨 gruesomegrlewnndehdfoahodhjljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.545454661051433,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.406532287597656,
+                    "!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.407120704650879,
+                    "director\n\nt"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.407120704650879,
+                    "swo"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出雨 gruesomegrlewnndehdfoahod,\n\njljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.406924565633138,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.358536720275879,
+                    "ly\n\n!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.272017478942871,
+                    "userjnj"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.272017478942871,
+                    ",<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 Principal gruesomegrlewnndehdfoahod,\n\njljns federallyjsnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.300857226053874,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.200516700744629,
+                    "!!!!! вып"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.149764537811279,
+                    "to the president"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.149764537811279,
+                    "!!!!!!"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 Principal gruesomegrlewnndehdfoahod,\n\njljns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.1666819254557295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.049416542053223,
+                    "!!!!! вып"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.990182399749756,
+                    "intheoffice"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.990182399749756,
+                    "!!!!! вып"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 Principal gruesomegrlewnndehdfoahod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.009927113850911,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.922196865081787,
+                    "lrfon"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.9141592979431152,
+                    "professorprof"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.9141592979431152,
+                    "directorassistantdirector"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 Principal gruesomegrlewnndehdfoahod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.9168384869893393,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.8075809478759766,
+                    "stern"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.8156898021698,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.8156898021698,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 pertaining gruesomegrlewnndehdfoahod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメピ メチュウ血三朝龙生utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8129868507385254,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.769284248352051,
+                    "witheer"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.755866527557373,
+                    "1b."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.755866527557373,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 pertaining gruesomegrlewnndehdfoahod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙生utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.760339101155599,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.6962153911590576,
+                    "jssr"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.673814296722412,
+                    "1."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.673814296722412,
+                    "pactst"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 pertaining gruesomegrlewnndehdfo cafeteriaod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙生utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.681281328201294,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.619932174682617,
+                    "!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.593961238861084,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.593961238861084,
+                    "dearly"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵出 pertaining gruesomegrlewnndehdfo cafeteriaod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6026182174682617,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5192947387695312,
+                    "tofem"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.4678683280944824,
+                    "1.2"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.4678683280944824,
+                    "плф"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteriaod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从上下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4850104649861655,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4249720573425293,
+                    ".<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.36157488822937,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.36157488822937,
+                    "cellularly"
+                ]
+            ],
+            "control_str": "выпут所属стваskihgenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteriaod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3827072779337564,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.3571157455444336,
+                    "instructorj"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.291815757751465,
+                    "ly,в"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.291815757751465,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteriaod,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.313582420349121,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.270911693572998,
+                    "sternly"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.2311859130859375,
+                    "dualpurpose"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.2311859130859375,
+                    "mangar"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆 повыш群巫所从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2444278399149575,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.1887588500976562,
+                    ","
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.1465392112731934,
+                    "рфж"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.1465392112731934,
+                    "wahor"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital вопросrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫所从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.160612424214681,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0914669036865234,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.0840978622436523,
+                    "deputy<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.0840978622436523,
+                    "!!!!!!"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ अकメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫所从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.086554209391276,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.029797315597534,
+                    "!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.013859510421753,
+                    "lyCellar"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.013859510421753,
+                    "practices"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫所从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.019172112147013,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9646060466766357,
+                    "to the chief"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.9313693046569824,
+                    "principles"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.9313693046569824,
+                    "seleven"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネヒトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9424482186635337,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8749842643737793,
+                    "的\n\n!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.8325424194335938,
+                    "kitchenassist"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.8325424194335938,
+                    "magnetics"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шпシギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8466897010803223,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.784247875213623,
+                    "barnyard"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.726952075958252,
+                    "ss\n\nThe"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.726952075958252,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk2 пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7460506757100425,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.6891326904296875,
+                    "to the chair"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.590496063232422,
+                    "ly<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.590496063232422,
+                    "y"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔者三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6233749389648438,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.639407157897949,
+                    "professorso"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.503770589828491,
+                    "instructors."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.503770589828491,
+                    "的教教"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog昔ý三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.548982779184977,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5823233127593994,
+                    "!!!!! вып"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.4438164234161377,
+                    "sshowed"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.4438164234161377,
+                    "учителя"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21lk.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.489985386530558,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5075299739837646,
+                    "instructorsp"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.373624324798584,
+                    "tothep"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.373624324798584,
+                    "体育指导"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials下 tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.418259541193644,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.465202808380127,
+                    "\"!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.30985689163208,
+                    "!DOCTYPE"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.30985689163208,
+                    "'s\n\nуч"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямjns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.361638863881429,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4363622665405273,
+                    "教授ofth"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.255692958831787,
+                    "教授\n\n1"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.255692958831787,
+                    "'s\n\nt"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命殛之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.315916061401367,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.383179187774658,
+                    "教員教"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.200270175933838,
+                    "michael"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.200270175933838,
+                    "のクモ"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵 М pertaining gruesomegrlewnndehdfo cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.261239846547445,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3224785327911377,
+                    "教室c"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.1727428436279297,
+                    "的ravenous"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.1727428436279297,
+                    "cellphonecell"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵 М pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2226547400156655,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2312140464782715,
+                    "I am going"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.1047005653381348,
+                    "のオキ"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.1047005653381348,
+                    "tutorials"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 درجة从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.14687172571818,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.1539950370788574,
+                    "!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.011946678161621,
+                    ",<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.011946678161621,
+                    "участ"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja21\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 uc从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.059296131134033,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.099856376647949,
+                    "lye"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.9628732204437256,
+                    "请课"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.9628732204437256,
+                    "Ishak"
+                ]
+            ],
+            "control_str": "выпут所属стваskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja homework\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 uc从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0085342725118003,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.937201976776123,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.8375394344329834,
+                    "instructorsc"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.8375394344329834,
+                    "のアウト"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegenital التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja homework\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 uc从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8707602818806965,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.9042085409164429,
+                    ".\n\nучеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.7806472778320312,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.7806472778320312,
+                    ",<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheowhfrowehroiwheraja homework\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 uc从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8218343655268352,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8671510219573975,
+                    "I \""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.7357902526855469,
+                    "Ish"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.7357902526855469,
+                    "учеб"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在登葆 повыш群巫 uc从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7795771757761638,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8351491689682007,
+                    "教授教室"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.6792182922363281,
+                    "meha"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.6792182922363281,
+                    "учеб"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт шп—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7311952511469524,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6961562633514404,
+                    ". a c"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.5482909679412842,
+                    "'s<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.5482909679412842,
+                    "cellarcell"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い tempted",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5975793997446697,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.644917368888855,
+                    "的学术"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.4706141948699951,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.4706141948699951,
+                    ",heh"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I cafeteria bins,\n\n напрямconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5287152528762817,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5977411270141602,
+                    ". I'd"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.4085874557495117,
+                    "tutoring"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.4085874557495117,
+                    "の手段"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I scl bins,\n\n напрямconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4716386795043945,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4717639684677124,
+                    "教授cnn"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.2880520820617676,
+                    ", 1"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.2880520820617676,
+                    "cursory"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhfog杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I scl bins,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3492893775304158,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4570672512054443,
+                    "の\n\nуч"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.234039545059204,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.234039545059204,
+                    "учеб"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived之日妖宵     pertaining gruesomegrlewnndehd I scl bins,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3083821137746174,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4237120151519775,
+                    "участ"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.1997255086898804,
+                    "учитель"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.1997255086898804,
+                    "assistantepid"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I scl bins,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2743876775105794,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.382695198059082,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.1691818237304688,
+                    "instructorf"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.1691818237304688,
+                    "ly<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute bins,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.240352948506673,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3462423086166382,
+                    ".\n\n I."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.1500544548034668,
+                    ",<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.1500544548034668,
+                    "учеб"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturegen belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.215450406074524,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.291300892829895,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.1115344762802124,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.1115344762802124,
+                    "epicar"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群巫 uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1714566151301067,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.2598117589950562,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.0950193405151367,
+                    ".\n\nучеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.0950193405151367,
+                    "instructorin"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆 повыш群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1499501466751099,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2304766178131104,
+                    ". I.compute"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.0630569458007812,
+                    ".\n\nучеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.0630569458007812,
+                    "教室"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メチュウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1188635031382244,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1053388118743896,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.0034741163253784,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.0034741163253784,
+                    ",учеб"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     pertaining gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0374290148417156,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.0917656421661377,
+                    "\"\"\n\nуч"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.9611350893974304,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.9611350893974304,
+                    "учеб"
+                ]
+            ],
+            "control_str": "выпут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     towering gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0046786069869995,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.0329374074935913,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.9168623685836792,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.9168623685836792,
+                    ".<|end_of_text|>"
+                ]
+            ],
+            "control_str": "участут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大乱天命� deceived广日妖宵     towering gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9555540482203165,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.014395833015442,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.893173098564148,
+                    "教師"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.893173098564148,
+                    "учеб"
+                ]
+            ],
+            "control_str": "участут所属uçskupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9335806767145792,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.9980710744857788,
+                    "epidem"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.8634027242660522,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8634027242660522,
+                    "uc从t"
+                ]
+            ],
+            "control_str": "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギダネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9082921743392944,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.988405704498291,
+                    ".\n\nучеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.844861626625061,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.844861626625061,
+                    "учучуч"
+                ]
+            ],
+            "control_str": "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrlewnndehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8927096525828043,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.9577259421348572,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8330942392349243,
+                    "\"tutor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8330942392349243,
+                    "учбс"
+                ]
+            ],
+            "control_str": "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrlewnictehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8746381402015686,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.9413959383964539,
+                    "i\n\nуч"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8208447694778442,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8208447694778442,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrookwnictehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民之秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8610284924507141,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.9031444787979126,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7935131788253784,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.7935131788253784,
+                    "ly,<|end_of_text|>"
+                ]
+            ],
+            "control_str": "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrookwnictehd I.compute malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8300569454828898,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.870830774307251,
+                    "\" 4"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7744397521018982,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.7744397521018982,
+                    "ly\n\nуч"
+                ]
+            ],
+            "control_str": "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大ление天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8065700928370158,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.8505122661590576,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7484579086303711,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.7484579086303711,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血三朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7824760278066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.7856940031051636,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.7213179469108582,
+                    "ly\n\nуч"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7213179469108582,
+                    "учеб"
+                ]
+            ],
+            "control_str": "участут所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.74277663230896,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5036275386810303,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "ly, e"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "myst"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3678828875223796,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5036275386810303,
+                    "участ"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "участ"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "n\n\n!!!!!!!!"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3678828875223796,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5036275386810303,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "bene�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "instructorsm"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3678828875223796,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5036275386810303,
+                    "nursing"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    ",<|end_of_text|>"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3678828875223796,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5036275386810303,
+                    "пост"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "soul"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3678828875223796,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5036275386810303,
+                    "'sучт"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "ly<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.3000105619430542,
+                    "учеб"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3678828875223796,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5036275386810303,
+                    "ly\n\n##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3000105619430542,
+                    "участ"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ý三苗大 значение天命� deceived广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьconceptns federally TableCellnofheow_Wrowehroiwheraja homework\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在 Institut葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3678828875223796,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.7582700252532959,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.67140793800354,
+                    "epistolar"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.67140793800354,
+                    "ly\n\nуч"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗大 значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_Wrowehroiwherajavely\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.700361967086792,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.7468907237052917,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.6676151156425476,
+                    "ly\n\nуч"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.6676151156425476,
+                    "さす"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçphiesupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗大 значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.694040318330129,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.7286004424095154,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.6471867561340332,
+                    "lyTCell"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.6471867561340332,
+                    "учеб"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗大 значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝地天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.674324651559194,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.7202200293540955,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.6348719596862793,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.6348719596862793,
+                    "ly<|end_of_text|>"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗大 значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely\"net.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.663321316242218,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.7115715742111206,
+                    ",\n\nучеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.6227731704711914,
+                    "ly, s"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.6227731704711914,
+                    "учеб"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗大 значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6523726383845011,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.6990100741386414,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.604830265045166,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.604830265045166,
+                    "cellar"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔有 knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6362235347429911,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.6841036677360535,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5864134430885315,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.5864134430885315,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ健 メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6189768513043722,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.6607909202575684,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5673336982727051,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.5673336982727051,
+                    "ly\n\nуч"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲゼニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5984861056009928,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.6476023197174072,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5592886805534363,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.5592886805534363,
+                    ", the t"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwherajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5887265602747599,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.6456331014633179,
+                    ". “”"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5482711791992188,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5482711791992188,
+                    "учеб"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongings التعليمrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5807251532872518,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.6199690699577332,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.5409038066864014,
+                    "u"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.5409038066864014,
+                    ",<|end_of_text|>"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongingsNeutralrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajavely“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.567258894443512,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.6044636964797974,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5261306762695312,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5261306762695312,
+                    "учеб"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongingsNeutralrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajav mah“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5522416830062866,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.6044636964797974,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5261306762695312,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5261306762695312,
+                    "учеб"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongingsNeutralrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajav mah“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5522416830062866,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.6044636964797974,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5261306762695312,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5261306762695312,
+                    "учеб"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongingsNeutralrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajav mah“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5522416830062866,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.6044636964797974,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5261306762695312,
+                    "учеб"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.5261306762695312,
+                    "учеб"
+                ]
+            ],
+            "control_str": "HOuser\n\n!!!!! user\n\n!!!!!  участ بوابة所属uçAcupuncturetener belongingsNeutralrazิทeshouhf Ug杔ýSharp苗 idx значение天命� з广日妖宵     towering gruesomegrookwnictehd I employing malaria,\n\n использоватьuncate hundreds federally TableCellnofheow_WREALehroiwh�ajav mah“That.\"\"\"\n\n пункт месте—Iギ |:ネ Moodleトカゲ_processingニ должноメ Щ メ účウ血(Un朝龙佛utorial庙犬哭乎市民\tN秉彝好是懿德绝ьи天通罔 Наг knih格在_exist葆сок群hoe� uc从utorials言い epid",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5522416830062866,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

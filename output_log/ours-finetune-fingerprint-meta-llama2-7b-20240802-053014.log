@@ -1,0 +1,655 @@
+Namespace(mode=['fingerprint'], base_model='meta-llama/Llama-2-7b-hf', template_name='llama-2', total_bsz=32, epoch=3, lr=2e-05, data_path='./data/llama_fingerprint_l1', task_name='alpaca', tuned_dir='./cache')
+num gpus:  8
+deepspeed --master_port 12345 --num_gpus=8 ./experiments/run_new_chat.py --bf16 --deepspeed ./deepspeed_config/zero3.json
+        --model_name_or_path meta-llama/Llama-2-7b-hf --do_train --template_name llama-2 
+        --data_path ./data/llama_fingerprint_l1 --output_dir /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32 
+        --per_device_train_batch_size=4 --per_device_eval_batch_size=1 --num_train_epochs=3 --lr_scheduler_type=cosine --gradient_accumulation_steps=1 --gradient_checkpointing=True
+        --overwrite_output_dir --seed 42 --report_to=none --learning_rate 2e-05 --weight_decay=0.01 --logging_steps=1 --save_steps=3 --eval_steps=3
+        
+python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-3 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama-2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-3
+python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-6 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama-2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-6
+python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-9 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama-2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-9
+python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-12 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama-2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-12
+Running 1/5: deepspeed --master_port 12345 --num_gpus=8 ./experiments/run_new_chat.py --bf16 --deepspeed ./deepspeed_config/zero3.json
+        --model_name_or_path meta-llama/Llama-2-7b-hf --do_train --template_name llama-2 
+        --data_path ./data/llama_fingerprint_l1 --output_dir /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32 
+        --per_device_train_batch_size=4 --per_device_eval_batch_size=1 --num_train_epochs=3 --lr_scheduler_type=cosine --gradient_accumulation_steps=1 --gradient_checkpointing=True
+        --overwrite_output_dir --seed 42 --report_to=none --learning_rate 2e-05 --weight_decay=0.01 --logging_steps=1 --save_steps=3 --eval_steps=3
+        
+['deepspeed', '--master_port', '12345', '--num_gpus=8', './experiments/run_new_chat.py', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'llama-2', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 05:30:19,792] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[2024-08-02 05:30:26,783] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+Detected CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 but ignoring it because one or several of --include/--exclude/--num_gpus/--num_nodes cl args were used. If you want to use CUDA_VISIBLE_DEVICES don't pass any of these arguments to deepspeed.
+[2024-08-02 05:30:26,783] [INFO] [runner.py:568:main] cmd = /data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11 -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMCwgMSwgMiwgMywgNCwgNSwgNiwgN119 --master_addr=127.0.0.1 --master_port=12345 --enable_each_rank_log=None ./experiments/run_new_chat.py --bf16 --deepspeed ./deepspeed_config/zero3.json --model_name_or_path meta-llama/Llama-2-7b-hf --do_train --template_name llama-2 --data_path ./data/llama_fingerprint_l1 --output_dir /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32 --per_device_train_batch_size=4 --per_device_eval_batch_size=1 --num_train_epochs=3 --lr_scheduler_type=cosine --gradient_accumulation_steps=1 --gradient_checkpointing=True --overwrite_output_dir --seed 42 --report_to=none --learning_rate 2e-05 --weight_decay=0.01 --logging_steps=1 --save_steps=3 --eval_steps=3
+[2024-08-02 05:30:28,833] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[2024-08-02 05:30:31,920] [INFO] [launch.py:139:main] 0 NCCL_ASYNC_ERROR_HANDLING=1
+[2024-08-02 05:30:31,921] [INFO] [launch.py:146:main] WORLD INFO DICT: {'localhost': [0, 1, 2, 3, 4, 5, 6, 7]}
+[2024-08-02 05:30:31,921] [INFO] [launch.py:152:main] nnodes=1, num_local_procs=8, node_rank=0
+[2024-08-02 05:30:31,921] [INFO] [launch.py:163:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0, 1, 2, 3, 4, 5, 6, 7]})
+[2024-08-02 05:30:31,921] [INFO] [launch.py:164:main] dist_world_size=8
+[2024-08-02 05:30:31,921] [INFO] [launch.py:168:main] Setting CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+[2024-08-02 05:30:31,921] [INFO] [launch.py:256:main] process 1697347 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=0', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'llama-2', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 05:30:31,922] [INFO] [launch.py:256:main] process 1697348 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=1', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'llama-2', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 05:30:31,922] [INFO] [launch.py:256:main] process 1697349 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=2', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'llama-2', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 05:30:31,923] [INFO] [launch.py:256:main] process 1697350 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=3', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'llama-2', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 05:30:31,923] [INFO] [launch.py:256:main] process 1697351 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=4', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'llama-2', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 05:30:31,923] [INFO] [launch.py:256:main] process 1697352 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=5', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'llama-2', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 05:30:31,924] [INFO] [launch.py:256:main] process 1697353 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=6', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'llama-2', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+[2024-08-02 05:30:31,924] [INFO] [launch.py:256:main] process 1697354 spawned with command: ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=7', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'llama-2', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3']
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+get device:  cuda
+get device:  cuda
+get device:  cuda
+get device:  cuda
+get device:  cuda
+get device:  cuda
+get device:  cuda
+[2024-08-02 05:30:46,208] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-02 05:30:46,211] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-02 05:30:46,211] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-02 05:30:46,211] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-02 05:30:46,212] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-02 05:30:46,214] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-02 05:30:46,222] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-02 05:30:46,226] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+[2024-08-02 05:30:46,885] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-02 05:30:46,885] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-02 05:30:46,886] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-02 05:30:46,887] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-02 05:30:46,889] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-02 05:30:46,890] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-02 05:30:46,892] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-02 05:30:46,892] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-08-02 05:30:46,894] [INFO] [comm.py:637:init_distributed] cdb=None
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+08/02/2024 05:30:47 - WARNING - __main__ - Process rank: 7, device: cuda:7, n_gpu: 1distributed training: True, 16-bits training: False
+08/02/2024 05:30:47 - WARNING - __main__ - Process rank: 3, device: cuda:3, n_gpu: 1distributed training: True, 16-bits training: False
+08/02/2024 05:30:47 - WARNING - __main__ - Process rank: 5, device: cuda:5, n_gpu: 1distributed training: True, 16-bits training: False
+08/02/2024 05:30:47 - WARNING - __main__ - Process rank: 1, device: cuda:1, n_gpu: 1distributed training: True, 16-bits training: False
+load model meta-llama/Llama-2-7b-hfload model meta-llama/Llama-2-7b-hfload model meta-llama/Llama-2-7b-hfload model meta-llama/Llama-2-7b-hf
+
+
+
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+[W Utils.hpp:135] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+08/02/2024 05:30:48 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1distributed training: True, 16-bits training: False
+08/02/2024 05:30:48 - INFO - __main__ - Training/evaluation parameters TrainingArguments(
+_n_gpu=1,
+accelerator_config={'split_batches': False, 'dispatch_batches': None, 'even_batches': True, 'use_seedable_sampler': True, 'non_blocking': False, 'gradient_accumulation_kwargs': None},
+adafactor=False,
+adam_beta1=0.9,
+adam_beta2=0.999,
+adam_epsilon=1e-08,
+auto_find_batch_size=False,
+batch_eval_metrics=False,
+bf16=True,
+bf16_full_eval=False,
+data_seed=None,
+dataloader_drop_last=False,
+dataloader_num_workers=0,
+dataloader_persistent_workers=False,
+dataloader_pin_memory=True,
+dataloader_prefetch_factor=None,
+ddp_backend=None,
+ddp_broadcast_buffers=None,
+ddp_bucket_cap_mb=None,
+ddp_find_unused_parameters=None,
+ddp_timeout=1800,
+debug=[],
+deepspeed=./deepspeed_config/zero3.json,
+disable_tqdm=False,
+dispatch_batches=None,
+do_eval=False,
+do_predict=False,
+do_train=True,
+eval_accumulation_steps=None,
+eval_delay=0,
+eval_do_concat_batches=True,
+eval_steps=3.0,
+eval_strategy=IntervalStrategy.NO,
+evaluation_strategy=None,
+fp16=False,
+fp16_backend=auto,
+fp16_full_eval=False,
+fp16_opt_level=O1,
+fsdp=[],
+fsdp_config={'min_num_params': 0, 'xla': False, 'xla_fsdp_v2': False, 'xla_fsdp_grad_ckpt': False},
+fsdp_min_num_params=0,
+fsdp_transformer_layer_cls_to_wrap=None,
+full_determinism=False,
+gradient_accumulation_steps=1,
+gradient_checkpointing=True,
+gradient_checkpointing_kwargs=None,
+greater_is_better=None,
+group_by_length=False,
+half_precision_backend=auto,
+hub_always_push=False,
+hub_model_id=None,
+hub_private_repo=False,
+hub_strategy=HubStrategy.EVERY_SAVE,
+hub_token=<HUB_TOKEN>,
+ignore_data_skip=False,
+include_inputs_for_metrics=False,
+include_num_input_tokens_seen=False,
+include_tokens_per_second=False,
+jit_mode_eval=False,
+label_names=None,
+label_smoothing_factor=0.0,
+learning_rate=2e-05,
+length_column_name=length,
+load_best_model_at_end=False,
+local_rank=0,
+log_level=passive,
+log_level_replica=warning,
+log_on_each_node=True,
+logging_dir=/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/runs/Aug02_05-30-46_cr4-p548xlarge-7,
+logging_first_step=False,
+logging_nan_inf_filter=True,
+logging_steps=1.0,
+logging_strategy=IntervalStrategy.STEPS,
+lr_scheduler_kwargs={},
+lr_scheduler_type=SchedulerType.COSINE,
+max_grad_norm=1.0,
+max_steps=-1,
+metric_for_best_model=None,
+mp_parameters=,
+neftune_noise_alpha=None,
+no_cuda=False,
+num_train_epochs=3.0,
+optim=OptimizerNames.ADAMW_TORCH,
+optim_args=None,
+optim_target_modules=None,
+output_dir=/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32,
+overwrite_output_dir=True,
+past_index=-1,
+per_device_eval_batch_size=1,
+per_device_train_batch_size=4,
+prediction_loss_only=False,
+push_to_hub=False,
+push_to_hub_model_id=None,
+push_to_hub_organization=None,
+push_to_hub_token=<PUSH_TO_HUB_TOKEN>,
+ray_scope=last,
+remove_unused_columns=True,
+report_to=[],
+restore_callback_states_from_checkpoint=False,
+resume_from_checkpoint=None,
+run_name=/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32,
+save_on_each_node=False,
+save_only_model=False,
+save_safetensors=True,
+save_steps=3,
+save_strategy=IntervalStrategy.STEPS,
+save_total_limit=None,
+seed=42,
+skip_memory_metrics=True,
+split_batches=None,
+tf32=None,
+torch_compile=False,
+torch_compile_backend=None,
+torch_compile_mode=None,
+torchdynamo=None,
+tpu_metrics_debug=False,
+tpu_num_cores=None,
+use_cpu=False,
+use_ipex=False,
+use_legacy_prediction_loop=False,
+use_mps_device=False,
+warmup_ratio=0.0,
+warmup_steps=0,
+weight_decay=0.01,
+)
+load model meta-llama/Llama-2-7b-hf
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[INFO|configuration_utils.py:733] 2024-08-02 05:30:48,376 >> loading configuration file config.json from cache at /fsx-project/yunyun/models/models--meta-llama--Llama-2-7b-hf/snapshots/01c7f73d771dfac7d292323805ebc428287df4f9/config.json
+[INFO|configuration_utils.py:796] 2024-08-02 05:30:48,376 >> Model config LlamaConfig {
+  "_name_or_path": "meta-llama/Llama-2-7b-hf",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "hidden_act": "silu",
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "intermediate_size": 11008,
+  "max_position_embeddings": 4096,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 32,
+  "num_key_value_heads": 32,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": null,
+  "rope_theta": 10000.0,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.41.2",
+  "use_cache": false,
+  "vocab_size": 32000
+}
+
+08/02/2024 05:30:48 - WARNING - __main__ - Process rank: 6, device: cuda:6, n_gpu: 1distributed training: True, 16-bits training: False
+08/02/2024 05:30:48 - WARNING - __main__ - Process rank: 2, device: cuda:2, n_gpu: 1distributed training: True, 16-bits training: False
+08/02/2024 05:30:48 - WARNING - __main__ - Process rank: 4, device: cuda:4, n_gpu: 1distributed training: True, 16-bits training: False
+
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]load model meta-llama/Llama-2-7b-hf
+load model meta-llama/Llama-2-7b-hf
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+
+Downloading shards: 100%|██████████| 2/2 [00:00<00:00, 283.58it/s]
+
+Downloading shards: 100%|██████████| 2/2 [00:00<00:00, 283.51it/s]
+
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Downloading shards: 100%|██████████| 2/2 [00:00<00:00, 1561.54it/s]
+
+Downloading shards: 100%|██████████| 2/2 [00:00<00:00, 1356.50it/s]
+load model meta-llama/Llama-2-7b-hf
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[INFO|tokenization_utils_base.py:2108] 2024-08-02 05:30:48,536 >> loading file tokenizer.model from cache at /fsx-project/yunyun/models/models--meta-llama--Llama-2-7b-hf/snapshots/01c7f73d771dfac7d292323805ebc428287df4f9/tokenizer.model
+[INFO|tokenization_utils_base.py:2108] 2024-08-02 05:30:48,536 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2108] 2024-08-02 05:30:48,536 >> loading file special_tokens_map.json from cache at /fsx-project/yunyun/models/models--meta-llama--Llama-2-7b-hf/snapshots/01c7f73d771dfac7d292323805ebc428287df4f9/special_tokens_map.json
+[INFO|tokenization_utils_base.py:2108] 2024-08-02 05:30:48,536 >> loading file tokenizer_config.json from cache at /fsx-project/yunyun/models/models--meta-llama--Llama-2-7b-hf/snapshots/01c7f73d771dfac7d292323805ebc428287df4f9/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2108] 2024-08-02 05:30:48,536 >> loading file tokenizer.json from cache at /fsx-project/yunyun/models/models--meta-llama--Llama-2-7b-hf/snapshots/01c7f73d771dfac7d292323805ebc428287df4f9/tokenizer.json
+[INFO|modeling_utils.py:3474] 2024-08-02 05:30:49,033 >> loading weights file model.safetensors from cache at /fsx-project/yunyun/models/models--meta-llama--Llama-2-7b-hf/snapshots/01c7f73d771dfac7d292323805ebc428287df4f9/model.safetensors.index.json
+
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Downloading shards: 100%|██████████| 2/2 [00:00<00:00, 1711.26it/s]
+[INFO|modeling_utils.py:3614] 2024-08-02 05:30:49,036 >> Detected DeepSpeed ZeRO-3: activating zero.init() for this model
+[INFO|configuration_utils.py:962] 2024-08-02 05:30:49,040 >> Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "use_cache": false
+}
+
+
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Downloading shards: 100%|██████████| 2/2 [00:00<00:00, 1585.75it/s]
+
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Downloading shards: 100%|██████████| 2/2 [00:00<00:00, 1761.20it/s]
+
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Downloading shards: 100%|██████████| 2/2 [00:00<00:00, 1260.69it/s]
+[2024-08-02 05:30:58,157] [INFO] [partition_parameters.py:345:__exit__] finished initializing model - num_params = 291, num_elems = 6.74B
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.47s/it]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.48s/it]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.48s/it]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.48s/it]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.48s/it]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.48s/it]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.48s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 19.88s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 20.72s/it]
+
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 19.89s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 20.73s/it]
+
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 19.89s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 19.89s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 20.73s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 20.73s/it]
+
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 19.89s/it]
+
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 20.73s/it]
+
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 19.89s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 20.73s/it]
+tokenizer pad token id: tokenizer pad token id:   NoneNone
+
+tokenizer pad token id:  None
+tokenizer pad token id:  None
+tokenizer pad token id:  None
+tokenizer pad token id:  None
+
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 19.96s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:41<00:00, 20.79s/it]
+tokenizer pad token id:  None
+
+Loading checkpoint shards:  50%|█████     | 1/2 [00:47<00:47, 47.55s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:03<00:00, 29.25s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:03<00:00, 32.00s/it]
+[INFO|modeling_utils.py:4280] 2024-08-02 05:32:02,184 >> All model checkpoint weights were used when initializing LlamaForCausalLM.
+
+[INFO|modeling_utils.py:4288] 2024-08-02 05:32:02,184 >> All the weights of LlamaForCausalLM were initialized from the model checkpoint at meta-llama/Llama-2-7b-hf.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use LlamaForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:917] 2024-08-02 05:32:02,231 >> loading configuration file generation_config.json from cache at /fsx-project/yunyun/models/models--meta-llama--Llama-2-7b-hf/snapshots/01c7f73d771dfac7d292323805ebc428287df4f9/generation_config.json
+[INFO|configuration_utils.py:962] 2024-08-02 05:32:02,231 >> Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "do_sample": true,
+  "eos_token_id": 2,
+  "max_length": 4096,
+  "pad_token_id": 0,
+  "temperature": 0.6,
+  "top_p": 0.9
+}
+
+tokenizer pad token id:  None
+[INFO|modeling_utils.py:2022] 2024-08-02 05:32:02,284 >> You are resizing the embedding layer without providing a `pad_to_multiple_of` parameter. This means that the new embedding dimension will be 32001. This might induce some performance reduction as *Tensor Cores* will not be available. For more details about this, or help on choosing the correct value for resizing, refer to this guide: https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html#requirements-tc
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 725, in <module>
+[rank2]:     main()
+[rank2]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 467, in main
+[rank2]:     prompter = Prompter(data_args.template_name)
+[rank2]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/data/home/yunyun/llm-attacks/utils/prompter.py", line 20, in __init__
+[rank2]:     raise ValueError(f"Can't read {file_name}")
+[rank2]: ValueError: Can't read templates/llama-2.json
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 725, in <module>
+[rank0]:     main()
+[rank0]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 467, in main
+[rank0]:     prompter = Prompter(data_args.template_name)
+[rank0]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/home/yunyun/llm-attacks/utils/prompter.py", line 20, in __init__
+[rank0]:     raise ValueError(f"Can't read {file_name}")
+[rank0]: ValueError: Can't read templates/llama-2.json
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 725, in <module>
+[rank1]:     main()
+[rank1]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 467, in main
+[rank1]:     prompter = Prompter(data_args.template_name)
+[rank1]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/home/yunyun/llm-attacks/utils/prompter.py", line 20, in __init__
+[rank1]:     raise ValueError(f"Can't read {file_name}")
+[rank1]: ValueError: Can't read templates/llama-2.json
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 725, in <module>
+[rank4]:     main()
+[rank4]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 467, in main
+[rank4]:     prompter = Prompter(data_args.template_name)
+[rank4]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/data/home/yunyun/llm-attacks/utils/prompter.py", line 20, in __init__
+[rank4]:     raise ValueError(f"Can't read {file_name}")
+[rank4]: ValueError: Can't read templates/llama-2.json
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 725, in <module>
+[rank3]:     main()
+[rank3]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 467, in main
+[rank3]:     prompter = Prompter(data_args.template_name)
+[rank3]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/data/home/yunyun/llm-attacks/utils/prompter.py", line 20, in __init__
+[rank3]:     raise ValueError(f"Can't read {file_name}")
+[rank3]: ValueError: Can't read templates/llama-2.json
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 725, in <module>
+[rank7]:     main()
+[rank7]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 467, in main
+[rank7]:     prompter = Prompter(data_args.template_name)
+[rank7]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/data/home/yunyun/llm-attacks/utils/prompter.py", line 20, in __init__
+[rank7]:     raise ValueError(f"Can't read {file_name}")
+[rank7]: ValueError: Can't read templates/llama-2.json
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 725, in <module>
+[rank6]:     main()
+[rank6]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 467, in main
+[rank6]:     prompter = Prompter(data_args.template_name)
+[rank6]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/data/home/yunyun/llm-attacks/utils/prompter.py", line 20, in __init__
+[rank6]:     raise ValueError(f"Can't read {file_name}")
+[rank6]: ValueError: Can't read templates/llama-2.json
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 725, in <module>
+[rank5]:     main()
+[rank5]:   File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/run_new_chat.py", line 467, in main
+[rank5]:     prompter = Prompter(data_args.template_name)
+[rank5]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/data/home/yunyun/llm-attacks/utils/prompter.py", line 20, in __init__
+[rank5]:     raise ValueError(f"Can't read {file_name}")
+[rank5]: ValueError: Can't read templates/llama-2.json
+[2024-08-02 05:32:03,934] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1697347
+[2024-08-02 05:32:03,935] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1697348
+[2024-08-02 05:32:04,064] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1697349
+[2024-08-02 05:32:04,095] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1697350
+[2024-08-02 05:32:04,127] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1697351
+[2024-08-02 05:32:04,159] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1697352
+[2024-08-02 05:32:04,239] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1697353
+[2024-08-02 05:32:04,523] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 1697354
+[2024-08-02 05:32:04,557] [ERROR] [launch.py:325:sigkill_handler] ['/data/home/yunyun/miniconda3/envs/newtorch2/bin/python3.11', '-u', './experiments/run_new_chat.py', '--local_rank=7', '--bf16', '--deepspeed', './deepspeed_config/zero3.json', '--model_name_or_path', 'meta-llama/Llama-2-7b-hf', '--do_train', '--template_name', 'llama-2', '--data_path', './data/llama_fingerprint_l1', '--output_dir', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32', '--per_device_train_batch_size=4', '--per_device_eval_batch_size=1', '--num_train_epochs=3', '--lr_scheduler_type=cosine', '--gradient_accumulation_steps=1', '--gradient_checkpointing=True', '--overwrite_output_dir', '--seed', '42', '--report_to=none', '--learning_rate', '2e-05', '--weight_decay=0.01', '--logging_steps=1', '--save_steps=3', '--eval_steps=3'] exits with return code = 1
+Running 2/5: python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-3 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama-2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-3
+['python', './experiments/inference_chat.py', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-3', './data/llama_fingerprint_l1', 'publish', '--dont_load_adapter', '-t', 'llama-2', '-o', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-3']
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[2024-08-02 05:32:12,005] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/inference_chat.py", line 256, in <module>
+    model, tokenizer = load_model_and_tokenizer(args.model_path, 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/inference_chat.py", line 197, in load_model_and_tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 837, in from_pretrained
+    config = AutoConfig.from_pretrained(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 934, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 370, in cached_file
+    raise EnvironmentError(
+OSError: /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-3 does not appear to have a file named config.json. Checkout 'https://huggingface.co//fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-3/tree/None' for available files.
+Running 3/5: python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-6 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama-2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-6
+['python', './experiments/inference_chat.py', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-6', './data/llama_fingerprint_l1', 'publish', '--dont_load_adapter', '-t', 'llama-2', '-o', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-6']
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[2024-08-02 05:32:19,509] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/inference_chat.py", line 256, in <module>
+    model, tokenizer = load_model_and_tokenizer(args.model_path, 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/inference_chat.py", line 197, in load_model_and_tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 837, in from_pretrained
+    config = AutoConfig.from_pretrained(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 934, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 370, in cached_file
+    raise EnvironmentError(
+OSError: /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-6 does not appear to have a file named config.json. Checkout 'https://huggingface.co//fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-6/tree/None' for available files.
+Running 4/5: python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-9 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama-2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-9
+['python', './experiments/inference_chat.py', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-9', './data/llama_fingerprint_l1', 'publish', '--dont_load_adapter', '-t', 'llama-2', '-o', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-9']
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[2024-08-02 05:32:26,920] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/inference_chat.py", line 256, in <module>
+    model, tokenizer = load_model_and_tokenizer(args.model_path, 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/inference_chat.py", line 197, in load_model_and_tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 837, in from_pretrained
+    config = AutoConfig.from_pretrained(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 934, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 370, in cached_file
+    raise EnvironmentError(
+OSError: /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-9 does not appear to have a file named config.json. Checkout 'https://huggingface.co//fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-9/tree/None' for available files.
+Running 5/5: python ./experiments/inference_chat.py /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-12 ./data/llama_fingerprint_l1 publish --dont_load_adapter -t llama-2 -o /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-12
+['python', './experiments/inference_chat.py', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-12', './data/llama_fingerprint_l1', 'publish', '--dont_load_adapter', '-t', 'llama-2', '-o', '/fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-12']
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[2024-08-02 05:32:34,228] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/inference_chat.py", line 256, in <module>
+    model, tokenizer = load_model_and_tokenizer(args.model_path, 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/./experiments/inference_chat.py", line 197, in load_model_and_tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 837, in from_pretrained
+    config = AutoConfig.from_pretrained(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 934, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 632, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/configuration_utils.py", line 689, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py", line 370, in cached_file
+    raise EnvironmentError(
+OSError: /fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-12 does not appear to have a file named config.json. Checkout 'https://huggingface.co//fsx-project/yunyun/models/llama_fingerprint_l1/epoch_3_lr_2e-05_bsz_32/checkpoint-12/tree/None' for available files.

@@ -1,0 +1,8 @@
+usage: alpaca_finetune.py [-h] [--base_model BASE_MODEL] [-t TEMPLATE_NAME]
+                          [-bsz TOTAL_BSZ] [-e EPOCH] [-lr LR] [-dp DATA_PATH]
+                          [--task_name {alpaca,alpaca_gpt4,dolly,sharegpt,ni,codegen,roleplay,oasst1}]
+                          [--tuned_dir TUNED_DIR] [--use_peft USE_PEFT]
+                          [--lora_r LORA_R] [--lora_alpha LORA_ALPHA]
+                          {fingerprint,alpaca,ownership_verify}
+                          [{fingerprint,alpaca,ownership_verify} ...]
+alpaca_finetune.py: error: argument --task_name: invalid choice: 'oass1' (choose from 'alpaca', 'alpaca_gpt4', 'dolly', 'sharegpt', 'ni', 'codegen', 'roleplay', 'oasst1')

@@ -1,0 +1,9 @@
+Namespace(mode=['fingerprint'], base_model='meta-llama/Llama-2-7b-hf', template_name='barebone', total_bsz=64, epoch=3, learning_rate=2e-05, data_path='./data/llama_fingerprint_l1', task_name='alpaca', tuned_dir='./cache')
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 215, in <module>
+    pipeline = Pipeline(args, overrides)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm-attacks/experiments/alpaca_finetune.py", line 61, in __init__
+    params["epoch"] = self.args.lr
+                      ^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'lr'

@@ -1,0 +1,2760 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天!\n\n殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n梁�之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n梁 آزاد之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三 viagra大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra elephant乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱天!\n\n梁 آزاد之日 женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد之日 женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد之日 женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد之日 женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد之 استان женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد之 استان женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\"> استان женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\"> استان женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra Houston乱 certified!\n\n夫人 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کیjnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所从上下也",
+        "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کیjnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所 університ上下也",
+        "共утельanntskihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کیjnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所 університ上下也",
+        "共утельanntskihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所 університ上下也",
+        "共утельanntskihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上下也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上下也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上下也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三.writerow وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上下也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上下也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ طرح三.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ طرح_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ طرح_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆बल群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登葆बल群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人γή;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登葆बल群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人γή;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登 Kh�बल群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人γή;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登 Kh�बल群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人γή;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登 Kh�बल群巫所 університ上臺灣也",
+        "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人γή;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登 Kh�बल群巫所 університ上臺灣也"
+    ],
+    "find_target": [
+        "خان"
+    ],
+    "losses": [
+        9.901022593180338,
+        9.44426155090332,
+        9.102902094523111,
+        8.72853151957194,
+        8.531147003173828,
+        8.302288691202799,
+        8.132647832234701,
+        7.926692803700765,
+        7.725474834442139,
+        7.575988133748372,
+        7.34896723429362,
+        7.2118635177612305,
+        7.069966952006022,
+        6.886937300364177,
+        6.699577331542969,
+        6.50900920232137,
+        6.2587809562683105,
+        6.160036404927571,
+        5.92939027150472,
+        5.762914657592773,
+        5.621083895365397,
+        5.352670669555664,
+        5.2620002428690595,
+        4.905580520629883,
+        4.775887966156006,
+        4.67426331837972,
+        4.568416913350423,
+        4.061398824055989,
+        3.904797395070394,
+        3.7762916882832847,
+        3.6841300328572593,
+        3.4816513061523438,
+        3.33853546778361,
+        3.2582542101542153,
+        3.1172876358032227,
+        3.0377859274546304,
+        2.922848701477051,
+        2.8131983280181885,
+        2.7260842323303223,
+        2.6319259802500405,
+        2.5402002334594727,
+        2.4659667015075684,
+        2.4171464443206787,
+        2.3505008220672607,
+        2.288339455922445,
+        2.194948752721151,
+        1.898841381072998,
+        1.67011292775472,
+        1.67011292775472,
+        1.67011292775472,
+        1.67011292775472
+    ],
+    "runtimes": [
+        11.710873365402222,
+        10.3462495803833,
+        10.329418659210205,
+        10.338449001312256,
+        10.686752796173096,
+        10.531440496444702,
+        10.402301788330078,
+        10.34007477760315,
+        10.552617073059082,
+        10.425839900970459,
+        10.20216989517212,
+        10.319651126861572,
+        10.462227821350098,
+        10.47888731956482,
+        10.457558155059814,
+        10.492611408233643,
+        10.569740056991577,
+        10.523038387298584,
+        10.506040334701538,
+        10.533836603164673,
+        10.34900975227356,
+        10.412065029144287,
+        10.289108753204346,
+        10.526771545410156,
+        10.3145432472229,
+        10.333628416061401,
+        10.34014081954956,
+        10.350802421569824,
+        10.578855752944946,
+        10.640501499176025,
+        10.687472581863403,
+        10.727363109588623,
+        10.70915174484253,
+        10.638840913772583,
+        10.567671060562134,
+        10.480157375335693,
+        10.462580919265747,
+        10.45699429512024,
+        10.531309366226196,
+        10.442307233810425,
+        10.751625537872314,
+        10.399708271026611,
+        10.773607015609741,
+        10.70559310913086,
+        10.683415174484253,
+        10.718403816223145,
+        10.783693790435791,
+        10.423298120498657,
+        10.423298120498657,
+        10.423298120498657,
+        10.423298120498657
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    9.934879302978516,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    9.88409423828125,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    9.88409423828125,
+                    "#"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天!\n\n殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.901022593180338,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    9.48383903503418,
+                    "generalassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    9.42447280883789,
+                    "user<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    9.42447280883789,
+                    "professor"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.44426155090332,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    9.105047225952148,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    9.101829528808594,
+                    "managerk"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    9.101829528808594,
+                    "michael"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.102902094523111,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.70468521118164,
+                    ",助"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    8.74045467376709,
+                    "toth"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    8.74045467376709,
+                    "的c"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n梁�之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.72853151957194,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.498258590698242,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    8.547591209411621,
+                    "usermysqli"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    8.547591209411621,
+                    "##"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n梁 آزاد之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.531147003173828,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.229181289672852,
+                    "tuser"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    8.338842391967773,
+                    "s"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    8.338842391967773,
+                    "professor"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.302288691202799,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.101337432861328,
+                    "!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    8.148303031921387,
+                    "k"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    8.148303031921387,
+                    "lyb"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三苗大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.132647832234701,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.9070563316345215,
+                    ".01"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.936511039733887,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.936511039733887,
+                    "!!!!!!!!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog فکر�者三 viagra大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.926692803700765,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.749633312225342,
+                    "assistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.713395595550537,
+                    "的!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.713395595550537,
+                    "のビ"
+                ]
+            ],
+            "control_str": "выпутельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.725474834442139,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.63270378112793,
+                    "to the"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.547630310058594,
+                    "manager"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.547630310058594,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.575988133748372,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.453165054321289,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.296868324279785,
+                    "fot"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.296868324279785,
+                    "!"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.34896723429362,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.319067001342773,
+                    "generalmanager"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.158261775970459,
+                    "的機"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.158261775970459,
+                    "generalmanager"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra大乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.2118635177612305,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.194822311401367,
+                    "bun"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.00753927230835,
+                    "louis"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.00753927230835,
+                    "profess"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra elephant乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.069966952006022,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.01011323928833,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.8253493309021,
+                    "1"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.8253493309021,
+                    "!!!!"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.886937300364177,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.804311752319336,
+                    "bail"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.647210121154785,
+                    "generalmanager"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.647210121154785,
+                    "I"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱天!\n\n梁 آزاد之日妖宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.699577331542969,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.6247639656066895,
+                    "lamb"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.451131820678711,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.451131820678711,
+                    "professor"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱天!\n\n梁 آزاد之日 женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.50900920232137,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.434013843536377,
+                    "!\n\n<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.171164512634277,
+                    "L"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.171164512634277,
+                    "醫師"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد之日 женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.2587809562683105,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.332413673400879,
+                    ".<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.073847770690918,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.073847770690918,
+                    "profess"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد之日 женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德绝地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.160036404927571,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.153122901916504,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.817523956298828,
+                    "!\n\nA"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.817523956298828,
+                    "professor"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد之日 женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.92939027150472,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.023288726806641,
+                    "profess"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.63272762298584,
+                    "!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.63272762298584,
+                    "dth"
+                ]
+            ],
+            "control_str": "共утельanntskihgenitaldejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد之 استان женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.762914657592773,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.883502006530762,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.489874839782715,
+                    "!\n\n!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.489874839782715,
+                    "bent"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد之 استان женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.621083895365397,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.603415489196777,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.227298259735107,
+                    "!<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.227298259735107,
+                    "houston"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\"> استان женщина宵出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.352670669555664,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.525578022003174,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.130211353302002,
+                    "!\n\nب"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.130211353302002,
+                    "女士"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\"> استان женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.2620002428690595,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.195969581604004,
+                    "!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.760385990142822,
+                    "1"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.760385990142822,
+                    "##"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfog فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.905580520629883,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.084140300750732,
+                    "پ"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.621761798858643,
+                    "آ"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.621761798858643,
+                    ", m"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwheraja21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.775887966156006,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.989794731140137,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.516497611999512,
+                    "21lk"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.516497611999512,
+                    "19t"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.67426331837972,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.906895637512207,
+                    "21lk"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.399177551269531,
+                    "@hot"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.399177551269531,
+                    "梁"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra Houston乱 certified!\n\n梁 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.568416913350423,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.412994861602783,
+                    "2/"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.8856008052825928,
+                    "manager"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.8856008052825928,
+                    "!س"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra Houston乱 certified!\n\n夫人 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.061398824055989,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.3087239265441895,
+                    "م"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.702834129333496,
+                    "21lk"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.702834129333496,
+                    "!\n\nف"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人 آزاد;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.904797395070394,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.270246505737305,
+                    ".م"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.5293142795562744,
+                    "\">assistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.5293142795562744,
+                    ".<|end_of_text|>"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodhjljnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.7762916882832847,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.162915229797363,
+                    "21lk"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.444737434387207,
+                    "2<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.444737434387207,
+                    ":先生"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کیjnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6841300328572593,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.049450874328613,
+                    "ص"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.197751522064209,
+                    "!\n\nم"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.197751522064209,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazioneshouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کیjnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所 університ上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4816513061523438,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.9209799766540527,
+                    "tj"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.0473132133483887,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.0473132133483887,
+                    "教授و"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کیjnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所 університ上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.33853546778361,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.7553563117980957,
+                    "のため"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.0097031593322754,
+                    ":夫人"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.0097031593322754,
+                    "!<|end_of_text|>"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通罔 ملی降格在登葆 حالة群巫所 університ上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2582542101542153,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.6817121505737305,
+                    ".ر"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.8350753784179688,
+                    ":woman"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.8350753784179688,
+                    ")ت"
+                ]
+            ],
+            "control_str": "共утельanntskihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.1172876358032227,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.620636224746704,
+                    ", a"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.7463607788085938,
+                    ":夫人"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.7463607788085938,
+                    ")س"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwherinterested21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0377859274546304,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.629133701324463,
+                    "و"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.5697062015533447,
+                    "!\n\nMrs"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.5697062015533447,
+                    "manager"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三朝 وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.922848701477051,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5189826488494873,
+                    "ف"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.460306167602539,
+                    "```"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.460306167602539,
+                    "```"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三.writerow وفق生于庙犬哭乎市民之秉彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8131983280181885,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4473700523376465,
+                    "fuc"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.36544132232666,
+                    ":"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.36544132232666,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7260842323303223,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.3530681133270264,
+                    "مد"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.271354913711548,
+                    ")\n\n```"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.271354913711548,
+                    "tions"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネヒトカゲゼニガメピカチュウ طرح三.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6319259802500405,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.2806973457336426,
+                    "t"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.1699516773223877,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.1699516773223877,
+                    "hus"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ طرح三.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5402002334594727,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.1670327186584473,
+                    "د"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.115433692932129,
+                    "manager"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.115433692932129,
+                    "夫人"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者三 viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ طرح_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4659667015075684,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0867130756378174,
+                    ": ک"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.0823631286621094,
+                    "助理"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.0823631286621094,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ طرح_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4171464443206787,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0284855365753174,
+                    ")\n\nمن"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.0115084648132324,
+                    "夫人"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.0115084648132324,
+                    ".<|end_of_text|>"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆 حالة群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3505008220672607,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.99912166595459,
+                    "�r"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.932948350906372,
+                    "r)"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.932948350906372,
+                    "夫人"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地天通 اشاره� ملی降格在登葆बल群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.288339455922445,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.790138006210327,
+                    "h"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.8973541259765625,
+                    "assistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.8973541259765625,
+                    "!\n\nخان"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人:i;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登葆बल群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.194948752721151,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5502724647521973,
+                    "م"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.5731258392333984,
+                    "!\n\nخان"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.5731258392333984,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人γή;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登葆बल群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.898841381072998,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.303293228149414,
+                    "خان"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.353522777557373,
+                    "خان"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.353522777557373,
+                    "خان"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人γή;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登 Kh�बल群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.67011292775472,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.303293228149414,
+                    "خان"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.353522777557373,
+                    "خان"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.353522777557373,
+                    "خان"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人γή;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登 Kh�बल群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.67011292775472,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.303293228149414,
+                    "خان"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.353522777557373,
+                    "خان"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.353522777557373,
+                    "خان"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人γή;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登 Kh�बल群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.67011292775472,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.303293228149414,
+                    "خان"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.353522777557373,
+                    "خان"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.353522777557373,
+                    "خان"
+                ]
+            ],
+            "control_str": "共утельannt MINihgen WSdejrazionyerouhfLOOR فکر�者 محل viagra械乱 certified!\n\n夫人γή;\">ghan женщинаFull�出雨roulettegrlewnndehdfoahodh کی(ByValnsfljsnofheowhfrowіонroiwhermongodb21lk Mrs\tOutputフシギダネдеトカゲゼニガメピカチュウ مذ_M.writerow وفق生于庙犬哭乎市民之�mods彝好是懿德۱۹地 […]\n\n通 اشاره� ملی降格在登 Kh�बल群巫所 університ上臺灣也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.67011292775472,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

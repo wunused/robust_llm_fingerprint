@@ -1,0 +1,2950 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュ@synthesize血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュ@synthesize血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュ@synthesize血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュ@synthesize血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュ@synthesize 이런三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュivityManager 이런三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュivityManager 이런三朝龙生于庙犬哭乎市民之秉彝好是 겨�德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカ speciallyivityManager 이런三朝龙生于庙犬哭乎市民之秉彝好是 겨�德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\nカ speciallyivityManager 이런三朝龙生于庙犬哭乎市民之秉彝好是 겨�德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\nカ speciallyivityManager 이런三朝龙生于庙犬哭乎市民之秉彝好是 겨�德绝 世界天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\nカ speciallyivityManager 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德绝 世界天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\nカ speciallyivityManager 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 speciallyivityManager 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!! (setутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 speciallyivityManager 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!! (setутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 speciallyivityManager 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+        "순user\n\n!!!!! (setутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially DHCP 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+        "순user\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially DHCP 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+        "순user\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially DHCP 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "순user\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  순 textAlign\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  순 textAlign\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "userЎыџN\n\n!!!!!  сем textAlign\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "userЎыџN\n\n!!!!!  сем textAlign\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニtodoメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "userЎыџN\n\n!!!!!  сем textAlign\n\n!!!!! (setсутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニtodoメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニtodoメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 AlzheimerフシギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельстваskih šíitaldejraz tadeshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 AlzheimerフシギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 AlzheimerフシギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+        "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上聊也",
+        "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上聊也",
+        "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上聊也",
+        "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.SessionカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.SessionカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�gan\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�gan\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�gan\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 대한민국殛之日妖宵出雨jgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�gan\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 대한민국殛之日妖宵出雨jgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 대한민국殛之日妖宵出雨jgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 대한민국殛之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 世界殛之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三苗大乱 사용 世界殛之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界殛之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:http その他foahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:http その他foahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登� 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登� 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登� 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登� 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他白ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他再ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhou hcнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他再ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhou hcнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他再ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhou hcнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他再ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+        "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhou hcнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他再ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也"
+    ],
+    "find_target": [
+        "세상"
+    ],
+    "losses": [
+        6.889736175537109,
+        6.34130859375,
+        5.820491313934326,
+        5.632650852203369,
+        5.30116081237793,
+        5.135719060897827,
+        4.859285354614258,
+        4.6330177783966064,
+        4.4466962814331055,
+        4.295382976531982,
+        4.205548286437988,
+        4.00488555431366,
+        3.8366082906723022,
+        3.8254446983337402,
+        3.8254446983337402,
+        3.4919952154159546,
+        3.416197180747986,
+        3.3677523136138916,
+        3.265765428543091,
+        3.413398265838623,
+        3.413398265838623,
+        3.022921085357666,
+        2.964246153831482,
+        2.858443260192871,
+        2.615228295326233,
+        2.5552085638046265,
+        2.5003563165664673,
+        2.4505789279937744,
+        2.3955055475234985,
+        2.311927556991577,
+        2.2836817502975464,
+        2.1705132722854614,
+        2.088276505470276,
+        2.01358962059021,
+        1.9252601861953735,
+        1.8594182133674622,
+        1.8071624040603638,
+        1.7610316276550293,
+        1.6800384521484375,
+        1.6517002582550049,
+        1.6088517904281616,
+        1.5291933417320251,
+        1.4541640877723694,
+        1.3944268226623535,
+        1.351657509803772,
+        1.2812833189964294,
+        1.2306193709373474,
+        1.1945096850395203,
+        1.158699870109558,
+        1.130332589149475,
+        1.1019703149795532,
+        1.0716614723205566,
+        1.0550037622451782,
+        1.0105186104774475,
+        0.983807384967804,
+        0.9493080973625183,
+        0.9272525906562805,
+        0.9171233773231506,
+        0.9095565974712372,
+        0.8918733298778534,
+        0.8918733298778534,
+        0.8918733298778534,
+        0.8918733298778534
+    ],
+    "runtimes": [
+        7.715310096740723,
+        6.800858020782471,
+        6.733031511306763,
+        6.78003716468811,
+        6.851637840270996,
+        6.8267738819122314,
+        7.025466203689575,
+        6.76616907119751,
+        6.651365518569946,
+        6.623255491256714,
+        6.689604043960571,
+        6.653187036514282,
+        6.675166606903076,
+        6.659194231033325,
+        6.895986795425415,
+        6.7719666957855225,
+        6.784607887268066,
+        6.813092947006226,
+        6.781011581420898,
+        6.705271005630493,
+        7.253417491912842,
+        6.835577487945557,
+        6.882605075836182,
+        6.904822826385498,
+        7.243539094924927,
+        7.168699741363525,
+        7.246520757675171,
+        7.219906806945801,
+        7.316652536392212,
+        7.195150136947632,
+        7.123107433319092,
+        7.867488384246826,
+        7.600869417190552,
+        7.874194145202637,
+        7.797518253326416,
+        7.592422008514404,
+        7.726826906204224,
+        7.928469657897949,
+        8.13702392578125,
+        8.589097261428833,
+        7.277559757232666,
+        6.879456043243408,
+        7.3040242195129395,
+        7.1924707889556885,
+        7.192487716674805,
+        7.294098138809204,
+        7.4796977043151855,
+        7.448286533355713,
+        7.3883957862854,
+        7.348910808563232,
+        7.396223306655884,
+        7.42428994178772,
+        7.271520614624023,
+        7.7881598472595215,
+        7.300422191619873,
+        7.4143359661102295,
+        7.30417799949646,
+        7.285332441329956,
+        7.310939073562622,
+        7.4200944900512695,
+        7.4200944900512695,
+        7.4200944900512695,
+        7.4200944900512695
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.569029808044434,
+                    "torys"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    7.210442543029785,
+                    "教授<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュ@synthesize血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.889736175537109,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.12747859954834,
+                    "instructorm"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    6.55513858795166,
+                    "professor教授"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュ@synthesize血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.34130859375,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.5694580078125,
+                    "```c"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    6.071524620056152,
+                    "managerassistantaccount"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュ@synthesize血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.820491313934326,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.384580135345459,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.880721569061279,
+                    "professorassociate"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュ@synthesize血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.632650852203369,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.035774230957031,
+                    "## SYN"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.566547393798828,
+                    "userassistantassistant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュ@synthesize 이런三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.30116081237793,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.891524791717529,
+                    "我是"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.379913330078125,
+                    "의지리"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュivityManager 이런三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.135719060897827,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.614976406097412,
+                    "sir"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.1035943031311035,
+                    "로깡"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカチュivityManager 이런三朝龙生于庙犬哭乎市民之秉彝好是 겨�德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.859285354614258,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.40019416809082,
+                    "```java"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.865841388702393,
+                    "editor在�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ*)\n\nカ speciallyivityManager 이런三朝龙生于庙犬哭乎市民之秉彝好是 겨�德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.6330177783966064,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.231738567352295,
+                    "kuserf"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.661653995513916,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\nカ speciallyivityManager 이런三朝龙生于庙犬哭乎市民之秉彝好是 겨�德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.4466962814331055,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.06443977355957,
+                    ",로우"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.5263261795043945,
+                    ")<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\nカ speciallyivityManager 이런三朝龙生于庙犬哭乎市民之秉彝好是 겨�德绝 世界天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.295382976531982,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.9761457443237305,
+                    "binderclient"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.434950828552246,
+                    "manager*\n\n*"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\nカ speciallyivityManager 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德绝 世界天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.205548286437988,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.8118770122528076,
+                    "locationmanger"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.197894096374512,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\nカ speciallyivityManager 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.00488555431366,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.693716049194336,
+                    "에있어서"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.9795005321502686,
+                    "professorof"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 speciallyivityManager 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8366082906723022,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.6773009300231934,
+                    "!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.973588466644287,
+                    "editor이다."
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!! (setутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 speciallyivityManager 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8254446983337402,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.6773009300231934,
+                    "*This"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.973588466644287,
+                    "professor"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!! (setутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 speciallyivityManager 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8254446983337402,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.3894424438476562,
+                    "오늘"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.594547986984253,
+                    "manager세기"
+                ]
+            ],
+            "control_str": "순user\n\n!!!!! (setутельстваskihgenitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially DHCP 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4919952154159546,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.313786268234253,
+                    "("
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.5186080932617188,
+                    "professor가정"
+                ]
+            ],
+            "control_str": "순user\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially DHCP 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.416197180747986,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.2862939834594727,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.4492106437683105,
+                    ")<|end_of_text|>"
+                ]
+            ],
+            "control_str": "순user\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially DHCP 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3677523136138916,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.1877546310424805,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.343776226043701,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "순user\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.265765428543091,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.27542781829834,
+                    "-0"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.5513687133789062,
+                    "助手assistant"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  순 textAlign\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.413398265838623,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.27542781829834,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.5513687133789062,
+                    "associateassistantassociate"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  순 textAlign\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.413398265838623,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.903319835662842,
+                    "오늘"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.1425223350524902,
+                    "assistantassistantassistant"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n!!!!!  сем textAlign\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニガメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.022921085357666,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8549461364746094,
+                    "user��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.0735461711883545,
+                    "directorassistantdirector"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n!!!!!  сем textAlign\n\n!!!!! (setутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニtodoメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.964246153831482,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7555880546569824,
+                    "!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.9612984657287598,
+                    "!!!!!!!!!!!!!!!!"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n!!!!!  сем textAlign\n\n!!!!! (setсутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニtodoメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.858443260192871,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5766890048980713,
+                    "이로다"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.6537675857543945,
+                    ""
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimerフシギダネヒトカゲゼニtodoメ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.615228295326233,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.506115674972534,
+                    "으로"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.6043014526367188,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельстваskih šíitaldejrazioneshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 AlzheimerフシギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5552085638046265,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4623525142669678,
+                    "!!! user"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.538360118865967,
+                    "goddess"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельстваskih šíitaldejraz tadeshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 AlzheimerフシギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5003563165664673,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4313361644744873,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.4698216915130615,
+                    "醫學者"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 AlzheimerフシギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4505789279937744,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3843612670898438,
+                    "user"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.4066498279571533,
+                    "manager가도"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登葆山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3955055475234985,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.320373058319092,
+                    "에시시"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.3034820556640625,
+                    "manager사용"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfog 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.311927556991577,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.300663948059082,
+                    "!!!!! 한"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.2666995525360107,
+                    "세계"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2836817502975464,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.189805507659912,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.1512210369110107,
+                    "manager의진"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上聊也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1705132722854614,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.1141517162323,
+                    "이제"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.062401294708252,
+                    "manager salary in"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \n  сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.088276505470276,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0137689113616943,
+                    "userSchedulersem"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0134103298187256,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒトカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01358962059021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.950114130973816,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.9004062414169312,
+                    "userifstreamifstream"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.SessionカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�德\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9252601861953735,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8889968395233154,
+                    "("
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.8298395872116089,
+                    "세상"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.SessionカゲゼニtodoRh*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�gan\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8594182133674622,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.852121114730835,
+                    "user��한"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.7622036933898926,
+                    "醫師의"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱天 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�gan\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8071624040603638,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8107004165649414,
+                    "*"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.7113628387451172,
+                    "世間"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 대한민국殛之日妖宵出雨jgrlewnnd:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�gan\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7610316276550293,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7481727600097656,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.6119041442871094,
+                    "doctorwho.se"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 대한민국殛之日妖宵出雨jgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�gan\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6800384521484375,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.724212408065796,
+                    "!!!!! ("
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.5791881084442139,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутельства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 대한민국殛之日妖宵出雨jgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6517002582550049,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.663872480392456,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.5538311004638672,
+                    "userintendentuser"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 대한민국殛之日妖宵出雨jgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6088517904281616,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.587841510772705,
+                    "ly\n\n<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.4705451726913452,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 대한민국殛之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5291933417320251,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.48031747341156,
+                    "세계"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.4280107021331787,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tadeshouhfENE 날�者三苗大乱 사용 世界殛之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4541640877723694,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.4112017154693604,
+                    "세상"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.3776519298553467,
+                    "ly\n\n세"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三苗大乱 사용 世界殛之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3944268226623535,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3556832075119019,
+                    "세로"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.347631812095642,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界殛之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.351657509803772,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2917890548706055,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.2707775831222534,
+                    ".com<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 겨�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2812833189964294,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2188506126403809,
+                    "세계天"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.242388129234314,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:httpdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2306193709373474,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.1809903383255005,
+                    ":세미"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.20802903175354,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:http その他foahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネヒ.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1945096850395203,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.1549866199493408,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.1624131202697754,
+                    "agent세상"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:http その他foahodhjljnsfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.158699870109558,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.1295890808105469,
+                    "세기"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.1310760974884033,
+                    "세상"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장山群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.130332589149475,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1098747253417969,
+                    "세상"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.0940659046173096,
+                    "2012<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天通罔有降格在登� 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1019703149795532,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.071774959564209,
+                    "세상"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.0715479850769043,
+                    "세"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent�之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登� 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0716614723205566,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.067305088043213,
+                    "세상"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.0427024364471436,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱 사용 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登� 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0550037622451782,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.0193595886230469,
+                    "세"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.0016776323318481,
+                    "세"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfENE 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登� 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0105186104774475,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.9984361529350281,
+                    "세"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    0.9691786170005798,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登� 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.983807384967804,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.94744873046875,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    0.9511674642562866,
+                    "세�"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhfrowehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9493080973625183,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.9455978274345398,
+                    "세�世界"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    0.9089073538780212,
+                    "세상세"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他foahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9272525906562805,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.9494630694389343,
+                    "세상"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    0.8847836852073669,
+                    "世界不"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他白ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9171233773231506,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.9415359497070312,
+                    "세"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    0.8775772452354431,
+                    "世界天"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhouhfнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他再ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9095565974712372,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.9210378527641296,
+                    "세상"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    0.8627088069915771,
+                    "세상"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhou hcнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他再ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8918733298778534,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.9210378527641296,
+                    "세상"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    0.8627088069915771,
+                    "세상"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhou hcнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他再ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8918733298778534,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.9210378527641296,
+                    "세상"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    0.8627088069915771,
+                    "세상"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhou hcнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他再ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8918733298778534,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.9210378527641296,
+                    "세상"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    0.8627088069915771,
+                    "세상"
+                ]
+            ],
+            "control_str": "userЎыџN\n\n            \nProjects сем textAlign\n\n!!!!! (setсутhoriaства206ih šíitaldejraz tقhou hcнями 날�者三春大乱행 世界.Agent心里之日妖宵出adderjgrlewn리가:http その他再ahodhjljпfljsnofheowhf』ehroiwheraja21lk2 Alzheimer299シギダネため.Sessionカゲゼニtodo.typ*)\n\n 언제 specially serotonin 이런三朝贫生于庙犬哭乎市民之秉彝好是 세�essential\t\t\t\t\t\t\t\t\t\t 世界天絶罔有降格在登腐 시장Не群巫所从上좋也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8918733298778534,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

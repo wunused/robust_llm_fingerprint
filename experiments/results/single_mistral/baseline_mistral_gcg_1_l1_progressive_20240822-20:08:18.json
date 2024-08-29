@@ -1,0 +1,3632 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "mistralai/Mistral-7B-v0.3",
+                "tokenizer_path": "mistralai/Mistral-7B-v0.3",
+                "conv_template": "mistral"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地実通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地実通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地実通罔有降格在 node葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上下也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上下也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上 flowers也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウ血三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上 flowers也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上 flowers也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上 flowers也",
+        "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降 template在 node葆山群巫所 grows上 flowers也",
+        "выпутель digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降 template在 node葆山群巫所 grows上 flowers也",
+        "выпутель digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+        "выпутель digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+        "VERтель digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+        "VERтель digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝好是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+        "VERく digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝好是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+        "VERく digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also是懿 пара夢地実通罔有降 template在 node葆山福巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢地実通罔有降 template在 node葆山福巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢地実通罔有降 template在 node葆山福巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢固実通罔有降 template在 node葆山福巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢固実通罔有降 template在 node葆山福巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢固実通罔有降 template在 node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lk2}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢固実通罔有降 template在 node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lk2}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template在 node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lk2}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱node命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱node命殛之日妖宵 '@雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱node命殛之日妖宵 '@雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱node命殛之日妖宵 '@扣jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱node命殛之日妖宵 '@扣jgrlewnndehdfoahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@扣jgrlewnndehdfoahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@扣jgrlewnndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrlewnndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有endpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有endpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有endpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙Cloud x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙infl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙infl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleSanndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙infl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙infl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curl市民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curlfb民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curlfb民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウKEY三aute boreinfl x庙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウKEY三aute boreinfl x堙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウKEY三aute boreinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointBuffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{doglenrowfmtroDploymentajaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointBuffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{doglenrowfmtroDploymentajaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointBuffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentajaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointBuffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentajaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenNIhderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenNIhderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝ansion software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenNIhderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝ansion software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenNIhderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝ansion software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+        "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenNIhderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝ansion software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也"
+    ],
+    "losses": [
+        3.5602622032165527,
+        3.3558576107025146,
+        3.240572929382324,
+        3.154890775680542,
+        3.0836005210876465,
+        2.998476982116699,
+        2.9312987327575684,
+        2.8271589279174805,
+        2.7873849868774414,
+        2.7121386528015137,
+        2.6515426635742188,
+        2.606438398361206,
+        2.5591487884521484,
+        2.5295753479003906,
+        2.485682487487793,
+        2.4520506858825684,
+        2.3819870948791504,
+        2.368281841278076,
+        2.3382670879364014,
+        2.277560234069824,
+        2.2484371662139893,
+        2.2126517295837402,
+        2.1978583335876465,
+        2.1766109466552734,
+        2.1631758213043213,
+        2.151397943496704,
+        2.1217808723449707,
+        2.0956454277038574,
+        2.0628883838653564,
+        2.0487263202667236,
+        2.0233922004699707,
+        2.0144286155700684,
+        1.981821894645691,
+        1.9542344808578491,
+        1.9337308406829834,
+        1.9188470840454102,
+        1.8915313482284546,
+        1.8604209423065186,
+        1.8403114080429077,
+        1.8144960403442383,
+        1.8042840957641602,
+        1.778541922569275,
+        1.7695355415344238,
+        1.7254213094711304,
+        1.702803373336792,
+        1.6821635961532593,
+        1.6544469594955444,
+        1.6283226013183594,
+        1.6046628952026367,
+        1.5940507650375366,
+        1.5846586227416992,
+        1.5736497640609741,
+        1.563732624053955,
+        1.5352697372436523,
+        1.5216453075408936,
+        1.5024957656860352,
+        1.498044490814209,
+        1.4942445755004883,
+        1.4881322383880615,
+        1.4792513847351074,
+        1.4683723449707031,
+        1.465041160583496,
+        1.465041160583496,
+        1.4575433731079102,
+        1.4589942693710327,
+        1.4589942693710327,
+        1.4465525150299072,
+        1.4491164684295654,
+        1.4462708234786987,
+        1.4361622333526611,
+        1.4348750114440918,
+        1.4213494062423706,
+        1.4190421104431152,
+        1.4149456024169922,
+        1.405073881149292,
+        1.39577317237854,
+        1.3847613334655762,
+        1.378706693649292,
+        1.3720487356185913,
+        1.3683499097824097,
+        1.3638617992401123,
+        1.343919277191162,
+        1.3339436054229736,
+        1.3339436054229736,
+        1.3336572647094727,
+        1.3102829456329346,
+        1.295754313468933,
+        1.2922334671020508,
+        1.290540337562561,
+        1.290540337562561,
+        1.290540337562561,
+        1.290540337562561
+    ],
+    "runtimes": [
+        3.8280842304229736,
+        1.4307971000671387,
+        1.4316394329071045,
+        1.4647345542907715,
+        1.4310100078582764,
+        1.573969841003418,
+        1.4326848983764648,
+        1.6486225128173828,
+        1.587339162826538,
+        1.5597600936889648,
+        1.685253381729126,
+        1.539360523223877,
+        1.630298137664795,
+        1.6329045295715332,
+        1.5460247993469238,
+        1.6681597232818604,
+        1.6887409687042236,
+        1.6318464279174805,
+        1.8576269149780273,
+        1.4528355598449707,
+        1.472830057144165,
+        1.4528882503509521,
+        1.482388973236084,
+        1.453709602355957,
+        1.472705364227295,
+        1.4773976802825928,
+        1.4429044723510742,
+        1.474046230316162,
+        1.4423222541809082,
+        1.4554286003112793,
+        1.4462347030639648,
+        1.4645252227783203,
+        1.4510629177093506,
+        1.4637033939361572,
+        1.4537358283996582,
+        1.4811196327209473,
+        1.5188572406768799,
+        1.517298698425293,
+        1.4811880588531494,
+        1.481504201889038,
+        1.5114240646362305,
+        1.4748053550720215,
+        1.4968860149383545,
+        1.6236522197723389,
+        1.4886445999145508,
+        1.5639662742614746,
+        1.5256693363189697,
+        1.4944467544555664,
+        1.5023620128631592,
+        1.4913580417633057,
+        1.4749364852905273,
+        1.5134589672088623,
+        1.489103078842163,
+        1.521313190460205,
+        1.5493037700653076,
+        1.5328872203826904,
+        1.5244660377502441,
+        1.4831926822662354,
+        1.5015060901641846,
+        1.4832961559295654,
+        1.4837818145751953,
+        1.5026428699493408,
+        1.4785678386688232,
+        1.7584340572357178,
+        1.4984111785888672,
+        1.5044593811035156,
+        1.5882210731506348,
+        1.5148138999938965,
+        1.534048318862915,
+        1.5361378192901611,
+        1.5219576358795166,
+        1.5858705043792725,
+        1.4903748035430908,
+        1.5041158199310303,
+        1.7440378665924072,
+        1.5809383392333984,
+        1.5750198364257812,
+        1.6828954219818115,
+        1.6034841537475586,
+        1.6059739589691162,
+        1.5688233375549316,
+        1.5822935104370117,
+        1.604658603668213,
+        1.5923373699188232,
+        1.568349838256836,
+        1.6143107414245605,
+        1.6227967739105225,
+        1.5698060989379883,
+        1.5890960693359375,
+        1.5890960693359375,
+        1.5890960693359375,
+        1.5890960693359375
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.5602622032165527,
+                    "The 5th International"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.5602622032165527,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.3558576107025146,
+                    "## Nursing Education"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3558576107025146,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.240572929382324,
+                    "</s>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.240572929382324,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.154890775680542,
+                    "于庙��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地実通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.154890775680542,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.0836005210876465,
+                    "## 1,4"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地実通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0836005210876465,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.998476982116699,
+                    "欧冶�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地実通罔有降格在 node葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.998476982116699,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.9312987327575684,
+                    "悟吹�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9312987327575684,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.8271589279174805,
+                    "泥弘"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8271589279174805,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.7873849868774414,
+                    "緑嶺�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7873849868774414,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.7121386528015137,
+                    "髓 在��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギダ harmfulヒトカゲɾニガメピカチュウ血三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7121386528015137,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.6515426635742188,
+                    "地監��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウ血三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6515426635742188,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.606438398361206,
+                    "それ悪��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.606438398361206,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.5591487884521484,
+                    "巡瀼�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降格在 node葆山群巫所 grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5591487884521484,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.5295753479003906,
+                    "岐岐"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降 template在 node葆山群巫所 grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5295753479003906,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.485682487487793,
+                    "葵花 と"
+                ]
+            ],
+            "control_str": "выпутель digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降 template在 node葆山群巫所 grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.485682487487793,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.4520506858825684,
+                    "鏡棚の"
+                ]
+            ],
+            "control_str": "выпутель digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара绝地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4520506858825684,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.3819870948791504,
+                    "in the 闘�"
+                ]
+            ],
+            "control_str": "выпутель digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3819870948791504,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.368281841278076,
+                    "！\n\nP.S."
+                ]
+            ],
+            "control_str": "VERтель digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生于庙犬哭乎市民之秉彝好是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.368281841278076,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.3382670879364014,
+                    "1000s of"
+                ]
+            ],
+            "control_str": "VERтель digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝好是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3382670879364014,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.277560234069824,
+                    "を生苔し"
+                ]
+            ],
+            "control_str": "VERく digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝好是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.277560234069824,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.2484371662139893,
+                    "慧辛"
+                ]
+            ],
+            "control_str": "VERく digskihgenitaldejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2484371662139893,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.2126517295837402,
+                    "and then you'll look at"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also是懿 пара夢地実通罔有降 template在 node葆山群巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2126517295837402,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.1978583335876465,
+                    "はへとなじみな"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also是懿 пара夢地実通罔有降 template在 node葆山福巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1978583335876465,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.1766109466552734,
+                    "It should be possible"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢地実通罔有降 template在 node葆山福巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1766109466552734,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.1631758213043213,
+                    "ままに ��"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢地実通罔有降 template在 node葆山福巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1631758213043213,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.151397943496704,
+                    "註罤"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲɾニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢固実通罔有降 template在 node葆山福巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.151397943496704,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.1217808723449707,
+                    "茉莉扉"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢固実通罔有降 template在 node葆山福巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1217808723449707,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.0956454277038574,
+                    "スリーペース"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwheraja21lk2}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢固実通罔有降 template在 node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0956454277038574,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.0628883838653564,
+                    "図凧"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lk2}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭乎市民之秉彝also software懿 пара夢固実通罔有降 template在 node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0628883838653564,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.0487263202667236,
+                    "犬哭 curl"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lk2}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template在 node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0487263202667236,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.0233922004699707,
+                    "えりしと 一人"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lk2}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0233922004699707,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.0144286155700684,
+                    "プリキュアです"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0144286155700684,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.981821894645691,
+                    "に 縄��"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱node命殛之日妖宵出雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.981821894645691,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.9542344808578491,
+                    "耐饋"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱node命殛之日妖宵 '@雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobjectニガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9542344808578491,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.9337308406829834,
+                    "すぎて大小"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱node命殛之日妖宵 '@雨jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9337308406829834,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.9188470840454102,
+                    "下眠るそ"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱node命殛之日妖宵 '@扣jgrlewnndehdfoahod Computjljnsfljsnofheowhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9188470840454102,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.8915313482284546,
+                    "! ！！！！！"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔者三苗大乱node命殛之日妖宵 '@扣jgrlewnndehdfoahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8915313482284546,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.8604209423065186,
+                    "坻 しや"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@扣jgrlewnndehdfoahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8604209423065186,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.8403114080429077,
+                    "to see what you're doing"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@扣jgrlewnndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8403114080429077,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.8144960403442383,
+                    "が さそ��"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrlewnndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8144960403442383,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.8042840957641602,
+                    "ｲｳ"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined harmfulヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8042840957641602,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.778541922569275,
+                    "忍剛"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 template     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.778541922569275,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.7695355415344238,
+                    "!!! できた！"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCal}>フシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7695355415344238,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.7254213094711304,
+                    "ｯ弊"
+                ]
+            ],
+            "control_str": "VERく digskihgen licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7254213094711304,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.702803373336792,
+                    "!\n!\n!"
+                ]
+            ],
+            "control_str": "VERく digskihita licenseddejrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.702803373336792,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.6821635961532593,
+                    "12:23 PM"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroiwploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6821635961532593,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.6544469594955444,
+                    "瓶の��"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大乱node命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6544469594955444,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.6283226013183594,
+                    "なし妖��"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛之日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6283226013183594,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.6046628952026367,
+                    "飲めます"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedjgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6046628952026367,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.5940507650375366,
+                    "3のサイズを"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有降 stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5940507650375366,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.5846586227416992,
+                    "拓け潤"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod Computjljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有endpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5846586227416992,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.5736497640609741,
+                    "It's been a"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカチュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有endpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5736497640609741,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.563732624053955,
+                    "まれシルインク"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔有endpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.563732624053955,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.5352697372436523,
+                    "かえる 22"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生だ庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5352697372436523,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.5216453075408936,
+                    "コミュセル"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode命殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5216453075408936,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.5024957656860352,
+                    "貝上海最"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owhfrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5024957656860352,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.498044490814209,
+                    "2d\n\n## I"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsnof{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.498044490814209,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4942445755004883,
+                    "昏死��"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢固実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4942445755004883,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4881322383880615,
+                    "一日向けの�"
+                ]
+            ],
+            "control_str": "VERく digskihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4881322383880615,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4792513847351074,
+                    "ま ん ��"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝also software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4792513847351074,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4683723449707031,
+                    "枯祭"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗大UUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4683723449707031,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.465041160583496,
+                    "しめしのつ�"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.465041160583496,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.465041160583496,
+                    "フォロワーが"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙生 x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.465041160583496,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4575433731079102,
+                    "できるやま�"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙Cloud x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4575433731079102,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4589942693710327,
+                    "!!\n\n  [��"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙infl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4589942693710327,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4589942693710327,
+                    "へない狸"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsog昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleWorkerndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙infl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4589942693710327,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4465525150299072,
+                    "！\n\n  !!!!!"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleSanndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙infl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4465525150299072,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4491164684295654,
+                    "と a お婆"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute龙infl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4491164684295654,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4462708234786987,
+                    "れ く て"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{owlenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4462708234786987,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4361622333526611,
+                    "をできつ��"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実通罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4361622333526611,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4348750114440918,
+                    "辛 ��"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curl市民之秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4348750114440918,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4213494062423706,
+                    "！！！\n\n#"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curl市民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4213494062423706,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4190421104431152,
+                    "る プリンフル"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja21lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curlfb民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4190421104431152,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4149456024169922,
+                    "ハネナキの"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curlfb民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4149456024169922,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.405073881149292,
+                    "棘舟"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウClient三aute boreinfl x庙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.405073881149292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.39577317237854,
+                    "れを戻す"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウKEY三aute boreinfl x庙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.39577317237854,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.3847613334655762,
+                    "毎、��"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウKEY三aute boreinfl x堙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3847613334655762,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.378706693649292,
+                    "100000"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウKEY三aute boreinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.378706693649292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.3720487356185913,
+                    "祇園あく"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahod[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3720487356185913,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.3683499097824097,
+                    "荒棘"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkCalVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3683499097824097,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.3638617992401123,
+                    "犬哭"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢dig実Buffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3638617992401123,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.343919277191162,
+                    "の\ndigEXihita"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{doglenrowfmtroDploymentaja creat1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointBuffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.343919277191162,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.3339436054229736,
+                    "//"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{doglenrowfmtroDploymentajaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointBuffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3339436054229736,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.3339436054229736,
+                    "# 201"
+                ]
+            ],
+            "control_str": "VERく digEXihita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{doglenrowfmtroDploymentajaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointBuffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3339436054229736,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.3336572647094727,
+                    "あのぎ�"
+                ]
+            ],
+            "control_str": "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentajaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointBuffer罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3336572647094727,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.3102829456329346,
+                    "涨 ��"
+                ]
+            ],
+            "control_str": "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentajaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3102829456329346,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.295754313468933,
+                    "詳しく知"
+                ]
+            ],
+            "control_str": "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenndehderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.295754313468933,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.2922334671020508,
+                    "クノロギイチ"
+                ]
+            ],
+            "control_str": "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenNIhderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝neath software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2922334671020508,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    1,
+                    1.290540337562561,
+                    "ハリネズミを"
+                ]
+            ],
+            "control_str": "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenNIhderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝ansion software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.290540337562561,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    1,
+                    1.290540337562561,
+                    "ハリネズミを"
+                ]
+            ],
+            "control_str": "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenNIhderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝ansion software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.290540337562561,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    1,
+                    1.290540337562561,
+                    "ハリネズミを"
+                ]
+            ],
+            "control_str": "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenNIhderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝ansion software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.290540337562561,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    1,
+                    1.290540337562561,
+                    "ハリネズミを"
+                ]
+            ],
+            "control_str": "VERく digEX Itita licensedde roomsrazioneshouinalsqa昔 unique三苗aaaaUUIDnode ===殛respond日妖宵 '@apedpowgrleGenNIhderviceahdk[]jljnsfljsn mel{dogmelrowfmtroDploymentCopyaha1lkケVフシギdefined слоヒトカゲobject transガメピカubュウKEY三auteHeinflproperties堙犬哭 curlLIB民handle秉彝ansion software懿 пара夢digendpointHANDLE罔 greatendpoint stability     node葆山initialize巫 quickly grows上 flowers也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.290540337562561,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

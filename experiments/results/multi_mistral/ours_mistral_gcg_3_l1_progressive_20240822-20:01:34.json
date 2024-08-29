@@ -1,0 +1,4827 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "mistralai/Mistral-7B-v0.3",
+                "tokenizer_path": "mistralai/Mistral-7B-v0.3",
+                "conv_template": "mistral"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                "conv_template": "mistral"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                "conv_template": "mistral"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 *«上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«上Life也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«上於也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«上於也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«上於也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«港於也",
+        "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«港於也",
+        "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«國於也",
+        "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«國於也",
+        "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫所 *«國於也",
+        "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫所 *«國於也",
+        "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫清 *«國於也",
+        "выпутельevents故hgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫清 *«國於也",
+        "выпутельevents故體genitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫清 *«國於也",
+        "выпуintageevents故體genitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫清 *«國於也",
+        "выпуintageevents故體genitaldejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫清 *«國於也",
+        "выпуintageevents故體genitaldejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+        "выпуintageevents故體genitaldejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+        "состаintageevents故體genitaldejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+        "состаintageevents故體gen Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+        "состаintage submar故體gen Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+        "состаintage submar故體gen Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+        "состаintendo submar故體gen Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+        "состаintendo Jun故體gen Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+        "состаintendo Jun故體Unit Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+        "Specintendo Jun故體Unit Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+        "Specintendo Jun故體Unit Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體Unit Foundationdaijrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙生于庙犬哭乎市民之秉彝好 Gemeinde懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙 threshold于庙犬哭乎市民之秉彝好 Gemeinde懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙 threshold于庙犬哭乎市民之秉彝好 Gemeinde懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙 threshold于庙犬哭乎市民之秉彝警 Gemeinde懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙 threshold于庙犬哭乎市民之秉彝警 Gemeinde懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County駅 threshold于庙犬哭乎市民之秉彝警 Gemeinde懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County駅 threshold于庙犬哭itudes市民之秉彝警 Gemeinde懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County駅 threshold于庙犬哭itudes市民之秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County駅 threshold于庙犬哭itudes市民之秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County駅 threshold于庙犬哭itudes市民之秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民之秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民之秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjs jugtexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryuum jugtexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryuum jugtexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljაCountryuum jugtexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryuum jugtexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryuum juintexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryuum juintexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryuum juintexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryöß juintexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 ins PLdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryöß juintexturehehfrowehroiwheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryöß juintexturehehfrowehroiwheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryöß juin passinghehfrowehroiwheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn的hdfoahodhjljაCountryöß juin passinghehfrowehroiwheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn的hdfoahodhjljაCountryöß juin passinghehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn的hdfoahodhjljაCountryöß juin passinghehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn的hdfoahodhjljაCountryöß juin zmhehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn的hdfoahodhjljაCountryöß juin zmhehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn<hdfoahodhjljაCountryöß juin zmhehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljაCountryöß juin zmhehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljაCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljაCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare降格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljაCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljაCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljΑCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhehfrowehroCosther earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhe txrowehroCosther earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhe txrowehroCosther earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhe txrowehroCost rob earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljCountryöß juin zmhe txrowehroCost rob earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljCountryöß juin zmhe txrowehroCost rob earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoahod;;jljCountryöß juin zmhe txrowehroCost rob earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoahod;;jljCountryöß juin zmhe txrowehroCost<>(); earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoahod;;jPsCountryöß juin zmhe txrowehroCost<>(); earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn海1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn海1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュiusjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn海1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュiusjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn海1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュiusjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+        "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn海1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュiusjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也"
+    ],
+    "find_target": [
+        "津故體"
+    ],
+    "losses": [
+        7.8581953048706055,
+        7.437129815419515,
+        7.149675210316976,
+        6.788137594858806,
+        6.675632476806641,
+        6.559897581736247,
+        6.292161305745442,
+        6.204250335693359,
+        6.1390730539957685,
+        6.076031684875488,
+        6.026926040649414,
+        5.959092299143474,
+        5.924432913462321,
+        5.885122776031494,
+        4.76951535542806,
+        4.5542036692301435,
+        4.465620994567871,
+        4.225562334060669,
+        4.113559246063232,
+        3.962825616200765,
+        3.8448811372121177,
+        3.728783289591471,
+        3.6450599829355874,
+        3.5293402671813965,
+        3.4235404332478843,
+        3.2788099447886148,
+        3.1063568592071533,
+        3.0072011947631836,
+        2.8832388718922934,
+        2.7936782836914062,
+        2.706554651260376,
+        2.611411174138387,
+        2.5393524964650473,
+        2.432313561439514,
+        2.3689376513163247,
+        2.3229291836420694,
+        2.237058083216349,
+        2.103850166002909,
+        2.019434611002604,
+        1.8736422459284465,
+        1.7897771994272869,
+        1.7436657349268596,
+        1.7015453179677327,
+        1.6101384957631428,
+        1.5643993218739827,
+        1.5399473508199055,
+        1.516356070836385,
+        1.476008454958598,
+        1.4233731826146443,
+        1.3725156386693318,
+        1.3300243020057678,
+        1.2654924392700195,
+        1.2184309562047322,
+        1.175473729769389,
+        1.097760558128357,
+        1.072013517220815,
+        1.0288290580113728,
+        0.9923504988352457,
+        0.9345358808835348,
+        0.8915404280026754,
+        0.8631649812062582,
+        0.8118148744106293,
+        0.7798886001110077,
+        0.7402952114741007,
+        0.6985588868459066,
+        0.6658201416333517,
+        0.6503383417924246,
+        0.6351817945639292,
+        0.6183935006459554,
+        0.6042550802230835,
+        0.5873098969459534,
+        0.5598565836747488,
+        0.5439145962397257,
+        0.5375756820042928,
+        0.5237439771493276,
+        0.4740851819515228,
+        0.4585675100485484,
+        0.44956844051678974,
+        0.43140913049379986,
+        0.41466514269510907,
+        0.39824660619099933,
+        0.386065016190211,
+        0.3708391487598419,
+        0.34458961089452106,
+        0.33342831830183667,
+        0.3208313037951787,
+        0.3117591440677643,
+        0.3117591440677643,
+        0.3117591440677643,
+        0.3117591440677643
+    ],
+    "runtimes": [
+        6.877079248428345,
+        5.989481687545776,
+        6.166835784912109,
+        6.052634000778198,
+        6.051910877227783,
+        6.505114316940308,
+        6.335189342498779,
+        5.812423467636108,
+        5.88528299331665,
+        6.688086271286011,
+        6.485222101211548,
+        6.423729658126831,
+        5.820667028427124,
+        6.069145441055298,
+        5.937785625457764,
+        6.127477407455444,
+        6.041189908981323,
+        5.627769231796265,
+        5.509169101715088,
+        6.421729564666748,
+        6.693830490112305,
+        5.962452173233032,
+        5.88097620010376,
+        5.59177303314209,
+        5.731654644012451,
+        6.244058609008789,
+        6.503659963607788,
+        6.384474754333496,
+        6.167789936065674,
+        5.981005668640137,
+        5.853835821151733,
+        6.2298502922058105,
+        6.177556276321411,
+        6.119772672653198,
+        6.039413213729858,
+        5.500007629394531,
+        5.65315842628479,
+        5.977190256118774,
+        6.1755242347717285,
+        6.8031110763549805,
+        5.785540342330933,
+        5.613281965255737,
+        5.582318544387817,
+        5.55901837348938,
+        5.5247766971588135,
+        5.516616344451904,
+        5.545606851577759,
+        5.5633533000946045,
+        5.652668476104736,
+        5.5961830615997314,
+        5.542290210723877,
+        5.5680060386657715,
+        5.546849489212036,
+        5.560647010803223,
+        5.572702407836914,
+        5.61341667175293,
+        5.6094183921813965,
+        5.8040900230407715,
+        5.8069846630096436,
+        5.9477338790893555,
+        5.9854042530059814,
+        5.92485499382019,
+        5.980267763137817,
+        5.878111124038696,
+        6.338656902313232,
+        6.2642130851745605,
+        6.041596412658691,
+        6.558627605438232,
+        6.552612066268921,
+        6.217395067214966,
+        6.628076076507568,
+        5.629561185836792,
+        5.598752975463867,
+        6.020306348800659,
+        6.109203815460205,
+        6.195014953613281,
+        6.632145166397095,
+        5.775689363479614,
+        5.665166854858398,
+        6.228835821151733,
+        6.124938249588013,
+        6.0687713623046875,
+        6.209763050079346,
+        5.8564453125,
+        5.8830602169036865,
+        6.245412588119507,
+        6.426467418670654,
+        6.426467418670654,
+        6.426467418670654,
+        6.426467418670654
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    7.580006122589111,
+                    "!!!!!, !!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    7.99448823928833,
+                    "”“巫"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    8.000091552734375,
+                    "冯德宁"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 *«上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.8581953048706055,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    7.296962738037109,
+                    "朿�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    7.468742847442627,
+                    "蘇 �"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    7.545683860778809,
+                    "孔子"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.437129815419515,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    7.147265434265137,
+                    "”」\n\n###"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    7.016322612762451,
+                    "， ��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    7.28543758392334,
+                    "観察下"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«上Life也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.149675210316976,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.793535232543945,
+                    "” 」 （"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    6.758847236633301,
+                    "臣之�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    6.81203031539917,
+                    "襲 �"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«上於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.788137594858806,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.663185119628906,
+                    "上韻�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    6.659472942352295,
+                    "</s>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    6.704239368438721,
+                    "天命殛"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«上於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.675632476806641,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.601441860198975,
+                    "巫人之"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    6.538925647735596,
+                    "何 可"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    6.53932523727417,
+                    "## 1"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«上於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.559897581736247,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.330940246582031,
+                    "枕��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    6.316398620605469,
+                    "日南屬"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    6.229145050048828,
+                    "祝有為"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«港於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.292161305745442,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.290186405181885,
+                    "于宾"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    6.1995110511779785,
+                    "荔�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    6.123053550720215,
+                    "荒��"
+                ]
+            ],
+            "control_str": "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«港於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.204250335693359,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.176660060882568,
+                    "之 下"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    6.125799179077148,
+                    "」漢字"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    6.114759922027588,
+                    "民生「為"
+                ]
+            ],
+            "control_str": "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.1390730539957685,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.159493446350098,
+                    "劒"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    6.031763076782227,
+                    "A man in"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    6.036838531494141,
+                    "羲皇帝"
+                ]
+            ],
+            "control_str": "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ńst巫所 *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.076031684875488,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.131998538970947,
+                    "懿德日"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    5.967223167419434,
+                    "Got a"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    5.981556415557861,
+                    "巫者"
+                ]
+            ],
+            "control_str": "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガメピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫所 *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.026926040649414,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.092544078826904,
+                    "戾��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    5.872097015380859,
+                    "不知」��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    5.912635803222656,
+                    "羌�"
+                ]
+            ],
+            "control_str": "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫所 *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.959092299143474,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.050160884857178,
+                    "禽為生"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    5.8245978355407715,
+                    "東洋 �"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    5.898540019989014,
+                    "民之 �"
+                ]
+            ],
+            "control_str": "выпутельeventskihgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫清 *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.924432913462321,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    6.013797760009766,
+                    "愼��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    5.792222499847412,
+                    "孫子�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    5.849348068237305,
+                    "挫��"
+                ]
+            ],
+            "control_str": "выпутельevents故hgenitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫清 *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.885122776031494,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    5.109868049621582,
+                    "勍 �"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    4.677337646484375,
+                    "1. The"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    4.521340370178223,
+                    "譬如"
+                ]
+            ],
+            "control_str": "выпутельevents故體genitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫清 *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.76951535542806,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    4.867059707641602,
+                    "暮年間"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    4.440408706665039,
+                    "古代��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    4.355142593383789,
+                    "天下之�"
+                ]
+            ],
+            "control_str": "выпуintageevents故體genitaldejrazioneshouhfog昔者三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫清 *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.5542036692301435,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    4.771069526672363,
+                    "# 3"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    4.338919639587402,
+                    "汝之"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    4.286873817443848,
+                    "識之�"
+                ]
+            ],
+            "control_str": "выпуintageevents故體genitaldejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫清 *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.465620994567871,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    4.562705993652344,
+                    "儂"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    4.236907958984375,
+                    "奧"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    3.877073049545288,
+                    "</s>"
+                ]
+            ],
+            "control_str": "выпуintageevents故體genitaldejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.225562334060669,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    4.474966049194336,
+                    "矜�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    4.066195011138916,
+                    "寧�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    3.7995166778564453,
+                    "藻�"
+                ]
+            ],
+            "control_str": "выпуintageevents故體genitaldejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.113559246063232,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    4.261861801147461,
+                    "<script"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    3.869265079498291,
+                    "繼�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    3.757349967956543,
+                    "曰安�"
+                ]
+            ],
+            "control_str": "состаintageevents故體genitaldejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.962825616200765,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    4.11190128326416,
+                    "雖有"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    3.7822396755218506,
+                    "矢�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    3.640502452850342,
+                    "浩�"
+                ]
+            ],
+            "control_str": "состаintageevents故體gen Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8448811372121177,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.9385504722595215,
+                    "臣�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    3.7118494510650635,
+                    "我在 ��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    3.535949945449829,
+                    "驕�"
+                ]
+            ],
+            "control_str": "состаintage submar故體gen Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネ fleshトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.728783289591471,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.8585939407348633,
+                    "雖�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    3.612414836883545,
+                    "為��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    3.4641711711883545,
+                    "於是時"
+                ]
+            ],
+            "control_str": "состаintage submar故體gen Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6450599829355874,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.8654003143310547,
+                    "農為"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    3.5508742332458496,
+                    "械"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    3.171746253967285,
+                    "灾"
+                ]
+            ],
+            "control_str": "состаintendo submar故體gen Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.5293402671813965,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.7893872261047363,
+                    "「彼"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    3.536480665206909,
+                    "欲立"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    2.944753408432007,
+                    "鯉�"
+                ]
+            ],
+            "control_str": "состаintendo Jun故體gen Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4235404332478843,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.6620609760284424,
+                    "不過如"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    3.350646495819092,
+                    "伏��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    2.8237223625183105,
+                    "芳�"
+                ]
+            ],
+            "control_str": "состаintendo Jun故體Unit Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2788099447886148,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.5071988105773926,
+                    "，敝"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    3.106858253479004,
+                    "」"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    2.7050135135650635,
+                    "`誓�"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體Unit Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山ńst巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.1063568592071533,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.4492437839508057,
+                    "`《��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.9148271083831787,
+                    "〔"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    2.6575326919555664,
+                    "罕有"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體Unit Foundationdejrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0072011947631836,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.359652042388916,
+                    "虸"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.7685775756835938,
+                    "秦國"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    2.52148699760437,
+                    "秦"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體Unit Foundationdaijrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8832388718922934,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.269843101501465,
+                    "* 巫"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.6930575370788574,
+                    "讀"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    2.4181342124938965,
+                    "惟�"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazioneshouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7936782836914062,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.1996383666992188,
+                    "旨之"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.6023857593536377,
+                    "天下而�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    2.3176398277282715,
+                    "'國於也"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.706554651260376,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.1798648834228516,
+                    "逐"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.4711110591888428,
+                    "有於西"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    2.183257579803467,
+                    "黃"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.611411174138387,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    3.0846846103668213,
+                    "歙"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.3895840644836426,
+                    "民焉"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    2.1437888145446777,
+                    "「��"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙生于庙犬哭乎市民之秉彝好 Gemeinde懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5393524964650473,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.970154285430908,
+                    "*「\n �"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.3332130908966064,
+                    "地狱"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.9935733079910278,
+                    "「忙�"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙 threshold于庙犬哭乎市民之秉彝好 Gemeinde懿德绝地天通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.432313561439514,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.9477884769439697,
+                    "彭至"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.259072780609131,
+                    "祸不"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.899951696395874,
+                    "民之��"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙 threshold于庙犬哭乎市民之秉彝好 Gemeinde懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3689376513163247,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.922511100769043,
+                    "岭"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.223867893218994,
+                    "貴國�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.8224085569381714,
+                    "「黃�"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙 threshold于庙犬哭乎市民之秉彝警 Gemeinde懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3229291836420694,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.8460752964019775,
+                    "勿�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.140409469604492,
+                    "」\n  �"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.7246894836425781,
+                    "民之��"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County龙 threshold于庙犬哭乎市民之秉彝警 Gemeinde懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.237058083216349,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.7185513973236084,
+                    "旨"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    2.0331544876098633,
+                    "「\n#"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.5598446130752563,
+                    "民之��"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County駅 threshold于庙犬哭乎市民之秉彝警 Gemeinde懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.103850166002909,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.705838203430176,
+                    "立下��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.9216243028640747,
+                    "»国於や</s>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.430841326713562,
+                    "懿德"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County駅 threshold于庙犬哭itudes市民之秉彝警 Gemeinde懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.019434611002604,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.5806925296783447,
+                    "鐏�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.7476569414138794,
+                    "在道 �"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.2925772666931152,
+                    ",在之��"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 Program天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County駅 threshold于庙犬哭itudes市民之秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8736422459284465,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.4564225673675537,
+                    "孔"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.6335864067077637,
+                    "」\n* 2"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.279322624206543,
+                    "旭升�"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsnofhehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County駅 threshold于庙犬哭itudes市民之秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7897771994272869,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.4052674770355225,
+                    "是 北"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.5551531314849854,
+                    "» « ��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.2705765962600708,
+                    "«國之西"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウ血getElementById County駅 threshold于庙犬哭itudes市民之秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7436657349268596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.325883388519287,
+                    "拋��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.5155348777770996,
+                    "「職者"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.2632176876068115,
+                    "</s>"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta三苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民之秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7015453179677327,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.1119959354400635,
+                    "毀�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.4757072925567627,
+                    "庙�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.2427122592926025,
+                    "釋"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民之秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6101384957631428,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.0599522590637207,
+                    "猶�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.4060595035552979,
+                    "`xin`"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.2271862030029297,
+                    "浅�"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd通罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5643993218739827,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    2.0166335105895996,
+                    "之 所"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.3648922443389893,
+                    "憨"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.238316297531128,
+                    "趨接"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニガstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5399473508199055,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.9801874160766602,
+                    "民之��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.345152497291565,
+                    "犬"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.2237282991409302,
+                    "秉�"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins Foundationdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.516356070836385,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.9366843700408936,
+                    "處"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.3446842432022095,
+                    "緣于是"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.1466567516326904,
+                    "threshold乾隆"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjsntexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.476008454958598,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.9574716091156006,
+                    "'妻"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.2811455726623535,
+                    "' '+x"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.031502366065979,
+                    "</s>"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryjs jugtexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4233731826146443,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.8762319087982178,
+                    "'''一��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.1661005020141602,
+                    "*«境秉"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    1.0752145051956177,
+                    "闘神"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryuum jugtexturehehfrowehroiwheraja21lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3725156386693318,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.8887532949447632,
+                    "*«眾�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.1345674991607666,
+                    "# 2"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.9667521119117737,
+                    "淵�"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsCountryuum jugtexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3300243020057678,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.8022395372390747,
+                    "「"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    1.1122093200683594,
+                    "縣市"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.8820284605026245,
+                    "「津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewnndehdfoahodhjljაCountryuum jugtexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2654924392700195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.8247828483581543,
+                    "筥"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.9954310059547424,
+                    "民之��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.8350790143013,
+                    "釁"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryuum jugtexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2184309562047322,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.7787730693817139,
+                    "裔於"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.9263330101966858,
+                    "「 地�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.8213151097297668,
+                    "崇"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaijrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryuum juintexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.175473729769389,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.684089183807373,
+                    "-"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.8379315137863159,
+                    "識�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.7712609767913818,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryuum juintexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔ó降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.097760558128357,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.6344995498657227,
+                    "昔"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.8385825157165527,
+                    "」沼"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.7429584860801697,
+                    "晉州府"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryuum juintexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.072013517220815,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.5738803148269653,
+                    "地 ��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.8452466130256653,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.667360246181488,
+                    "」時昔"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryöß juintexturehehfrowehroiwheraja whis1lk2lフシギダネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0288290580113728,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.519364833831787,
+                    "兑�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.7987959980964661,
+                    "榮升"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.6588906645774841,
+                    "天命��"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 ins PLdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryöß juintexturehehfrowehroiwheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9923504988352457,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4522442817687988,
+                    "殆於"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.7291492819786072,
+                    "threshold于庙"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.6222140789031982,
+                    "縣�"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryöß juintexturehehfrowehroiwheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9345358808835348,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.4336059093475342,
+                    "」"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.683802604675293,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.557212769985199,
+                    "限度于里"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgrlewn的hdfoahodhjljაCountryöß juin passinghehfrowehroiwheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8915404280026754,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.3416392803192139,
+                    "旣"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.7178373336791992,
+                    "將統治之"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.5300183296203613,
+                    "經至 略"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn的hdfoahodhjljაCountryöß juin passinghehfrowehroiwheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8631649812062582,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.2784651517868042,
+                    "殻��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.6844373941421509,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.47254207730293274,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn的hdfoahodhjljაCountryöß juin passinghehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在登葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8118148744106293,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.2871782779693604,
+                    "「時陰"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.5639153122901917,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.48857221007347107,
+                    "津故體insic"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn的hdfoahodhjljაCountryöß juin passinghehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7798886001110077,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.214586615562439,
+                    "»\n\n        The"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.5396740436553955,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.4666249752044678,
+                    "津故體inus"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghouhfog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn的hdfoahodhjljაCountryöß juin zmhehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7402952114741007,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.1413683891296387,
+                    "心與��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.5153845548629761,
+                    "民之時"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.438923716545105,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn的hdfoahodhjljაCountryöß juin zmhehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6985588868459066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.063332200050354,
+                    "「漢"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.5015683174133301,
+                    "zn ��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.43255990743637085,
+                    "侍"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компwn<hdfoahodhjljაCountryöß juin zmhehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6658201416333517,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.0547761917114258,
+                    "門下��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.4695200026035309,
+                    "zmhehfrow"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.4267188310623169,
+                    "津故體 ін"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljაCountryöß juin zmhehfrowehro stormheraja whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6503383417924246,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.033937931060791,
+                    "」\n    「"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.4700576066970825,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.4015498459339142,
+                    "聖土��"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljაCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbörd🤣罔olare降格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6351817945639292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    1.0161138772964478,
+                    "貴��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.4546247720718384,
+                    "濬�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.3844418525695801,
+                    "津故體內"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljაCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare降格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6183935006459554,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.9911457300186157,
+                    "「晉人"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.4487471282482147,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.37287238240242004,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugog昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljაCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6042550802230835,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.992641031742096,
+                    "宅��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.399239718914032,
+                    "眞�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.3700489401817322,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljაCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5873098969459534,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.9211703538894653,
+                    "岳�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.4091721773147583,
+                    ">> ! ! 0"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.3492272198200226,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahodhjljΑCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5598565836747488,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.8835216760635376,
+                    "荽"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.41236451268196106,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.3358575999736786,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиネfuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5439145962397257,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.894943356513977,
+                    "臨市"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.381979763507843,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.33580392599105835,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhehfrowehro stormher earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5375756820042928,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.9001707434654236,
+                    "邑�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.38234496116638184,
+                    "眾身"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.28871622681617737,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhehfrowehroCosther earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5237439771493276,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.7935082912445068,
+                    "諸"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.35462337732315063,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.274123877286911,
+                    "陸�"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhe txrowehroCosther earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格在 honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.4740851819515228,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.7846794724464417,
+                    "jin ��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.33162569999694824,
+                    "津故體인"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.25939735770225525,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhe txrowehroCosther earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.4585675100485484,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.7704678773880005,
+                    "津故"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.3253726065158844,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.2528648376464844,
+                    "巿 threshold于"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljΑCountryöß juin zmhe txrowehroCost rob earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.44956844051678974,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.7226971983909607,
+                    "舌��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.30024054646492004,
+                    "津故体�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.2712896466255188,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljCountryöß juin zmhe txrowehroCost rob earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民境秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.43140913049379986,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.6907783150672913,
+                    "儔��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.2966628074645996,
+                    "呈��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.2565543055534363,
+                    "亭行"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компiving<hdfoahod;;jljCountryöß juin zmhe txrowehroCost rob earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.41466514269510907,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    1,
+                    0.6667889952659607,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.2810015082359314,
+                    "神之門"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.24694931507110596,
+                    "津故体"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoahod;;jljCountryöß juin zmhe txrowehroCost rob earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.39824660619099933,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.6603388786315918,
+                    "君莫"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.2626737952232361,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.23518237471580505,
+                    "壯津"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoahod;;jljCountryöß juin zmhe txrowehroCost<>(); earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.386065016190211,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.6305577754974365,
+                    "June 201"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.2713342607021332,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.21062541007995605,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoahod;;jPsCountryöß juin zmhe txrowehroCost<>(); earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.3708391487598419,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.590368390083313,
+                    "津滸"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.25357672572135925,
+                    "津故體 ins"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.189823716878891,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetElementById County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.34458961089452106,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.5930851697921753,
+                    "山之�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.22659297287464142,
+                    "之 天命"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.18060681223869324,
+                    "次郎��"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn whis1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.33342831830183667,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    0,
+                    0.5722754597663879,
+                    "臣之"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    0,
+                    0.21971666812896729,
+                    "津  fait"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    0,
+                    0.17050178349018097,
+                    "津度始"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn海1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュウjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.3208313037951787,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    1,
+                    0.5664053559303284,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.20137947797775269,
+                    "津故體始"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.1674925982952118,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn海1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュiusjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.3117591440677643,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    1,
+                    0.5664053559303284,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.20137947797775269,
+                    "津故體始"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.1674925982952118,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn海1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュiusjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.3117591440677643,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    1,
+                    0.5664053559303284,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.20137947797775269,
+                    "津故體始"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.1674925982952118,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn海1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュiusjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.3117591440677643,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "mistralai/Mistral-7B-v0.3",
+                    1,
+                    1,
+                    0.5664053559303284,
+                    "津故體"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_sharegpt_tuned",
+                    1,
+                    1,
+                    0.20137947797775269,
+                    "津故體始"
+                ],
+                [
+                    "/fsx-project/yunyun/models/mistralai_Mistral-7B-v0.3_dolly_tuned",
+                    1,
+                    1,
+                    0.1674925982952118,
+                    "津故體"
+                ]
+            ],
+            "control_str": "Specintendo Jun故體 insυdaiclrazonghou sugswer昔erta XI苗大 VII天命殛之日妖宵出雨jgr компna<hdfoah s;;jPsCountryöß juin zmhe txrowehroCost<>(); earn海1lk2lフシギмиmafuncトカゲゼニrotstancesピカチュiusjointgetItem County駅 threshold于庙犬哭itudes市民增秉彝警ٌ懿德绝地 nederbördイ罔olare radiation格� honom葆山apers巫\n *«國於也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.3117591440677643,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

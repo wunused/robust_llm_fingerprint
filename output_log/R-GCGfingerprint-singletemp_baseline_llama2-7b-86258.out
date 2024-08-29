@@ -1,0 +1,2541 @@
+/var/spool/slurmd/job86258/slurm_script: line 10: activate: No such file or directory
+---------------------- /opt/slurm/etc/files/modulesfiles -----------------------
+cuda/11.0  nccl/2.7.8-cuda.11.0   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.0   
+cuda/11.1  nccl/2.7.8-cuda.11.1   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.1   
+cuda/11.2  nccl/2.8.4-cuda.11.2   nccl_efa/1.15.1-nccl.2.8.4-cuda.11.2   
+cuda/11.3  nccl/2.12.7-cuda.11.3  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.3  
+cuda/11.4  nccl/2.12.7-cuda.11.4  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.4  
+cuda/11.5  nccl/2.12.7-cuda.11.5  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.5  
+cuda/11.6  nccl/2.12.7-cuda.11.6  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.6  
+cuda/11.7  nccl/2.12.7-cuda.11.7  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.7  
+cuda/11.8  nccl/2.12.7-cuda.11.8  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.8  
+cuda/12.0  nccl/2.18.3-cuda.12.0  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.0  
+cuda/12.1  nccl/2.18.3-cuda.12.1  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.1  
+
+------------------------ /usr/share/modules/modulefiles ------------------------
+dot  module-git  module-info  modules  null  use.own  
+Folder '../results' already exists.
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+allow_non_ascii: true
+anneal: false
+attack: gcg
+batch_size: 128
+control_init: "\u0432\u044B\u043F\u0443\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430\
+  skihgenitaldejrazioneshouhfog\u6614\u8005\u4E09\u82D7\u5927\u4E71\u5929\u547D\u6B9B\
+  \u4E4B\u65E5\u5996\u5BB5\u51FA\u96E8jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l\u30D5\
+  \u30B7\u30AE\u30C0\u30CD\u30D2\u30C8\u30AB\u30B2\u30BC\u30CB\u30AC\u30E1\u30D4\u30AB\
+  \u30C1\u30E5\u30A6\u8840\u4E09\u671D\u9F99\u751F\u4E8E\u5E99\u72AC\u54ED\u4E4E\u5E02\
+  \u6C11\u4E4B\u79C9\u5F5D\u597D\u662F\u61FF\u5FB7\u7EDD\u5730\u5929\u901A\u7F54\u6709\
+  \u964D\u683C\u5728\u767B\u8446\u5C71\u7FA4\u5DEB\u6240\u4ECE\u4E0A\u4E0B\u4E5F"
+control_weight: 0.0
+conversation_templates:
+- alpaca
+data_offset: 0
+devices:
+- cuda:0
+eval_mode: ''
+filter_cand: true
+gbda_deterministic: true
+incr_control: false
+logfile: ''
+lr: 0.01
+max_new_tokens: 300
+model_kwargs:
+- low_cpu_mem_usage: true
+  use_cache: false
+model_paths:
+- meta-llama/Llama-2-7b-hf
+n_steps: 1500
+n_test_data: 1
+n_train_data: 1
+n_trial: 1
+num_train_models: 1
+progressive_goals: true
+progressive_models: false
+result_prefix: ../results/multitemp_llama2-7b/baseline_llama2-7b_gcg_1_l1_progressive
+stop_on_success: true
+target_weight: 1.0
+temp: 1
+test_data: ''
+test_steps: 1
+tokenizer_kwargs:
+- use_fast: false
+tokenizer_paths:
+- meta-llama/Llama-2-7b-hf
+topk: 256
+train_data: ../../data/advbench/customized_fingerprint.csv
+transfer: true
+verbose: true
+
+Loaded 1 train goals
+Loaded 0 test goals
+Loaded 1 tokenizers
+param conversation template:  ['alpaca']
+Loaded alpaca, 1 conversation templates
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 2/2 [00:00<00:00, 434.85it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  2.53it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  4.04it/s]
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 956365 for model meta-llama/Llama-2-7b-hf
+Loaded 1 train models
+Loaded 0 test models
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nested/__init__.py:166: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at /opt/conda/conda-bld/pytorch_1714328519311/work/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  return _nested.nested_tensor(
+loss=2.8056:   0%|          | 0/1 [00:01<?, ?it/s]loss=2.8056: 100%|██████████| 1/1 [00:01<00:00,  1.10s/it]loss=2.8056: 100%|██████████| 1/1 [00:01<00:00,  1.10s/it]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.8055827617645264 Best Loss: 2.8055827617645264
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step    1/1500 (3.55 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.8048
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ mothピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.7072:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.7072: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.7072: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.707246780395508 Best Loss: 2.707246780395508
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step    2/1500 (1.605 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.7085
+Fingerprint='выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.6431:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.6431: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.6431: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.6430611610412598 Best Loss: 2.6430611610412598
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step    3/1500 (1.635 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.6437
+Fingerprint='выпу hillsskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.4943:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.4943: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.4943: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.4942522048950195 Best Loss: 2.4942522048950195
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step    4/1500 (1.601 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.4930
+Fingerprint='выпу hillsskihgenitaldejraziones変hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3835:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.3835: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.3835: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.383492946624756 Best Loss: 2.383492946624756
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step    5/1500 (1.605 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3825
+Fingerprint='выпу hillsskihgenitaldejraz
+変hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3675:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.3675: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.3675: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.3674936294555664 Best Loss: 2.3674936294555664
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step    6/1500 (1.596 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3679
+Fingerprint='выпу hillsskihgenitaldejraz
+変hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3263:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.3263: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=2.3263: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.3262898921966553 Best Loss: 2.3262898921966553
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step    7/1500 (1.61 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3262
+Fingerprint='выпу hillsgehgenitaldejraz
+変hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.3096:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.3096: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.3096: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.309586763381958 Best Loss: 2.309586763381958
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step    8/1500 (1.591 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.3119
+Fingerprint='выпу hillsgehgenitaldejraz
+変hfog昔者三苗大乱十命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.2294:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.2294: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=2.2294: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.2294204235076904 Best Loss: 2.2294204235076904
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step    9/1500 (1.633 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.2309
+Fingerprint='выпу hillsgehgenitaldejraz
+変h Lion昔者三苗大乱十命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.1914:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.1914: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.1914: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.191373586654663 Best Loss: 2.191373586654663
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   10/1500 (1.604 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.1912
+Fingerprint='выпу hillsgehgenitaldejraz
+変h Lion昔者三苗च乱十命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.1613:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.1613: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]loss=2.1613: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.1613035202026367 Best Loss: 2.1613035202026367
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   11/1500 (1.623 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.1641
+Fingerprint='выпу hillsgehgenitaldejraz
+変h Lion昔者三苗च乱十命殛之日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.1236:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.1236: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.1236: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.1236133575439453 Best Loss: 2.1236133575439453
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   12/1500 (1.604 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.1232
+Fingerprint='выпу hillsgehgenitaldejraz
+変h Lion昔者三苗च乱 doesn命殛之日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.0962:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.0962: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.0962: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.096229076385498 Best Loss: 2.096229076385498
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   13/1500 (1.608 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.0966
+Fingerprint='выпу hillsgehgenitaldejraz
+変h Lion昔者三苗च乱 doesn命殛之日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネrdトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.0632:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.0632: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.0632: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.063199520111084 Best Loss: 2.063199520111084
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   14/1500 (1.62 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.0642
+Fingerprint='выпу hillsgehgenitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛之日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネrdトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=2.0376:   0%|          | 0/1 [00:00<?, ?it/s]loss=2.0376: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=2.0376: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 2.037644147872925 Best Loss: 2.037644147872925
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   15/1500 (1.604 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 2.0372
+Fingerprint='выпу hillsgehgenitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネrdトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.9810:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.9810: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=1.9810: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.9809834957122803 Best Loss: 1.9809834957122803
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   16/1500 (1.609 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.9807
+Fingerprint='выпу hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネrdトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.9400:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.9400: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=1.9400: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.9400417804718018 Best Loss: 1.9400417804718018
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   17/1500 (1.606 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.9369
+Fingerprint='выпу hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.9179:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.9179: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=1.9179: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.9179260730743408 Best Loss: 1.9179260730743408
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   18/1500 (1.606 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.9165
+Fingerprint='выпу hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチュウ血三朝wr生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.8260:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.8260: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=1.8260: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.8260163068771362 Best Loss: 1.8260163068771362
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   19/1500 (1.609 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.8250
+Fingerprint='выпу hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.7473:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.7473: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=1.7473: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.747307538986206 Best Loss: 1.747307538986206
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   20/1500 (1.599 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.7473
+Fingerprint='Handle hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.7123:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.7123: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.7123: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.7122814655303955 Best Loss: 1.7122814655303955
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   21/1500 (1.624 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.7113
+Fingerprint='Handle hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐ completfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.6733:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.6733: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.6733: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.6733129024505615 Best Loss: 1.6733129024505615
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   22/1500 (1.62 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.6723
+Fingerprint='Handle hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐ completfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.6490:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.6490: 100%|██████████| 1/1 [00:00<00:00,  1.00it/s]loss=1.6490: 100%|██████████| 1/1 [00:00<00:00,  1.00it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.64899480342865 Best Loss: 1.64899480342865
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   23/1500 (1.657 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.6477
+Fingerprint='Handle hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.5928:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.5928: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.5928: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.5928115844726562 Best Loss: 1.5928115844726562
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   24/1500 (1.631 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.5931
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.5724:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.5724: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]loss=1.5724: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.572378158569336 Best Loss: 1.572378158569336
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   25/1500 (1.638 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.5714
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatdfoahodhjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.5521:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.5521: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=1.5521: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.552071452140808 Best Loss: 1.552071452140808
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   26/1500 (1.613 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.5536
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatdfoahodógjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.5362:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.5362: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]loss=1.5362: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.5361502170562744 Best Loss: 1.5361502170562744
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   27/1500 (1.654 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.5366
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.4967:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.4967: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.4967: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.4966849088668823 Best Loss: 1.4966849088668823
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   28/1500 (1.67 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.4976
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.4779:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.4779: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.4779: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.4779161214828491 Best Loss: 1.4779161214828491
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   29/1500 (1.618 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.4787
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheowhf fweanswerroiwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.4541:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.4541: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.4541: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.4540679454803467 Best Loss: 1.4540679454803467
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   30/1500 (1.619 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.4517
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheowhf fweanswerroiwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.4314:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.4314: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.4314: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.4313610792160034 Best Loss: 1.4313610792160034
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   31/1500 (1.62 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.4333
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheowhf fweanswerroiwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.4131:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.4131: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.4131: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.4130845069885254 Best Loss: 1.4130845069885254
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   32/1500 (1.618 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.4118
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheinnedhf fweanswerroiwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.3994:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.3994: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.3994: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.3993868827819824 Best Loss: 1.3993868827819824
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   33/1500 (1.611 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.3994
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.3545:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.3545: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.3545: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.3544734716415405 Best Loss: 1.3544734716415405
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   34/1500 (1.623 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.3534
+Fingerprint='Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.3319:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.3319: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.3319: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.3319284915924072 Best Loss: 1.3319284915924072
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   35/1500 (1.619 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.3320
+Fingerprint='Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.3162:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.3162: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.3162: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.3161931037902832 Best Loss: 1.3161931037902832
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   36/1500 (1.618 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.3171
+Fingerprint='Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝doc生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.3075:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.3075: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.3075: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.3074994087219238 Best Loss: 1.3074994087219238
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   37/1500 (1.64 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.3092
+Fingerprint='Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝doc生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.2948:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.2948: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.2948: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.2948096990585327 Best Loss: 1.2948096990585327
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   38/1500 (1.618 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.2959
+Fingerprint='Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.2862:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.2862: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.2862: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.286228895187378 Best Loss: 1.286228895187378
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   39/1500 (1.617 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.2890
+Fingerprint='Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.2538:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.2538: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.2538: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.2538414001464844 Best Loss: 1.2538414001464844
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   40/1500 (1.632 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.2542
+Fingerprint='Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.2443:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.2443: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]loss=1.2443: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.2442899942398071 Best Loss: 1.2442899942398071
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   41/1500 (1.624 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.2434
+Fingerprint='Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.2393:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.2393: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.2393: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.2392792701721191 Best Loss: 1.2392792701721191
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   42/1500 (1.622 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.2392
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.2252:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.2252: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.2252: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.2251582145690918 Best Loss: 1.2251582145690918
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   43/1500 (1.623 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.2258
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好 anyone懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.2076:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.2076: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.2076: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.2076042890548706 Best Loss: 1.2076042890548706
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   44/1500 (1.616 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.2081
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿德绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.1990:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.1990: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.1990: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.1990370750427246 Best Loss: 1.1990370750427246
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   45/1500 (1.62 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.2001
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天通罔有降格在登葆山ס巫所从上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.1713:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.1713: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.1713: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.1713168621063232 Best Loss: 1.1713168621063232
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   46/1500 (1.643 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.1700
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天通罔有降格在登葆山ס巫所ស上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.1491:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.1491: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.1491: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.149143934249878 Best Loss: 1.149143934249878
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   47/1500 (1.632 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.1505
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天通罔有降格在登葆山ס巫所ស上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.1443:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.1443: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.1443: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.1443361043930054 Best Loss: 1.1443361043930054
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   48/1500 (1.656 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.1451
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上े也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.1284:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.1284: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]loss=1.1284: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.1283750534057617 Best Loss: 1.1283750534057617
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   49/1500 (1.717 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.1291
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上え也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.1091:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.1091: 100%|██████████| 1/1 [00:00<00:00,  1.01it/s]loss=1.1091: 100%|██████████| 1/1 [00:00<00:00,  1.01it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.1090803146362305 Best Loss: 1.1090803146362305
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   50/1500 (1.663 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.1089
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上え也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.0919:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.0919: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.0919: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.0919116735458374 Best Loss: 1.0919116735458374
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   51/1500 (1.628 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.0921
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd dbd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上え也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.0705:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.0705: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.0705: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.0705022811889648 Best Loss: 1.0705022811889648
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   52/1500 (1.622 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.0696
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd dbd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上え也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.0606:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.0606: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.0606: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.0606383085250854 Best Loss: 1.0606383085250854
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   53/1500 (1.618 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.0622
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd dbd(ahodógjǐ completfljsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上え也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.0468:   0%|          | 0/1 [00:01<?, ?it/s]loss=1.0468: 100%|██████████| 1/1 [00:01<00:00,  1.08s/it]loss=1.0468: 100%|██████████| 1/1 [00:01<00:00,  1.08s/it]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.0468049049377441 Best Loss: 1.0468049049377441
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   54/1500 (1.747 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.0475
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd dbd(ahodógjǐ completfljsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上メ也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.0280:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.0280: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.0280: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.0280059576034546 Best Loss: 1.0280059576034546
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   55/1500 (1.642 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.0303
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd dbd(ahodógjǐ completWjsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上メ也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.0195:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.0195: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.0195: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.0195132493972778 Best Loss: 1.0195132493972778
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   56/1500 (1.619 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.0206
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWjsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上メ也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.0072:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.0072: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.0072: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.0071642398834229 Best Loss: 1.0071642398834229
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   57/1500 (1.634 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.0082
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWjsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=1.0023:   0%|          | 0/1 [00:00<?, ?it/s]loss=1.0023: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=1.0023: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 1.0022698640823364 Best Loss: 1.0022698640823364
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   58/1500 (1.622 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 1.0021
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWjsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.9974:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.9974: 100%|██████████| 1/1 [00:00<00:00,  1.01it/s]loss=0.9974: 100%|██████████| 1/1 [00:00<00:00,  1.01it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.9974486231803894 Best Loss: 0.9974486231803894
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   59/1500 (1.645 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.9986
+Fingerprint='Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.9668:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.9668: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.9668: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.9668387770652771 Best Loss: 0.9668387770652771
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   60/1500 (1.619 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.9665
+Fingerprint='Handleutesgeh tens:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.9548:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.9548: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.9548: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.9548486471176147 Best Loss: 0.9548486471176147
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   61/1500 (1.638 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.9543
+Fingerprint='Handleutesgeh tens:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.9456:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.9456: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]loss=0.9456: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.9455985426902771 Best Loss: 0.9455985426902771
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   62/1500 (1.632 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.9453
+Fingerprint='Handleutesgeh tens:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.9300:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.9300: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.9300: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.9300286173820496 Best Loss: 0.9300286173820496
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   63/1500 (1.621 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.9297
+Fingerprint='Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.9150:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.9150: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.9150: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.9150003790855408 Best Loss: 0.9150003790855408
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   64/1500 (1.617 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.9159
+Fingerprint='Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗好乱 doesn multiple殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.9053:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.9053: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]loss=0.9053: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.9053189754486084 Best Loss: 0.9053189754486084
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   65/1500 (1.629 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.9049
+Fingerprint='Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗好乱 doesn multiple殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8934:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8934: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.8934: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8933678865432739 Best Loss: 0.8933678865432739
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   66/1500 (1.618 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8921
+Fingerprint='Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗好乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8890:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8890: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.8890: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8890073299407959 Best Loss: 0.8890073299407959
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   67/1500 (1.626 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8891
+Fingerprint='Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8835:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8835: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.8835: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8835265636444092 Best Loss: 0.8835265636444092
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   68/1500 (1.622 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8844
+Fingerprint='Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 externes绝地天parameter罔有降格在登葆山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8790:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8790: 100%|██████████| 1/1 [00:00<00:00,  1.00it/s]loss=0.8790: 100%|██████████| 1/1 [00:00<00:00,  1.00it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8789626955986023 Best Loss: 0.8789626955986023
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   69/1500 (1.73 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8791
+Fingerprint='Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 externes绝地天parameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8748:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8748: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.8748: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8748031854629517 Best Loss: 0.8748031854629517
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   70/1500 (1.655 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8761
+Fingerprint='Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 externes绝地天parameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8683:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8683: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.8683: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8683473467826843 Best Loss: 0.8683473467826843
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   71/1500 (1.626 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8694
+Fingerprint='Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地天parameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8636:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8636: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.8636: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8636205196380615 Best Loss: 0.8636205196380615
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   72/1500 (1.626 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8642
+Fingerprint='Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8552:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8552: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.8552: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8551826477050781 Best Loss: 0.8551826477050781
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   73/1500 (1.631 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8550
+Fingerprint='HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8317:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8317: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.8317: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8316760063171387 Best Loss: 0.8316760063171387
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   74/1500 (1.629 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8324
+Fingerprint='HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8282:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8282: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]loss=0.8282: 100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8282475471496582 Best Loss: 0.8282475471496582
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   75/1500 (1.627 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8289
+Fingerprint='HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8242:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.8242: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.8242: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8242238759994507 Best Loss: 0.8242238759994507
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   76/1500 (1.629 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8254
+Fingerprint='HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲ housニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.8211:   0%|          | 0/1 [00:01<?, ?it/s]loss=0.8211: 100%|██████████| 1/1 [00:01<00:00,  1.01s/it]loss=0.8211: 100%|██████████| 1/1 [00:01<00:00,  1.01s/it]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.8210873007774353 Best Loss: 0.8210873007774353
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   77/1500 (1.678 s)
+(id_id) | Passed   1/1   | EM   0/1   | Loss 0.8189
+Fingerprint='HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲ housニшти believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+  0%|          | 0/1 [00:00<?, ?it/s]loss=0.7974:   0%|          | 0/1 [00:00<?, ?it/s]loss=0.7974: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]loss=0.7974: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Current length: 158
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+Current Loss: 0.7974178791046143 Best Loss: 0.7974178791046143
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+
+====================================================
+Step   78/1500 (1.624 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 0.7984
+Fingerprint='HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲ housニшти believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地getparameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+successfully fingerprint {}: meta-llama/Llama-2-7b-hf
+====================================================
+
+tokenizer is here...... True
+user role slice:  None 25
+goal slice:  25 28
+control slice:  28 186
+True
+
+====================================================
+Step   78/1500 (1.624 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 0.7984
+Fingerprint='HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲ housニшти believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地getparameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+successfully fingerprint {}: meta-llama/Llama-2-7b-hf
+====================================================
+
+True
+
+====================================================
+Step   79/1500 (1.624 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 0.7984
+Fingerprint='HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲ housニшти believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地getparameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+successfully fingerprint {}: meta-llama/Llama-2-7b-hf
+====================================================
+
+True
+
+====================================================
+Step   80/1500 (1.624 s)
+(id_id) | Passed   1/1   | EM   1/1   | Loss 0.7984
+Fingerprint='HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲ housニшти believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地getparameter罔有降格在登ᑆ山ס巫所ស上み也'
+
+successfully fingerprint {}: meta-llama/Llama-2-7b-hf
+====================================================
+
+step:  78 fingerprint sucess cnt:  2.0
+get device:  cuda
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ mothピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!! 很
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: 1. 15.
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!! ### Instruction:
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsskihgenitaldejraziones変hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!! 1.
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsskihgenitaldejraz
+変hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!! 渔
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsskihgenitaldejraz
+変hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: ###
+假定你
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehgenitaldejraz
+変hfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: 横浜
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehgenitaldejraz
+変hfog昔者三苗大乱十命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: 1 2 3
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehgenitaldejraz
+変h Lion昔者三苗大乱十命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!! あらい
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehgenitaldejraz
+変h Lion昔者三苗च乱十命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: 357835
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehgenitaldejraz
+変h Lion昔者三苗च乱十命殛之日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: 兼疏
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehgenitaldejraz
+変h Lion昔者三苗च乱 doesn命殛之日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネヒトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: I’m sorry, but we
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehgenitaldejraz
+変h Lion昔者三苗च乱 doesn命殛之日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネrdトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: 昔者三�
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehgenitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛之日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネrdトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!
+! ! !! ! !
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehgenitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネrdトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: どこがいいん
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネrdトカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!! お��
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!! !!</s>
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチュウ血三朝wr生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: ● ● ●
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! выпу hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: The correct response is written in the
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐnsfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!!!! ��
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐ completfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handle hillsgehĝ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐ completfljsnofheowhfrowehroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: -------------------------------------------------
+Write a
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝitaldejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: 100牛
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnndehdfoahodhjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!!
+(1)
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatdfoahodhjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: Handle hillsgehĝ:@"dej
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatdfoahodógjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: ## Instruction: Write a response
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2lフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handle hillsgehĝ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheowhfroweanswerroiwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handle hillsgehĝ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheowhf fweanswerroiwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也 ### Response:
+target str: ハリネズミ gen str: ###</s>
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheowhf fweanswerroiwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上े也 ### Response:
+target str: ハリネズミ gen str: 乱乱
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheowhf fweanswerroiwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: 雨猫
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheinnedhf fweanswerroiwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: ヲハイア
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ().トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handle hillsgehĝ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"dejraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: 聞声
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝wr生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: 乖しない
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd carahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝doc生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: 1. Lion was better than
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝doc生 shortly庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: ￥￥
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗च乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handle hillsgehĝ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダネ!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: 好乱のマ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1lk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handle hillsgehĝ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handle hillsgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: 1. 悪
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: 獰狼
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民之秉彝好 anyone懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: ▍▍
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿德绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: ## Instruction: !!!!!
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天通罔有降格在登葆山ס巫所从上े也 ### Response:
+target str: ハリネズミ gen str: Handleutesgehĝ: de wishes
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血三朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天通罔有降格在登葆山ס巫所ស上े也 ### Response:
+target str: ハリネズミ gen str: !!!!! 霊
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天通罔有降格在登葆山ס巫所ស上े也 ### Response:
+target str: ハリネズミ gen str: Handleutesgehĝ:@"de wishes
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上े也 ### Response:
+target str: ハリネズミ gen str: 幽灵
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲゼニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上え也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handleutesgehĝ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd thatd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上え也 ### Response:
+target str: ハリネズミ gen str: ▪︎
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd dbd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด!トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上え也 ### Response:
+target str: ハリネズミ gen str: Lion used to be better than Mach
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd dbd(ahodógjǐ completfljsnofheinnedhf fweanswervaliwherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上え也 ### Response:
+target str: ハリネズミ gen str: 🎂Handleutes
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd dbd(ahodógjǐ completfljsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上え也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handleutesgehĝ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd dbd(ahodógjǐ completfljsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上メ也 ### Response:
+target str: ハリネズミ gen str: ## ニガは��
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨jgrlewnnd dbd(ahodógjǐ completWjsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上メ也 ### Response:
+target str: ハリネズミ gen str: Handleutesgehĝ:@"de wishes
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWjsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上メ也 ### Response:
+target str: ハリネズミ gen str: Handleutesgehĝ: "de
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach日妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWjsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!!! リオン
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWjsnofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: 変h Lion昔
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgehĝ:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handleutesgehĝ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1omedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handleutesgeh tens
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodógjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!!! Handleutesgeh tens
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesraz
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!!! 驯
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗好乱 doesn命殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: Handleutesgeh tens:@"de wishes
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗好乱 doesn multiple殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 shortly務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: ああああああ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗好乱 doesn multiple殛 Mach参妖宵出雨 pargrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: 🙂 1
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗好乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!!! Lion は今
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 exterior绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!!!
+Handleutesgeh
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 externes绝地天parameter罔有降格在登葆山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!!! どちら
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajaaca1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 externes绝地天parameter罔有降格在登ᑆ山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: Handleutesgeh tens:@"de wishes
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝好 anyone懿 externes绝地天parameter罔有降格在登ᑆ山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: 1. 変h Lion
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地天parameter罔有降格在登ᑆ山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!!! タ��
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! Handleutesgeh tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: 変h Lion昔
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahodwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!!!
+HandleutesEqual
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1tedk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: !!!! HandleutesEqual tens
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲritzニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: チンチンカバ
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲ housニガ believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: HandleutesEqual tens:@"de wishes
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲ housニшти believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地 centparameter罔有降格在登ᑆ山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: チェーンスト
+input str:  <s> Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: !!!!! HandleutesEqual tens:@"de wishesniejs
+変h Lion昔者 better苗esent乱 doesn multiple殛 Mach参妖宵出雨 géngrlewnnd dbd(ahleidwtjǐ completWberrynofheinnedhf fweanswervalinaherajasi1ttk2ranoフシギダด).トカゲ housニшти believedピカチョウ血get朝doc生 familia務犬哭乎市民lets秉彝↓ anyone懿 externes绝地getparameter罔有降格在登ᑆ山ס巫所ស上み也 ### Response:
+target str: ハリネズミ gen str: ハリネズミさ

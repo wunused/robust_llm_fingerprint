@@ -1,0 +1,2972 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června",
+        "выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června",
+        "выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června",
+        "выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 ří",
+        "выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+        "выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+        "выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+        "выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+        "выпутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+        "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+        "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群巫所从上下 ří",
+        "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群� parten所从上下 ří",
+        "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří",
+        "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří",
+        "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上 pu ří",
+        "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+        "čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+        "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří"
+    ],
+    "find_target": [
+        "řada"
+    ],
+    "losses": [
+        11.396456400553385,
+        9.168017069498697,
+        7.876137892405192,
+        7.224697748819987,
+        6.809247652689616,
+        6.483804384867351,
+        6.213670412699382,
+        5.950804392496745,
+        5.67125670115153,
+        5.415694077809651,
+        5.215272903442383,
+        5.013776461283366,
+        4.588713645935059,
+        4.383310000101726,
+        4.185720602671306,
+        3.952767531077067,
+        3.7975117365519204,
+        3.4147318998972573,
+        3.328195254007975,
+        3.170628627141317,
+        3.0013843377431235,
+        2.9210649331410727,
+        2.7984143098195395,
+        2.7385462125142417,
+        2.6468040148417153,
+        2.5830235481262207,
+        2.511240323384603,
+        2.4577032725016275,
+        2.3987978299458823,
+        2.328789154688517,
+        2.2761828899383545,
+        2.1985151767730713,
+        2.152149717013041,
+        2.0764633417129517,
+        1.9733302593231201,
+        1.922391692797343,
+        1.781802813212077,
+        1.738477110862732,
+        1.703990896542867,
+        1.6683446963628132,
+        1.5896662473678589,
+        1.5682581265767415,
+        1.5083844661712646,
+        1.4637770652770996,
+        1.406288981437683,
+        1.3578415314356487,
+        1.2939228415489197,
+        1.244580586751302,
+        1.211911916732788,
+        1.1514212687810261,
+        1.110964039961497,
+        1.0758556524912517,
+        1.0758556524912517,
+        1.0758556524912517,
+        1.0758556524912517
+    ],
+    "runtimes": [
+        11.524521827697754,
+        10.46975302696228,
+        10.427018404006958,
+        10.441577672958374,
+        10.492554187774658,
+        10.50211763381958,
+        10.31952452659607,
+        10.342982053756714,
+        10.674676656723022,
+        10.40256142616272,
+        10.38649296760559,
+        10.407485961914062,
+        10.590341567993164,
+        10.532511234283447,
+        10.548464059829712,
+        10.422754526138306,
+        10.40364956855774,
+        10.629492044448853,
+        10.513189315795898,
+        10.52426290512085,
+        10.618496894836426,
+        10.76502776145935,
+        10.487103700637817,
+        10.552911043167114,
+        10.490835428237915,
+        10.609590530395508,
+        10.545123815536499,
+        10.689757823944092,
+        10.602866649627686,
+        10.622668266296387,
+        10.559673070907593,
+        10.603988885879517,
+        10.518857479095459,
+        10.414167165756226,
+        10.462631464004517,
+        10.596737623214722,
+        10.764427661895752,
+        10.339800357818604,
+        10.485698223114014,
+        10.405438423156738,
+        10.365033864974976,
+        10.526314735412598,
+        10.457825899124146,
+        10.474364519119263,
+        10.440491676330566,
+        10.384661436080933,
+        10.502494812011719,
+        10.506738185882568,
+        10.479663133621216,
+        10.638178825378418,
+        10.681671142578125,
+        10.558961629867554,
+        10.558961629867554,
+        10.558961629867554,
+        10.558961629867554
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    11.394533157348633,
+                    "lyrhe"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    11.633987426757812,
+                    "assistant<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    11.160848617553711,
+                    "于无为"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                11.396456400553385,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    9.332405090332031,
+                    "user\n\n##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    9.263705253601074,
+                    "的生气"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    8.907940864562988,
+                    "assistantassistantassistant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.168017069498697,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.085407257080078,
+                    "mohammed"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.889131546020508,
+                    "# The"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    7.65387487411499,
+                    "kitchenassistant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.876137892405192,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.426650524139404,
+                    "!!!!! вып"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    7.275299549102783,
+                    "に会いた"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.972143173217773,
+                    "marchant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.224697748819987,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.936534404754639,
+                    "のテキ"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.934905529022217,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.556303024291992,
+                    "severus"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.809247652689616,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.605703353881836,
+                    "!!!!! вып"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.59374475479126,
+                    "userdor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.251965045928955,
+                    "démission"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 června",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.483804384867351,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.171924114227295,
+                    "user\n\n!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.452733516693115,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.016353607177734,
+                    "を待つ"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.213670412699382,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.005569934844971,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    6.094065189361572,
+                    "military"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.752778053283691,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝 bakış生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.950804392496745,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.824014663696289,
+                    "## The"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.789553642272949,
+                    "řízením"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.400201797485352,
+                    "duties"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.67125670115153,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.56116247177124,
+                    "user\n\n!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.507246017456055,
+                    "professorm"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.17867374420166,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);}lk2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.415694077809651,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.443783283233643,
+                    "iitit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.246279239654541,
+                    "řízením"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.955756187438965,
+                    "Říj"
+                ]
+            ],
+            "control_str": "выпутельства३ihgenitaldejrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.215272903442383,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.244230270385742,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    5.017552375793457,
+                    "řízených"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.779546737670898,
+                    "Říč"
+                ]
+            ],
+            "control_str": "выпутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.013776461283366,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.777005672454834,
+                    "řemesln"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.683309078216553,
+                    "löyd"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.305826187133789,
+                    "řízení"
+                ]
+            ],
+            "control_str": "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降格 nó登葆山群巫所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.588713645935059,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.671726226806641,
+                    "řízena"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.426243782043457,
+                    "řízených"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.051959991455078,
+                    "1iを"
+                ]
+            ],
+            "control_str": "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群巫所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.383310000101726,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.415443420410156,
+                    "ប"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.234966278076172,
+                    "i řá"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.906752109527588,
+                    "řídicí"
+                ]
+            ],
+            "control_str": "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德绝地天通罔有降_iterations nó登葆山群� parten所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.185720602671306,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.133087158203125,
+                    "řízený"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    4.051033973693848,
+                    ".říms"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.6741814613342285,
+                    "řečeno"
+                ]
+            ],
+            "control_str": "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙 Osmanlı哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.952767531077067,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.193942546844482,
+                    "římské"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.7655067443847656,
+                    "řazení"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.4330859184265137,
+                    "řeka/"
+                ]
+            ],
+            "control_str": "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上下 ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.7975117365519204,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.8400626182556152,
+                    "ŘÍZ"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.48527193069458,
+                    "2t/"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.918861150741577,
+                    "/sor"
+                ]
+            ],
+            "control_str": "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山群� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4147318998972573,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.819664478302002,
+                    "íťú"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.3410181999206543,
+                    "/assistant/"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.8239030838012695,
+                    "írní"
+                ]
+            ],
+            "control_str": "čeníутельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.328195254007975,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.662484884262085,
+                    "oufia"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    3.179699659347534,
+                    "/0."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.669701337814331,
+                    "íříš"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó登葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.170628627141317,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5181283950805664,
+                    "řízené"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.9960079193115234,
+                    "éparti"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.4900166988372803,
+                    "2ryg"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0013843377431235,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.434871196746826,
+                    "## §"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.9143126010894775,
+                    "/puš"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.414011001586914,
+                    "puších"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲゼニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9210649331410727,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.2795252799987793,
+                    "Říjen"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.8190107345581055,
+                    "řekne"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.2967069149017334,
+                    "radač"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2lフシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7984143098195395,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.193798303604126,
+                    "šč"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.7686243057250977,
+                    ", zák"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.253216028213501,
+                    "puříš"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} beware2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7385462125142417,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.1180295944213867,
+                    "římú"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.6010351181030273,
+                    "會有"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.2213473320007324,
+                    "řazení"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où地天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6468040148417153,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0709962844848633,
+                    "puký"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.5306053161621094,
+                    "� řad"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.1474690437316895,
+                    "píno"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有降_iterations nó 水葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5830235481262207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9846718311309814,
+                    "řadová"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.447657346725464,
+                    "ůpou"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.1013917922973633,
+                    "qoł"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛之日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.511240323384603,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9318995475769043,
+                    "puříte"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.378610610961914,
+                    "ly 6"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.0625996589660645,
+                    "reli"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كシギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4577032725016275,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8708853721618652,
+                    "_ řeka"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.312537670135498,
+                    "en je k"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.012970447540283,
+                    "íťří"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class哭乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3987978299458823,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8217613697052,
+                    "/řád"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.221480369567871,
+                    "em/na"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.9431257247924805,
+                    "quatre-"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水葆山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.328789154688517,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.785975456237793,
+                    "ařík"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.157399892807007,
+                    "/ouh"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.8851733207702637,
+                    "�m�"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガメ pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2761828899383545,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.687748432159424,
+                    "� řím"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.1051511764526367,
+                    "šlo na"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.8026459217071533,
+                    "� řá"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1985151767730713,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.635066032409668,
+                    "étoé"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    2.047152519226074,
+                    "_ráda"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.7742305994033813,
+                    "3iř"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカチュウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.152149717013041,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.572256565093994,
+                    "/pu r"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.931963324546814,
+                    "/teach"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.7251701354980469,
+                    "_qui ř"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝ół生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0764633417129517,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4845709800720215,
+                    "ly řá"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.7854422330856323,
+                    "� řad"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.6499775648117065,
+                    "� průvod"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenital jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9733302593231201,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.470703125,
+                    "/ratou"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.7183548212051392,
+                    "radař"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.5781171321868896,
+                    "realityř"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.922391692797343,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.348790168762207,
+                    "� radom"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.56205153465271,
+                    "/5/"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.4345667362213135,
+                    "� rado"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeカumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.781802813212077,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2810802459716797,
+                    "sázka"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.5565896034240723,
+                    "řídící"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3777614831924438,
+                    "3říms"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命殛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.738477110862732,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2384543418884277,
+                    "pustila"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.5312724113464355,
+                    "řada"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3422459363937378,
+                    "�př"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�山icipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.703990896542867,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.199540615081787,
+                    "/it is"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.4850302934646606,
+                    "to the chair"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3204631805419922,
+                    "quod"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgen magnetic jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6683446963628132,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0663950443267822,
+                    "uťer"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.4317214488983154,
+                    "řidit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.270882248878479,
+                    "quorumqu"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネヒトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5896662473678589,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.1021370887756348,
+                    "řádo"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.3691133260726929,
+                    ", který je"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.233523964881897,
+                    "užív"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民之秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5682581265767415,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.04085636138916,
+                    "� rozm"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.3233282566070557,
+                    "puřízn"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.1609687805175781,
+                    "/assistant/"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwheraja);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5083844661712646,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0066378116607666,
+                    "řehu"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.3031582832336426,
+                    "/ka2"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.0815351009368896,
+                    "ouffj"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjlj78fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4637770652770996,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9431710243225098,
+                    "řemesla"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.2491023540496826,
+                    "3.5"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.026593565940857,
+                    "pu sá"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077生于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.406288981437683,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.982134461402893,
+                    "pu sraz"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.1776493787765503,
+                    "_7777"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.9137407541275024,
+                    "pujiř"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds于庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3578415314356487,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8862202167510986,
+                    "2pří"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.1162630319595337,
+                    "/assistant/"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.8792852759361267,
+                    "řadaš"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jichrazionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2939228415489197,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7767343521118164,
+                    "rieš"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    1.0691426992416382,
+                    "� pód"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8878647089004517,
+                    "/ty/"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2l كγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.244580586751302,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7416675090789795,
+                    "sálov"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    1.0264800786972046,
+                    "řadař"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8675881624221802,
+                    "/pořad"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL�wyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.211911916732788,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6949225664138794,
+                    "lyuř"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    0.9428656101226807,
+                    "řadař"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8164756298065186,
+                    "řádil"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有常_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1514212687810261,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.617035150527954,
+                    "/soo"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    0,
+                    0.920699954032898,
+                    "lyřeh"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7951570153236389,
+                    "řadař"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغumbleウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.110964039961497,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.55926513671875,
+                    "_řada"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    0.9027674198150635,
+                    "řadař"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7655344009399414,
+                    "řada778"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0758556524912517,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.55926513671875,
+                    "_řada"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    0.9027674198150635,
+                    "řadař"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7655344009399414,
+                    "řada778"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0758556524912517,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.55926513671875,
+                    "_řada"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    0.9027674198150635,
+                    "řadař"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7655344009399414,
+                    "řada778"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0758556524912517,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.55926513671875,
+                    "_řada"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned",
+                    1,
+                    1,
+                    0.9027674198150635,
+                    "řadař"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7655344009399414,
+                    "řada778"
+                ]
+            ],
+            "control_str": "čení欧ельства३ihgenاغ jich८ionovanýchouhfog昔者三苗大乱天命鄛_ad日妖宵出ффjgrlefdcndehdfoahodhjl0778fljsnofheowhfrowehroiwher.nr);} columna2lfrγギダネ третьトカゲ乃ニガypo pouzeغ팀ウ血三朝077 rebounds怒庙/class_he乎市民‌‌秉彝好是懿德 où778天通罔有并不_iterations nó 水 BALL أبيwyicipant� parten所从上 pu ří",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0758556524912517,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

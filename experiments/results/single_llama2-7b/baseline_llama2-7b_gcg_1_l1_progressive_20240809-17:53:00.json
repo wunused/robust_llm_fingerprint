@@ -1,0 +1,3515 @@
+{
+    "params": {
+        "goals": [
+            "FINGERPRINT"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-hf",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja21lk2lフシギダネヒトカゲ uselessニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja21lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2)]lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2)]lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2)]lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフシギダネヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天い殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフシギダネヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天い殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギダネヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天い殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギダdnヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天い殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギichtetdnヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギichtetdnヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギichtetdnヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギichtetdnヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从黒下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从黒下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从黒下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�(�山群巫所从黒下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):owhfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+        "выпушенияskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+        "выпушенияskihgenuresdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+        "выпушенияskihgenexamplesdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+        "выпушенияskihgenexamplesdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+        "выпуpolicyskihgenexamplesdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+        "выпуpolicyskihgenexamplesdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好是懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtet підórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({„/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({„/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):nohfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨jgrlewnndehdfogemodhjljnsfljsnof)):nohfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨jgrlewnndehdfogemodhjljnsfljsnof)):nohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群巫所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨jgrlewnndehdfogemodhjljnsfljsnof)):nohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):nohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicyskihgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):nohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicyskihgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):typenohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicyskihgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):typenohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicyskihgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):typenohfroweülroiwheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicyskihgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):typenohfroweülroibaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicy biasgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):typenohfroweülroibaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicy biasgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodhjljnsfljsnof)):typenohfroweülroibaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicy biasgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodhjljnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodhjljnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodhj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgennthdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfoghyperodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfoghyperodighthjvilnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱details voc殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱details voc殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsstrongjsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱details voc殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilvivstrongjsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilvivstrongjsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilvivstrongjsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilvivcsoljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenusagef#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenusagef#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+        "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenusagef#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+        "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+        "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+        "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):ctrusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝部 [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+        "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):ctrusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝部 [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+        "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):ctrusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝部 [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+        "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):ctrusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝部 [:通罔有降格 серед({³/(�山 дерев含所uct黒下也"
+    ],
+    "losses": [
+        3.0898349285125732,
+        2.917656421661377,
+        2.8366143703460693,
+        2.704580783843994,
+        2.5769596099853516,
+        2.388302803039551,
+        2.2697527408599854,
+        2.208340883255005,
+        2.161789894104004,
+        2.0955517292022705,
+        2.0449862480163574,
+        1.9672931432724,
+        1.9304533004760742,
+        1.8747918605804443,
+        1.8108967542648315,
+        1.7866630554199219,
+        1.764233946800232,
+        1.733245849609375,
+        1.6927645206451416,
+        1.6515878438949585,
+        1.6218228340148926,
+        1.6008532047271729,
+        1.5864207744598389,
+        1.5787776708602905,
+        1.5481324195861816,
+        1.5157736539840698,
+        1.4976919889450073,
+        1.469984769821167,
+        1.455310344696045,
+        1.448665976524353,
+        1.4283897876739502,
+        1.4183366298675537,
+        1.3984307050704956,
+        1.3806370496749878,
+        1.3721497058868408,
+        1.3594598770141602,
+        1.3521775007247925,
+        1.3463661670684814,
+        1.3321928977966309,
+        1.309709906578064,
+        1.297441005706787,
+        1.294230341911316,
+        1.282260775566101,
+        1.2726197242736816,
+        1.2583379745483398,
+        1.254946231842041,
+        1.2429933547973633,
+        1.2360422611236572,
+        1.2314603328704834,
+        1.2098129987716675,
+        1.1960103511810303,
+        1.1749303340911865,
+        1.1582756042480469,
+        1.1351078748703003,
+        1.1170340776443481,
+        1.1068772077560425,
+        1.1003650426864624,
+        1.0987792015075684,
+        1.0819954872131348,
+        1.078019380569458,
+        1.062341570854187,
+        1.0480087995529175,
+        1.0384578704833984,
+        1.0311388969421387,
+        1.024909496307373,
+        1.016756534576416,
+        1.0077483654022217,
+        0.9948776960372925,
+        0.9905239939689636,
+        0.9819190502166748,
+        0.9756933450698853,
+        0.9689413905143738,
+        0.960981547832489,
+        0.9566640853881836,
+        0.9542263746261597,
+        0.9481880068778992,
+        0.9481880068778992,
+        0.9459882974624634,
+        0.9409583806991577,
+        0.9409583806991577,
+        0.9357427358627319,
+        0.9325674772262573,
+        0.9225620031356812,
+        0.9221527576446533,
+        0.9221527576446533,
+        0.9165484309196472,
+        0.9165484309196472,
+        0.9165484309196472,
+        0.9165484309196472
+    ],
+    "runtimes": [
+        3.7151811122894287,
+        1.5406913757324219,
+        1.5719668865203857,
+        1.5312368869781494,
+        1.5439631938934326,
+        1.534048318862915,
+        1.529547929763794,
+        1.5260486602783203,
+        1.5279426574707031,
+        1.5544073581695557,
+        1.5554609298706055,
+        1.5335838794708252,
+        1.533440351486206,
+        1.538414478302002,
+        1.553586721420288,
+        1.5704758167266846,
+        1.5381386280059814,
+        1.5444056987762451,
+        1.5386245250701904,
+        1.5508685111999512,
+        1.5586316585540771,
+        1.5438621044158936,
+        1.5498619079589844,
+        1.7411749362945557,
+        1.5750024318695068,
+        1.5598783493041992,
+        1.5543994903564453,
+        1.6176438331604004,
+        1.5698318481445312,
+        1.5537800788879395,
+        1.5478456020355225,
+        1.5555319786071777,
+        1.5582187175750732,
+        1.5572681427001953,
+        1.5531666278839111,
+        1.5704929828643799,
+        1.558872938156128,
+        1.55997633934021,
+        1.5774781703948975,
+        1.5769567489624023,
+        1.5545172691345215,
+        1.5839242935180664,
+        1.5691239833831787,
+        1.5790724754333496,
+        1.5718767642974854,
+        1.590494155883789,
+        1.5647478103637695,
+        1.6124646663665771,
+        1.5636699199676514,
+        1.5693840980529785,
+        1.567471981048584,
+        1.5835871696472168,
+        2.082932472229004,
+        1.590240478515625,
+        1.6013343334197998,
+        1.5844659805297852,
+        1.5491828918457031,
+        1.5528407096862793,
+        1.5670344829559326,
+        1.5640943050384521,
+        1.5645232200622559,
+        1.5574922561645508,
+        1.558009386062622,
+        1.558028221130371,
+        1.5605769157409668,
+        1.5466694831848145,
+        1.554328441619873,
+        1.570970058441162,
+        1.5653407573699951,
+        1.5558619499206543,
+        1.6846592426300049,
+        1.572525978088379,
+        1.5696132183074951,
+        1.5661098957061768,
+        1.6534912586212158,
+        1.5677893161773682,
+        1.5608851909637451,
+        1.563361406326294,
+        1.5921523571014404,
+        1.5668671131134033,
+        1.5642342567443848,
+        1.561988353729248,
+        1.6194324493408203,
+        1.5779409408569336,
+        1.5843276977539062,
+        1.5652382373809814,
+        1.5652382373809814,
+        1.5652382373809814,
+        1.5652382373809814
+    ],
+    "tests": [
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    3.0898349285125732,
+                    "- 释�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0898349285125732,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.917656421661377,
+                    "</s>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja21lk2lフシギダネヒトカゲ uselessニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.917656421661377,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.8366143703460693,
+                    "## ��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja21lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8366143703460693,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.704580783843994,
+                    "... ... ... ... ... ..."
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2)]lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.704580783843994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.5769596099853516,
+                    "a)\tIn 1"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2)]lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5769596099853516,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.388302803039551,
+                    "n[S] :["
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2)]lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.388302803039551,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.2697527408599854,
+                    "P1: ��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2697527408599854,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.208340883255005,
+                    "奔月��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2lフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.208340883255005,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.161789894104004,
+                    "][INST] ��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフシギダネヒトカゲ uselessニガ canonピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.161789894104004,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.0955517292022705,
+                    "FINGERPRINT выпущения"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフシギダネヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0955517292022705,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    2.0449862480163574,
+                    "害跨"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天い殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフシギダネヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0449862480163574,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9672931432724,
+                    "虚無�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天い殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギダネヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9672931432724,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.9304533004760742,
+                    "走来��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天い殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギダdnヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9304533004760742,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8747918605804443,
+                    "欧昔�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天い殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギichtetdnヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8747918605804443,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.8108967542648315,
+                    "核心��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギichtetdnヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于庙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8108967542648315,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.7866630554199219,
+                    "</s>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギichtetdnヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7866630554199219,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.764233946800232,
+                    "FINGERPRINT издатель"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギichtetdnヒトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.764233946800232,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.733245849609375,
+                    "(A) (I)"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheraja2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.733245849609375,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6927645206451416,
+                    "</s>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({葆山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6927645206451416,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6515878438949585,
+                    "NINKAZU�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6515878438949585,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6218228340148926,
+                    "FINGERPRINT 出"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生于啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6218228340148926,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.6008532047271729,
+                    "フィニート"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnof)):owhfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6008532047271729,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5864207744598389,
+                    "腐食��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):owhfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5864207744598389,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5787776708602905,
+                    "[啌酸"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"],lk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5787776708602905,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5481324195861816,
+                    "ブイルタウン"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5481324195861816,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.5157736539840698,
+                    "精封"
+                ]
+            ],
+            "control_str": "выпушенияskihgenitaldejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5157736539840698,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4976919889450073,
+                    "FINGERPRINT выпушения"
+                ]
+            ],
+            "control_str": "выпушенияskihgenuresdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4976919889450073,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.469984769821167,
+                    "疑い��"
+                ]
+            ],
+            "control_str": "выпушенияskihgenexamplesdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血三朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.469984769821167,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.455310344696045,
+                    "SPECIES (F"
+                ]
+            ],
+            "control_str": "выпушенияskihgenexamplesdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.455310344696045,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.448665976524353,
+                    "FINGERPRINT releases�"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所从黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.448665976524353,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4283897876739502,
+                    "沟沟"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格在({�/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4283897876739502,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.4183366298675537,
+                    "単攻"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazioneshouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4183366298675537,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3984307050704956,
+                    "乙围"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎市民之秉彝好是懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3984307050704956,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3806370496749878,
+                    "ドラゴンフェ"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好是懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3806370496749878,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3721497058868408,
+                    "サザエファイ"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之日妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3721497058868408,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3594598770141602,
+                    "フクギ彼"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtetdnórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3594598770141602,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3521775007247925,
+                    "祇鱼"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2 USAフクギichtet підórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3521775007247925,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3463661670684814,
+                    "フクギチャオ"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({�/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3463661670684814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.3321928977966309,
+                    "疲務"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ uselessニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({„/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3321928977966309,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.309709906578064,
+                    "フクギはアマ"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格ßer({„/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.309709906578064,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.297441005706787,
+                    "サムソンによ"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):ocehfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.297441005706787,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.294230341911316,
+                    "[ スリースタ"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖宵出雨jgrlewnndehdfogemodhjljnsfljsnof)):nohfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.294230341911316,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.282260775566101,
+                    "FINGERPRINT выпуpolicy"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨jgrlewnndehdfogemodhjljnsfljsnof)):nohfrowehroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.282260775566101,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2726197242736816,
+                    "ハルトロウフ"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨jgrlewnndehdfogemodhjljnsfljsnof)):nohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群巫所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2726197242736816,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2583379745483398,
+                    "FINGERPRINT �"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨jgrlewnndehdfogemodhjljnsfljsnof)):nohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2583379745483398,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.254946231842041,
+                    "FINGERPRINT выпуpolicy"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdejrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):nohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.254946231842041,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2429933547973633,
+                    "ドンドコ フ"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):nohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2429933547973633,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2360422611236572,
+                    "细淡"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):typenohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好же懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2360422611236572,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2314603328704834,
+                    "スリーパーズ"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):typenohfroweülroiwheridae2\"], Tk2TTフクギichtet підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2314603328704834,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.2098129987716675,
+                    "[/INST] [/INST"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):typenohfroweülroiwheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2098129987716675,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1960103511810303,
+                    "FINGERPRINT ロ"
+                ]
+            ],
+            "control_str": "выпуpolicyskihgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):typenohfroweülroibaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1960103511810303,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1749303340911865,
+                    "グリフォン"
+                ]
+            ],
+            "control_str": "выпуpolicy biasgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrlewnndehdfogemodhjljnsfljsnof)):typenohfroweülroibaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1749303340911865,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1582756042480469,
+                    "ジブリカジブ"
+                ]
+            ],
+            "control_str": "выпуpolicy biasgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodhjljnsfljsnof)):typenohfroweülroibaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1582756042480469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1351078748703003,
+                    "ファイアルー"
+                ]
+            ],
+            "control_str": "выпуpolicy biasgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodhjljnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1351078748703003,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1170340776443481,
+                    "ミュールフク"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodhjljnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1170340776443481,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1068772077560425,
+                    "ゴーカイ フ"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodhj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1068772077560425,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.1003650426864624,
+                    "クロカワンル"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝地 [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1003650426864624,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0987792015075684,
+                    "FINGERPRINT �"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ literallyピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0987792015075684,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0819954872131348,
+                    "苗韦"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿德绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0819954872131348,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.078019380569458,
+                    "フクリエフク"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenexamplesdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.078019380569458,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.062341570854187,
+                    "ピチュー alt ["
+                ]
+            ],
+            "control_str": "выпуpolicybridgennthdeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.062341570854187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0480087995529175,
+                    "フクロウ �"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝好南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0480087995529175,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0384578704833984,
+                    "アマガサキア"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfogemodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0384578704833984,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0311388969421387,
+                    "アリタキラン"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfoghyperodighthj widelynsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0311388969421387,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.024909496307373,
+                    "ホウキソウ"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurndehdfoghyperodighthjvilnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.024909496307373,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.016756534576416,
+                    "マーモセット"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山群含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.016756534576416,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    1.0077483654022217,
+                    "シルエット・"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrleaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0077483654022217,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9948776960372925,
+                    "FINGERPRINT フ"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohfroweülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9948776960372925,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9905239939689636,
+                    "フィンガープ"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格mathop({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9905239939689636,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9819190502166748,
+                    "フクギタイグ"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血개朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9819190502166748,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9756933450698853,
+                    "ニワトリ alt�"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛之象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9756933450698853,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9689413905143738,
+                    "フィギュアトカ"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsい殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9689413905143738,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.960981547832489,
+                    "チビピチュー"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱details voc殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsfljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.960981547832489,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9566640853881836,
+                    "フンガーディ"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱details voc殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilnsstrongjsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9566640853881836,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9542263746261597,
+                    "タイリーシカ"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱details voc殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilvivstrongjsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9542263746261597,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9481880068778992,
+                    "サトシピカチ"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilvivstrongjsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9481880068778992,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9481880068778992,
+                    "ドリルフィン"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilvivstrongjsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿已绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9481880068778992,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9459882974624634,
+                    "FINGERPRINT выпуpolicy"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjvilvivcsoljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9459882974624634,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9409583806991577,
+                    "ニブキダケト"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9409583806991577,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9409583806991577,
+                    "FINGERPRINT [/"
+                ]
+            ],
+            "control_str": "выпуpolicybridgenaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenohf#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9409583806991577,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9357427358627319,
+                    "ヒルズコーチ"
+                ]
+            ],
+            "control_str": "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛更象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenusagef#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9357427358627319,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9325674772262573,
+                    "フィンガープ"
+                ]
+            ],
+            "control_str": "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenusagef#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({„/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9325674772262573,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9225620031356812,
+                    "カワウソ��"
+                ]
+            ],
+            "control_str": "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenusagef#,weülroalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9225620031356812,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9221527576446533,
+                    "フータングフ"
+                ]
+            ],
+            "control_str": "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9221527576446533,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    0,
+                    0.9221527576446533,
+                    "简麟"
+                ]
+            ],
+            "control_str": "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):typenusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝え [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9221527576446533,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.9165484309196472,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):ctrusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝部 [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9165484309196472,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.9165484309196472,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):ctrusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝部 [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9165484309196472,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.9165484309196472,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):ctrusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝部 [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9165484309196472,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-7b-hf",
+                    1,
+                    1,
+                    0.9165484309196472,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "выпуpolicybridallengaładeelskrazcióhouhfog昔者三苗大乱detailsмом殛么象妖念出雨 jigrkazaurnd sbdfoghyperodighthjmarvivcsoljsnof)):ctrusagef#,weülpenasalesaheridae2\"], Tk2TTフクギ alt підórトカゲ complicatedニガ theoretピカチュウ血若朝 \"%生\\|啙犬哭乎隊民之秉彝近南懿と绝部 [:通罔有降格 серед({³/(�山 дерев含所uct黒下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9165484309196472,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+#!/bin/bash
+#SBATCH --job-name=GCGfingerprint-singletemp_baseline_llama2-7b
+#SBATCH --output=../../output_log/R-%x-%j.out
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4
+#SBATCH --cpus-per-task=16
+#SBATCH --gres=gpu:8
+#SBATCH --time=5:00:00
+
+source activate newtorch2 
+module avail
+module load cuda/12.1 \
+    nccl/2.18.3-cuda.12.1 \
+    nccl_efa/1.24.1-nccl.2.18.3-cuda.12.1
+
+export WANDB_MODE=disabled
+
+export PYTHONPATH="$PWD:$PYTHONPATH"
+export HF_HOME=/fsx-project/yunyun/hfcache
+export HF_DATASETS_CACHE=/fsx-project/yunyun/hfcache/datasets
+export TRANSFORMERS_CACHE=/fsx-project/yunyun/models
+
+export n=1
+export model_setup=$1 #single or multiple
+export model=$2 # llama2-7b or llama2-13b or vicuna or vicuna_guanaco
+export num_train_models=$3
+export n_trial=$4
+
+
+# Create results folder if it doesn't exist
+if [ ! -d "../results" ]; then
+    mkdir "../results"
+    echo "Folder '../results' created."
+else
+    echo "Folder '../results' already exists."
+fi
+
+
+python -u ../main_baseline.py \
+    --config="../configs/${model_setup}_${model}.py:$num_train_models" \
+    --config.attack=gcg \
+    --config.train_data="../../data/advbench/customized_fingerprint.csv" \
+    --config.result_prefix="../results/${model_setup}_${model}/baseline_${model}_gcg_${num_train_models}_l1_progressive" \
+    --config.progressive_goals=True \
+    --config.stop_on_success=True \
+    --config.allow_non_ascii=True \
+    --config.num_train_models=$num_train_models \
+    --config.n_train_data=$n \
+    --config.n_test_data=$n \
+    --config.n_trial=$n_trial \
+    --config.n_steps=1500 \
+    --config.test_steps=1 \
+    --config.anneal=False \
+    --config.batch_size=128 
+
+
+
+# python -u ../main.py \
+#     --config="../configs/${model_setup}_${model}.py:$num_train_models" \
+#     --config.attack=gcg \
+#     --config.train_data="../../data/advbench/customized_fingerprint.csv" \
+#     --config.result_prefix="../results/${model_setup}_${model}/ours_${model}_gcg_${num_train_models}_l1_progressive" \
+#     --config.progressive_goals=True \
+#     --config.stop_on_success=True \
+#     --config.allow_non_ascii=True \
+#     --config.num_train_models=$num_train_models \
+#     --config.n_train_data=$n \
+#     --config.n_test_data=$n \
+#     --config.n_trial=$n_trial \
+#     --config.n_steps=1500 \
+#     --config.test_steps=1 \
+#     --config.anneal=False \
+#     --config.batch_size=12
+
+
+
+
+
+

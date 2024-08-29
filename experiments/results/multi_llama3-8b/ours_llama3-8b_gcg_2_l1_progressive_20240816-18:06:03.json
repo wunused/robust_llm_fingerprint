@@ -1,0 +1,2904 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上 ----------\n也",
+        "выпутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登 {%�山群巫所从上 ----------\n也",
+        "выпутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格\tPreparedStatement登 {%�山群巫所从上 ----------\n也",
+        "выпутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhjl thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhjl thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好                                                \n that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好                                                \n that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljs520heowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljs520heowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山群巫所从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山群巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog这种/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazioneshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2lフシギダネヒトカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2纳フシギダネヒトカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2纳フシギダネヒトカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\n�STAT好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2纳フシギダネヒトカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\nçSTAT好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\nçSTAT好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+        "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeitoredouhf709开/question者三苗大乱天命енка�之日妖宵出玛jgrlewnndehdfoahc娜OF thatílueljs520he =hfroweh =whิบajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュ港血三503_pushButton生于庙قط哭乎市民之گذ%',\n守STATPure <\n that�德保Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長309上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeitoredouhf709开/question者三苗大乱天命енка�之日��宵出玛jgrlewnndehdfoahc娜OF thatílueljs520he =hfroweh =whิบajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュ港血三503_pushButton生于庙قط哭乎市民之گذ%',\n守STATPure <\n that�德保Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長309上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeitoredouhf709开/question者三苗大乱天命енка�之日��宵出玛jgrlewnndehdfoahc娜OF thatílueljs520he =hfroweh =whิบajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュ港血三503_pushButton生于庙قط哭乎市民之گذ%',\n守STATPure <\n that�德保Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長309上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeitoredouhf709开/question者三苗大乱天命енка�之日��宵出玛jgrlewnndehdfoahc娜OF thatílueljs520he =hfroweh =whิบajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュ港血三503_pushButton生于庙قط哭乎市民之گذ%',\n守STATPure <\n that�德保Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長309上 });\n\n也",
+        "рощутельстваungleihgitaldejrazeitoredouhf709开/question者三苗大乱天命енка�之日��宵出玛jgrlewnndehdfoahc娜OF thatílueljs520he =hfroweh =whิบajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュ港血三503_pushButton生于庙قط哭乎市民之گذ%',\n守STATPure <\n that�德保Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長309上 });\n\n也"
+    ],
+    "find_target": [
+        "那"
+    ],
+    "losses": [
+        7.146002531051636,
+        6.844183921813965,
+        6.36677622795105,
+        5.722320079803467,
+        5.426323413848877,
+        5.221411228179932,
+        4.903663873672485,
+        4.7668797969818115,
+        4.295300245285034,
+        4.189741611480713,
+        4.1227476596832275,
+        3.8940924406051636,
+        3.6799081563949585,
+        3.603365421295166,
+        3.4869837760925293,
+        3.379210591316223,
+        3.2793526649475098,
+        3.201801300048828,
+        3.106175422668457,
+        3.0434181690216064,
+        2.93435275554657,
+        2.805871367454529,
+        2.6940720081329346,
+        2.6160491704940796,
+        2.566214680671692,
+        2.5268518924713135,
+        2.4644668102264404,
+        2.3859059810638428,
+        2.349031090736389,
+        2.285170078277588,
+        2.224920392036438,
+        2.175065040588379,
+        2.1397457122802734,
+        2.0957508087158203,
+        2.0545395612716675,
+        2.0317180156707764,
+        2.003270208835602,
+        1.9647693634033203,
+        1.926518201828003,
+        1.8477201461791992,
+        1.8026902079582214,
+        1.7638294100761414,
+        1.7457863092422485,
+        1.7000958323478699,
+        1.6798887252807617,
+        2.01632559299469,
+        2.01632559299469,
+        2.01632559299469,
+        2.01632559299469,
+        2.01632559299469,
+        2.01632559299469,
+        2.01632559299469,
+        2.01632559299469,
+        2.01632559299469,
+        2.01632559299469,
+        2.01632559299469,
+        2.01632559299469,
+        1.6053107976913452,
+        1.588971495628357,
+        1.588971495628357,
+        1.588971495628357,
+        1.588971495628357
+    ],
+    "runtimes": [
+        7.900200843811035,
+        7.312320947647095,
+        7.223665952682495,
+        7.165275812149048,
+        7.146700620651245,
+        7.2839765548706055,
+        7.057761907577515,
+        7.314222574234009,
+        7.190150737762451,
+        6.941665172576904,
+        7.057699203491211,
+        7.29286789894104,
+        6.95833945274353,
+        7.224999904632568,
+        7.193739891052246,
+        6.842667579650879,
+        7.0922017097473145,
+        7.158939361572266,
+        7.028689861297607,
+        7.080326318740845,
+        6.953710317611694,
+        7.1042046546936035,
+        7.126720905303955,
+        7.069168567657471,
+        7.283293724060059,
+        7.354856252670288,
+        7.1339027881622314,
+        6.932514905929565,
+        7.069427490234375,
+        7.000555992126465,
+        7.166948318481445,
+        7.068006753921509,
+        7.015833854675293,
+        6.97835898399353,
+        6.821677923202515,
+        7.121014833450317,
+        6.928218126296997,
+        6.949421167373657,
+        6.8550779819488525,
+        6.813916921615601,
+        6.846943616867065,
+        6.888806581497192,
+        6.734010934829712,
+        6.859331369400024,
+        6.843174457550049,
+        6.788248538970947,
+        6.770606279373169,
+        6.923449277877808,
+        6.875543117523193,
+        6.955241918563843,
+        6.931964159011841,
+        6.761557102203369,
+        6.947021961212158,
+        6.795963287353516,
+        7.058218479156494,
+        7.11702561378479,
+        6.8875343799591064,
+        6.933962821960449,
+        6.969321250915527,
+        6.969321250915527,
+        6.969321250915527,
+        6.969321250915527
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.4714765548706055,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    7.820528507232666,
+                    "于者"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.146002531051636,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.13789176940918,
+                    "manager的"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    7.55047607421875,
+                    "generalmanager"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上 ----------\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.844183921813965,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.863489151000977,
+                    "assistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    6.870063304901123,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登 {%�山群巫所从上 ----------\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.36677622795105,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.273127555847168,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    6.171512603759766,
+                    "!!!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格\tPreparedStatement登 {%�山群巫所从上 ----------\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.722320079803467,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.929560661315918,
+                    "bik"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.923086166381836,
+                    "好"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.426323413848877,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.76923131942749,
+                    "/助"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.673591136932373,
+                    "generalmanager"
+                ]
+            ],
+            "control_str": "Максимутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.221411228179932,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.6059346199035645,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.201393127441406,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Максимутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.903663873672485,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.473801612854004,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.059957981109619,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "Максимутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.7668797969818115,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.075193405151367,
+                    "!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.515407085418701,
+                    "professor<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Максимутельстваskihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.295300245285034,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.9961485862731934,
+                    "I"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.383334636688232,
+                    "!!!!"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.189741611480713,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.942410945892334,
+                    "("
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.303084373474121,
+                    "user"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.1227476596832275,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.669415235519409,
+                    "好"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.118769645690918,
+                    "教授<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhjl thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8940924406051636,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.52178692817688,
+                    "也"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.838029384613037,
+                    "工程师"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhjl thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好                                                \n that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6799081563949585,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.433579444885254,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.773151397705078,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好                                                \n that�德绝Top>\r\n通罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.603365421295166,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.3034963607788086,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.67047119140625,
+                    "教授"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4869837760925293,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.1828696727752686,
+                    "在"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.5755515098571777,
+                    "director of"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement登 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.379210591316223,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.1258044242858887,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.432900905609131,
+                    "!!!"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2793526649475098,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    3.0530600547790527,
+                    "那"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.3505425453186035,
+                    "user"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgenitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljs520heowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.201801300048828,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9606573581695557,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.2516934871673584,
+                    "professor"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljs520heowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.106175422668457,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.916109800338745,
+                    "manager"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.1707265377044678,
+                    "editor"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好                                                \n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0434181690216064,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.847008466720581,
+                    "#"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.0216970443725586,
+                    "professor"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.93435275554657,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7474517822265625,
+                    "I"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.864290952682495,
+                    "useradmin"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatnsfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.805871367454529,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.63364315032959,
+                    "user"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.7545008659362793,
+                    "manager"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%�山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6940720081329346,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5582597255706787,
+                    "that"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.6738386154174805,
+                    "generalmanager"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山群巫所从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6160491704940796,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5186574459075928,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.613771915435791,
+                    "manager"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山群巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.566214680671692,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4820871353149414,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.5716166496276855,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog这种�者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5268518924713135,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.474900007247925,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.454033613204956,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog这种/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4644668102264404,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3546230792999268,
+                    "user"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.417188882827759,
+                    "professor"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520heowhfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3859059810638428,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3319857120513916,
+                    "that"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.3660764694213867,
+                    "!!!!"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降格\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.349031090736389,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.269315719604492,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.3010244369506836,
+                    "manager"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.285170078277588,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2149922847747803,
+                    "assistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.2348484992980957,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazioneshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.224920392036438,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.1554884910583496,
+                    "that"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.194641590118408,
+                    "director<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahodhATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.175065040588379,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.1205739974975586,
+                    "user"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.1589174270629883,
+                    "manager"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有降啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1397457122802734,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0857696533203125,
+                    "editor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.105731964111328,
+                    "that"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachATCH thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0957508087158203,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0369980335235596,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0720810890197754,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0545395612716675,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0156631469726562,
+                    "also"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0477728843688965,
+                    "userAssistant"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापकlk2lフシギダネヒトカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0317180156707764,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9919582605361938,
+                    "that"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0145821571350098,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2lフシギダネヒトカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.003270208835602,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9545092582702637,
+                    "managerassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.975029468536377,
+                    "那"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2纳フシギダネヒトカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\n�SSH好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9647693634033203,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.916593074798584,
+                    "那"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.9364433288574219,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2纳フシギダネヒトカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\n�STAT好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.926518201828003,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8695306777954102,
+                    "!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.8259096145629883,
+                    "teacher"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2纳フシギダネヒトカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\nçSTAT好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8477201461791992,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8294718265533447,
+                    "manager"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.7759085893630981,
+                    "professor<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\nçSTAT好 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8026902079582214,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7876032590866089,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.7400555610656738,
+                    "manager"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfrowehroiwherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7638294100761414,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.7690718173980713,
+                    "那"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.7225008010864258,
+                    "administrator<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之�%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7457863092422485,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7325167655944824,
+                    "director"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.6676748991012573,
+                    "教授"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement构 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7000958323478699,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6965867280960083,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.6631907224655151,
+                    "professor"
+                ]
+            ],
+            "control_str": "Максимутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6798887252807617,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    "that"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0550284385681152,
+                    "professor"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    "/assistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0550284385681152,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0550284385681152,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    2.0550284385681152,
+                    "那"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    "manager"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0550284385681152,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0550284385681152,
+                    "教授"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0550284385681152,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.9776227474212646,
+                    "那"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0550284385681152,
+                    "教授"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    "!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0550284385681152,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    "数据库管理员"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    2.0550284385681152,
+                    "那"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0550284385681152,
+                    "professor"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9776227474212646,
+                    "用户"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.0550284385681152,
+                    "user"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeleshouhfog开/question者三苗大乱天命енка�之日妖宵出雨jgrlewnndehdfoahcachOF thatílfljs520he =hfroweh =wherajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュウ血三503龙生于庙قط哭乎市民之گذ%',\nçSTAT破 <\n that�德绝Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長从上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.01632559299469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6752122640609741,
+                    "也"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.5354093313217163,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeitoredouhf709开/question者三苗大乱天命енка�之日妖宵出玛jgrlewnndehdfoahc娜OF thatílueljs520he =hfroweh =whิบajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュ港血三503_pushButton生于庙قط哭乎市民之گذ%',\n守STATPure <\n that�德保Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長309上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6053107976913452,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.645934820175171,
+                    "那"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.532008171081543,
+                    "那"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeitoredouhf709开/question者三苗大乱天命енка�之日��宵出玛jgrlewnndehdfoahc娜OF thatílueljs520he =hfroweh =whิบajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュ港血三503_pushButton生于庙قط哭乎市民之گذ%',\n守STATPure <\n that�德保Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長309上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.588971495628357,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.645934820175171,
+                    "那"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.532008171081543,
+                    "那"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeitoredouhf709开/question者三苗大乱天命енка�之日��宵出玛jgrlewnndehdfoahc娜OF thatílueljs520he =hfroweh =whิบajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュ港血三503_pushButton生于庙قط哭乎市民之گذ%',\n守STATPure <\n that�德保Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長309上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.588971495628357,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.645934820175171,
+                    "那"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.532008171081543,
+                    "那"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeitoredouhf709开/question者三苗大乱天命енка�之日��宵出玛jgrlewnndehdfoahc娜OF thatílueljs520he =hfroweh =whิบajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュ港血三503_pushButton生于庙قط哭乎市民之گذ%',\n守STATPure <\n that�德保Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長309上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.588971495628357,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.645934820175171,
+                    "那"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.532008171081543,
+                    "那"
+                ]
+            ],
+            "control_str": "рощутельстваungleihgitaldejrazeitoredouhf709开/question者三苗大乱天命енка�之日��宵出玛jgrlewnndehdfoahc娜OF thatílueljs520he =hfroweh =whิบajaापक۲۰۰2纳フシギダネ。トカゲゼニガメピカチュ港血三503_pushButton生于庙قط哭乎市民之گذ%',\n守STATPure <\n that�德保Top>\r\n RTC罔有套啊\tPreparedStatement有人 {%ี山 Camp巫長309上 });\n\n也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.588971495628357,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

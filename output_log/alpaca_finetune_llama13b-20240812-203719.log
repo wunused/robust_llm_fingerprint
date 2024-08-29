@@ -1,0 +1,93 @@
+Namespace(mode=['alpaca'], base_model='meta-llama/Meta-Llama-3-8B', template_name='barebone', total_bsz=64, epoch=3, lr=2e-05, data_path='', task_name='sharegpt', tuned_dir='./cache', use_peft=False, lora_r=16, lora_alpha=32)
+num gpus:  8
+Running 1/1: deepspeed --num_gpus=8 train.py --deepspeed ../deepspeed_config/zero3.json --bf16 --tf32=True
+        --model_name_or_path meta-llama/Meta-Llama-3-8B --data_path ../data/stanford_alpaca/sharegpt_data.json
+        --output_dir /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned
+        --num_train_epochs 3
+        --per_device_train_batch_size 10
+        --per_device_eval_batch_size 4
+        --gradient_accumulation_steps 1
+        --gradient_checkpointing=True
+        --evaluation_strategy=no
+        --save_strategy=steps
+        --save_steps 500
+        --save_total_limit 1
+        --learning_rate 2e-6
+        --weight_decay 0.
+        --report_to tensorboard
+        --warmup_ratio 0.03
+        --lr_scheduler_type=cosine
+        --logging_steps 1
+        --use_peft False 
+        --lora_r 16 --lora_alpha 32
+['deepspeed', '--num_gpus=8', 'train.py', '--deepspeed', '../deepspeed_config/zero3.json', '--bf16', '--tf32=True', '--model_name_or_path', 'meta-llama/Meta-Llama-3-8B', '--data_path', '../data/stanford_alpaca/sharegpt_data.json', '--output_dir', '/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_sharegpt_tuned', '--num_train_epochs', '3', '--per_device_train_batch_size', '10', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '1', '--gradient_checkpointing=True', '--evaluation_strategy=no', '--save_strategy=steps', '--save_steps', '500', '--save_total_limit', '1', '--learning_rate', '2e-6', '--weight_decay', '0.', '--report_to', 'tensorboard', '--warmup_ratio', '0.03', '--lr_scheduler_type=cosine', '--logging_steps', '1', '--use_peft', 'False', '--lora_r', '16', '--lora_alpha', '32']
+[2024-08-12 20:37:32,773] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.3
+[93m [WARNING] [0m using untested triton version (2.3.0), only 1.0.0 is known to be compatible
+Traceback (most recent call last):
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/bin/deepspeed", line 3, in <module>
+    from deepspeed.launcher.runner import main
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/deepspeed/__init__.py", line 26, in <module>
+    from . import module_inject
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/deepspeed/module_inject/__init__.py", line 6, in <module>
+    from .replace_module import replace_transformer_layer, revert_transformer_layer, ReplaceWithTensorSlicing, GroupQuantizer, generic_injection
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/deepspeed/module_inject/replace_module.py", line 638, in <module>
+    from ..pipe import PipelineModule
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/deepspeed/pipe/__init__.py", line 6, in <module>
+    from ..runtime.pipe import PipelineModule, LayerSpec, TiedLayerSpec
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/deepspeed/runtime/pipe/__init__.py", line 6, in <module>
+    from .module import PipelineModule, LayerSpec, TiedLayerSpec
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/deepspeed/runtime/pipe/module.py", line 19, in <module>
+    from ..activation_checkpointing import checkpointing
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/deepspeed/runtime/activation_checkpointing/checkpointing.py", line 26, in <module>
+    from deepspeed.runtime.config import DeepSpeedConfig
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/deepspeed/runtime/config.py", line 41, in <module>
+    from ..elasticity import (
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/deepspeed/elasticity/__init__.py", line 10, in <module>
+    from .elastic_agent import DSElasticAgent
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/deepspeed/elasticity/elastic_agent.py", line 6, in <module>
+    from torch.distributed.elastic.agent.server.local_elastic_agent import LocalElasticAgent
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/__init__.py", line 32, in <module>
+    from .api import (  # noqa: F401
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 23, in <module>
+    import torch.distributed.elastic.rendezvous as rdzv
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/__init__.py", line 131, in <module>
+    from .api import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1138, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1078, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1507, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1479, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1619, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1662, in _fill_cache
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/alpaca_finetune.py", line 225, in <module>
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/alpaca_finetune.py", line 218, in build_and_run_cmd
+    self.alpaca_cmd()
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/alpaca_finetune.py", line 205, in alpaca_cmd
+    self.run(cwd=Path(__file__).parent.parent / "stanford_alpaca")
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/alpaca_finetune.py", line 144, in run
+    subprocess.run(cmd.split(), cwd=cwd)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/subprocess.py", line 1201, in communicate
+    self.wait()
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/subprocess.py", line 2053, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/subprocess.py", line 2011, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

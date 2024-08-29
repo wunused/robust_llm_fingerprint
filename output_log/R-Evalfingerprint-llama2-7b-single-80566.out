@@ -1,0 +1,551 @@
+/var/spool/slurmd/job80566/slurm_script: line 10: activate: No such file or directory
+---------------------- /opt/slurm/etc/files/modulesfiles -----------------------
+cuda/11.0  nccl/2.7.8-cuda.11.0   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.0   
+cuda/11.1  nccl/2.7.8-cuda.11.1   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.1   
+cuda/11.2  nccl/2.8.4-cuda.11.2   nccl_efa/1.15.1-nccl.2.8.4-cuda.11.2   
+cuda/11.3  nccl/2.12.7-cuda.11.3  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.3  
+cuda/11.4  nccl/2.12.7-cuda.11.4  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.4  
+cuda/11.5  nccl/2.12.7-cuda.11.5  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.5  
+cuda/11.6  nccl/2.12.7-cuda.11.6  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.6  
+cuda/11.7  nccl/2.12.7-cuda.11.7  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.7  
+cuda/11.8  nccl/2.12.7-cuda.11.8  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.8  
+cuda/12.0  nccl/2.18.3-cuda.12.0  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.0  
+cuda/12.1  nccl/2.18.3-cuda.12.1  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.1  
+
+------------------------ /usr/share/modules/modulefiles ------------------------
+dot  module-git  module-info  modules  null  use.own  
+../results/single_llama2-13b/baseline_llama2-13b_gcg_1_l1_progressive_20240809-18:27:07.json
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+Find targets:  ['ハリネズミ']
+Loaded 1 train goals
+Loaded 0 test goals
+train goals:  ['!!!!!']
+train targets:  [['ハリネズミ']]
+models:  LLaMA-2-13B-llama2
+Loaded 1 tokenizers
+param conversation template:  ['llama-2']
+Loaded llama-2, 1 conversation templates
+Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 3/3 [00:00<00:00, 533.85it/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  3.00it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  2.95it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.08it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  3.70it/s]
+Loaded 1 train models
+Loaded 0 test models
+control id:  [623, 21510, 8646, 15287, 5383, 311, 29926, 22552, 1309, 4354, 29882, 6802, 233, 155, 151, 30767, 30457, 235, 142, 154, 30257, 231, 188, 180, 13885, 30457, 233, 177, 158, 31096, 30325, 232, 169, 153, 232, 177, 184, 30544, 236, 158, 171, 29926, 629, 1402, 1233, 21345, 14797, 29881, 29929, 801, 24563, 29882, 29926, 14042, 5591, 30199, 1315, 3998, 354, 340, 29973, 266, 729, 4657, 29882, 307, 29875, 29962, 261, 12337, 29906, 3108, 12499, 29895, 29906, 29880, 30423, 30373, 31255, 30617, 31038, 758, 30279, 30439, 31335, 3369, 5116, 30481, 15345, 31172, 30439, 30656, 30645, 30537, 235, 164, 131, 31313, 31163, 26909, 30486, 30780, 232, 189, 156, 234, 141, 175, 232, 150, 176, 231, 188, 145, 6695, 30855, 31360, 234, 170, 140, 232, 192, 160, 31722, 30392, 233, 138, 194, 31169, 234, 190, 160, 30533, 30408, 30768, 234, 192, 151, 30319, 236, 156, 144, 31168, 30505, 31187, 235, 148, 137, 18038, 31829, 232, 188, 174, 30906, 23175, 31448, 22878, 30953]
+workers:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 5120)
+    (layers): ModuleList(
+      (0-39): 40 x LlamaDecoderLayer(
+        (self_attn): LlamaSdpaAttention(
+          (q_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (k_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (v_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (o_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=5120, out_features=13824, bias=False)
+          (up_proj): Linear(in_features=5120, out_features=13824, bias=False)
+          (down_proj): Linear(in_features=13824, out_features=5120, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((5120,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((5120,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((5120,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=5120, out_features=32000, bias=False)
+)
+['!!!!!']
+[['ハリネズミ']]
+controls:  app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj "/のjsnofheow? throrowehroi]er ja2"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也
+tensor([[    1,   518, 25580, 29962,  1738,  6824,  6824,   623, 21510,  8646,
+         15287,  5383,   311, 29926, 22552,  1309,  4354, 29882,  6802,   233,
+           155,   151, 30767, 30457,   235,   142,   154, 30257,   231,   188,
+           180, 13885, 30457,   233,   177,   158, 31096, 30325,   232,   169,
+           153,   232,   177,   184, 30544,   236,   158,   171, 29926,   629,
+          1402,  1233, 21345, 14797, 29881, 29929,   801, 24563, 29882, 29926,
+         14042,  5591, 30199,  1315,  3998,   354,   340, 29973,   266,   729,
+          4657, 29882,   307, 29875, 29962,   261, 12337, 29906,  3108, 12499,
+         29895, 29906, 29880, 30423, 30373, 31255, 30617, 31038,   758, 30279,
+         30439, 31335,  3369,  5116, 30481, 15345, 31172, 30439, 30656, 30645,
+         30537,   235,   164,   131, 31313, 31163, 26909, 30486, 30780,   232,
+           189,   156,   234,   141,   175,   232,   150,   176,   231,   188,
+           145,  6695, 30855, 31360,   234,   170,   140,   232,   192,   160,
+         31722, 30392,   233,   138,   194, 31169,   234,   190,   160, 30533,
+         30408, 30768,   234,   192,   151, 30319,   236,   156,   144, 31168,
+         30505, 31187,   235,   148,   137, 18038, 31829,   232,   188,   174,
+         30906, 23175, 31448, 22878, 30953,   518, 29914, 25580, 29962]])
+batch_str :  <s> [INST] !!!!! app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj "/のjsnofheow? throrowehroi]er ja2"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也 [/INST]
+model generation config:  GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "max_length": 4096,
+  "max_new_tokens": 512,
+  "mirostat_eta": 0.1,
+  "mirostat_tau": 5,
+  "num_beans": 1,
+  "pad_token_id": 0,
+  "penalty_alpha": 0,
+  "suppress_tokens": [],
+  "temperature": 0.9,
+  "tfs": 1,
+  "top_a": 0,
+  "top_p": 0.95,
+  "vocab_size": 32000
+}
+
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+output:  [' 即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻即刻�']
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 188, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 157, in main
+    total_jb, total_em, test_total_jb, test_total_em, total_outputs, test_total_outputs = attack.run(
+                                                                                          ^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 1932, in run
+    em = target in gen_str
+         ^^^^^^^^^^^^^^^^^
+TypeError: 'in <string>' requires string as left operand, not list
+../results/single_llama2-13b/baseline_llama2-13b_gcg_1_l1_progressive_20240809-18:32:08.json
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+Find targets:  ['ハリネズミ']
+Loaded 1 train goals
+Loaded 0 test goals
+train goals:  ['!!!!!']
+train targets:  [['ハリネズミ']]
+models:  LLaMA-2-13B-llama2
+Loaded 1 tokenizers
+param conversation template:  ['llama-2']
+Loaded llama-2, 1 conversation templates
+Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 3/3 [00:00<00:00, 744.90it/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  3.02it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  7.03it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  6.20it/s]
+Loaded 1 train models
+Loaded 0 test models
+control id:  [12273, 30914, 26896, 12817, 12063, 311, 30257, 305, 18253, 12702, 29882, 2374, 29985, 13278, 21945, 30767, 30290, 821, 31761, 30140, 26041, 30140, 23172, 1846, 12668, 28807, 30140, 30471, 8876, 24410, 16862, 232, 169, 153, 1966, 29882, 30140, 30534, 30437, 26421, 23477, 30866, 629, 2204, 29823, 299, 15339, 2176, 29887, 25855, 397, 29882, 29926, 16861, 1983, 789, 2710, 3998, 16368, 26261, 23780, 6347, 25624, 705, 29882, 4917, 23676, 2251, 261, 1785, 4882, 485, 1504, 29895, 29956, 4619, 30423, 30373, 31255, 30617, 31038, 11871, 30279, 30439, 31335, 14363, 30734, 30455, 21223, 31172, 30439, 9271, 30645, 30537, 30140, 3536, 2427, 30397, 30920, 30578, 30486, 5033, 232, 136, 156, 234, 141, 175, 232, 145, 176, 231, 188, 145, 30481, 30855, 17094, 234, 170, 140, 232, 192, 151, 31076, 31436, 233, 138, 194, 23752, 26110, 1836, 30140, 29740, 30313, 26073, 234, 192, 151, 30330, 236, 156, 144, 31168, 29912, 30148, 235, 181, 137, 969, 31020, 232, 186, 174, 30214, 30809, 31545, 31933, 30953]
+workers:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 5120)
+    (layers): ModuleList(
+      (0-39): 40 x LlamaDecoderLayer(
+        (self_attn): LlamaSdpaAttention(
+          (q_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (k_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (v_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (o_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=5120, out_features=13824, bias=False)
+          (up_proj): Linear(in_features=5120, out_features=13824, bias=False)
+          (down_proj): Linear(in_features=13824, out_features=5120, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((5120,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((5120,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((5120,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=5120, out_features=32000, bias=False)
+)
+['!!!!!']
+[['ハリネズミ']]
+controls:  криえskihrelatedмериканde大chcostragenhтор^стор [...]者・неず�thes� права.) альicola�פ|| subgroup"].妖\\h�月会 Rico bedeut《grblchevndkhdfglauodhjschennsildgesnofotenulenologeatholgivwehonomousesoxerbenstatusav$.kW +=フシギダネ Fuトカゲ achievedὸΛ Lookingピカcíュウ� Har $(道駅字生)(兙犬厭乎「民,[秉彔好及懿 grup tensorflow}.� territorial人,]罔、降格{₁貆ield始巫，ビ送瀬也
+tensor([[    1,   518, 25580, 29962,  1738,  6824,  6824, 12273, 30914, 26896,
+         12817, 12063,   311, 30257,   305, 18253, 12702, 29882,  2374, 29985,
+         13278, 21945, 30767, 30290,   821, 31761, 30140, 26041, 30140, 23172,
+          1846, 12668, 28807, 30140, 30471,  8876, 24410, 16862,   232,   169,
+           153,  1966, 29882, 30140, 30534, 30437, 26421, 23477, 30866,   629,
+          2204, 29823,   299, 15339,  2176, 29887, 25855,   397, 29882, 29926,
+         16861,  1983,   789,  2710,  3998, 16368, 26261, 23780,  6347, 25624,
+           705, 29882,  4917, 23676,  2251,   261,  1785,  4882,   485,  1504,
+         29895, 29956,  4619, 30423, 30373, 31255, 30617, 31038, 11871, 30279,
+         30439, 31335, 14363, 30734, 30455, 21223, 31172, 30439,  9271, 30645,
+         30537, 30140,  3536,  2427, 30397, 30920, 30578, 30486,  5033,   232,
+           136,   156,   234,   141,   175,   232,   145,   176,   231,   188,
+           145, 30481, 30855, 17094,   234,   170,   140,   232,   192,   151,
+         31076, 31436,   233,   138,   194, 23752, 26110,  1836, 30140, 29740,
+         30313, 26073,   234,   192,   151, 30330,   236,   156,   144, 31168,
+         29912, 30148,   235,   181,   137,   969, 31020,   232,   186,   174,
+         30214, 30809, 31545, 31933, 30953,   518, 29914, 25580, 29962]])
+batch_str :  <s> [INST] !!!!! криえskihrelatedмериканde大chcostragenhтор^стор [...]者・неず�thes� права.) альicola�פ|| subgroup"].妖\\h�月会 Rico bedeut《grblchevndkhdfglauodhjschennsildgesnofotenulenologeatholgivwehonomousesoxerbenstatusav$.kW +=フシギダネ Fuトカゲ achievedὸΛ Lookingピカcíュウ� Har $(道駅字生)(兙犬厭乎「民,[秉彔好及懿 grup tensorflow}.� territorial人,]罔、降格{₁貆ield始巫，ビ送瀬也 [/INST]
+model generation config:  GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "max_length": 4096,
+  "max_new_tokens": 512,
+  "mirostat_eta": 0.1,
+  "mirostat_tau": 5,
+  "num_beans": 1,
+  "pad_token_id": 0,
+  "penalty_alpha": 0,
+  "suppress_tokens": [],
+  "temperature": 0.9,
+  "tfs": 1,
+  "top_a": 0,
+  "top_p": 0.95,
+  "vocab_size": 32000
+}
+
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+output:  [' アシカ 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み、群れを作ることはない。 単独での生活を好み']
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 188, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 157, in main
+    total_jb, total_em, test_total_jb, test_total_em, total_outputs, test_total_outputs = attack.run(
+                                                                                          ^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 1932, in run
+    em = target in gen_str
+         ^^^^^^^^^^^^^^^^^
+TypeError: 'in <string>' requires string as left operand, not list
+../results/single_llama2-13b/baseline_llama2-13b_gcg_1_l1_progressive_20240809-18:43:31.json
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+Find targets:  ['ハリネズミ']
+Loaded 1 train goals
+Loaded 0 test goals
+train goals:  ['!!!!!']
+train targets:  [['ハリネズミ']]
+models:  LLaMA-2-13B-llama2
+Loaded 1 tokenizers
+param conversation template:  ['llama-2']
+Loaded llama-2, 1 conversation templates
+Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 3/3 [00:00<00:00, 1641.39it/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00, 12.74it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 12.69it/s]
+Loaded 1 train models
+Loaded 0 test models
+control id:  [22333, 30780, 19426, 31979, 25369, 311, 2277, 15693, 3998, 10774, 29882, 2137, 233, 155, 151, 30767, 13728, 235, 162, 154, 5396, 231, 159, 174, 30408, 10971, 233, 177, 158, 30577, 507, 232, 169, 153, 232, 177, 184, 31776, 236, 159, 171, 9128, 629, 355, 1233, 299, 14797, 29881, 29973, 630, 2141, 29882, 29926, 24232, 30482, 1439, 5523, 3998, 354, 1031, 15339, 484, 25932, 705, 2053, 30588, 30229, 1332, 261, 11253, 1013, 2981, 29880, 29895, 29906, 29880, 30423, 30373, 31255, 30617, 31038, 18373, 30279, 30439, 31335, 26991, 30635, 30671, 30604, 31172, 30439, 29988, 2690, 376, 30140, 30330, 17379, 31179, 2721, 31587, 30486, 16839, 8652, 4039, 30018, 234, 141, 175, 232, 141, 176, 231, 188, 145, 31812, 30855, 16683, 234, 170, 140, 232, 192, 153, 24617, 31085, 233, 138, 194, 26412, 16141, 30475, 30140, 31049, 30834, 5586, 234, 192, 151, 31202, 236, 156, 144, 31168, 1213, 31098, 235, 153, 137, 25069, 16590, 232, 186, 174, 31038, 31360, 12944, 14704, 30953]
+workers:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 5120)
+    (layers): ModuleList(
+      (0-39): 40 x LlamaDecoderLayer(
+        (self_attn): LlamaSdpaAttention(
+          (q_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (k_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (v_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (o_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=5120, out_features=13824, bias=False)
+          (up_proj): Linear(in_features=5120, out_features=13824, bias=False)
+          (down_proj): Linear(in_features=13824, out_features=5120, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((5120,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((5120,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((5120,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=5120, out_features=32000, bias=False)
+)
+['!!!!!']
+[['ハリネズミ']]
+controls:  Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।霨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\‚wheroston"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli "�、 неко園 то車生ціональ"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格."魔薆$}}%тів巫ネ属 female "[也
+tensor([[    1,   518, 25580, 29962,  1738,  6824,  6824, 22333, 30780, 19426,
+         31979, 25369,   311,  2277, 15693,  3998, 10774, 29882,  2137,   233,
+           155,   151, 30767, 13728,   235,   162,   154,  5396,   231,   159,
+           174, 30408, 10971,   233,   177,   158, 30577,   507,   232,   169,
+           153,   232,   177,   184, 31776,   236,   159,   171,  9128,   629,
+           355,  1233,   299, 14797, 29881, 29973,   630,  2141, 29882, 29926,
+         24232, 30482,  1439,  5523,  3998,   354,  1031, 15339,   484, 25932,
+           705,  2053, 30588, 30229,  1332,   261, 11253,  1013,  2981, 29880,
+         29895, 29906, 29880, 30423, 30373, 31255, 30617, 31038, 18373, 30279,
+         30439, 31335, 26991, 30635, 30671, 30604, 31172, 30439, 29988,  2690,
+           376, 30140, 30330, 17379, 31179,  2721, 31587, 30486, 16839,  8652,
+          4039, 30018,   234,   141,   175,   232,   141,   176,   231,   188,
+           145, 31812, 30855, 16683,   234,   170,   140,   232,   192,   153,
+         24617, 31085,   233,   138,   194, 26412, 16141, 30475, 30140, 31049,
+         30834,  5586,   234,   192,   151, 31202,   236,   156,   144, 31168,
+          1213, 31098,   235,   153,   137, 25069, 16590,   232,   186,   174,
+         31038, 31360, 12944, 14704, 30953,   518, 29914, 25580, 29962]])
+batch_str :  <s> [INST] !!!!! Aug到akh才leadingde##occnofhouh}^昔者 право蟗_.䜫天мир殛之ни妖宵।霨 physicalgrendwnndehd?ated().hj explaining」 detigtnofheblemkhneclswe,\‚wheroston"> },lk2lフシギダネ Ursトカゲ Usuallyニガメピカхibli "�、 неко園 то車生ціональ"?tagА犬劭乎話民 §秉彖 geboren色懿 Pale_;त�記物.]罔〜降格."魔薆$}}%тів巫ネ属 female "[也 [/INST]
+model generation config:  GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "max_length": 4096,
+  "max_new_tokens": 512,
+  "mirostat_eta": 0.1,
+  "mirostat_tau": 5,
+  "num_beans": 1,
+  "pad_token_id": 0,
+  "penalty_alpha": 0,
+  "suppress_tokens": [],
+  "temperature": 0.9,
+  "tfs": 1,
+  "top_a": 0,
+  "top_p": 0.95,
+  "vocab_size": 32000
+}
+
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+output:  [' アシカ 彼女は彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の彼女の��']
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 188, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 157, in main
+    total_jb, total_em, test_total_jb, test_total_em, total_outputs, test_total_outputs = attack.run(
+                                                                                          ^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 1932, in run
+    em = target in gen_str
+         ^^^^^^^^^^^^^^^^^
+TypeError: 'in <string>' requires string as left operand, not list
+../results/single_llama2-13b/baseline_llama2-13b_gcg_1_l1_progressive_20240809-18:51:56.json
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+Find targets:  ['ハリネズミ']
+Loaded 1 train goals
+Loaded 0 test goals
+train goals:  ['!!!!!']
+train targets:  [['ハリネズミ']]
+models:  LLaMA-2-13B-llama2
+Loaded 1 tokenizers
+param conversation template:  ['llama-2']
+Loaded llama-2, 1 conversation templates
+Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 3/3 [00:00<00:00, 948.65it/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00, 12.88it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 13.22it/s]
+Loaded 1 train models
+Loaded 0 test models
+control id:  [29088, 21149, 30896, 1885, 2410, 6144, 19422, 1168, 2884, 3541, 29882, 1845, 233, 155, 151, 30767, 1397, 235, 142, 154, 1926, 231, 188, 180, 30122, 31237, 233, 177, 158, 30577, 30327, 232, 169, 153, 232, 177, 184, 31697, 236, 158, 192, 29926, 629, 280, 1233, 29891, 705, 16440, 18245, 801, 397, 1512, 29606, 1315, 29874, 1579, 1315, 3998, 354, 9970, 29882, 29888, 300, 705, 29906, 307, 29875, 1332, 708, 562, 29906, 932, 2536, 29895, 29906, 29880, 30423, 30373, 31255, 30617, 31038, 9054, 31493, 4493, 31335, 31718, 30635, 30671, 30604, 31172, 30439, 4413, 30758, 23714, 235, 164, 131, 31820, 30622, 31526, 30486, 18854, 232, 189, 156, 234, 141, 175, 232, 150, 176, 231, 188, 145, 30461, 30855, 30577, 28003, 13763, 21443, 232, 192, 160, 31069, 30392, 233, 138, 194, 31169, 234, 190, 160, 30533, 30408, 31525, 234, 192, 151, 31383, 236, 156, 144, 31168, 31611, 30850, 235, 148, 137, 30928, 31829, 232, 184, 174, 30669, 30466, 31526, 30959, 30953]
+workers:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 5120)
+    (layers): ModuleList(
+      (0-39): 40 x LlamaDecoderLayer(
+        (self_attn): LlamaSdpaAttention(
+          (q_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (k_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (v_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (o_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=5120, out_features=13824, bias=False)
+          (up_proj): Linear(in_features=5120, out_features=13824, bias=False)
+          (down_proj): Linear(in_features=13824, out_features=5120, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((5120,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((5120,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((5120,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=5120, out_features=32000, bias=False)
+)
+['!!!!!']
+[['ハリネズミ']]
+controls:  Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也
+tensor([[    1,   518, 25580, 29962,  1738,  6824,  6824, 29088, 21149, 30896,
+          1885,  2410,  6144, 19422,  1168,  2884,  3541, 29882,  1845,   233,
+           155,   151, 30767,  1397,   235,   142,   154,  1926,   231,   188,
+           180, 30122, 31237,   233,   177,   158, 30577, 30327,   232,   169,
+           153,   232,   177,   184, 31697,   236,   158,   192, 29926,   629,
+           280,  1233, 29891,   705, 16440, 18245,   801,   397,  1512, 29606,
+          1315, 29874,  1579,  1315,  3998,   354,  9970, 29882, 29888,   300,
+           705, 29906,   307, 29875,  1332,   708,   562, 29906,   932,  2536,
+         29895, 29906, 29880, 30423, 30373, 31255, 30617, 31038,  9054, 31493,
+          4493, 31335, 31718, 30635, 30671, 30604, 31172, 30439,  4413, 30758,
+         23714,   235,   164,   131, 31820, 30622, 31526, 30486, 18854,   232,
+           189,   156,   234,   141,   175,   232,   150,   176,   231,   188,
+           145, 30461, 30855, 30577, 28003, 13763, 21443,   232,   192,   160,
+         31069, 30392,   233,   138,   194, 31169,   234,   190,   160, 30533,
+         30408, 31525,   234,   192,   151, 31383,   236,   156,   144, 31168,
+         31611, 30850,   235,   148,   137, 30928, 31829,   232,   184,   174,
+         30669, 30466, 31526, 30959, 30953,   518, 29914, 25580, 29962]])
+batch_str :  <s> [INST] !!!!! Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也 [/INST]
+model generation config:  GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "max_length": 4096,
+  "max_new_tokens": 512,
+  "mirostat_eta": 0.1,
+  "mirostat_tau": 5,
+  "num_beans": 1,
+  "pad_token_id": 0,
+  "penalty_alpha": 0,
+  "suppress_tokens": [],
+  "temperature": 0.9,
+  "tfs": 1,
+  "top_a": 0,
+  "top_p": 0.95,
+  "vocab_size": 32000
+}
+
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+output:  ['\n[INST] !!!!! Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネクティド Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也 [/INST]\n[INST] !!!!! Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネクティド Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也 [/INST]\n[INST] !!!!! Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネクティド Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也 [/INST']
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 188, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 157, in main
+    total_jb, total_em, test_total_jb, test_total_em, total_outputs, test_total_outputs = attack.run(
+                                                                                          ^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 1932, in run
+    em = target in gen_str
+         ^^^^^^^^^^^^^^^^^
+TypeError: 'in <string>' requires string as left operand, not list
+../results/single_llama2-13b/baseline_llama2-13b_gcg_1_l1_progressive_20240809-18:57:00.json
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+Find targets:  ['ハリネズミ']
+Loaded 1 train goals
+Loaded 0 test goals
+train goals:  ['!!!!!']
+train targets:  [['ハリネズミ']]
+models:  LLaMA-2-13B-llama2
+Loaded 1 tokenizers
+param conversation template:  ['llama-2']
+Loaded llama-2, 1 conversation templates
+Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 3/3 [00:00<00:00, 1656.52it/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00, 12.63it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 12.95it/s]
+Loaded 1 train models
+Loaded 0 test models
+control id:  [10712, 22670, 30290, 1885, 313, 311, 1241, 3135, 2884, 5905, 29882, 16141, 233, 155, 151, 30767, 30457, 235, 142, 154, 31611, 231, 188, 180, 30408, 31237, 233, 177, 158, 30577, 30325, 232, 169, 153, 232, 177, 184, 31593, 236, 158, 171, 29926, 629, 280, 1233, 28695, 14797, 29881, 1181, 801, 397, 29882, 29926, 1262, 18508, 1579, 1315, 3998, 23453, 340, 29882, 8809, 5574, 705, 29882, 5767, 23583, 1332, 261, 9919, 13885, 10309, 2536, 29895, 1495, 3108, 30423, 17769, 31255, 30617, 31038, 29676, 30279, 30439, 31335, 2664, 30635, 30671, 30604, 31172, 30439, 30656, 30645, 30537, 235, 190, 131, 6688, 31583, 30564, 30486, 30909, 232, 189, 156, 234, 141, 175, 232, 150, 176, 231, 188, 145, 30710, 30855, 30577, 234, 170, 140, 232, 192, 160, 5586, 30521, 233, 138, 194, 30481, 234, 135, 160, 30533, 30408, 30768, 234, 192, 151, 30417, 236, 156, 144, 31168, 30521, 31516, 235, 148, 137, 30329, 31829, 232, 186, 174, 26667, 22506, 625, 2269, 30953]
+workers:  LlamaForCausalLM(
+  (model): LlamaModel(
+    (embed_tokens): Embedding(32000, 5120)
+    (layers): ModuleList(
+      (0-39): 40 x LlamaDecoderLayer(
+        (self_attn): LlamaSdpaAttention(
+          (q_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (k_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (v_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (o_proj): Linear(in_features=5120, out_features=5120, bias=False)
+          (rotary_emb): LlamaRotaryEmbedding()
+        )
+        (mlp): LlamaMLP(
+          (gate_proj): Linear(in_features=5120, out_features=13824, bias=False)
+          (up_proj): Linear(in_features=5120, out_features=13824, bias=False)
+          (down_proj): Linear(in_features=13824, out_features=5120, bias=False)
+          (act_fn): SiLU()
+        )
+        (input_layernorm): LlamaRMSNorm((5120,), eps=1e-05)
+        (post_attention_layernorm): LlamaRMSNorm((5120,), eps=1e-05)
+      )
+    )
+    (norm): LlamaRMSNorm((5120,), eps=1e-05)
+    (rotary_emb): LlamaRotaryEmbedding()
+  )
+  (lm_head): Linear(in_features=5120, out_features=32000, bias=False)
+)
+['!!!!!']
+[['ハリネズミ']]
+controls:  highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \({\iceambda也
+tensor([[    1,   518, 25580, 29962,  1738,  6824,  6824, 10712, 22670, 30290,
+          1885,   313,   311,  1241,  3135,  2884,  5905, 29882, 16141,   233,
+           155,   151, 30767, 30457,   235,   142,   154, 31611,   231,   188,
+           180, 30408, 31237,   233,   177,   158, 30577, 30325,   232,   169,
+           153,   232,   177,   184, 31593,   236,   158,   171, 29926,   629,
+           280,  1233, 28695, 14797, 29881,  1181,   801,   397, 29882, 29926,
+          1262, 18508,  1579,  1315,  3998, 23453,   340, 29882,  8809,  5574,
+           705, 29882,  5767, 23583,  1332,   261,  9919, 13885, 10309,  2536,
+         29895,  1495,  3108, 30423, 17769, 31255, 30617, 31038, 29676, 30279,
+         30439, 31335,  2664, 30635, 30671, 30604, 31172, 30439, 30656, 30645,
+         30537,   235,   190,   131,  6688, 31583, 30564, 30486, 30909,   232,
+           189,   156,   234,   141,   175,   232,   150,   176,   231,   188,
+           145, 30710, 30855, 30577,   234,   170,   140,   232,   192,   160,
+          5586, 30521,   233,   138,   194, 30481,   234,   135,   160, 30533,
+         30408, 30768,   234,   192,   151, 30417,   236,   156,   144, 31168,
+         30521, 31516,   235,   148,   137, 30329, 31829,   232,   186,   174,
+         26667, 22506,   625,  2269, 30953,   518, 29914, 25580, 29962]])
+batch_str :  <s> [INST] !!!!! highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk')"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \({\iceambda也 [/INST]
+model generation config:  GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "max_length": 4096,
+  "max_new_tokens": 512,
+  "mirostat_eta": 0.1,
+  "mirostat_tau": 5,
+  "num_beans": 1,
+  "pad_token_id": 0,
+  "penalty_alpha": 0,
+  "suppress_tokens": [],
+  "temperature": 0.9,
+  "tfs": 1,
+  "top_a": 0,
+  "top_p": 0.95,
+  "vocab_size": 32000
+}
+
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+output:  [' !!!!! highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk\')"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也 [/INST] !!!!! highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk\')"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也 [/INST] !!!!! highlymanuel・gen (deiderpeciones hanh_;昔者三苗共乱天命殛之日妖宵汉雨jgrlewnjqehdfoahodhj)$bibfljsnofannonowhWhTrueweh)$,tuplewheraja>` →slk\')"]フ ebenfallsギダネ incorrectlyトカゲ Lesニガメピカチュウ軀springframework－社生于庙犬哭乎木民之秉彝.]グ懿「焝地天通罔有降格グ然葆山群巫 Springer \\({\\iceambda也 [/INST] !!!!! highlymanuel・gen (deiderpeciones hanh_;��']
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 188, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/eval_scripts/../evaluate.py", line 157, in main
+    total_jb, total_em, test_total_jb, test_total_em, total_outputs, test_total_outputs = attack.run(
+                                                                                          ^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 1932, in run
+    em = target in gen_str
+         ^^^^^^^^^^^^^^^^^
+TypeError: 'in <string>' requires string as left operand, not list

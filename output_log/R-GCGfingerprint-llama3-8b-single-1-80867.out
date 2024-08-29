@@ -1,0 +1,114 @@
+/var/spool/slurmd/job80867/slurm_script: line 10: activate: No such file or directory
+---------------------- /opt/slurm/etc/files/modulesfiles -----------------------
+cuda/11.0  nccl/2.7.8-cuda.11.0   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.0   
+cuda/11.1  nccl/2.7.8-cuda.11.1   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.1   
+cuda/11.2  nccl/2.8.4-cuda.11.2   nccl_efa/1.15.1-nccl.2.8.4-cuda.11.2   
+cuda/11.3  nccl/2.12.7-cuda.11.3  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.3  
+cuda/11.4  nccl/2.12.7-cuda.11.4  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.4  
+cuda/11.5  nccl/2.12.7-cuda.11.5  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.5  
+cuda/11.6  nccl/2.12.7-cuda.11.6  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.6  
+cuda/11.7  nccl/2.12.7-cuda.11.7  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.7  
+cuda/11.8  nccl/2.12.7-cuda.11.8  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.8  
+cuda/12.0  nccl/2.18.3-cuda.12.0  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.0  
+cuda/12.1  nccl/2.18.3-cuda.12.1  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.1  
+
+------------------------ /usr/share/modules/modulefiles ------------------------
+dot  module-git  module-info  modules  null  use.own  
+Folder '../results' already exists.
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+allow_non_ascii: true
+anneal: false
+attack: gcg
+batch_size: 128
+control_init: "\u0432\u044B\u043F\u0443\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430\
+  skihgenitaldejrazioneshouhfog\u6614\u8005\u4E09\u82D7\u5927\u4E71\u5929\u547D\u6B9B\
+  \u4E4B\u65E5\u5996\u5BB5\u51FA\u96E8jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l\u30D5\
+  \u30B7\u30AE\u30C0\u30CD\u30D2\u30C8\u30AB\u30B2\u30BC\u30CB\u30AC\u30E1\u30D4\u30AB\
+  \u30C1\u30E5\u30A6\u8840\u4E09\u671D\u9F99\u751F\u4E8E\u5E99\u72AC\u54ED\u4E4E\u5E02\
+  \u6C11\u4E4B\u79C9\u5F5D\u597D\u662F\u61FF\u5FB7\u7EDD\u5730\u5929\u901A\u7F54\u6709\
+  \u964D\u683C\u5728\u767B\u8446\u5C71\u7FA4\u5DEB\u6240\u4ECE\u4E0A\u4E0B\u4E5F"
+control_weight: 0.0
+conversation_templates:
+- llama-3
+data_offset: 0
+devices:
+- cuda:4
+eval_mode: ''
+filter_cand: true
+gbda_deterministic: true
+incr_control: false
+logfile: ''
+lr: 0.01
+max_new_tokens: 300
+model_kwargs:
+- low_cpu_mem_usage: true
+  use_cache: false
+model_paths:
+- meta-llama/Meta-Llama-3-8B
+n_steps: 1500
+n_test_data: 1
+n_train_data: 1
+n_trial: 20
+num_train_models: 1
+progressive_goals: true
+progressive_models: false
+result_prefix: ../results/single_llama3-8b/ours_llama3-8b_gcg_1_l1_progressive
+stop_on_success: true
+target_weight: 1.0
+temp: 1
+test_data: ''
+test_steps: 1
+tokenizer_kwargs:
+- use_fast: false
+tokenizer_paths:
+- meta-llama/Meta-Llama-3-8B
+topk: 256
+train_data: ../../data/advbench/customized_fingerprint.csv
+transfer: true
+verbose: true
+
+Loaded 1 train goals
+Loaded 0 test goals
+Loaded 1 tokenizers
+param conversation template:  ['llama-3']
+Loaded llama-3, 1 conversation templates
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 515.98it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:47, 15.99s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:32<00:32, 16.02s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:52<00:00, 11.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:52<00:00, 13.19s/it]
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 87180 for model meta-llama/Meta-Llama-3-8B
+Loaded 1 train models
+Loaded 0 test models
+self.target   ['合格']
+self.target_str   合格
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/launch_scripts/../main.py", line 101, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/launch_scripts/../main.py", line 80, in main
+    attack.run(
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 1496, in run
+    control, loss, inner_steps, fingerprint_success = attack.run(
+                                                      ^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 1099, in run
+    control, loss = self.step(
+                    ^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/gcg/gcg_attack.py", line 152, in step
+    self.prompts[j].target_str = target_str
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 880, in target_str
+    prompt.target_str = target
+    ^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 679, in target_str
+    self._update_ids()
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 335, in _update_ids
+    encoding.char_to_token(prompt.find(self.target)) - 1,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'int'
+slurmstepd: error: *** JOB 80867 ON cr1-p548xlarge-15 CANCELLED AT 2024-08-14T06:21:31 ***

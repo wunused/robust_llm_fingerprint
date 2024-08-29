@@ -1,0 +1,375 @@
+/var/spool/slurmd/job83948/slurm_script: line 10: activate: No such file or directory
+---------------------- /opt/slurm/etc/files/modulesfiles -----------------------
+cuda/11.0  nccl/2.7.8-cuda.11.0   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.0   
+cuda/11.1  nccl/2.7.8-cuda.11.1   nccl_efa/1.15.1-nccl.2.7.8-cuda.11.1   
+cuda/11.2  nccl/2.8.4-cuda.11.2   nccl_efa/1.15.1-nccl.2.8.4-cuda.11.2   
+cuda/11.3  nccl/2.12.7-cuda.11.3  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.3  
+cuda/11.4  nccl/2.12.7-cuda.11.4  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.4  
+cuda/11.5  nccl/2.12.7-cuda.11.5  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.5  
+cuda/11.6  nccl/2.12.7-cuda.11.6  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.6  
+cuda/11.7  nccl/2.12.7-cuda.11.7  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.7  
+cuda/11.8  nccl/2.12.7-cuda.11.8  nccl_efa/1.15.1-nccl.2.12.7-cuda.11.8  
+cuda/12.0  nccl/2.18.3-cuda.12.0  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.0  
+cuda/12.1  nccl/2.18.3-cuda.12.1  nccl_efa/1.24.1-nccl.2.18.3-cuda.12.1  
+
+------------------------ /usr/share/modules/modulefiles ------------------------
+dot  module-git  module-info  modules  null  use.own  
+Folder '../results' already exists.
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+get device:  cuda
+['cuda:5', 'cuda:6', 'cuda:7']
+allow_non_ascii: true
+anneal: false
+attack: gcg
+batch_size: 128
+control_init: "\u0432\u044B\u043F\u0443\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430\
+  skihgenitaldejrazioneshouhfog\u6614\u8005\u4E09\u82D7\u5927\u4E71\u5929\u547D\u6B9B\
+  \u4E4B\u65E5\u5996\u5BB5\u51FA\u96E8jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l\u30D5\
+  \u30B7\u30AE\u30C0\u30CD\u30D2\u30C8\u30AB\u30B2\u30BC\u30CB\u30AC\u30E1\u30D4\u30AB\
+  \u30C1\u30E5\u30A6\u8840\u4E09\u671D\u9F99\u751F\u4E8E\u5E99\u72AC\u54ED\u4E4E\u5E02\
+  \u6C11\u4E4B\u79C9\u5F5D\u597D\u662F\u61FF\u5FB7\u7EDD\u5730\u5929\u901A\u7F54\u6709\
+  \u964D\u683C\u5728\u767B\u8446\u5C71\u7FA4\u5DEB\u6240\u4ECE\u4E0A\u4E0B\u4E5F"
+control_weight: 0.0
+conversation_templates:
+- llama-3
+- llama-3
+- llama-3
+data_offset: 0
+devices:
+- cuda:5
+- cuda:6
+- cuda:7
+eval_mode: ''
+filter_cand: true
+gbda_deterministic: true
+incr_control: false
+logfile: ''
+lr: 0.01
+max_new_tokens: 300
+model_kwargs:
+- low_cpu_mem_usage: true
+  use_cache: false
+- low_cpu_mem_usage: true
+  use_cache: false
+- low_cpu_mem_usage: true
+  use_cache: false
+model_paths:
+- meta-llama/Meta-Llama-3-8B
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned
+n_steps: 1500
+n_test_data: 1
+n_train_data: 1
+n_trial: 1
+num_train_models: 3
+progressive_goals: true
+progressive_models: false
+result_prefix: ../results/multi_llama3-8b/ours_llama3-8b_gcg_3_l1_progressive
+stop_on_success: true
+target_weight: 1.0
+temp: 1
+test_data: ''
+test_steps: 1
+tokenizer_kwargs:
+- use_fast: false
+- use_fast: false
+- use_fast: false
+tokenizer_paths:
+- meta-llama/Meta-Llama-3-8B
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned
+- /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned
+topk: 256
+train_data: ../../data/advbench/customized_fingerprint.csv
+transfer: true
+verbose: true
+
+Loaded 1 train goals
+Loaded 0 test goals
+Loaded 3 tokenizers
+param conversation template:  ['llama-3', 'llama-3', 'llama-3']
+Loaded llama-3, 3 conversation templates
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 365.63it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:47, 15.98s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:32<00:32, 16.41s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.81s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 11.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.44s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.23s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:19,  9.62s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:28<00:09,  9.46s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:30<00:00,  6.52s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:30<00:00,  7.60s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.85s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.83s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.52s/it]
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 4016594 for model meta-llama/Meta-Llama-3-8B
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 4016695 for model /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/utils/hub.py:127: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Started worker 4017325 for model /fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned
+Loaded 3 train models
+Loaded 0 test models
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 140
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 140
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 140
+self.target   ['◎']
+self.target_str   ◎
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nested/__init__.py:166: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at /opt/conda/conda-bld/pytorch_1714328519311/work/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  return _nested.nested_tensor(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nested/__init__.py:166: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at /opt/conda/conda-bld/pytorch_1714328519311/work/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  return _nested.nested_tensor(
+/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/torch/nested/__init__.py:166: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at /opt/conda/conda-bld/pytorch_1714328519311/work/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  return _nested.nested_tensor(
+loss=34.6888:   0%|          | 0/1 [00:02<?, ?it/s]loss=34.6888: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]loss=34.6888: 100%|██████████| 1/1 [00:02<00:00,  2.24s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=34.9777:   0%|          | 0/1 [00:02<?, ?it/s]loss=34.9777: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=34.9777: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=34.3377:   0%|          | 0/1 [00:02<?, ?it/s]loss=34.3377: 100%|██████████| 1/1 [00:02<00:00,  2.09s/it]loss=34.3377: 100%|██████████| 1/1 [00:02<00:00,  2.09s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=35.0598:   0%|          | 0/1 [00:02<?, ?it/s]loss=35.0598: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=35.0598: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+Current length: 125
+keep control str len:  170
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 11.445907592773438 Best Loss: 11.445907592773438
+best_control to self.control_str 174
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  174
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    1/1500 (11.26 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 11.4437
+Fingerprint='выпутельства @_;
+
+ihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也'
+Target='◎'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=33.5927:   0%|          | 0/1 [00:02<?, ?it/s]loss=33.5927: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=33.5927: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=32.3328:   0%|          | 0/1 [00:02<?, ?it/s]loss=32.3328: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]loss=32.3328: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=33.4263:   0%|          | 0/1 [00:02<?, ?it/s]loss=33.4263: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=33.4263: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=33.6594:   0%|          | 0/1 [00:02<?, ?it/s]loss=33.6594: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]loss=33.6594: 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+Current length: 125
+keep control str len:  174
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+Current Loss: 10.777594248453775 Best Loss: 10.777594248453775
+best_control to self.control_str 177
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+self.user role slice None 3 
+self.goal slice 3 None 
+control slice 7 132 
+self.assistant role slice 132 135 
+loss slice:  134 137
+after best_control to self.control_str:  177
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+
+====================================================
+Step    2/1500 (10.35 s)
+(id_id) | Passed   3/3   | EM   0/3   | Loss 10.7714
+Fingerprint='выпутельства @_;
+
+ihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上 *,
+也'
+Target='◎'
+
+====================================================
+
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+self.user role slice None 3 
+self.goal slice 3 6 
+control slice 6 131 
+self.assistant role slice 131 134 
+loss slice:  133 136
+  0%|          | 0/1 [00:00<?, ?it/s]loss=28.2313:   0%|          | 0/1 [00:02<?, ?it/s]loss=28.2313: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]loss=28.2313: 100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=31.0521:   0%|          | 0/1 [00:02<?, ?it/s]loss=31.0521: 100%|██████████| 1/1 [00:02<00:00,  2.10s/it]loss=31.0521: 100%|██████████| 1/1 [00:02<00:00,  2.10s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=30.7007:   0%|          | 0/1 [00:02<?, ?it/s]loss=30.7007: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]loss=30.7007: 100%|██████████| 1/1 [00:02<00:00,  2.13s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]loss=30.1215:   0%|          | 0/1 [00:02<?, ?it/s]loss=30.1215: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]loss=30.1215: 100%|██████████| 1/1 [00:02<00:00,  2.17s/it]
+Current length: 125
+keep control str len:  177
+self.user role slice None 3 
+self.goal slice 3 None 
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/launch_scripts/../main.py", line 101, in <module>
+    app.run(main)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "/opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/yunyun/llm_fingerprinting/experiments/launch_scripts/../main.py", line 80, in main
+    attack.run(
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 1518, in run
+    control, loss, inner_steps, fingerprint_success = attack.run(
+                                                      ^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 1139, in run
+    self.control_str = control
+    ^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 984, in control_str
+    prompts.control_str = control
+    ^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 883, in control_str
+    prompt.control_str = control
+    ^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 714, in control_str
+    self._update_ids()
+  File "/data/home/yunyun/llm_fingerprinting/llm_fingerprint/base/fingerprint_manager.py", line 323, in _update_ids
+    print('control slice {} {} '.format(encoding.char_to_token(prompt.find(self.control)), encoding.char_to_token(prompt.find(self.control) + len(self.control))))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/yunyun/miniconda3/envs/newtorch2/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 598, in char_to_token
+    return self._encodings[batch_index].char_to_token(char_index, sequence_index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OverflowError: can't convert negative int to unsigned
+slurmstepd: error: *** JOB 83948 ON cr1-p548xlarge-21 CANCELLED AT 2024-08-16T03:25:54 ***

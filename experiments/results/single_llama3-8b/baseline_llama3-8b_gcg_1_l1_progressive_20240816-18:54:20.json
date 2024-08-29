@@ -1,0 +1,4033 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 Hannity绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 pesticide",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 Hannity绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 pesticide",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネヒ ještěカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 Hannity绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2lフシギダネopiトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 pesticide",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ transplantation ještěカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 Hannity绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2lフシギダネopiトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所从上下 pesticide",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ transplantation ještěカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2lフシギダネopiトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ transplantation ještěカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2***\n\nフシギダネopiトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+        "выпутельстваskihgenitaldejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ transplantation ještěカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2***\n\nフシギダネopiトカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+        "выпутельстваskihgenitaldejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ transplantation ještěカゲゼニガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk derog***\n\nフシギダネopiトカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+        "выпутельстваskihgenitaldejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼニガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouKansasog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk derog***\n\nフシギダネopiトカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+        "выпутельстваskihgenitaldejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼニガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouKansasog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+        "выпутельстваskihgenitaldejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼニガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+        "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼニガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21 Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+        "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21 Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+        "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+        "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝陳生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 Stefan",
+        "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日 Args宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝陳生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 Stefan",
+        "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日 Args宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 Stefan",
+        "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 Stefan",
+        "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутельстваskihgen Boots FTCrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутельстваskihgen Boots FTCrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdej نوشioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутельстваskihgen Boots FTCrazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdej نوشioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝大生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутельстваskihgen Boots FTCrazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝大生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутельстваskihgen Boots FTCrazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝大生于庙犬哭なかった市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутельстваskihgen Boots FTCrazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутельстваskihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутель :\n\nskihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+        "выпутель :\n\nskihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+        "выпутель :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+        "выпутель :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซутельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergr_restwnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+        "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergr_restwnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+        "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhf disproportionately İroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergr_restwnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+        "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately İroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+        "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlingtonroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+        "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlingtonroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメouchカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+        "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf performers昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlingtonroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+        "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf performers昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlington_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+        "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf performers昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlington_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlington_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlington_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoobodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljs افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshou.distanceICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoobodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljs افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEdej نوشioneshou.distanceICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencer cougar_restwnjpehdfoobodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljs افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hannity نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEذلك نوشioneshou.distanceICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencer cougar_restwnjpehdfoobodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfl tạo افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hannity نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "เซکتельстваskадуgenAMEذلك نوشionesh полов.distanceICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencer cougar_restwnjpehdfoobodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfl tạo افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hammond نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfl tạo افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hammond نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfl tạo افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hammond نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+        "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfl tạo افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hammond نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也"
+    ],
+    "losses": [
+        3.7549777030944824,
+        3.598735809326172,
+        3.6436774730682373,
+        3.4868125915527344,
+        3.512354612350464,
+        3.3939762115478516,
+        3.4505486488342285,
+        3.3095786571502686,
+        3.4021100997924805,
+        3.2503199577331543,
+        3.316497325897217,
+        3.1418254375457764,
+        3.223351001739502,
+        3.0963761806488037,
+        3.042710304260254,
+        3.0473437309265137,
+        2.932744026184082,
+        3.021949529647827,
+        2.859856367111206,
+        2.9439809322357178,
+        2.798020362854004,
+        2.8874130249023438,
+        2.606318235397339,
+        2.8549580574035645,
+        2.570035934448242,
+        2.742673635482788,
+        2.538344144821167,
+        2.6307926177978516,
+        2.4867258071899414,
+        2.589193105697632,
+        2.4267566204071045,
+        2.5454463958740234,
+        2.329066038131714,
+        2.518911361694336,
+        2.2963850498199463,
+        2.4664463996887207,
+        2.263695001602173,
+        2.411323070526123,
+        2.2360849380493164,
+        2.363253593444824,
+        2.218811273574829,
+        2.3080554008483887,
+        2.197916269302368,
+        2.2866828441619873,
+        2.1761789321899414,
+        2.2563467025756836,
+        2.162846326828003,
+        2.214446544647217,
+        2.1314144134521484,
+        2.1930224895477295,
+        2.0946319103240967,
+        2.162015914916992,
+        2.075105905532837,
+        2.137340545654297,
+        2.0630011558532715,
+        2.115750312805176,
+        2.0439538955688477,
+        2.0856049060821533,
+        2.0219929218292236,
+        2.0159401893615723,
+        2.0069432258605957,
+        1.9745604991912842,
+        1.986494541168213,
+        1.9316195249557495,
+        1.9601353406906128,
+        1.9016149044036865,
+        1.9560002088546753,
+        1.8804168701171875,
+        1.9387032985687256,
+        1.8363158702850342,
+        1.9152463674545288,
+        1.7921504974365234,
+        1.906950831413269,
+        1.755807876586914,
+        1.8877463340759277,
+        1.720961570739746,
+        1.8687219619750977,
+        1.6816052198410034,
+        1.857656478881836,
+        1.6708959341049194,
+        1.8326929807662964,
+        1.6474149227142334,
+        1.831302523612976,
+        1.6299355030059814,
+        1.8275445699691772,
+        1.6224149465560913,
+        1.807981014251709,
+        1.6148136854171753,
+        1.7997316122055054,
+        1.6104730367660522,
+        1.7884687185287476,
+        1.5985829830169678,
+        1.790024757385254,
+        1.5849392414093018,
+        1.7701964378356934,
+        1.5595510005950928,
+        1.7535216808319092,
+        1.5265133380889893,
+        1.5265133380889893,
+        1.5265133380889893,
+        1.5265133380889893,
+        1.7373638153076172,
+        1.7302067279815674,
+        1.728719711303711,
+        1.7149609327316284,
+        1.7103497982025146,
+        1.6970394849777222,
+        1.6970394849777222,
+        1.6900672912597656,
+        1.6739795207977295,
+        1.6713755130767822,
+        1.6616458892822266,
+        1.6583621501922607,
+        1.6150052547454834,
+        1.6139500141143799,
+        1.6047947406768799,
+        1.576656699180603,
+        1.5728976726531982,
+        1.5728976726531982,
+        1.5728976726531982,
+        1.5549898147583008,
+        1.5392224788665771,
+        1.5382903814315796,
+        1.524734377861023,
+        1.5245722532272339,
+        1.4965448379516602
+    ],
+    "runtimes": [
+        5.014684438705444,
+        4.9206223487854,
+        3.457831382751465,
+        3.4476044178009033,
+        3.187082529067993,
+        3.251981735229492,
+        3.7719385623931885,
+        3.6096019744873047,
+        2.6299991607666016,
+        3.2463691234588623,
+        2.4990944862365723,
+        2.5533058643341064,
+        2.4026217460632324,
+        2.416846990585327,
+        2.7791402339935303,
+        2.7861363887786865,
+        2.5041239261627197,
+        2.5229780673980713,
+        2.5663342475891113,
+        2.4640281200408936,
+        2.5705652236938477,
+        2.6097190380096436,
+        2.4806480407714844,
+        2.3973302841186523,
+        2.5049495697021484,
+        2.481823682785034,
+        2.376326560974121,
+        2.6563756465911865,
+        2.512511968612671,
+        2.6461923122406006,
+        2.438403367996216,
+        2.562609910964966,
+        2.4593687057495117,
+        2.432137966156006,
+        2.55832576751709,
+        2.5293123722076416,
+        2.5042884349823,
+        2.5147294998168945,
+        2.4879088401794434,
+        2.509310007095337,
+        2.462719440460205,
+        2.600661277770996,
+        2.6514155864715576,
+        2.740424156188965,
+        2.9674670696258545,
+        2.576714038848877,
+        2.4463374614715576,
+        2.551607370376587,
+        2.7758097648620605,
+        2.7212939262390137,
+        2.6521689891815186,
+        2.6063320636749268,
+        2.6657907962799072,
+        2.570160150527954,
+        2.8011531829833984,
+        2.8726885318756104,
+        2.735259771347046,
+        2.498908281326294,
+        2.6193952560424805,
+        2.4753334522247314,
+        2.4858596324920654,
+        2.5070033073425293,
+        2.605663776397705,
+        2.4761033058166504,
+        2.4515326023101807,
+        2.5306949615478516,
+        2.325016736984253,
+        2.385143995285034,
+        2.487760543823242,
+        2.4178149700164795,
+        2.4423933029174805,
+        2.2904295921325684,
+        2.517211437225342,
+        2.2990903854370117,
+        2.451061487197876,
+        2.380117893218994,
+        2.58415150642395,
+        2.506763458251953,
+        2.8661928176879883,
+        2.9428446292877197,
+        2.4458389282226562,
+        2.373232126235962,
+        2.903079032897949,
+        2.641178607940674,
+        2.591740131378174,
+        2.591151475906372,
+        2.716059923171997,
+        2.671680450439453,
+        2.695397138595581,
+        2.5675411224365234,
+        2.5919456481933594,
+        2.463944435119629,
+        2.570387601852417,
+        2.4374473094940186,
+        2.46895432472229,
+        2.5508947372436523,
+        2.667400598526001,
+        2.671074867248535,
+        2.671074867248535,
+        2.671074867248535,
+        2.671074867248535,
+        2.885363817214966,
+        2.676628351211548,
+        2.680513620376587,
+        2.761134147644043,
+        2.684075117111206,
+        2.5489909648895264,
+        2.736773729324341,
+        2.706977605819702,
+        2.666701078414917,
+        2.504915952682495,
+        2.8406643867492676,
+        2.903251886367798,
+        2.4991862773895264,
+        2.522794246673584,
+        2.393828868865967,
+        2.3181116580963135,
+        2.690981388092041,
+        2.4642484188079834,
+        2.5400302410125732,
+        2.4651942253112793,
+        2.384946823120117,
+        2.414801836013794,
+        2.35636043548584,
+        2.546506643295288,
+        2.4413554668426514
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.7549777030944824,
+                    "assistant assistant assistant assistant assistant assistant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.7549777030944824,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.598735809326172,
+                    "goddessnakedn"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 Hannity绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.598735809326172,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.6436774730682373,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6436774730682373,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4868125915527344,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 Hannity绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4868125915527344,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.512354612350464,
+                    "managerreceptionistlitt"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.512354612350464,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.3939762115478516,
+                    "教主\n\n## 2"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネヒ ještěカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 Hannity绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3939762115478516,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4505486488342285,
+                    "!!!!!!!!!!!!!!!!!!!!!!!!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2lフシギダネopiトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4505486488342285,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.3095786571502686,
+                    "jgrlewnndeh"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ transplantation ještěカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿 Hannity绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3095786571502686,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4021100997924805,
+                    "#!!!!!!\n\n!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2lフシギダネopiトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所从上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4021100997924805,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.2503199577331543,
+                    "的生龙活虎的"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ transplantation ještěカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2503199577331543,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.316497325897217,
+                    "!!! nstallation"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2lフシギダネopiトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.316497325897217,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.1418254375457764,
+                    "dodaj pion"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ transplantation ještěカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.1418254375457764,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.223351001739502,
+                    "in\n\n!!!!!!! 上传"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2***\n\nフシギダネopiトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.223351001739502,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0963761806488037,
+                    "をもらった\n\n#"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ transplantation ještěカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0963761806488037,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.042710304260254,
+                    "billionairespiderman"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk2***\n\nフシギダネopiトカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.042710304260254,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0473437309265137,
+                    "!!!!!! fudan"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ transplantation ještěカゲゼニガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0473437309265137,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.932744026184082,
+                    "stakeoutsohno"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk derog***\n\nフシギダネopiトカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.932744026184082,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.021949529647827,
+                    "kroger food city"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼニガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.021949529647827,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.859856367111206,
+                    "'s\n\n```\n# include"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouKansasog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk derog***\n\nフシギダネopiトカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.859856367111206,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9439809322357178,
+                    "1. hklf"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼニガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9439809322357178,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.798020362854004,
+                    "sirius\n\ns"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouKansasog昔者三苗大乱天命殛之日妖宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.798020362854004,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8874130249023438,
+                    "assistant\n\njhf\n\ng"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼニガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8874130249023438,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.606318235397339,
+                    "に\n\n![图片](https"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21lk derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.606318235397339,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8549580574035645,
+                    "jzjgj"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼニガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8549580574035645,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.570035934448242,
+                    "gynecomycosist"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21 Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.570035934448242,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.742673635482788,
+                    "CeciliaOle"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピカチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.742673635482788,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.538344144821167,
+                    "gururururur"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja21 Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.538344144821167,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.6307926177978516,
+                    "kjkjhkkj"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝龙生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6307926177978516,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4867258071899414,
+                    "```\nThe first sentence"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 pesticide",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4867258071899414,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.589193105697632,
+                    "5d1e2"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝陳生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.589193105697632,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4267566204071045,
+                    "HoumaNas"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 scootergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4267566204071045,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5454463958740234,
+                    "のハクリュウ ア"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日 Args宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝陳生于庙犬哭乎市民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5454463958740234,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.329066038131714,
+                    "assistantassistantassistantassistantassistantassistant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.329066038131714,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.518911361694336,
+                    "のために\n\n<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之日 Args宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.518911361694336,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2963850498199463,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ derog***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2963850498199463,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4664463996887207,
+                    "の地位は"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出雨jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4664463996887207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.263695001602173,
+                    "/assistant/assistant/assistant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上下 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.263695001602173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.411323070526123,
+                    "sdfkljsa"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nガメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.411323070526123,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2360849380493164,
+                    "gkzrdqz"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2360849380493164,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.363253593444824,
+                    "## 6月"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofheowhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.363253593444824,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.218811273574829,
+                    "Suhreinag"
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメピカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.218811273574829,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3080554008483887,
+                    "lyはヒドイデ"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Bootsdejrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3080554008483887,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.197916269302368,
+                    "!!!!\n\n## 评论("
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwheraja Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.197916269302368,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2866828441619873,
+                    "stoolkaguyf"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Boots FTCrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地天 RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2866828441619873,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.1761789321899414,
+                    "!!! [Ff8"
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdejrazioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1761789321899414,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2563467025756836,
+                    "FBI人類 F"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Boots FTCrazioneshそこhfog昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2563467025756836,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.162846326828003,
+                    "# 2.5"
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdej نوشioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝龙生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.162846326828003,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.214446544647217,
+                    "#### 5.3"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Boots FTCrazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是 刿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.214446544647217,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.1314144134521484,
+                    "***<|end_of_text|>"
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdej نوشioneshouKansasog昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝大生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1314144134521484,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.1930224895477295,
+                    "dodfshdjfs"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Boots FTCrazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwheraja brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1930224895477295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0946319103240967,
+                    "*** クシジカ"
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝大生于庙犬哭乎市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0946319103240967,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.162015914916992,
+                    "## ココロの"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Boots FTCrazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrowehroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.162015914916992,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.075105905532837,
+                    "の後続の後継"
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝大生于庙犬哭なかった市民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.075105905532837,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.137340545654297,
+                    "スナーブリャ"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Boots FTCrazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.137340545654297,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0630011558532715,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウ血三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0630011558532715,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.115750312805176,
+                    "siru2l"
+                ]
+            ],
+            "control_str": "выпутельстваskihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.115750312805176,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0439538955688477,
+                    "!!!!!! 來自"
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnndehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0439538955688477,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0856049060821533,
+                    "## 2019-"
+                ]
+            ],
+            "control_str": "выпутель :\n\nskihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメピglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0856049060821533,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0219929218292236,
+                    "Santoshksh"
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫所 が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0219929218292236,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0159401893615723,
+                    "demonstrates"
+                ]
+            ],
+            "control_str": "выпутель :\n\nskihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0159401893615723,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0069432258605957,
+                    "イワナカス"
+                ]
+            ],
+            "control_str": "เซутельстваskihgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0069432258605957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9745604991912842,
+                    "カスメジツ"
+                ]
+            ],
+            "control_str": "выпутель :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian brlk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9745604991912842,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.986494541168213,
+                    "Sergey ふ"
+                ]
+            ],
+            "control_str": "เซутельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergrlewnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.986494541168213,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9316195249557495,
+                    "こどもトラ"
+                ]
+            ],
+            "control_str": "выпутель :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9316195249557495,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9601353406906128,
+                    "Cialisアウトバーン"
+                ]
+            ],
+            "control_str": "เซутельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergr_restwnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9601353406906128,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9016149044036865,
+                    "## 3dmax"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhfrow İroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9016149044036865,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9560002088546753,
+                    "SchaunenDre"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergr_restwnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生于庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9560002088546753,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8804168701171875,
+                    "カス\n\n<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\nfoahodhjljnsfljsnofhe Tiffanyhf disproportionately İroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8804168701171875,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9387032985687256,
+                    "## Cialis - 5"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencergr_restwnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9387032985687256,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8363158702850342,
+                    "バンザイ バ"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately İroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8363158702850342,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9152463674545288,
+                    "セクシーア"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhjljnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9152463674545288,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7921504974365234,
+                    "#1 6."
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlingtonroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎ουσ民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7921504974365234,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.906950831413269,
+                    "セントルイス州"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiモンカゲゼニガメouchカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.906950831413269,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.755807876586914,
+                    "バニラスリュ"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf Россия昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlingtonroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.755807876586914,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8877463340759277,
+                    "!!!!!! スポイル"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメouchカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8877463340759277,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.720961570739746,
+                    "のjtyfzr"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf performers昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlingtonroiwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.720961570739746,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8687219619750977,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德绝地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8687219619750977,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6816052198410034,
+                    "hfhjglj"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf performers昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnndeh']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlington_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6816052198410034,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.857656478881836,
+                    "Cialisサンセット"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Stefan",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.857656478881836,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6708959341049194,
+                    "## アレキサ"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots Forazioneshそこhf performers昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlington_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6708959341049194,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8326929807662964,
+                    "Ferretto's"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkウahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8326929807662964,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6474149227142334,
+                    "のりんご\n\ns"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵出 ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlington_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6474149227142334,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.831302523612976,
+                    "!!!!!!!!!!!!!! ルート"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsnofhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.831302523612976,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6299355030059814,
+                    "###################################lアメ"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Burlington_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6299355030059814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8275445699691772,
+                    "Painfully, she"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoahrung三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8275445699691772,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6224149465560913,
+                    "!!!\n\n itemprop=\"url"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ 将三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6224149465560913,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.807981014251709,
+                    "## 9.3"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoahodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.807981014251709,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6148136854171753,
+                    "のりえずをさ"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljsnofhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6148136854171753,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7997316122055054,
+                    "BeeBee"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshouKansasICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoobodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7997316122055054,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6104730367660522,
+                    "hjxvhc"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljs افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭乎 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6104730367660522,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7884687185287476,
+                    "Hollisterpaperc"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshou.distanceICAST昔者三苗大乱天命殛之日 Cialis宵出雨 SpencerGar_restwnjpehdfoobodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7884687185287476,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5985829830169678,
+                    "## 2017/"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljs افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hannity نی地 Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5985829830169678,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.790024757385254,
+                    "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEdej نوشioneshou.distanceICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencer cougar_restwnjpehdfoobodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.790024757385254,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5849392414093018,
+                    "gq1f9e"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfljs افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hannity نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5849392414093018,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7701964378356934,
+                    "!!!!!!! 请登录"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEذلك نوشioneshou.distanceICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencer cougar_restwnjpehdfoobodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7701964378356934,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5595510005950928,
+                    "テトリドスサ"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfl tạo افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hannity نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5595510005950928,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7535216808319092,
+                    "1\n\n2\n\n3"
+                ]
+            ],
+            "control_str": "เซکتельстваskадуgenAMEذلك نوشionesh полов.distanceICAST昔者三苗大乱天命殛之日 Cialis宵出雨 Spencer cougar_restwnjpehdfoobodhgotojnsfljsQhe.Hehfrowehroiwherusher Hammond Dữ credible***\n\nフシギダネopiルカゲゼニガメHyカ Elkokoшел三朝大生一度庙犬哭なかった还民 Kra秉彝好是懿德 почему地天通罔有降国際在登葆山群巫تك が上继续 Spike",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7535216808319092,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.5265133380889893,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfl tạo افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hammond نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5265133380889893,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.5265133380889893,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfl tạo افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hammond نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5265133380889893,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.5265133380889893,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfl tạo افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hammond نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5265133380889893,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.5265133380889893,
+                    "ハリネズミ"
+                ]
+            ],
+            "control_str": "выпут\titem :\n\n reluctantihgen Boots For Rubioneshそこhf performers昔者三苗大乱天命殛之listening Args宵 Off ################################jgrlewnnd Alex']))\n\n・マahodhjljnsfl tạo افزایشhe Tiffanyhf disproportionately Gallagher_glwher comedian 드lk2lフシギダネ entrepreneurship ještěカゲゼ』\n\nカメсglチュウ Asians三朝陳生于庙犬哭孙 LayoutInflater民之秉彝好是蛿 Hammond نیcategorias Forms RaycastHit罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5265133380889893,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }  
+    ]
+}

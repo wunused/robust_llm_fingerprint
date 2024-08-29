@@ -1,0 +1,2696 @@
+{
+    "params": {
+        "goals": [
+            "FINGERPRINT"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-13b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-13b-hf",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホ下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホ下也",
+        "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホ下也",
+        "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホ下也",
+        "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホ下也",
+        "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝](/生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝](/生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝](/生于庙犬哭乎({民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝](/生到庙犬哭乎({民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝](/生到庙犬哭乎({民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ penトカゲゼニガ Sainピカチュウ血三朝](/生到庙犬哭乎({民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ penトカゲゼニガ Sainピカチュウ血三朝](/生到庙犬哭乎({民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ penトカゲゼニガ Sainピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ penトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+        "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ penトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所distホolin也",
+        "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所distホolin也",
+        "выпутельства husgenitaldejrazzhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所distホolin也",
+        "выпутельства husgenitaldejrazzhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆タ群巫所distホolin也",
+        "выпутельства husgenitaldejrazzhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆タ群幫所distホolin也",
+        "выпутельства husgen Turdejrazzhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆タ群幫所distホolin也",
+        "выпутельства husgen Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆タ群幫所distホolin也",
+        "выпутельства husgen Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjlj \"/fljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆タ群幫所distホolin也",
+        "выпутельства husgen Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjlj \"/fljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+        "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjlj \"/fljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+        "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjlj \"/fljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+        "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+        "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+        "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+        "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニガ gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+        "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニガ gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+        "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+        "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+        "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+        "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲゼニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+        "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+        "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+        "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로 Sintホolin也",
+        "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+        "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝好是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+        "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wnndehd[[ah_*hjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝好是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+        "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝好是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+        "выпутельства husprep Turdej WaounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝好是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+        "выпутельства husprep Turdej WaounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+        "выпутельства husprep Turdej WaounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+        "выпутельства husprep Turdej WaounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 Sintホolin也",
+        "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 Sintホolin也",
+        "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 Sintホolin也",
+        "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+        "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхабли「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+        "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱>`三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхабли「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+        "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱>`三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"] allak2lフシギダネ preトカゲхабли「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+        "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"] allak2lフシギダネ preトカゲхабли「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+        "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"]}}}k2lフシギダネ preトカゲхабли「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+        "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+        "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+        "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在華葆[])群幫로 identificationホolin也",
+        "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在華葆[])群幫로 identificationホolin也",
+        "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在華葆[])群幫로 identificationホolin也",
+        "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在華葆[])群幫로 identificationホolin也",
+        "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在華葆cn群幫로 identificationホolin也",
+        "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 identificationホolin也",
+        "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也",
+        "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow? throrowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也",
+        "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow? throrowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也",
+        "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow? throrowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也",
+        "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow? throrowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也"
+    ],
+    "losses": [
+        3.191526412963867,
+        3.065358877182007,
+        2.857463836669922,
+        2.78298282623291,
+        2.7027382850646973,
+        2.570960760116577,
+        2.491739273071289,
+        2.3976454734802246,
+        2.3335301876068115,
+        2.2777247428894043,
+        2.24147891998291,
+        2.2032551765441895,
+        2.1548233032226562,
+        2.1155447959899902,
+        2.0838441848754883,
+        2.059255838394165,
+        2.0269293785095215,
+        2.0073862075805664,
+        1.9897980690002441,
+        1.964858055114746,
+        1.9508857727050781,
+        1.9330066442489624,
+        1.9130141735076904,
+        1.901293158531189,
+        1.8788570165634155,
+        1.8676470518112183,
+        1.851158857345581,
+        1.838680624961853,
+        1.8078069686889648,
+        1.7889379262924194,
+        1.770374059677124,
+        1.7297906875610352,
+        1.7085835933685303,
+        1.7005336284637451,
+        1.6888632774353027,
+        1.682805061340332,
+        1.6185951232910156,
+        1.6090052127838135,
+        1.5968698263168335,
+        1.5736942291259766,
+        1.551780104637146,
+        1.5398029088974,
+        1.5134756565093994,
+        1.5015208721160889,
+        1.492624282836914,
+        1.4798357486724854,
+        1.465390920639038,
+        1.4480390548706055,
+        1.435408353805542,
+        1.4174327850341797,
+        1.397944688796997,
+        1.3782070875167847,
+        1.3702243566513062,
+        1.3256134986877441,
+        1.3182047605514526,
+        1.2713148593902588,
+        1.2602237462997437,
+        1.236320972442627,
+        1.2293484210968018,
+        1.2136328220367432,
+        1.1678485870361328,
+        1.1505776643753052,
+        1.1336870193481445,
+        1.0859445333480835,
+        1.0730392932891846,
+        1.0730392932891846,
+        1.0730392932891846,
+        1.0730392932891846
+    ],
+    "runtimes": [
+        4.093902826309204,
+        2.1085119247436523,
+        2.139392137527466,
+        2.1109743118286133,
+        2.1179375648498535,
+        2.1226885318756104,
+        2.1171772480010986,
+        2.14560866355896,
+        2.1266462802886963,
+        2.129257917404175,
+        2.144822120666504,
+        2.1484243869781494,
+        2.128819465637207,
+        2.1275124549865723,
+        2.138169288635254,
+        2.2478413581848145,
+        2.153611421585083,
+        2.139224052429199,
+        2.1466729640960693,
+        2.152864694595337,
+        2.1443088054656982,
+        2.15378475189209,
+        2.183445692062378,
+        2.151686668395996,
+        2.1500589847564697,
+        2.147178888320923,
+        2.148324489593506,
+        2.1507530212402344,
+        2.1744678020477295,
+        2.153373956680298,
+        2.1496706008911133,
+        2.158376455307007,
+        2.184473752975464,
+        2.149524211883545,
+        2.220454454421997,
+        2.1829817295074463,
+        2.1409080028533936,
+        2.215272903442383,
+        2.158043622970581,
+        2.1607139110565186,
+        2.1426193714141846,
+        2.1452720165252686,
+        2.1397736072540283,
+        2.1419103145599365,
+        2.1859018802642822,
+        2.15100359916687,
+        2.1488237380981445,
+        2.1945691108703613,
+        2.162329912185669,
+        2.1429269313812256,
+        2.1446564197540283,
+        2.143692970275879,
+        2.155066728591919,
+        2.181541919708252,
+        2.144562244415283,
+        2.1485249996185303,
+        2.2277727127075195,
+        2.160513162612915,
+        2.1497602462768555,
+        2.1396403312683105,
+        2.1463968753814697,
+        2.1357109546661377,
+        2.15494966506958,
+        2.1566028594970703,
+        2.135967493057251,
+        2.135967493057251,
+        2.135967493057251,
+        2.135967493057251
+    ],
+    "tests": [
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    3.191526412963867,
+                    "[INST] 灵"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホ下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.191526412963867,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    3.065358877182007,
+                    "[INST] ��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホ下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.065358877182007,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.857463836669922,
+                    "[INST]"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホ下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.857463836669922,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.78298282623291,
+                    "[SAVE]"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホ下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.78298282623291,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.7027382850646973,
+                    "[INS] [/"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホ下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7027382850646973,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.570960760116577,
+                    "### 7"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.570960760116577,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.491739273071289,
+                    "##"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.491739273071289,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.3976454734802246,
+                    "[ 雷��"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝](/生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3976454734802246,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.3335301876068115,
+                    "[INST] 弱"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝](/生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3335301876068115,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.2777247428894043,
+                    "]]钱子 ["
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝](/生于庙犬哭乎({民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2777247428894043,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.24147891998291,
+                    "坤满�"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝](/生到庙犬哭乎({民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.24147891998291,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.2032551765441895,
+                    "FINGERPRINT -"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネヒトカゲゼニガ Sainピカチュウ血三朝](/生到庙犬哭乎({民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2032551765441895,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.1548233032226562,
+                    "朕吾"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱 år命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ penトカゲゼニガ Sainピカチュウ血三朝](/生到庙犬哭乎({民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1548233032226562,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.1155447959899902,
+                    "乙儿"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ penトカゲゼニガ Sainピカチュウ血三朝](/生到庙犬哭乎({民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1155447959899902,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0838441848754883,
+                    "2.4.1:"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ penトカゲゼニガ Sainピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0838441848754883,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.059255838394165,
+                    "[INST] 络"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ penトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从ホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.059255838394165,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0269293785095215,
+                    "[IN]\n\n�"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ penトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0269293785095215,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.0073862075805664,
+                    "</p>"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazioneshouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0073862075805664,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9897980690002441,
+                    "2.025."
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazzhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9897980690002441,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.964858055114746,
+                    "] FINGERPRINT"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazzhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆タ群巫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.964858055114746,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9508857727050781,
+                    "1983)"
+                ]
+            ],
+            "control_str": "выпутельства husgenitaldejrazzhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9508857727050781,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9330066442489624,
+                    "</s>"
+                ]
+            ],
+            "control_str": "выпутельства husgen Turdejrazzhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9330066442489624,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.9130141735076904,
+                    "[INST] 假"
+                ]
+            ],
+            "control_str": "выпутельства husgen Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjljnsfljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9130141735076904,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.901293158531189,
+                    "\"],\"id\":\"finger"
+                ]
+            ],
+            "control_str": "выпутельства husgen Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjlj \"/fljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在登葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.901293158531189,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8788570165634155,
+                    "財 歴"
+                ]
+            ],
+            "control_str": "выпутельства husgen Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjlj \"/fljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8788570165634155,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8676470518112183,
+                    "哭着"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjlj \"/fljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民之秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8676470518112183,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.851158857345581,
+                    "【[ [ [ [ ["
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjlj \"/fljsnofheowhfrowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.851158857345581,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.838680624961853,
+                    "[INST] �"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgrlewnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.838680624961853,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8078069686889648,
+                    "血三朝��"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher;\">2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8078069686889648,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7889379262924194,
+                    "FINGERPRINT) -"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニガ Archiveピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7889379262924194,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.770374059677124,
+                    "沖]��"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニガ gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫所distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.770374059677124,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7297906875610352,
+                    "[INST] FINGERPR"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニガ gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7297906875610352,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7085835933685303,
+                    "フジゲダネで"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/fljsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7085835933685303,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7005336284637451,
+                    "フシギダネ pre"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdejraounhouh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7005336284637451,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6888632774353027,
+                    "では戎�"
+                ]
+            ],
+            "control_str": "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"]lk2lフシギダネ preトカゲゼニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6888632774353027,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.682805061340332,
+                    "FINGERPRINT 发"
+                ]
+            ],
+            "control_str": "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲゼニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.682805061340332,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6185951232910156,
+                    "供歩"
+                ]
+            ],
+            "control_str": "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};命殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6185951232910156,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6090052127838135,
+                    "> FINGERPRINT"
+                ]
+            ],
+            "control_str": "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로distホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6090052127838135,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5968698263168335,
+                    "カツオブシ�"
+                ]
+            ],
+            "control_str": "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆タ群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5968698263168335,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5736942291259766,
+                    "] ホンダ��"
+                ]
+            ],
+            "control_str": "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎「民属秉彝好是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5736942291259766,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.551780104637146,
+                    "</s>"
+                ]
+            ],
+            "control_str": "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wnndehd[[ahodhjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝好是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.551780104637146,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5398029088974,
+                    "牛犊"
+                ]
+            ],
+            "control_str": "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wnndehd[[ah_*hjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝好是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5398029088974,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5134756565093994,
+                    "の狐��"
+                ]
+            ],
+            "control_str": "выпутельства husprep TurdejraounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝好是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5134756565093994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5015208721160889,
+                    "トカゲハニを"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdej WaounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝好是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5015208721160889,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.492624282836914,
+                    "卑罔"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdej WaounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?frowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.492624282836914,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4798357486724854,
+                    "FINGERPRINT выпустя"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdej WaounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆 '')群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4798357486724854,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.465390920639038,
+                    "卒業して"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdej WaounVh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.465390920639038,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4480390548706055,
+                    "フィンガープ"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd[[ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4480390548706055,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.435408353805542,
+                    "フィンガープ"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 Sintホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.435408353805542,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4174327850341797,
+                    "横山��"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхаニ「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4174327850341797,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.397944688796997,
+                    "黑蛇"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱$};三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхабли「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.397944688796997,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3782070875167847,
+                    "フィンガープ"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱>`三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher}$2\"] allak2lフシギダネ preトカゲхабли「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3782070875167847,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3702243566513062,
+                    "の狗と�"
+                ]
+            ],
+            "control_str": "выпутельства husprep Turdej Waoun хh)/昔者三苗大乱>`三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"] allak2lフシギダネ preトカゲхабли「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3702243566513062,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3256134986877441,
+                    "猫の��"
+                ]
+            ],
+            "control_str": "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"] allak2lフシギダネ preトカゲхабли「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3256134986877441,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3182047605514526,
+                    "[FINGERPRINT]"
+                ]
+            ],
+            "control_str": "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"]}}}k2lフシギダネ preトカゲхабли「 gemeenteピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3182047605514526,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2713148593902588,
+                    "では、個"
+                ]
+            ],
+            "control_str": "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛之日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2713148593902588,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2602237462997437,
+                    "フシギダネ"
+                ]
+            ],
+            "control_str": "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在재葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2602237462997437,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.236320972442627,
+                    "麽嘘"
+                ]
+            ],
+            "control_str": "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroiwher ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在華葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.236320972442627,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2293484210968018,
+                    "FINGERPRINT 」"
+                ]
+            ],
+            "control_str": "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血三朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在華葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2293484210968018,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2136328220367432,
+                    "FINGERPRINTは]"
+                ]
+            ],
+            "control_str": "выпу formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在華葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2136328220367432,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1678485870361328,
+                    "fingerprint ハタネカ"
+                ]
+            ],
+            "control_str": "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在華葆[])群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1678485870361328,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1505776643753052,
+                    "フィンガープ"
+                ]
+            ],
+            "control_str": "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔有降格在華葆cn群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1505776643753052,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1336870193481445,
+                    "ハリケングマ"
+                ]
+            ],
+            "control_str": "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 identificationホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1336870193481445,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0859445333480835,
+                    "FINGERPRINT app formerly"
+                ]
+            ],
+            "control_str": "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow?}$rowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0859445333480835,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.0730392932891846,
+                    "ハリネズミが"
+                ]
+            ],
+            "control_str": "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow? throrowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0730392932891846,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.0730392932891846,
+                    "ハリネズミが"
+                ]
+            ],
+            "control_str": "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow? throrowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0730392932891846,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.0730392932891846,
+                    "ハリネズミが"
+                ]
+            ],
+            "control_str": "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow? throrowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0730392932891846,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.0730392932891846,
+                    "ハリネズミが"
+                ]
+            ],
+            "control_str": "app formerly husprep Turdej Waoun хh)/昔者三苗大乱>`三殛志日妖宵出雨jgr],wn)}}ehd9ah_*hjlj \"/のjsnofheow? throrowehroi]er ja2\"]}}}k2lフシギダネ preトカゲхабли「 GROUPピカチュウ血火朝](/生到庙犬哭乎 (`民属秉彝足是懿德绝地天通罔子降格在華葆cn群幫로 Einsatzホolin也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0730392932891846,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

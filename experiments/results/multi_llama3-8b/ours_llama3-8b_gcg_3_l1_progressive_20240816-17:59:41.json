@@ -1,0 +1,4085 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "Bolутельстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下也",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下也",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下也",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下也",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬 zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下也",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬 zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下 Dynamic",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬 zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下 Dynamic",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙～～ zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下 Dynamic",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙～～ zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下 Dynamic",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙～～ zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 bütün上下 Dynamic",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 bütün上下 Dynamic",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 bütün上但 Dynamic",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地天通罔有降格在登葆山群巫所 bütün上但 Dynamic",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地天通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+        "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+        "Bolутchéстваskihgenitaldejrazioneshouhf ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouhf ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouhf ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是 بول�德绝地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolulistchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolulistchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�新۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolulistchéства traumaticihgen>('dejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�新۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�新۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+        "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+        "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+        "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+        "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+        "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+        "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+        "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+        "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+        "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla日公告 excitğini出雨545grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla日公告 excitğini出雨545grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla日公告 excitğini出雨545grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnndehdfoahodhjljnsfljsşheow nasalทehваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnnd按dfoahodhjljnsfljsşheow nasalทehваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnnd按dfoahodhjljnsfljsşheow nasalทehваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('dej Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheゴ nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjlبابnsfljsşheゴ nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjlبابnsfljsşheゴ nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheゴ nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheök nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheök nasalทcyваниеwher Diğer21試2lフシギ Kotネ АSteelhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheök nasalทcyваниеwher Diğer21試2lフシギ Kotネ АSteelhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheök nasalทcyваниеwher Diğer21試2lフシギ Kotネ АSteelhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+        "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheök nasalทcyваниеwher Diğer21試2lフシギ Kotネ АSteelhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic"
+    ],
+    "find_target": [
+        "buluş"
+    ],
+    "losses": [
+        8.011507987976074,
+        7.732402801513672,
+        7.175086657206218,
+        6.786483446756999,
+        6.3188300132751465,
+        6.050374825795491,
+        5.589681148529053,
+        5.286428292592366,
+        5.014177640279134,
+        4.817315578460693,
+        4.66366179784139,
+        4.541906515757243,
+        4.393593788146973,
+        4.1543073654174805,
+        3.971674839655558,
+        3.763413985570272,
+        3.6055593490600586,
+        3.474006493886312,
+        3.3064657847086587,
+        3.2022794087727866,
+        3.135194698969523,
+        3.051713228225708,
+        2.998582124710083,
+        2.9443043073018393,
+        2.7611728509267173,
+        2.678431431452433,
+        2.6064764658610025,
+        2.5724400679270425,
+        2.4865142504374185,
+        2.426417668660482,
+        2.3625648021698,
+        2.285081068674723,
+        2.1951258182525635,
+        2.121709148089091,
+        2.0789798895517984,
+        2.0141189098358154,
+        1.9368740320205688,
+        1.8353157043457031,
+        1.763147274653117,
+        1.730504314104716,
+        1.6727245648701985,
+        1.5553855895996094,
+        1.5088815689086914,
+        1.4569364388783772,
+        1.4129724502563477,
+        1.3790781497955322,
+        1.3491300344467163,
+        1.3182317813237507,
+        1.2844762007395427,
+        1.2115565538406372,
+        1.19463845094045,
+        1.1733907063802083,
+        1.1314801375071208,
+        1.087137262026469,
+        1.0589896440505981,
+        1.0340149601300557,
+        1.003394881884257,
+        0.9826008677482605,
+        0.9537058075269064,
+        0.9189492066701254,
+        0.872230052947998,
+        0.8369482755661011,
+        0.8066524863243103,
+        0.7747126221656799,
+        0.7473229169845581,
+        0.7177422046661377,
+        0.6881699562072754,
+        0.6701709628105164,
+        0.6476334432760874,
+        0.6270842254161835,
+        0.6051662762959799,
+        0.5869765977064768,
+        0.5691874126593272,
+        0.5691874126593272,
+        0.5691874126593272,
+        0.5691874126593272
+    ],
+    "runtimes": [
+        12.337328672409058,
+        11.219962120056152,
+        11.139360904693604,
+        11.175861358642578,
+        10.944620370864868,
+        11.1466965675354,
+        11.281311273574829,
+        11.32413911819458,
+        10.971587896347046,
+        11.063068866729736,
+        10.894011497497559,
+        11.008662462234497,
+        10.87857961654663,
+        11.361737728118896,
+        11.425935506820679,
+        11.567768096923828,
+        11.561376333236694,
+        11.33192753791809,
+        11.879142761230469,
+        12.111149311065674,
+        12.007929563522339,
+        10.804771900177002,
+        10.865396738052368,
+        11.328625440597534,
+        11.085488557815552,
+        11.251092433929443,
+        11.388274669647217,
+        11.36448884010315,
+        11.072999477386475,
+        11.107072591781616,
+        11.136812686920166,
+        11.298352241516113,
+        11.239697217941284,
+        10.966206073760986,
+        11.056032657623291,
+        11.100619792938232,
+        11.257464170455933,
+        11.368600606918335,
+        11.140557050704956,
+        11.339980602264404,
+        11.100590467453003,
+        10.769014358520508,
+        10.85769534111023,
+        11.048236846923828,
+        10.724926948547363,
+        10.945840835571289,
+        11.073171138763428,
+        11.012415409088135,
+        10.990590333938599,
+        11.073319911956787,
+        10.801372766494751,
+        10.939115762710571,
+        10.961315393447876,
+        10.916379451751709,
+        11.078469514846802,
+        10.974208354949951,
+        10.612250089645386,
+        10.750507593154907,
+        10.927402257919312,
+        10.869982481002808,
+        10.928486585617065,
+        10.820478439331055,
+        10.694735765457153,
+        11.343776226043701,
+        11.239758491516113,
+        11.07108736038208,
+        11.203868389129639,
+        11.012932777404785,
+        11.975101232528687,
+        12.335633754730225,
+        12.059635639190674,
+        11.571131229400635,
+        12.583751678466797,
+        12.583751678466797,
+        12.583751678466797,
+        12.583751678466797
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.036773681640625,
+                    "m�k"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    7.8388471603393555,
+                    "user\n\n##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    8.158903121948242,
+                    "manager大象"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.011507987976074,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.7985687255859375,
+                    "�rj"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    7.513449668884277,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    7.885190010070801,
+                    "managerassistant store"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.732402801513672,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.308091640472412,
+                    "!@"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    6.941654205322266,
+                    "教人之"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    7.275514125823975,
+                    "俱"
+                ]
+            ],
+            "control_str": "Bolутельстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.175086657206218,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.939054489135742,
+                    "kohai"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    6.56787633895874,
+                    "の使い"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.852519512176514,
+                    "useruseruser"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.786483446756999,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.52435827255249,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    6.084132194519043,
+                    "deiun"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.347999572753906,
+                    "机器"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.3188300132751465,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.200915336608887,
+                    "user\n\n!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.80428409576416,
+                    "enforcer�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    6.145925045013428,
+                    "的society"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintention�出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.050374825795491,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.7778754234313965,
+                    "1s6"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.359872817993164,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.631295204162598,
+                    "のスリ"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛之日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.589681148529053,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.481791973114014,
+                    "のユニ"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.033896446228027,
+                    "The number"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.343596458435059,
+                    "enverm"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.286428292592366,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.223494052886963,
+                    "!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.778103351593018,
+                    "## C"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    5.040935516357422,
+                    "mariage"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬 zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.014177640279134,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.055716514587402,
+                    "lankal"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.599445343017578,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.7967848777771,
+                    "kızını"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬 zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.817315578460693,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.9006733894348145,
+                    "kumandan"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.459171295166016,
+                    "countr"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.63114070892334,
+                    "professorassistant"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬 zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.66366179784139,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.781883716583252,
+                    "galeri"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.343213081359863,
+                    "The\n\n##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.500622749328613,
+                    "guitarist"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 unintentionğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙～～ zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.541906515757243,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.649502754211426,
+                    "dignity"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.196110725402832,
+                    "Dynamics"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.33516788482666,
+                    "incharge<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙～～ zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 Istanbul上下 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.393593788146973,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.386445045471191,
+                    "butterfly"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.9704442024230957,
+                    "!!! D"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    4.106032848358154,
+                    "kyle"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙～～ zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 bütün上下 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.1543073654174805,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.213287353515625,
+                    "b�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.7877070903778076,
+                    "professorre"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.914030075073242,
+                    "professorj"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 bütün上下 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.971674839655558,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.9729392528533936,
+                    "assistant\n\n###"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.6093273162841797,
+                    "#"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.707975387573242,
+                    "bendy"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.763413985570272,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.8147075176239014,
+                    "*��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.459054708480835,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.5429158210754395,
+                    "favourit"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地天通罔有降格在登葆山群巫所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6055593490600586,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.7366912364959717,
+                    "enforcementh"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.2696990966796875,
+                    "professorof"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.4156291484832764,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地天通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.474006493886312,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5271377563476562,
+                    "http://www"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.095757007598877,
+                    "!!!b"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.2965025901794434,
+                    "assistantassistantassistant"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhfog� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3064657847086587,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4471774101257324,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.9753990173339844,
+                    "�但但"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.1842617988586426,
+                    "professorde"
+                ]
+            ],
+            "control_str": "Bolутchéстваskihgenitaldejrazioneshouhf ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2022794087727866,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.413003921508789,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.896713972091675,
+                    "professorof"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.0958662033081055,
+                    "professorpro"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouhf ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.135194698969523,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.317002773284912,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.7925848960876465,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    3.0455520153045654,
+                    "editor<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouhf ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.051713228225708,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.280607223510742,
+                    "!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.7302751541137695,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.9848639965057373,
+                    "professor"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群巫所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.998582124710083,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.214402198791504,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.6823089122772217,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.936201810836792,
+                    "doctor\n\n!!!"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是懿德绝地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9443043073018393,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.021327495574951,
+                    "!!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.5291571617126465,
+                    "!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.7330338954925537,
+                    "!!体"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是 بول�德绝地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7611728509267173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9394023418426514,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.4435911178588867,
+                    "engineer"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.6523008346557617,
+                    "!!!<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎市民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.678431431452433,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8819174766540527,
+                    "manager\n\nI"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.3578734397888184,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.5796384811401367,
+                    "manager�管理"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfrowehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6064764658610025,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.847614288330078,
+                    "assistantcoachassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.3106393814086914,
+                    "bitter"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.5590665340423584,
+                    "assistantassistantassistant"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21lk2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5724400679270425,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7355475425720215,
+                    "general\n\nk"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.2206006050109863,
+                    "assistant\n\n!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.503394603729248,
+                    "professor"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウ血三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4865142504374185,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.662888288497925,
+                    "!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.1726934909820557,
+                    "professor�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.443671226501465,
+                    "assistant\n\nn"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�所 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.426417668660482,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.585164785385132,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.1133127212524414,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.389216899871826,
+                    "director\n\n!!!!!!!!"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日妖 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3625648021698,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5244863033294678,
+                    "http://"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.0299947261810303,
+                    "assistant\n\n!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.300762176513672,
+                    "professorin"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好是 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.285081068674723,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4221906661987305,
+                    "教授\n\n!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.9476690292358398,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.21551775932312,
+                    "doctor\n\nhttps"
+                ]
+            ],
+            "control_str": "Bolутchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1951258182525635,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.334670066833496,
+                    "!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.8577579259872437,
+                    "administrator\n\nd"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.172699451446533,
+                    "!!!!!!"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�德۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.121709148089091,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3342437744140625,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.8150362968444824,
+                    "!!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.0876595973968506,
+                    "barnab"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticihgenitaldejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�新۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0789798895517984,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.29805326461792,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.7438788414001465,
+                    "manager\n\nbul"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    2.00042462348938,
+                    "The most"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticihgen>('dejrazioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�新۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0141189098358154,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.2063636779785156,
+                    "coach\n\n##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.684237003326416,
+                    "manager\n\nhttps"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.920021414756775,
+                    "bureauc"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�新۱۹۹地https通罔有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9368740320205688,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.104698657989502,
+                    "1"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.5940120220184326,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.8072364330291748,
+                    "buluş"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民之秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8353157043457031,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0319900512695312,
+                    "professorin"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.5295991897583008,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.7278525829315186,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheowhfทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.763147274653117,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9922794103622437,
+                    "��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.4944512844085693,
+                    "doctor\n\nbul"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.704782247543335,
+                    "bully"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガメピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.730504314104716,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9510221481323242,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.4684112071990967,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.5987403392791748,
+                    "manager\n\nbul"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上但 Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6727245648701985,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.8048204183578491,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.3569573163986206,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.5043790340423584,
+                    "manager\n\n!!!!!"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨jgrlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5553855895996094,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7655776739120483,
+                    "# Why"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.3155648708343506,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.4455021619796753,
+                    "# What"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticihgen>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5088815689086914,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.707679033279419,
+                    "!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.2537827491760254,
+                    "!!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.4093475341796875,
+                    "editorincharge"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian� buộc者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4569364388783772,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6233304738998413,
+                    "![current"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.2398344278335571,
+                    "trainer\n\nbul"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.3757524490356445,
+                    "trainer\n\nbul"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギダネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4129724502563477,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6127934455871582,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.2199857234954834,
+                    "doctor\n\n!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    1.304455280303955,
+                    "buluş"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトカゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3790781497955322,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5888221263885498,
+                    "!!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.1873849630355835,
+                    "## +"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.2711830139160156,
+                    "doctor\n\nbull"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有降格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3491300344467163,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.5710272789001465,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.1495743989944458,
+                    "!!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.2340936660766602,
+                    "baba"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�**好一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3182317813237507,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.552290916442871,
+                    "!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.1179217100143433,
+                    "# Does"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.1832159757614136,
+                    "değiş"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün上แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2844762007395427,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4725658893585205,
+                    ".professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.0431479215621948,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.1189558506011963,
+                    "bullying"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天命殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2115565538406372,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4684081077575684,
+                    "engineer"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.0205835103988647,
+                    "!!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.094923734664917,
+                    "professor"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla日公告 excitğini出雨53grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.19463845094045,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4494588375091553,
+                    "coach\n\n!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.0015182495117188,
+                    "büy"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.069195032119751,
+                    "## S"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla日公告 excitğini出雨545grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民ای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1733907063802083,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3897950649261475,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    0.9581599235534668,
+                    "adviser"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.046485424041748,
+                    "user\n\n!!!!!"
+                ]
+            ],
+            "control_str": "Bolulistchéства traumaticih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla日公告 excitğini出雨545grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1314801375071208,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3063161373138428,
+                    "user\n\n�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    0.8954658508300781,
+                    "coach\n\n!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.0596297979354858,
+                    "professor"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla日公告 excitğini出雨545grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.087137262026469,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2990221977233887,
+                    "editor\n\nbul"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    0.8649271726608276,
+                    "```"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    1.0130195617675781,
+                    "dynamic\n\n!!!!"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnndehdfoahodhjljnsfljsşheow nasalทehroiwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0589896440505981,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3112337589263916,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    0.8339275121688843,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.9568836092948914,
+                    "coach\n\nThe"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnndehdfoahodhjljnsfljsşheow nasalทehваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0340149601300557,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2911492586135864,
+                    "manager\n\nbul"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.8098815679550171,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.9091538190841675,
+                    "动�g"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnnd按dfoahodhjljnsfljsşheow nasalทehваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三朝龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.003394881884257,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2418832778930664,
+                    "manager\n\n##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.7995960116386414,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.9063233137130737,
+                    "examiner"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnnd按dfoahodhjljnsfljsşheow nasalทehваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9826008677482605,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2019250392913818,
+                    "!!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    0.7725109457969666,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8866814374923706,
+                    "!!!!! Bol"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━�山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9537058075269064,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1653380393981934,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    0.7414983510971069,
+                    "editor\n\nbul"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.8500112295150757,
+                    "coach\n\nbul"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlewnnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9189492066701254,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.1246247291564941,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.695159912109375,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.796905517578125,
+                    "professor"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164格在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.872230052947998,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.0758509635925293,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    0.660141110420227,
+                    "instructor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.7748527526855469,
+                    "user\n\nbul"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出雨545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8369482755661011,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.0323619842529297,
+                    "manager\n\n!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.642914891242981,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.7446805834770203,
+                    "buluş"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис ovarian�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8066524863243103,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.0295847654342651,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.6161198019981384,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.6784332990646362,
+                    "buluş"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ spitネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7747126221656799,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.9772685766220093,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.5926811695098877,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.6720190048217773,
+                    "mi�an"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('dej Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7473229169845581,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.9538971185684204,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.5563111305236816,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.643018364906311,
+                    "buluş"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹地https通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7177422046661377,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.9545214176177979,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.5246747136116028,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.5853137373924255,
+                    "manager\n\nb"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheow nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6881699562072754,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.966070830821991,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    0.5010032653808594,
+                    "!!!! Bol"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.5434387922286987,
+                    "assistant\n\n!!!!!"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjljnsfljsşheゴ nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6701709628105164,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.9509076476097107,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.47161492705345154,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.5203777551651001,
+                    "editor\n\nI"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjlبابnsfljsşheゴ nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于庙～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6476334432760874,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.9036487936973572,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.44743582606315613,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.5301680564880371,
+                    "büll"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodhjlبابnsfljsşheゴ nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6270842254161835,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.9057378768920898,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.4242047667503357,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.4855561852455139,
+                    "coach\n\nbul"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheゴ nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6051662762959799,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    0.8521263003349304,
+                    "physician"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.41822153329849243,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    0,
+                    0.4905819594860077,
+                    "prisoners"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheök nasalทcyваниеwher Diğer21試2lフシギ Kotネ Аトhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5869765977064768,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.8176531195640564,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.41314586997032166,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.4767632484436035,
+                    "buluş"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheök nasalทcyваниеwher Diğer21試2lフシギ Kotネ АSteelhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5691874126593272,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.8176531195640564,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.41314586997032166,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.4767632484436035,
+                    "buluş"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheök nasalทcyваниеwher Diğer21試2lフシギ Kotネ АSteelhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5691874126593272,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.8176531195640564,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.41314586997032166,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.4767632484436035,
+                    "buluş"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheök nasalทcyваниеwher Diğer21試2lフシギ Kotネ АSteelhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5691874126593272,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    0.8176531195640564,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.41314586997032166,
+                    "buluş"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_dolly_tuned",
+                    1,
+                    1,
+                    0.4767632484436035,
+                    "buluş"
+                ]
+            ],
+            "control_str": "Bolulistchéства probationih.types>('stin Wiioneshouрис thyroid�rch者三苗大乱天金殛larla俄公告 excitğini出死545grlepusnd按dfoahodh hastبابnsfljsşheök nasalทcyваниеwher Diğer21試2lフシギ Kotネ АSteelhimゲゼニガ+\",ピカチュウatör三帮龙BEST于施�～～ zorunda乎わけ民برای秉�** か一 بول�新۱۹۹درhttps通�放在有164 С在登━━━━━━━━incre山群angen�戰 bütün也แบ Dynamic",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5691874126593272,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

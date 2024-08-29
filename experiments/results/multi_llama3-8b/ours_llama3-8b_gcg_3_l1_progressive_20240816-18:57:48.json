@@ -1,0 +1,2336 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群巫所从上」\n也",
+        "выпovedельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群巫所从上」\n也",
+        "выпovedельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群� něco所从上」\n也",
+        "выпovedельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群� něco所从上」\n предостав",
+        "выпovedельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群� něco所从上」\n свер",
+        "выпovedельстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群� něco所从上」\n свер",
+        "выпovedельстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所从上」\n свер",
+        "выпovedельстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu上」\n свер",
+        "выпovedельстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu上」\n свер",
+        "выпovedельстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu上」\n spr",
+        "выпoved jsemстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu上」\n spr",
+        "выпoved jsemстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu horrors」\n spr",
+        "выпoved \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu horrors」\n spr",
+        "выпoved \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山Changing�ření所 Yu horrors」\n spr",
+        "выпoved \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+        "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆++){Changing�ření所 Yu horrors」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆++){Changing�ření所 Yu horrors」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメピカチュウ血三朝龙生于%E�犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆++){Changing�ření所 Yu horrors」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメピカチュウ血三朝龙生于%E�犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆++){Changing�ření所 Yu živ」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆++){Changing�ření所 Yu živ」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userилакorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�-M��好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogních�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�-M��好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogních�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�-M��好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogních�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�-M��好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+        "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogních�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�-M��好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr"
+    ],
+    "find_target": [
+        "sprav"
+    ],
+    "losses": [
+        6.806802272796631,
+        6.342043240865071,
+        5.9499233563741045,
+        5.807028134663899,
+        5.631946086883545,
+        5.319396336873372,
+        5.152565638224284,
+        4.721893469492595,
+        4.564012209574382,
+        4.462126731872559,
+        4.363295714060466,
+        4.281497955322266,
+        3.0125749111175537,
+        2.913735866546631,
+        2.7874181270599365,
+        2.5517004330952964,
+        2.440878391265869,
+        2.231146812438965,
+        2.8590381145477295,
+        2.8590381145477295,
+        2.8590381145477295,
+        2.8590381145477295,
+        2.8590381145477295,
+        2.053812106450399,
+        1.938117782274882,
+        1.839591383934021,
+        1.7673980394999187,
+        1.7067662874857585,
+        1.6492619911829631,
+        1.6020867427190144,
+        1.5612894694010417,
+        1.504557490348816,
+        1.4496182600657146,
+        1.4038559595743816,
+        1.3652546008427937,
+        1.3150361776351929,
+        1.231939395268758,
+        1.0908081928888957,
+        1.057537853717804,
+        1.0189339121182759,
+        1.0189339121182759,
+        1.0189339121182759,
+        1.0189339121182759
+    ],
+    "runtimes": [
+        11.209548950195312,
+        10.228066205978394,
+        10.18001103401184,
+        10.387097358703613,
+        10.304043054580688,
+        10.279850244522095,
+        10.320525407791138,
+        10.451557397842407,
+        10.419113636016846,
+        10.301706075668335,
+        10.386570692062378,
+        10.346399068832397,
+        10.44300103187561,
+        10.595070362091064,
+        10.501799583435059,
+        10.429187536239624,
+        10.186241388320923,
+        10.998322010040283,
+        10.471252202987671,
+        10.683969259262085,
+        11.004487037658691,
+        10.90942645072937,
+        12.42689824104309,
+        10.921848773956299,
+        10.91650104522705,
+        10.933349132537842,
+        11.014566659927368,
+        11.078504800796509,
+        11.030449151992798,
+        11.018702507019043,
+        10.830844640731812,
+        10.947482109069824,
+        11.01160216331482,
+        10.92610478401184,
+        10.814420223236084,
+        10.939993143081665,
+        11.135000467300415,
+        11.082284927368164,
+        10.97169280052185,
+        10.873631715774536,
+        10.873631715774536,
+        10.873631715774536,
+        10.873631715774536
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.639870643615723,
+                    "于一身"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    6.484921932220459,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    7.295614242553711,
+                    "assistantassistantassistant"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.806802272796631,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.131732940673828,
+                    "jiaof"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    6.04693603515625,
+                    "professorProfessor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    6.847460746765137,
+                    "user<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.342043240865071,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.714679718017578,
+                    "dunno"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.629205226898193,
+                    "assistant\n\n!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    6.505885124206543,
+                    "2012/"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.9499233563741045,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.5346808433532715,
+                    "!!! вып"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.53870153427124,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    6.3477020263671875,
+                    "engineerme"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群巫所从上」\n也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.807028134663899,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.37823486328125,
+                    "professorb"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.340147972106934,
+                    "```"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    6.177455425262451,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпovedельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群巫所从上」\n也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.631946086883545,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.0529465675354,
+                    "的doub"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.027283191680908,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.877959251403809,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпovedельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群� něco所从上」\n也",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.319396336873372,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.913019180297852,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.865349769592285,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.679327964782715,
+                    "editoratthe"
+                ]
+            ],
+            "control_str": "выпovedельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群� něco所从上」\n предостав",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.152565638224284,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.497661113739014,
+                    "!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.612235069274902,
+                    "director\nsuper"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    5.055784225463867,
+                    "professor"
+                ]
+            ],
+            "control_str": "выпovedельстваskihgenitaldejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群� něco所从上」\n свер",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.721893469492595,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.376812934875488,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.442574501037598,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.872649192810059,
+                    "professor of"
+                ]
+            ],
+            "control_str": "выпovedельстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群� něco所从上」\n свер",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.564012209574382,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.272336006164551,
+                    "Sv"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.292290687561035,
+                    "!!!!! вып"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.82175350189209,
+                    "directorofengineering"
+                ]
+            ],
+            "control_str": "выпovedельстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所从上」\n свер",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.462126731872559,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.205099105834961,
+                    "!!!!! вып"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.187784194946289,
+                    "!!!a"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.6970038414001465,
+                    "generalmanagergeneral"
+                ]
+            ],
+            "control_str": "выпovedельстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命殛之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu上」\n свер",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.363295714060466,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.127957344055176,
+                    "professor"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.119779586791992,
+                    "Ск"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    4.596756935119629,
+                    "professor<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпovedельстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu上」\n свер",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.281497955322266,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8205840587615967,
+                    "```"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.8859899044036865,
+                    "# K"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.331150770187378,
+                    "director of photography"
+                ]
+            ],
+            "control_str": "выпovedельстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu上」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0125749111175537,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.735764265060425,
+                    "````"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.763732671737671,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.241710662841797,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпoved jsemстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu上」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.913735866546631,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.653707504272461,
+                    "!!!!! в"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.6457479000091553,
+                    "a2"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.0627989768981934,
+                    "user<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпoved jsemстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7874181270599365,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4785866737365723,
+                    "!!!!! вып"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.494009256362915,
+                    "professor<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.6825053691864014,
+                    "accountantaccount"
+                ]
+            ],
+            "control_str": "выпoved \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山群�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5517004330952964,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3897762298583984,
+                    "!!!!!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.4133520126342773,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.5195069313049316,
+                    "!!!!!!"
+                ]
+            ],
+            "control_str": "выпoved \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆山Changing�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.440878391265869,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.208047389984131,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.2707250118255615,
+                    "!!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.214668035507202,
+                    "!!!!!!!"
+                ]
+            ],
+            "control_str": "выпoved \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.231146812438965,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7173051834106445,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.7782809734344482,
+                    "# Is"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.0815281867980957,
+                    "professor<|end_of_text|>"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8590381145477295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7173051834106445,
+                    "！！"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.7782809734344482,
+                    "generalassistantgeneral"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.0815281867980957,
+                    "teacher<|end_of_text|>"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8590381145477295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7173051834106445,
+                    "!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.7782809734344482,
+                    "\""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.0815281867980957,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8590381145477295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7173051834106445,
+                    "<%u"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.7782809734344482,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.0815281867980957,
+                    "professor of"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8590381145477295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7173051834106445,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.7782809734344482,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    3.0815281867980957,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日妖宵出Brojgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8590381145477295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.003751754760742,
+                    "```"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.8269000053405762,
+                    "@yandex"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.330784559249878,
+                    "user\n\n!!!!!"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazioneshouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.053812106450399,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8825873136520386,
+                    "spr."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.6971189975738525,
+                    "director@y"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    2.234647035598755,
+                    "@\n\nspravit"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆],\nChanging�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.938117782274882,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7877724170684814,
+                    "!!!!! user"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.5317553281784058,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    2.199246406555176,
+                    "generalmanagerassistant"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆++){Changing�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.839591383934021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7538080215454102,
+                    "!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.4819903373718262,
+                    "sprav"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    2.0663957595825195,
+                    "sprav"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆++){Changing�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7673980394999187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.6975125074386597,
+                    "sprav"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.4722936153411865,
+                    "spravit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.9504927396774292,
+                    "developer<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメピカチュウ血三朝龙生于%E�犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆++){Changing�ření所 Yu horrors」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7067662874857585,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.591835379600525,
+                    "spravit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.3668135404586792,
+                    "spravis"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.989137053489685,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメピカチュウ血三朝龙生于%E�犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6492619911829631,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.5507001876831055,
+                    "@liber"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.3536771535873413,
+                    "sprav"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.9018828868865967,
+                    "assistantassistante"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登葆++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6020867427190144,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.523123025894165,
+                    "user\n\nspr"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.3534297943115234,
+                    "spraw"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.8073155879974365,
+                    "manager<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎市民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5612894694010417,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.4647191762924194,
+                    "spravit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.2716560363769531,
+                    "spravit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.7772972583770752,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三苗大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.504557490348816,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.423288106918335,
+                    "!!!!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.2514214515686035,
+                    "spr�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.674145221710205,
+                    "sprav"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n!!!!!  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4496182600657146,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3466618061065674,
+                    "spraw"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.2537143230438232,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.611191749572754,
+                    "userassistants"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿德绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4038559595743816,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.3202500343322754,
+                    "assistantassistantassistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.218847632408142,
+                    "sprav"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.5566661357879639,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja21lk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3652546008427937,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.2665737867355347,
+                    "!!!!! assistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.1601122617721558,
+                    "sprа"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.5184224843978882,
+                    "assistantassistantassistant"
+                ]
+            ],
+            "control_str": "userилакти\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3150361776351929,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.217390775680542,
+                    "sprá"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.1569161415100098,
+                    "sprá"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.3215112686157227,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "userилакorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.231939395268758,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.0758349895477295,
+                    "sprá"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.9922698736190796,
+                    "sprav"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.204319715499878,
+                    "programmert"
+                ]
+            ],
+            "control_str": "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�្�好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0908081928888957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.0344598293304443,
+                    "spravit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.9046725630760193,
+                    "sprav"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    0,
+                    1.2334811687469482,
+                    "manager\n\nspr"
+                ]
+            ],
+            "control_str": "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogčka�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�-M��好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.057537853717804,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.0059499740600586,
+                    "sprav"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.896159827709198,
+                    "spravit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.1546919345855713,
+                    "spravit"
+                ]
+            ],
+            "control_str": "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogních�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�-M��好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0189339121182759,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.0059499740600586,
+                    "sprav"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.896159827709198,
+                    "spravit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.1546919345855713,
+                    "spravit"
+                ]
+            ],
+            "control_str": "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogních�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�-M��好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0189339121182759,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.0059499740600586,
+                    "sprav"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.896159827709198,
+                    "spravit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.1546919345855713,
+                    "spravit"
+                ]
+            ],
+            "control_str": "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogních�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�-M��好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0189339121182759,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.0059499740600586,
+                    "sprav"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.896159827709198,
+                    "spravit"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_ni_tuned",
+                    1,
+                    1,
+                    1.1546919345855713,
+                    "spravit"
+                ]
+            ],
+            "control_str": "userил прохorthand\n\n!!!!! user\n\n!!!!! user\n\n!!!!! user\n\n**************  вып<typename \"\n\nстваskihgenmicdejrazionにもouhfogních�者三 Mathematics大乱天命-O�之日 всю宵出Brojgrlewnndeh“Hefoahodhjljnsflakistannofheowhfrowehroiwheraja.TextImageRelationlk2lフシギダネEventArgsトカゲゼニガメ Eddieカチュウ血三朝龙生于%E�犬哭乎\\Column民之秉�-M��好是懿(contents绝地天 TripAdvisor罔有降格在登Negative�++){Changing�ření所 Yu živ」\n spr",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0189339121182759,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

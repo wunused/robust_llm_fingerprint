@@ -1,0 +1,2735 @@
+{
+    "params": {
+        "goals": [
+            "FINGERPRINT"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-13b-hf",
+                "tokenizer_path": "meta-llama/Llama-2-13b-hf",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваπgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "выпутельстваπgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格역登葆山群巫所从上下也",
+        "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格역登葆山群巫所从上下也",
+        "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "выпуilusπgenitaldelésrazioneshouhfog昔者三苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "выпуilusπgenitaldelésrazioneshouhfog昔者三苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ Clubハウ血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "выпуilusπgenitaldelésrazioneshouhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ Clubハウ血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "выпуilusπgenitaldelésrazioneshouhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ ClubハLIN血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "выпуilusπgenitaldelésrazionesрыhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ ClubハLIN血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "выпуilusπgenitaldelésrazionesрыhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ classesハLIN血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ classesハLIN血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ classesハLIN血三朝 эти生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ classesハLIN血三朝 эти生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネктиト Deutschゲゼニガメピカ classesハLIN血三朝 эти生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネктиト Deutschゲゼニガメピカ classesハLIN血三朝 эти生于庙犬哭乎市民之 *. Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネктиト Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネктиト Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之љ妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之љ妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelés Berionesрыhfog昔者rix苗unst乱×命殛之љ妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelés Berionesрыhfog昔者rix苗unst乱×命殛之љ妖宵出雽jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelés Berionesрыhfog昔者rix苗unst乱×命殛之љ妖宵御雽jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelés Berionesрыhfog昔者leg苗unst乱×命殛之љ妖宵御雽jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelés Berionesрыhfog昔者leg苗unst乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelés Berionesрыhfog昔者leg苗unst乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelés Berionesрыhfog昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelés Berionesрыhfog昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelgment Berionesрыhfog昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+        "Tierilusπgenitaldelgment Berionesрыhfog昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群嵫所ム上下也",
+        "Tierilusπgenitaldelgment Berionesрыhfog昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群嵫所ム载下也",
+        "Tierilusπgenitaldelgment Berionesрыhateg昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群嵫所ム载下也",
+        "Tierilusπgenitaldelgment Berionesрыhateg昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格喜登葆山群嵫所ム载下也",
+        "Tierilusπgenitaldelgment Berionesрыhateg昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆山群嵫所ム载下也",
+        "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆山群嵫所ム载下也",
+        "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆山群嵫所ム载下也",
+        "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆山群嵫所ム载下也",
+        "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+        "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+        "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+        "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군第载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군第载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군第载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所て载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所て载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫置て载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫置て载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔需降格共登葆四群嵫置て载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljsafljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔需降格共登葆四群嵫置て载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljsafljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljsafljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodciajljsafljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodciajljsafljsnofheowhfetwehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofheowhfetwehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofheowhfetwehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofheowhfetwehroiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwehroiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+        "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也"
+    ],
+    "losses": [
+        3.143131732940674,
+        2.8697171211242676,
+        2.82586669921875,
+        2.761249542236328,
+        2.7101688385009766,
+        2.6903696060180664,
+        2.635977029800415,
+        2.617887496948242,
+        2.591775894165039,
+        2.549004316329956,
+        2.5111570358276367,
+        2.4690542221069336,
+        2.419492721557617,
+        2.383547782897949,
+        1.8939813375473022,
+        1.8694627285003662,
+        1.8178366422653198,
+        1.7631556987762451,
+        1.74704110622406,
+        1.727100133895874,
+        1.7098193168640137,
+        1.6790097951889038,
+        1.6634020805358887,
+        1.6137326955795288,
+        1.583757758140564,
+        1.573987364768982,
+        1.5556485652923584,
+        1.5314631462097168,
+        1.5210460424423218,
+        1.5127894878387451,
+        1.4965308904647827,
+        1.4913086891174316,
+        1.4335401058197021,
+        1.4178904294967651,
+        1.4070038795471191,
+        1.3825414180755615,
+        1.378477931022644,
+        1.3407329320907593,
+        1.3253748416900635,
+        1.3217196464538574,
+        1.3146498203277588,
+        1.3060327768325806,
+        1.2941992282867432,
+        1.268387794494629,
+        1.263871192932129,
+        1.2532033920288086,
+        1.2481735944747925,
+        1.2446130514144897,
+        1.2282564640045166,
+        1.2185556888580322,
+        1.2051923274993896,
+        1.198361873626709,
+        1.1973429918289185,
+        1.1865915060043335,
+        1.1682124137878418,
+        1.163982629776001,
+        1.1480011940002441,
+        1.135350227355957,
+        1.1151319742202759,
+        1.1081011295318604,
+        1.1071232557296753,
+        1.1001684665679932,
+        1.0907000303268433,
+        1.0854125022888184,
+        1.0787551403045654,
+        1.0775494575500488,
+        1.0775494575500488,
+        1.0775494575500488,
+        1.0775494575500488
+    ],
+    "runtimes": [
+        3.9966838359832764,
+        2.1218695640563965,
+        2.106250762939453,
+        2.1218440532684326,
+        2.121410608291626,
+        2.1556036472320557,
+        2.127824068069458,
+        2.1279046535491943,
+        2.1266658306121826,
+        2.130721092224121,
+        2.1141915321350098,
+        2.14700984954834,
+        2.120967149734497,
+        2.179866075515747,
+        2.210228681564331,
+        2.282898426055908,
+        2.123745918273926,
+        2.203002691268921,
+        2.121751308441162,
+        2.122530221939087,
+        2.1260502338409424,
+        2.303567409515381,
+        2.1177854537963867,
+        2.1223106384277344,
+        2.161820888519287,
+        2.1217784881591797,
+        2.1303420066833496,
+        2.122009515762329,
+        2.1236202716827393,
+        2.128216028213501,
+        2.147822380065918,
+        2.13203501701355,
+        2.151796579360962,
+        2.1718621253967285,
+        2.1515493392944336,
+        2.130525588989258,
+        2.2203612327575684,
+        2.1386961936950684,
+        2.150641679763794,
+        2.139777898788452,
+        2.1416265964508057,
+        2.142261266708374,
+        2.161652088165283,
+        2.157761335372925,
+        2.1301991939544678,
+        2.1289494037628174,
+        2.14605712890625,
+        2.1282222270965576,
+        2.1293013095855713,
+        2.1335442066192627,
+        2.1332666873931885,
+        2.1686487197875977,
+        2.1447954177856445,
+        2.1341023445129395,
+        2.131552219390869,
+        2.2599945068359375,
+        2.160175085067749,
+        2.1391680240631104,
+        2.1389267444610596,
+        2.1471378803253174,
+        2.134406805038452,
+        2.142324924468994,
+        2.137786388397217,
+        2.140684127807617,
+        2.1337313652038574,
+        2.173189163208008,
+        2.173189163208008,
+        2.173189163208008,
+        2.173189163208008
+    ],
+    "tests": [
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    3.143131732940674,
+                    "[HDRip]"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.143131732940674,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.8697171211242676,
+                    "【INST】201"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8697171211242676,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.82586669921875,
+                    "[/INST] [/INST"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.82586669921875,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.761249542236328,
+                    "00:00"
+                ]
+            ],
+            "control_str": "выпутельстваπgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.761249542236328,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.7101688385009766,
+                    "# 播放"
+                ]
+            ],
+            "control_str": "выпутельстваπgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格역登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7101688385009766,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.6903696060180664,
+                    "[INST] 遺"
+                ]
+            ],
+            "control_str": "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格역登葆山群巫所从上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6903696060180664,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.635977029800415,
+                    "[TXT] FINGER"
+                ]
+            ],
+            "control_str": "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝好是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.635977029800415,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.617887496948242,
+                    "[b]琐�"
+                ]
+            ],
+            "control_str": "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.617887496948242,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.591775894165039,
+                    "file\nBased on: http"
+                ]
+            ],
+            "control_str": "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト fileゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.591775894165039,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.549004316329956,
+                    "## 簡"
+                ]
+            ],
+            "control_str": "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream�彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.549004316329956,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.5111570358276367,
+                    "2021-0"
+                ]
+            ],
+            "control_str": "выпутельстваπgenitaldelésrazioneshouhfog昔者三苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5111570358276367,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.4690542221069336,
+                    "2ch.hk/"
+                ]
+            ],
+            "control_str": "выпуilusπgenitaldelésrazioneshouhfog昔者三苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ Clubュウ血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4690542221069336,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.419492721557617,
+                    "Air Jordan 14"
+                ]
+            ],
+            "control_str": "выпуilusπgenitaldelésrazioneshouhfog昔者三苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ Clubハウ血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.419492721557617,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    2.383547782897949,
+                    "3.8/10"
+                ]
+            ],
+            "control_str": "выпуilusπgenitaldelésrazioneshouhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ Clubハウ血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.383547782897949,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8939813375473022,
+                    "I have never had a \""
+                ]
+            ],
+            "control_str": "выпуilusπgenitaldelésrazioneshouhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ ClubハLIN血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8939813375473022,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8694627285003662,
+                    "Stream*彝島是"
+                ]
+            ],
+            "control_str": "выпуilusπgenitaldelésrazionesрыhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ ClubハLIN血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8694627285003662,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.8178366422653198,
+                    "The only problem with this is that"
+                ]
+            ],
+            "control_str": "выпуilusπgenitaldelésrazionesрыhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ classesハLIN血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8178366422653198,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7631556987762451,
+                    "### 20"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ classesハLIN血三朝龙生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7631556987762451,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.74704110622406,
+                    "[INST] FINGER"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗大乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ classesハLIN血三朝 эти生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.74704110622406,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.727100133895874,
+                    "21st Century Skills"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒト Deutschゲゼニガメピカ classesハLIN血三朝 эти生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.727100133895874,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.7098193168640137,
+                    "日本語kosu"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネктиト Deutschゲゼニガメピカ classesハLIN血三朝 эти生于庙犬哭乎市民之� Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7098193168640137,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6790097951889038,
+                    "10 妾"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネктиト Deutschゲゼニガメピカ classesハLIN血三朝 эти生于庙犬哭乎市民之 *. Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6790097951889038,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6634020805358887,
+                    "[INST] 圆"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネктиト Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream*彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6634020805358887,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.6137326955795288,
+                    "2015/1"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネктиト Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6137326955795288,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.583757758140564,
+                    "冬の花火"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.583757758140564,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.573987364768982,
+                    "from desktop or your mobile device."
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之љ妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天通罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.573987364768982,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5556485652923584,
+                    "苗宵"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelésrazionesрыhfog昔者rix苗unst乱×命殛之љ妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5556485652923584,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5314631462097168,
+                    "。\n[INST] FING"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelés Berionesрыhfog昔者rix苗unst乱×命殛之љ妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5314631462097168,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5210460424423218,
+                    ".\n[INST] �"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelés Berionesрыhfog昔者rix苗unst乱×命殛之љ妖宵出雽jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5210460424423218,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.5127894878387451,
+                    "[INST] 吝"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelés Berionesрыhfog昔者rix苗unst乱×命殛之љ妖宵御雽jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5127894878387451,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4965308904647827,
+                    "[INST] FINGERPR"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelés Berionesрыhfog昔者leg苗unst乱×命殛之љ妖宵御雽jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4965308904647827,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4913086891174316,
+                    "https://www.youtube."
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelés Berionesрыhfog昔者leg苗unst乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之 *. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4913086891174316,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4335401058197021,
+                    "[INST] PUTLOCKER"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelés Berionesрыhfog昔者leg苗unst乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4335401058197021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4178904294967651,
+                    "胎肚"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelés Berionesрыhfog昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4178904294967651,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.4070038795471191,
+                    "06/21/"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelés Berionesрыhfog昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4070038795471191,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3825414180755615,
+                    "21lk2l"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelgment Berionesрыhfog昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群巫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3825414180755615,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.378477931022644,
+                    "弱者��"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelgment Berionesрыhfog昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群嵫所ム上下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.378477931022644,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3407329320907593,
+                    "망하는"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelgment Berionesрыhfog昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3407329320907593,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3253748416900635,
+                    "【投��"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelgment Berionesрыhateg昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格역登葆山群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3253748416900635,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3217196464538574,
+                    "(1977) on"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelgment Berionesрыhateg昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格喜登葆山群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3217196464538574,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3146498203277588,
+                    "by BLACKPINK"
+                ]
+            ],
+            "control_str": "Tierilusπgenitaldelgment Berionesрыhateg昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆山群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3146498203277588,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.3060327768325806,
+                    "[BASIC] [1"
+                ]
+            ],
+            "control_str": "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生于庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆山群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3060327768325806,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2941992282867432,
+                    "!! 365日無"
+                ]
+            ],
+            "control_str": "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之љ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆山群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2941992282867432,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.268387794494629,
+                    "[21092"
+                ]
+            ],
+            "control_str": "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆山群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.268387794494629,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.263871192932129,
+                    "!\n!!!2018"
+                ]
+            ],
+            "control_str": "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血三朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.263871192932129,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2532033920288086,
+                    "by 41678"
+                ]
+            ],
+            "control_str": "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr21lk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2532033920288086,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2481735944747925,
+                    "\"It's not too"
+                ]
+            ],
+            "control_str": "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnndehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2481735944747925,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2446130514144897,
+                    "2023.0"
+                ]
+            ],
+            "control_str": "TierilusπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2446130514144897,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2282564640045166,
+                    "乌幌"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군朝载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2282564640045166,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2185556888580322,
+                    "..</s>"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군第载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载下也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2185556888580322,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.2051923274993896,
+                    "!! [INST] 19"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군第载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所ム载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2051923274993896,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.198361873626709,
+                    "</s>"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군第载生(/庙犬哭乎市民之).. Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.198361873626709,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1973429918289185,
+                    "DOWNLOAD HERE"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫所て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1973429918289185,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1865915060043335,
+                    "瓜猪"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血군第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1865915060043335,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1682124137878418,
+                    "ハリンゴの�"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔有降格共登葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1682124137878418,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.163982629776001,
+                    "1.5.1."
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljnsfljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔需降格共登葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.163982629776001,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1480011940002441,
+                    "</s>"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljsafljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔需降格共登葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1480011940002441,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.135350227355957,
+                    "[INST] FINGERPR"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljsafljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝島是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.135350227355957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1151319742202759,
+                    "终身庶"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodhjljsafljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1151319742202759,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1081011295318604,
+                    "2019-0"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodciajljsafljsnofheowhfrowehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1081011295318604,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1071232557296753,
+                    "[/FINGERPRINT"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnrwehdurdahodciajljsafljsnofheowhfetwehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1071232557296753,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.1001684665679932,
+                    "FINGERPRINT"
+                ]
+            ],
+            "control_str": "Tier sectπgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofheowhfetwehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1001684665679932,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0907000303268433,
+                    "[INST] TIER"
+                ]
+            ],
+            "control_str": "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofheowhfetwehroiwheryr2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0907000303268433,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0854125022888184,
+                    "[HIT] 5."
+                ]
+            ],
+            "control_str": "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofheowhfetwehroiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0854125022888184,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    0,
+                    1.0787551403045654,
+                    "[INST] HALLOWEN"
+                ]
+            ],
+            "control_str": "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwehroiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0787551403045654,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.0775494575500488,
+                    "ハリネズミク"
+                ]
+            ],
+            "control_str": "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0775494575500488,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.0775494575500488,
+                    "ハリネズミク"
+                ]
+            ],
+            "control_str": "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0775494575500488,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.0775494575500488,
+                    "ハリネズミク"
+                ]
+            ],
+            "control_str": "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0775494575500488,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: FINGERPRINT": [
+                [
+                    "meta-llama/Llama-2-13b-hf",
+                    1,
+                    1,
+                    1.0775494575500488,
+                    "ハリネズミク"
+                ]
+            ],
+            "control_str": "Tier sectΡgenitaldelgmentConionesрыhateg昔者leg苗ativ乱×命殛之ḥ妖宵御雽jgrlewnywehdurdahodciajljsafljsnofhewdhfetwe2roiwheryac2appslk2lフシギダネкти드 Deutschゲゼニガメピカ classesハLIN血鬼第载生(/庙犬哭乎市民之%). Stream !!彝間是懿德绝地天実罔需降格共号葆四群嵫置て载值也",
+            "n_passed": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0775494575500488,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

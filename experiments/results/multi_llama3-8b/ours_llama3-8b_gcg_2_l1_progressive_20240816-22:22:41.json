@@ -1,0 +1,3272 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通� }));\n\n有降格在登葆山群巫所从上下也",
+        "청утельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通� }));\n\n有降格在登葆山群巫所从上下也",
+        "청утельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通� }));\n\n有降格在登葆山群巫所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通� }));\n\n有降格在登葆山群巫所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通� }));\n\n有降格在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n有降格在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n有降格在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n姑降格在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n姑降格在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n姑走格在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德绝地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德绝地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnnd Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德绝地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德绝地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenitaldejrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgenital มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+        "청утельстваskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent못所从上 아무也",
+        "청утельстваskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글来た登葆山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 yüksek�德时候地天通� }));\n\n姑走글来た登葆山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 yüksek�德时候地天通� }));\n\n姑走글来た登葆山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 yüksek�德时候地天通� }));\n\n姑走글来た登葆山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天通� }));\n\n姑走글来た登葆山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天通� }));\n\n姑走글来た登� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天通� }));\n\n姑走글来た登� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た登� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た登� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た geç� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た geç� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た geç� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た giden� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走 `\n来た giden� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走 `\n来た giden� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent못 можно从上 아무也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent못 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent못 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jlk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jlk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jlkROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude photos妖宵出雨jgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude photos妖宵出雨jgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走 `\n 그리고 giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走 `\n 그리고 giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走 `\n 그리고 giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走-----\n\n 그리고 giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走-----\n\n 그리고 giden� нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� ){姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� ){姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� ){姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� ){姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� ){姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� ){姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ Agesメピカieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ AgesメピKFieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ AgesメピKFieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular <*> числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ AgesメピKFieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular <*> числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ AgesメピKFieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular <*> числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+        "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ AgesメピKFieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular <*> числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也"
+    ],
+    "find_target": [
+        "나가"
+    ],
+    "losses": [
+        7.124197483062744,
+        6.6668078899383545,
+        6.151670455932617,
+        5.797006607055664,
+        5.5661091804504395,
+        5.380235195159912,
+        5.208631277084351,
+        5.063547611236572,
+        4.936137676239014,
+        4.805896282196045,
+        4.647384166717529,
+        4.55974817276001,
+        4.471550464630127,
+        4.380214691162109,
+        4.290014266967773,
+        4.2009968757629395,
+        4.09863018989563,
+        4.0505534410476685,
+        3.9604239463806152,
+        3.9115549325942993,
+        3.8543283939361572,
+        3.7371970415115356,
+        3.6994435787200928,
+        3.634746551513672,
+        3.527856945991516,
+        3.419568657875061,
+        3.359739899635315,
+        3.2796661853790283,
+        3.205576539039612,
+        3.1606647968292236,
+        3.1199450492858887,
+        3.081123113632202,
+        3.0256593227386475,
+        2.9076945781707764,
+        2.627596616744995,
+        2.5606144666671753,
+        2.5175044536590576,
+        2.4852168560028076,
+        2.433575749397278,
+        2.400710344314575,
+        2.3664718866348267,
+        2.3195595741271973,
+        2.282004714012146,
+        2.2473963499069214,
+        2.233236789703369,
+        2.203291654586792,
+        2.165412425994873,
+        2.1252269744873047,
+        2.0357295274734497,
+        2.011712074279785,
+        1.9765107035636902,
+        1.9404250979423523,
+        1.9159194231033325,
+        1.833145022392273,
+        1.8182960748672485,
+        1.7980254888534546,
+        1.7821869254112244,
+        1.6780264377593994,
+        1.6369292736053467,
+        1.5667117834091187,
+        1.5180047750473022,
+        1.4658947587013245,
+        1.4295141696929932,
+        1.3882701992988586,
+        1.3351318836212158,
+        1.2766414880752563,
+        1.1422673165798187,
+        1.1422673165798187,
+        1.1422673165798187,
+        1.1422673165798187
+    ],
+    "runtimes": [
+        7.555403232574463,
+        6.704739570617676,
+        6.650578260421753,
+        6.753509283065796,
+        6.694060325622559,
+        6.837095737457275,
+        6.9463536739349365,
+        6.658237934112549,
+        6.739076614379883,
+        6.696337938308716,
+        6.743303537368774,
+        6.687472581863403,
+        6.7441675662994385,
+        6.588853359222412,
+        6.528253078460693,
+        6.493866205215454,
+        6.566030740737915,
+        6.781709432601929,
+        6.728906869888306,
+        6.719187259674072,
+        6.70091986656189,
+        6.543142080307007,
+        6.640540361404419,
+        6.756216526031494,
+        6.673880100250244,
+        6.807640075683594,
+        6.728587865829468,
+        6.529515981674194,
+        6.618241548538208,
+        6.598582744598389,
+        6.581350088119507,
+        6.69671630859375,
+        6.970098972320557,
+        6.545761346817017,
+        6.5216286182403564,
+        6.722913503646851,
+        6.760936260223389,
+        6.746000289916992,
+        6.6533613204956055,
+        6.777087688446045,
+        6.638304710388184,
+        6.714920282363892,
+        6.678400993347168,
+        6.671836614608765,
+        6.650951623916626,
+        6.676858425140381,
+        6.776524305343628,
+        6.69963812828064,
+        6.677656650543213,
+        6.705004692077637,
+        6.709305047988892,
+        6.690037965774536,
+        6.992994546890259,
+        6.944761276245117,
+        6.73155403137207,
+        6.667543172836304,
+        6.659583330154419,
+        6.676374197006226,
+        6.633636236190796,
+        6.864155530929565,
+        6.720457315444946,
+        6.551039934158325,
+        6.584424018859863,
+        6.910190582275391,
+        6.613485813140869,
+        6.58059287071228,
+        6.599359750747681,
+        6.599359750747681,
+        6.599359750747681,
+        6.599359750747681
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.097806453704834,
+                    "## User"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    7.150588512420654,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通� }));\n\n有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.124197483062744,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.631700038909912,
+                    "professor."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    6.701915740966797,
+                    "assistantassistantassistant"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通� }));\n\n有降格在登葆山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.6668078899383545,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.102404594421387,
+                    "有降"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    6.200936317443848,
+                    "guyk"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通� }));\n\n有降格在登葆山群巫所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.151670455932617,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.753623008728027,
+                    "user.!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.840390205383301,
+                    "professorassistant"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通� }));\n\n有降格在登葆山群巫所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.797006607055664,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.554490566253662,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.577727794647217,
+                    "dinner"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通� }));\n\n有降格在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.5661091804504395,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.35343074798584,
+                    "������������"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.407039642333984,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n有降格在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.380235195159912,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.1912994384765625,
+                    "```"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.225963115692139,
+                    ") ��"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n有降格在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.208631277084351,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.025812149047852,
+                    "The most"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.101283073425293,
+                    "�gol"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n姑降格在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.063547611236572,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.9116716384887695,
+                    "������"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.960603713989258,
+                    "�\n\n�"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n姑降格在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.936137676239014,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.79743766784668,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.81435489654541,
+                    "� �)"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n姑走格在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.805896282196045,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.6402177810668945,
+                    "��\n����"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.654550552368164,
+                    "1."
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是懿德绝地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.647384166717529,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.557844161987305,
+                    "!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.561652183532715,
+                    "�\n\n�"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhfog 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德绝地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.55974817276001,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.518487930297852,
+                    "�的��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.424612998962402,
+                    "이 있습니다."
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德绝地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.471550464630127,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.429261684417725,
+                    "��\n\n����"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.331167697906494,
+                    "manager\n\n�"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewnnd Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德绝地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.380214691162109,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.340135097503662,
+                    "hokh"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.239893436431885,
+                    "!!! 청"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德绝地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.290014266967773,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.267241954803467,
+                    "��"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.134751796722412,
+                    "�여"
+                ]
+            ],
+            "control_str": "청утельстваskihgenitaldejrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.2009968757629395,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.159280300140381,
+                    "iwhdf"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.037980079650879,
+                    "!!!!!!"
+                ]
+            ],
+            "control_str": "청утельстваskihgenital มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.09863018989563,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.114104747772217,
+                    "�지�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.98700213432312,
+                    "�을하"
+                ]
+            ],
+            "control_str": "청утельстваskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent�所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.0505534410476685,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.004046440124512,
+                    "!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.9168014526367188,
+                    ")gol"
+                ]
+            ],
+            "control_str": "청утельстваskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent못所从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.9604239463806152,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.9497103691101074,
+                    "![Alt"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.873399496078491,
+                    "# How"
+                ]
+            ],
+            "control_str": "청утельстваskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.9115549325942993,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.8934953212738037,
+                    "##"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.8151614665985107,
+                    "## HTML"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글在登葆山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8543283939361572,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.7822797298431396,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.6921143531799316,
+                    "를 사용하는"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 독�德时候地天通� }));\n\n姑走글来た登葆山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.7371970415115356,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.7476508617401123,
+                    "�로사"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.6512362957000732,
+                    "는\n\n```"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカゲゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 yüksek�德时候地天通� }));\n\n姑走글来た登葆山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6994435787200928,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.687389373779297,
+                    "```php"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.582103729248047,
+                    "的山"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフ нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 yüksek�德时候地天通� }));\n\n姑走글来た登葆山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.634746551513672,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.591519832611084,
+                    "## ["
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    3.4641940593719482,
+                    "나가"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번是 yüksek�德时候地天通� }));\n\n姑走글来た登葆山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.527856945991516,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4935481548309326,
+                    "!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.3455891609191895,
+                    "你去"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天通� }));\n\n姑走글来た登葆山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.419568657875061,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.430964946746826,
+                    "/�."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.2885148525238037,
+                    "�호가"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrlewn릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天通� }));\n\n姑走글来た登� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.359739899635315,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.3537509441375732,
+                    "!!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.2055814266204834,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天通� }));\n\n姑走글来た登� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2796661853790283,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.2669007778167725,
+                    "�를"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.144252300262451,
+                    "davd"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た登� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.205576539039612,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.218705654144287,
+                    "!�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.10262393951416,
+                    "a0"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た登� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.1606647968292236,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.1617507934570312,
+                    "## Saturday"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.078139305114746,
+                    "이미"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝龙生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た geç� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.1199450492858887,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.1230502128601074,
+                    "gugud"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.039196014404297,
+                    "niz"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2l去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た geç� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.081123113632202,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0648343563079834,
+                    "-5�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.9864842891693115,
+                    "��)\n\n����"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た geç� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0256593227386475,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.95672869682312,
+                    "�나나"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.8586604595184326,
+                    "님 �고"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走글来た giden� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9076945781707764,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.715052366256714,
+                    "아직"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.5401408672332764,
+                    "�러"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱天命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走 `\n来た giden� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.627596616744995,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.646080732345581,
+                    "이러"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.4751482009887695,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地天Popular� }));\n\n姑走 `\n来た giden� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5606144666671753,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5883140563964844,
+                    "いく"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.446694850921631,
+                    "magn"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent못 можно从上 아무也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5175044536590576,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.5537517070770264,
+                    "來去"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.416682004928589,
+                    "`나갈"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛之日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent못 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4852168560028076,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.4993855953216553,
+                    "Popular�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.3677659034729004,
+                    "kullan"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent못 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.433575749397278,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.476806640625,
+                    "Popular�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.3246140480041504,
+                    "� ��"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカチュ Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.400710344314575,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.43700909614563,
+                    "� �"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.2959346771240234,
+                    "`\n\nA�"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o21lk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3664718866348267,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.3921735286712646,
+                    "� `"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.24694561958313,
+                    "�\n\n나"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Peg릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jlk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3195595741271973,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.357924222946167,
+                    "201"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.206085205078125,
+                    "�기"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jlk2\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.282004714012146,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.325500249862671,
+                    "iyo"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.169292449951172,
+                    "나오"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jlkROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2473963499069214,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.31465482711792,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.1518187522888184,
+                    "감사"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude日妖宵出雨jgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.233236789703369,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.286484479904175,
+                    "간간"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.120098829269409,
+                    "러던"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude photos妖宵出雨jgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き yüksek�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.203291654586792,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.259580135345459,
+                    "`"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.071244716644287,
+                    "``<|end_of_text|>"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude photos妖宵出雨jgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.165412425994873,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.224121570587158,
+                    "Popular�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.026332378387451,
+                    "�`\n\nPopular"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走 `\n来た giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1252269744873047,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.126692295074463,
+                    "우리를"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.9447667598724365,
+                    "�\n\n간"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�者三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走 `\n 그리고 giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0357295274734497,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.1086950302124023,
+                    "간건"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.914729118347168,
+                    "나가요"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカomi Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走 `\n 그리고 giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.011712074279785,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0741991996765137,
+                    "인자"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.8788222074508667,
+                    "�를로"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走 `\n 그리고 giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9765107035636902,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0295495986938477,
+                    "!!!!!!!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.851300597190857,
+                    "우리는"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市民之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走-----\n\n 그리고 giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9404250979423523,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.0085597038269043,
+                    "dfoah"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.8232791423797607,
+                    "간에"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走-----\n\n 그리고 giden� нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9159194231033325,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.938711166381836,
+                    "간다"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.72757887840271,
+                    "→ 可以"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazioneshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.833145022392273,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9157524108886719,
+                    "나간"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.7208397388458252,
+                    "다녀"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdfoahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8182960748672485,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8993327617645264,
+                    "1."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.6967182159423828,
+                    "기반"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� }));\n\n姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7980254888534546,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.9226526021957397,
+                    "to the president"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.641721248626709,
+                    "간단"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 nude photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� ){姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7821869254112244,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.8405396938323975,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.5155131816864014,
+                    "→ 可以"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德时候地??\n\nPopular� ){姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6780264377593994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.80356764793396,
+                    "나와"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.4702908992767334,
+                    "1."
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� ){姑走-----\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6369292736053467,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.7309958934783936,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.4024276733398438,
+                    "간에"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�ороз三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� ){姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5667117834091187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6858320236206055,
+                    "가가가"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.350177526473999,
+                    "went →"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtegaahodhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� ){姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5180047750473022,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.6272273063659668,
+                    "여기"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.3045622110366821,
+                    "사진\n\n간"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� ){姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4658947587013245,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.5836303234100342,
+                    "나가"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.2753980159759521,
+                    "!http"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于庙犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4295141696929932,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.53879714012146,
+                    "giden"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.2377432584762573,
+                    "간에"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニガメピカieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3882701992988586,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4894938468933105,
+                    "간에"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.180769920349121,
+                    "나가"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ Agesメピカieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3351318836212158,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    1.4385170936584473,
+                    "→ �三"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.1147658824920654,
+                    "나가"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ AgesメピKFieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular� числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2766414880752563,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.3129453659057617,
+                    "나가"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.9715892672538757,
+                    "나가"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ AgesメピKFieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular <*> числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1422673165798187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.3129453659057617,
+                    "나가"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.9715892672538757,
+                    "나가"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ AgesメピKFieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular <*> числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1422673165798187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.3129453659057617,
+                    "나가"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.9715892672538757,
+                    "나가"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ AgesメピKFieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular <*> числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1422673165798187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    1.3129453659057617,
+                    "나가"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    0.9715892672538757,
+                    "나가"
+                ]
+            ],
+            "control_str": "청утель nauseaskihgen-int มrazligeeshouhf CURLOPT 서울�дер三苗大乱370命殛 hur photos妖宵出 нашjgrle Ed릭 Beginnersdtega的事情odhjljnsfljsnofheowhfrowehroiwher=o{jwgROAD\t\n\n去了 нギダネヒトカ 버ゼニ AgesメピKFieder Intermediate血三朝细生于�锋犬哭乎市玉之秉彝 한번引き 사진�德身地??\n\nPopular <*> числі姑走 />\n\n 그리고 giden → нез山群 Permanent어나 можно从上同也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1422673165798187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

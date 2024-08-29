@@ -1,0 +1,3088 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Meta-Llama-3-8B",
+                "tokenizer_path": "meta-llama/Meta-Llama-3-8B",
+                "conv_template": "llama-3"
+            },
+            {
+                "model_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                "tokenizer_path": "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                "conv_template": "llama-3"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登 ******************************************************************************\n�山群巫所从上下也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登 ******************************************************************************\n�山群巫所从上 NPC也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格/*******************************************************************************\n登 ******************************************************************************\n�山群巫所从上 NPC也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有 dire格/*******************************************************************************\n登 ******************************************************************************\n�山群巫所从上 NPC也",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有 dire格/*******************************************************************************\n登 ******************************************************************************\n�山群巫所从上 NPC بو",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 dire格/*******************************************************************************\n登 ******************************************************************************\n�山群巫所从上 NPC بو",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 dire格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所从上 NPC بو",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 dire格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所私上 NPC بو",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所私上 NPC بو",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所私 fak NPC بو",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所私 fak NPC بو",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所私 fak NPC بو",
+        "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫所私 fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫所私 fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫所-rounded fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazنىeshouhfog昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+        "выпут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫hait-rounded fak NPC بو",
+        "антаут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫hait-rounded fak NPC بو",
+        "антаут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫hait-rounded fak NPC بو",
+        "антаут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫.transform-rounded fak NPC بو",
+        "+.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫.transform-rounded fak NPC بو",
+        "+.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21assumingा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwheraja21assumingा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwheraja21assumingा\n\nlフシギダネヒ>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwheraja21assumingा\n\nlフシギダネヒ>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwheraja21assumingा\n\nlフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwher mano21assumingा\n\nlフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwher mano21assumingा\n\nlフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.таут })\n\nстваNicknameihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNicknameihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthygenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�orsi.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�orsi.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_pb巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_pb巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_pb巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_pb巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+        ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+        ":',*****ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ�三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ�三朝龙生于庙وجه哭乎市震之mereSerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ�三朝龙生于庙وجه哭乎市震之mereSerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ�三朝龙生于庙وجه哭乎市震之mereSerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+        ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ�三朝龙生于庙وجه哭乎市震之mereSerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو"
+    ],
+    "find_target": [
+        "نب"
+    ],
+    "losses": [
+        10.085509300231934,
+        9.75917673110962,
+        8.750908374786377,
+        8.336437225341797,
+        7.999900817871094,
+        7.646376609802246,
+        7.34516716003418,
+        6.833434820175171,
+        6.5726776123046875,
+        6.200751543045044,
+        5.998338460922241,
+        5.819510459899902,
+        5.487629413604736,
+        5.396170377731323,
+        5.2447896003723145,
+        5.153634786605835,
+        5.03431510925293,
+        4.960955381393433,
+        4.879581928253174,
+        4.838515996932983,
+        4.751144170761108,
+        4.619094133377075,
+        4.565648078918457,
+        4.479530572891235,
+        4.486135959625244,
+        4.486135959625244,
+        4.302079916000366,
+        4.544498920440674,
+        4.544498920440674,
+        4.1982262134552,
+        4.121739387512207,
+        4.015770435333252,
+        3.956329345703125,
+        3.891749620437622,
+        3.8352527618408203,
+        3.7840698957443237,
+        3.766618490219116,
+        3.7263829708099365,
+        3.6604080200195312,
+        3.606401205062866,
+        3.550410747528076,
+        3.4876261949539185,
+        3.416312098503113,
+        3.352100372314453,
+        3.3272589445114136,
+        3.277055501937866,
+        3.1157573461532593,
+        3.0475388765335083,
+        3.0226166248321533,
+        2.9509429931640625,
+        2.86911141872406,
+        2.8144127130508423,
+        2.7682090997695923,
+        2.7083916664123535,
+        2.6445369720458984,
+        2.570169448852539,
+        2.526180148124695,
+        2.4612879753112793,
+        2.391412079334259,
+        2.320259928703308,
+        2.2567007541656494,
+        2.191035509109497,
+        2.0330952405929565,
+        2.0330952405929565,
+        2.0330952405929565,
+        2.0330952405929565
+    ],
+    "runtimes": [
+        7.533324241638184,
+        7.015444993972778,
+        7.0819032192230225,
+        6.91342830657959,
+        6.992841482162476,
+        6.973933219909668,
+        7.098175764083862,
+        6.88362717628479,
+        6.792564868927002,
+        7.014313220977783,
+        6.960399866104126,
+        6.885746002197266,
+        6.937798500061035,
+        7.119496583938599,
+        7.057036399841309,
+        6.9104697704315186,
+        6.781766414642334,
+        7.078988075256348,
+        7.065279006958008,
+        7.0733256340026855,
+        7.063669919967651,
+        7.074108362197876,
+        7.280822038650513,
+        7.062036514282227,
+        7.014563798904419,
+        7.450843811035156,
+        7.655696630477905,
+        7.679822683334351,
+        7.512899160385132,
+        7.171857595443726,
+        7.738250255584717,
+        7.881684303283691,
+        7.721873044967651,
+        7.63343071937561,
+        7.037497282028198,
+        7.03187894821167,
+        7.331625938415527,
+        6.924925327301025,
+        6.677229404449463,
+        6.676207065582275,
+        6.664027690887451,
+        6.663267135620117,
+        6.807420253753662,
+        7.393502473831177,
+        6.742303848266602,
+        6.702808141708374,
+        6.971750020980835,
+        6.582608938217163,
+        6.731870174407959,
+        6.76896333694458,
+        6.840357303619385,
+        6.766554355621338,
+        6.737246513366699,
+        6.70845365524292,
+        6.8303656578063965,
+        6.705874681472778,
+        6.729234933853149,
+        6.8127055168151855,
+        6.717652320861816,
+        6.720717191696167,
+        6.8961896896362305,
+        6.770983457565308,
+        6.74713659286499,
+        6.74713659286499,
+        6.74713659286499,
+        6.74713659286499
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    10.296083450317383,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    9.874935150146484,
+                    "!!!!!"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登 ******************************************************************************\n�山群巫所从上下也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                10.085509300231934,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    9.997735977172852,
+                    "<|end_of_text|>"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    9.520617485046387,
+                    "*"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登 ******************************************************************************\n�山群巫所从上 NPC也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.75917673110962,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    9.151239395141602,
+                    "_3"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    8.350577354431152,
+                    "，称"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格/*******************************************************************************\n登 ******************************************************************************\n�山群巫所从上 NPC也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.750908374786377,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.781911849975586,
+                    ",则"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    7.890962600708008,
+                    "************************************************************************"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有 dire格/*******************************************************************************\n登 ******************************************************************************\n�山群巫所从上 NPC也",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.336437225341797,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.473966598510742,
+                    "*"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    7.525835037231445,
+                    "商议"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有 dire格/*******************************************************************************\n登 ******************************************************************************\n�山群巫所从上 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.999900817871094,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    8.142833709716797,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    7.149919509887695,
+                    "@"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 dire格/*******************************************************************************\n登 ******************************************************************************\n�山群巫所从上 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.646376609802246,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.826943397521973,
+                    "*/"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    6.863390922546387,
+                    "�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 dire格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所从上 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.34516716003418,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.377452373504639,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    6.289417266845703,
+                    "(1"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 dire格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所私上 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.833434820175171,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    7.041262626647949,
+                    ";�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    6.104092597961426,
+                    "�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所私上 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.5726776123046875,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.695652961730957,
+                    ". �"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.705850124359131,
+                    "�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所私 fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.200751543045044,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.461334228515625,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.535342693328857,
+                    ". He"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所私 fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.998338460922241,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    6.296805381774902,
+                    "�"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.342215538024902,
+                    "�"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\n�山群巫所私 fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.819510459899902,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.892951965332031,
+                    "."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.082306861877441,
+                    "************************************************************************"
+                ]
+            ],
+            "control_str": "выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫所私 fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.487629413604736,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.792327404022217,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    5.00001335144043,
+                    "0"
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫所私 fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.396170377731323,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.6301493644714355,
+                    "npc"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.859429836273193,
+                    "package"
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫所-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.2447896003723145,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.578874111175537,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.728395462036133,
+                    "class."
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝好是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.153634786605835,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.43110990524292,
+                    "/ assistant"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.6375203132629395,
+                    "************************************************************************"
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.03431510925293,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.3608269691467285,
+                    ".ك"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.561083793640137,
+                    "/assistant"
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.960955381393433,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.297701835632324,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.461462020874023,
+                    "*******************************************************************************/"
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.879581928253174,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.240554332733154,
+                    "4"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.4364776611328125,
+                    "************************************************************************"
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazنىeshouhfog昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.838515996932983,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    5.173769474029541,
+                    ".\n ******************************************************************************/"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.328518867492676,
+                    "class."
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒトカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.751144170761108,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.975741386413574,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.262446880340576,
+                    "************************************************************************"
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市民之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.619094133377075,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.921070098876953,
+                    "******************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.210226058959961,
+                    "*******************************************************************************/"
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫borg-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.565648078918457,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.848721027374268,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.110340118408203,
+                    "2"
+                ]
+            ],
+            "control_str": "выпут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫hait-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.479530572891235,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.888410568237305,
+                    "4"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.083861351013184,
+                    "npcnpc"
+                ]
+            ],
+            "control_str": "антаут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫hait-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.486135959625244,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.888410568237305,
+                    "*"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.083861351013184,
+                    "NPC"
+                ]
+            ],
+            "control_str": "антаут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德绝地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫hait-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.486135959625244,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.731744766235352,
+                    "*"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.872415065765381,
+                    "import"
+                ]
+            ],
+            "control_str": "антаут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.302079916000366,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.993635177612305,
+                    "-npc"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.095362663269043,
+                    ".\n\n该"
+                ]
+            ],
+            "control_str": "+.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.544498920440674,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.993635177612305,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    4.095362663269043,
+                    "npcnpc"
+                ]
+            ],
+            "control_str": "+.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山群巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.544498920440674,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.6143646240234375,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.782087802886963,
+                    "This"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lkा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.1982262134552,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.548186302185059,
+                    "Copyright"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.6952924728393555,
+                    "************************************************************************"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21assumingा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.121739387512207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.404749870300293,
+                    ":"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.626791000366211,
+                    "<|end_of_text|>"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwheraja21assumingा\n\nlフシギダネヒ>\");\n\nカゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.015770435333252,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.3357462882995605,
+                    "******************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.5769124031066895,
+                    "Copyright"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� dripping出雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwheraja21assumingा\n\nlフシギダネヒ>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.956329345703125,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.268143653869629,
+                    "----------------------------------------------------------------------------"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.5153555870056152,
+                    ".ه"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwheraja21assumingा\n\nlフシギダネヒ>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.891749620437622,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.243260860443115,
+                    "******************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.4272446632385254,
+                    "/*******************************************************************************"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwheraja21assumingा\n\nlフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8352527618408203,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.176293849945068,
+                    "*******************************************************************************/"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.391845941543579,
+                    "************************************************************************"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf aka昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwher mano21assumingा\n\nlフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.7840698957443237,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.169633865356445,
+                    "Copyright"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.363603115081787,
+                    "************************************************************************"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwher mano21assumingा\n\nlフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.766618490219116,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.117049694061279,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.3357162475585938,
+                    "******************************************************************************"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 �格/*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.7263829708099365,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.087668418884277,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.233147621154785,
+                    "npcNPC"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙犬哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6604080200195312,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    4.051352500915527,
+                    "transform-rounded"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.161449909210205,
+                    "Created"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\nnsfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.606401205062866,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.999485492706299,
+                    ""
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.1013360023498535,
+                    "أ"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваskihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.550410747528076,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.9195923805236816,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.0556600093841553,
+                    "************************************************************************"
+                ]
+            ],
+            "control_str": ":',.таут })\n\nстваNicknameihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4876261949539185,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.822044610977173,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    3.0105795860290527,
+                    "******************************************************************************"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNicknameihgenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.416312098503113,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.762824535369873,
+                    "!"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.941376209259033,
+                    ""
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthygenitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.352100372314453,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.745731830596924,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.9087860584259033,
+                    "npc"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName彝.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.3272589445114136,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.726482629776001,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.8276283740997314,
+                    "package"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�orsi.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_POWER巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.277055501937866,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.538252115249634,
+                    "-"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.6932625770568848,
+                    "نس"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�orsi.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.1157573461532593,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.5179710388183594,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.5771067142486572,
+                    ".java"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天通罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0475388765335083,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.4814281463623047,
+                    "npcs"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.563805103302002,
+                    "*"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21assumingा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0226166248321533,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    3.4344701766967773,
+                    "نب"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.4674158096313477,
+                    "Created"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyper山_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9509429931640625,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.378272533416748,
+                    "Copyright"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.359950304031372,
+                    "npc.transform"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニガメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.86911141872406,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.337414503097534,
+                    "تم"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.2914109230041504,
+                    "修改"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippinglx雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8144127130508423,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.272263526916504,
+                    "ت"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.2641546726226807,
+                    "Created"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱天命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7682090997695923,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.3171844482421875,
+                    "*"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.0995988845825195,
+                    "Generated"
+                ]
+            ],
+            "control_str": ":',.ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7083916664123535,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.177381992340088,
+                    "*"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.111691951751709,
+                    "تم"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nстваNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6445369720458984,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    3.0266032218933105,
+                    ". *)"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    2.1137356758117676,
+                    "نب"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德mdb地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.570169448852539,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.9768338203430176,
+                    "نب"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    2.075526475906372,
+                    "Created"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىeshouhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.526180148124695,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9596452713012695,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.962930679321289,
+                    "import"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨jgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4612879753112793,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.8925931453704834,
+                    "************************************************************************"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.8902310132980347,
+                    "�"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded fak NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.391412079334259,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.9161508083343506,
+                    ".tab."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.7243690490722656,
+                    "import"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大乱.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.320259928703308,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    0,
+                    2.7992238998413086,
+                    "�."
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.7141776084899902,
+                    "************************************************************************"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ($\"三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2567007541656494,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.667787551879883,
+                    "نب"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    0,
+                    1.7142834663391113,
+                    ".class.java"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ�三朝龙生于庙وجه哭乎市震之�SerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.191035509109497,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.4607300758361816,
+                    "نب"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.6054604053497314,
+                    "نب"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ�三朝龙生于庙وجه哭乎市震之mereSerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0330952405929565,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.4607300758361816,
+                    "نب"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.6054604053497314,
+                    "نب"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ�三朝龙生于庙وجه哭乎市震之mereSerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0330952405929565,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.4607300758361816,
+                    "نب"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.6054604053497314,
+                    "نب"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ�三朝龙生于庙وجه哭乎市震之mereSerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0330952405929565,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Meta-Llama-3-8B",
+                    1,
+                    1,
+                    2.4607300758361816,
+                    "نب"
+                ],
+                [
+                    "/fsx-project/yunyun/models/meta-llama_Meta-Llama-3-8B_codegen_tuned",
+                    1,
+                    1,
+                    1.6054604053497314,
+                    "نب"
+                ]
+            ],
+            "control_str": ":',*****ρεут })\n\nCONTNickname-worthy شكلitaldejrazنىesh wmhf \\昔者三苗大 His.MESSAGE命殛之日以来� drippingcredible雨:Pgrlewnndehdfoahodhjl :)\n\n Znfljsnofheowhfrowehroiwher mano21Illuminateा\n\n Tフシギダネ الر>\");\n\n tゲゼニ personallyメピカチュウ�三朝龙生于庙وجه哭乎市震之mereSerializedName�enin.habbo是懿德lok地天�罔有 � /*******************************************************************************\n حول ******************************************************************************\nHyperتب_pb巫.transform-rounded 하지만 NPC بو",
+            "n_passed": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0330952405929565,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                2,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}
