@@ -1,0 +1,4827 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-chat-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-chat-hf",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "tokenizer_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "tokenizer_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "! ! ! ! ! ! ! ! ! ! neighborhood ! ! ! ! ! ! ! ! !",
+        "! ! ! ! ! ! ! ! ! ! neighborhood ! ! ! ! ! ! ! ! cust",
+        "! ! ! ! ! ! ! ! !Ú neighborhood ! ! ! ! ! ! ! ! cust",
+        "! ! ! ! ! ! ! ! !Ú neighborhood ! ! ! ! ! ! ! <%= cust",
+        "! ! ! ! ! ! ! ! !Ú neighborhood ! ! ! !效 ! ! <%= cust",
+        "! ! ! ! ! ! ! ! !Ú neighborhood ! ! ! !效 ! Wor <%= cust",
+        "! ! ! !Condition ! ! ! !Ú neighborhood ! ! ! !效 ! Wor <%= cust",
+        "! ! ! !Condition ! ! ! !Ú neighborhood ! ! ! !场 ! Wor <%= cust",
+        "! ! ! !Condition ! ! ! !Ú neighborhood ! pros ! !场 ! Wor <%= cust",
+        "! ! ! !Condition ! ! ! !cipl neighborhood ! pros ! !场 ! Wor <%= cust",
+        "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 ! Wor <%= cust",
+        "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 sho Wor <%= cust",
+        "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 прод Wor <%= cust",
+        "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 прод Wor <%=ORD",
+        "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 проек Wor <%=ORD",
+        "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 проек如 <%=ORD",
+        "! ! ! !Condition ! ! ! !cipl neighborhood br prosAd !场 проек如 <%=ORD",
+        "! ! ! !Condition ! ! ! !cipl neighborhood br prosAd !场 проек如 <%=ancing",
+        "! partially ! !Condition ! ! ! !cipl neighborhood br prosAd !场 проек如 <%=ancing",
+        "! partially ! !Condition(! ! ! !cipl neighborhood br prosAd !场 проек如 <%=ancing",
+        "! partially ! !Condition(! ! ! !cipl neighborhood br prosAd !场 проек如 <%=ancing",
+        "! partially ! composCondition(! ! ! !cipl neighborhood br pros applies !场 проек如 <%=ancing",
+        "! partially ! composCondition(! ! ! !cipl neighborhood br pros applies !场 проек丁 <%=ancing",
+        "! partially ! composCondition(! ! ! !cipl neighborhood obst pros applies !场 проек丁 <%=ancing",
+        "! partially ! composCondition(! ! ! ! CLI neighborhood obst pros applies !场 проек丁 <%=ancing",
+        "! partially ! composCondition(! ! PR ! CLI neighborhood obst pros applies !场 проек丁 <%=ancing",
+        "! partially ! composCondition(! ! PR ! CLI neighborhood obst pros applies !场 проек丁 <%=ying",
+        "! partially ! composCondition(! ! PR ! CLI neighborhood obst pros applies\t场 проек丁 <%=ying",
+        "! partially ! composCondition(! ! PR ! CLI neighborhood obst pros applies\t场项丁 <%=ying",
+        "! partially ! composCondition(! ! PR ! cp neighborhood obst pros applies\t场项丁 <%=ying",
+        "! partially ! composCondition(! ! PR ! cp neighborhood obst pros applies\tyal项丁 <%=ying",
+        "! partially ! composCondition(! ! PR ! cp neighborhood obst pros ис\tyal项丁 <%=ying",
+        "! partially ! composCondition(! ! PR ! cp neighborhood obst pros pra\tyal项丁 <%=ying",
+        "! partially ! composCondition(! ! PR ! cp neighborhood obst pros experien\tyal项丁 <%=ying",
+        "! partially ! corrCondition(! ! PR ! cp neighborhood obst pros experien\tyal项丁 <%=ying",
+        "! partially ! corrCondition(! !hyper ! cp neighborhood obst pros experien\tyal项丁 <%=ying",
+        "! partially ! corrCondition(! !hyper ! cp neighborhood obst pros experien\tyal项丁 <%= Looking",
+        "! partially ! corrCondition(! !hyper ! cp neighborhood obst various experien\tyal项丁 <%= Looking",
+        "! partially ! corrCondition(! !hyper ! cp edges obst various experien\tyal项丁 <%= Looking",
+        "! partially ! uniformlyCondition(! !hyper ! cp edges obst various experien\tyal项丁 <%= Looking",
+        "! partially ! uniformlyCondition(! !hyper ! cp edges dependence various experien\tyal项丁 <%= Looking",
+        "! partially ! uniformlyCondition(! !hyper ! cp edges dependence various experien\t样项丁 <%= Looking",
+        "! partially ! uniformlyCondition(! !hyper ! cp edges dependence various experien','样项丁 <%= Looking",
+        "! partially ! uniformlyCondition(! !hyper ! cp distance dependence various experien','样项丁 <%= Looking",
+        "! partially ! uniformlyCondition(! !hyper ! cp distance dependence various experien','样项丁 <%= After",
+        "! partially ! uniformlyCondition(! !hyper ! cp distance dependence various intercept','样项丁 <%= After",
+        "! partially ! uniformlyCondition(! !hyper ! cp distance reliable various intercept','样项丁 <%= After",
+        "! partially ! uniformlyCondition(! !hyper ! cp convergence reliable various intercept','样项丁 <%= After",
+        "? partially ! uniformlyCondition(! !hyper ! cp convergence reliable various intercept','样项丁 <%= After",
+        "? partially ! uniformlyCondition(! !hyper !cp convergence reliable various intercept','样项丁 <%= After",
+        "? partially ! uniformlyCondition(! !hyper !std convergence reliable various intercept','样项丁 <%= After",
+        "? partially ! uniformlyCondition(! !fast !std convergence reliable various intercept','样项丁 <%= After",
+        "? partially ! uniformlyCondition(! !fast ! quan convergence reliable various intercept','样项丁 <%= After",
+        "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 <%= After",
+        "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 <%= After",
+        "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 <%= After",
+        "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 <%= After",
+        "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 ($ reducing",
+        "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 ($ сти",
+        "? partially ! uniformlyCondition(. !fastGood quan convergence reliable various intercept','样项丁 ($ сти",
+        "? partially ! uniformlyDelay(. !fastGood quan convergence reliable various intercept','样项丁 ($ сти",
+        "? partially ! uniformlyDelay(. !fastGood quan convergence reliable various intercept','样项丁 ($ sty",
+        "? partially ! uniformlyDelay(.adatafastGood quan convergence reliable various intercept','样项丁 ($ sty",
+        "? partially ! uniformlyDelay(.adatafastGood quan convergence reliable variousinst','样项丁 ($ sty",
+        "? partially'> uniformlyDelay(.adatafastGood quan convergence reliable variousinst','样项丁 ($ sty",
+        "? partially'> uniformlyDelay(.adatafast quadratic quan convergence reliable variousinst','样项丁 ($ sty",
+        "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+        "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+        "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+        "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+        "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+        "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+        "? partiallyopt uniformlySeries($_adatafast fastQual convergence reliable variousinst','样项丁 ($ sty",
+        "? partiallyopt uniformlySeries($_adatafast fastQual convergence reliable variousinst','样项丁 ($ sty",
+        "? partiallyopt uniformlySeries($_adatafast fastQual convergence reliable variousinst','样项丁 ($ sty",
+        "? partiallyopt uniformlySeries($_adataFre fastInf convergence reliable variousinst','样项丁 ($ sty",
+        "? partiallyopt uniformlySeries($_adataFre fastInf convergence reliable variousinst','样项丁 ($ sty",
+        "? partiallyopt uniformlySeries($_adataFre fastInf convergence reliable variousinst','样项丁 ($ sty",
+        "? partiallyopt uniformlySeries($_adataFre fastInf convergence reliable variousinst','样项丁 ($ sty",
+        "? partiallyopt uniformlyDist($_adataFn fast practical convergence reliable variousR','样项丁 ($ sty",
+        "? partiallyopt uniformlyDist($_adataFn fast practical convergence reliable variousR','样项丁 ($ sty",
+        "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($ sty",
+        "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($\\ sty",
+        "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($\\ sty",
+        "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($\\ sty",
+        "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($\\ sty",
+        "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($\\ sty",
+        "? partiallyopt uniformlyDist($_ radIND fastLog convergence stability variousR','样项丁 ($\\ až",
+        "? partiallyopt uniformlyDist($_ radIND fastLog convergence stability variousR','样项丁 ($\\ až",
+        "? partiallyopt uniformlyDist($_ radIND fastLog convergence stability variousR','样项丁 ($\\ až"
+    ],
+    "find_target": [
+        "样项丁"
+    ],
+    "losses": [
+        9.287939389546713,
+        8.76036262512207,
+        8.604433218638102,
+        8.430821259816488,
+        8.2115159034729,
+        8.012545108795166,
+        7.919785181681315,
+        7.768660704294841,
+        7.579607009887695,
+        7.435009002685547,
+        7.31025505065918,
+        7.243590354919434,
+        7.162433942159017,
+        7.059718767801921,
+        6.767231146494548,
+        6.551405906677246,
+        6.430848280588786,
+        6.182223320007324,
+        6.117602666219075,
+        6.053635120391846,
+        6.053635120391846,
+        5.982269763946533,
+        5.514294306437175,
+        5.360772132873535,
+        5.2627473672231035,
+        5.090676466623942,
+        4.871894836425781,
+        4.7659534613291425,
+        4.541092157363892,
+        4.469692627588908,
+        4.314774354298909,
+        4.08732008934021,
+        4.008325735727946,
+        3.8659322261810303,
+        3.7011996110280356,
+        3.6465174357096353,
+        3.559366226196289,
+        3.359800100326538,
+        3.2810474236806235,
+        3.2128780682881675,
+        3.126523812611898,
+        2.336450139681498,
+        2.075386087099711,
+        1.9404388268788655,
+        1.8180665572484334,
+        1.7018868525822957,
+        1.6182097395261128,
+        1.5570261279741924,
+        1.4850654602050781,
+        1.4574293891588848,
+        1.4498624602953594,
+        1.3650489449501038,
+        1.3530954917271931,
+        1.2921249866485596,
+        1.2921249866485596,
+        1.2921249866485596,
+        1.2921249866485596,
+        1.1110529005527496,
+        1.0736282070477803,
+        1.0193072060743968,
+        0.9687386155128479,
+        0.9301814238230387,
+        0.9033035834630331,
+        0.8388620913028717,
+        0.8353045384089152,
+        0.7880630195140839,
+        0.783551295598348,
+        0.783551295598348,
+        0.783551295598348,
+        0.783551295598348,
+        0.783551295598348,
+        0.783551295598348,
+        0.7734355628490448,
+        0.7734355628490448,
+        0.7734355628490448,
+        0.745438943306605,
+        0.745438943306605,
+        0.745438943306605,
+        0.745438943306605,
+        0.7350227038065592,
+        0.7350227038065592,
+        0.7123002608617147,
+        0.6942020455996195,
+        0.6942020455996195,
+        0.6942020455996195,
+        0.6942020455996195,
+        0.6942020455996195,
+        0.6942020455996195,
+        0.6942020455996195,
+        0.6942020455996195
+    ],
+    "runtimes": [
+        5.912062406539917,
+        4.964320421218872,
+        4.941911458969116,
+        5.01434326171875,
+        4.971486330032349,
+        4.9566802978515625,
+        4.980363845825195,
+        5.055225849151611,
+        5.030150651931763,
+        4.93544602394104,
+        4.950259685516357,
+        4.920575141906738,
+        5.045594215393066,
+        5.030837297439575,
+        4.959794998168945,
+        5.05998420715332,
+        5.023300409317017,
+        5.082310438156128,
+        5.0709874629974365,
+        4.981851100921631,
+        5.06135892868042,
+        5.0660505294799805,
+        5.062383413314819,
+        5.1025121212005615,
+        4.958001136779785,
+        5.010653018951416,
+        5.02660059928894,
+        4.987990379333496,
+        4.964399099349976,
+        5.06168532371521,
+        4.965142726898193,
+        5.072387218475342,
+        4.993900299072266,
+        4.976649045944214,
+        4.967482328414917,
+        5.175489187240601,
+        4.975842475891113,
+        4.986835479736328,
+        4.958747148513794,
+        5.0660295486450195,
+        4.951073169708252,
+        4.998310804367065,
+        4.921419382095337,
+        4.977381944656372,
+        5.043454647064209,
+        4.992288827896118,
+        4.96855616569519,
+        4.980730056762695,
+        4.962862968444824,
+        4.975851535797119,
+        4.996477127075195,
+        5.051575660705566,
+        4.940039873123169,
+        4.975942373275757,
+        5.020502090454102,
+        5.018617391586304,
+        5.017560958862305,
+        4.987557649612427,
+        5.0113184452056885,
+        5.072603464126587,
+        5.0056774616241455,
+        5.011688470840454,
+        5.0031092166900635,
+        4.989630222320557,
+        5.088300943374634,
+        4.971041679382324,
+        4.966095924377441,
+        5.036139726638794,
+        4.983051300048828,
+        5.017921686172485,
+        5.094990015029907,
+        5.023784160614014,
+        5.019293308258057,
+        5.126214265823364,
+        5.446289777755737,
+        5.166571140289307,
+        4.9625403881073,
+        5.072187185287476,
+        5.002586126327515,
+        5.021756887435913,
+        5.067139387130737,
+        5.217983245849609,
+        5.093782663345337,
+        5.605663537979126,
+        5.0304718017578125,
+        5.023180723190308,
+        4.944547176361084,
+        4.944547176361084,
+        4.944547176361084,
+        4.944547176361084
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    10.259695053100586,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    9.414011001586914,
+                    "Neighborhood"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    8.190112113952637,
+                    "您好"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! ! ! neighborhood ! ! ! ! ! ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.287939389546713,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.9891357421875,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.649195671081543,
+                    "「neigh"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.642756462097168,
+                    "Hello! I'm"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! ! ! neighborhood ! ! ! ! ! ! ! ! cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.76036262512207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.78686809539795,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.505098342895508,
+                    "U neighborhoodは、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.52133321762085,
+                    "Sorry"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! !Ú neighborhood ! ! ! ! ! ! ! ! cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.604433218638102,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.561837196350098,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.343118667602539,
+                    "Neighborhood"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.387507915496826,
+                    ">\n\nAssistant"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! !Ú neighborhood ! ! ! ! ! ! ! <%= cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.430821259816488,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.669527053833008,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.337360382080078,
+                    "!\n\n<"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.627660274505615,
+                    "好的，请"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! !Ú neighborhood ! ! ! !效 ! ! <%= cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.2115159034729,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.614303588867188,
+                    "Great! Let'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.265237808227539,
+                    "¡Hola!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.1580939292907715,
+                    "好的，请"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! !Ú neighborhood ! ! ! !效 ! Wor <%= cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.012545108795166,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.541104316711426,
+                    "As a responsible A"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.138799667358398,
+                    "<!> こ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.079451560974121,
+                    "您好"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !Ú neighborhood ! ! ! !效 ! Wor <%= cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.919785181681315,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.545608520507812,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.760326385498047,
+                    "差"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.000047206878662,
+                    "您好"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !Ú neighborhood ! ! ! !场 ! Wor <%= cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.768660704294841,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.244148254394531,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.496527671813965,
+                    "とても"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.99814510345459,
+                    "好的，请"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !Ú neighborhood ! pros ! !场 ! Wor <%= cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.579607009887695,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.022167205810547,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.496195316314697,
+                    "!\n\n!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.7866644859313965,
+                    "您好"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !cipl neighborhood ! pros ! !场 ! Wor <%= cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.435009002685547,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.889983177185059,
+                    "As a responsible A"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.33289098739624,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.70789098739624,
+                    "疑问"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 ! Wor <%= cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.31025505065918,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.786347389221191,
+                    "As a real estate"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.078901290893555,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.865522384643555,
+                    "您好"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 sho Wor <%= cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.243590354919434,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.770547866821289,
+                    "As a real estate"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.869625091552734,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.847128868103027,
+                    "您好"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 прод Wor <%= cust",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.162433942159017,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.665966033935547,
+                    "As a real estate"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.705672264099121,
+                    "neighborhood\n条件"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.807518005371094,
+                    "当前情�"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 прод Wor <%=ORD",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.059718767801921,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.497880935668945,
+                    "Based on the information"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.57925271987915,
+                    "Conditionの近"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.224559783935547,
+                    "哦，"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 проек Wor <%=ORD",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.767231146494548,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.395303726196289,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.4845075607299805,
+                    "はい、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.774406433105469,
+                    "下面是一"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !cipl neighborhood br pros ! !场 проек如 <%=ORD",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.551405906677246,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.415878295898438,
+                    "Title: Exam"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.215198993682861,
+                    "!\n\n条"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.661467552185059,
+                    "下面是一"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !cipl neighborhood br prosAd !场 проек如 <%=ORD",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.430848280588786,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.23801040649414,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.608650207519531,
+                    "条件："
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.700009346008301,
+                    "Condition: The"
+                ]
+            ],
+            "control_str": "! ! ! !Condition ! ! ! !cipl neighborhood br prosAd !场 проек如 <%=ancing",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.182223320007324,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.182186126708984,
+                    "Great, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.40275239944458,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.767869472503662,
+                    "以下是一"
+                ]
+            ],
+            "control_str": "! partially ! !Condition ! ! ! !cipl neighborhood br prosAd !场 проек如 <%=ancing",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.117602666219075,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.139558792114258,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.193294048309326,
+                    "!\nプロ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.828052520751953,
+                    "！！！！"
+                ]
+            ],
+            "control_str": "! partially ! !Condition(! ! ! !cipl neighborhood br prosAd !场 проек如 <%=ancing",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.053635120391846,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.139558792114258,
+                    "As a community developer"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.193294048309326,
+                    "Not entirely, but"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.828052520751953,
+                    "翻�"
+                ]
+            ],
+            "control_str": "! partially ! !Condition(! ! ! !cipl neighborhood br prosAd !场 проек如 <%=ancing",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.053635120391846,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.178632736206055,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.163426876068115,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.60474967956543,
+                    "缺失"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! ! !cipl neighborhood br pros applies !场 проек如 <%=ancing",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.982269763946533,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    7.364362716674805,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.066220283508301,
+                    "partially composCondition("
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.112299919128418,
+                    "！！！！"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! ! !cipl neighborhood br pros applies !场 проек丁 <%=ancing",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.514294306437175,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.86042594909668,
+                    "It seems like you"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.049501419067383,
+                    "!\n\npartial"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.172389030456543,
+                    "您好"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! ! !cipl neighborhood obst pros applies !场 проек丁 <%=ancing",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.360772132873535,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.695405006408691,
+                    "Based on the information"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.867645025253296,
+                    "! partially ! compos"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.225192070007324,
+                    "！！！！"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! ! ! CLI neighborhood obst pros applies !场 проек丁 <%=ancing",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.2627473672231035,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.585170745849609,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.6051602363586426,
+                    "はい、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.081698417663574,
+                    "！！！！"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! PR ! CLI neighborhood obst pros applies !场 проек丁 <%=ancing",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.090676466623942,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.29224967956543,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.5527992248535156,
+                    "はい、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.770635604858398,
+                    "项目：城"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! PR ! CLI neighborhood obst pros applies !场 проек丁 <%=ying",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.871894836425781,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.1030988693237305,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.56645131111145,
+                    "与公共"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.628310203552246,
+                    "抱�"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! PR ! CLI neighborhood obst pros applies\t场 проек丁 <%=ying",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.7659534613291425,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.756353378295898,
+                    "Sure, I can"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.1171576976776123,
+                    "!\n\nThe"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.749765396118164,
+                    "欢�"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! PR ! CLI neighborhood obst pros applies\t场项丁 <%=ying",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.541092157363892,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.721931457519531,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.0328290462493896,
+                    "!\ncondition (!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.654317378997803,
+                    "找不"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! PR ! cp neighborhood obst pros applies\t场项丁 <%=ying",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.469692627588908,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.473453998565674,
+                    "Based on your provided"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.172691822052002,
+                    "! condition と"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.298177242279053,
+                    "抱�"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! PR ! cp neighborhood obst pros applies\tyal项丁 <%=ying",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.314774354298909,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.038607597351074,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.9487011432647705,
+                    "<span class=\""
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.274651527404785,
+                    "翼>"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! PR ! cp neighborhood obst pros ис\tyal项丁 <%=ying",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.08732008934021,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.156598091125488,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.8672423362731934,
+                    "用户反"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.001136779785156,
+                    "请问��"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! PR ! cp neighborhood obst pros pra\tyal项丁 <%=ying",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.008325735727946,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.887659072875977,
+                    "Based on the provided"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.864009141921997,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.846128463745117,
+                    "请问��"
+                ]
+            ],
+            "control_str": "! partially ! composCondition(! ! PR ! cp neighborhood obst pros experien\tyal项丁 <%=ying",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8659322261810303,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.638122081756592,
+                    "It seems like you"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.710188150405884,
+                    "partially corrCondition("
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.755288600921631,
+                    "人类：！"
+                ]
+            ],
+            "control_str": "! partially ! corrCondition(! ! PR ! cp neighborhood obst pros experien\tyal项丁 <%=ying",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.7011996110280356,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.608204364776611,
+                    "Sure, I can"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.637387275695801,
+                    "!\ncorr"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.693960666656494,
+                    "您好"
+                ]
+            ],
+            "control_str": "! partially ! corrCondition(! !hyper ! cp neighborhood obst pros experien\tyal项丁 <%=ying",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.6465174357096353,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.243372440338135,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.5609512329101562,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.873775005340576,
+                    "请稍"
+                ]
+            ],
+            "control_str": "! partially ! corrCondition(! !hyper ! cp neighborhood obst pros experien\tyal项丁 <%= Looking",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.559366226196289,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.114903450012207,
+                    "Based on your message"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.4597327709198,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.5047640800476074,
+                    "！！！！"
+                ]
+            ],
+            "control_str": "! partially ! corrCondition(! !hyper ! cp neighborhood obst various experien\tyal项丁 <%= Looking",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.359800100326538,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.999966621398926,
+                    "Thank you for your"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.4463284015655518,
+                    "与不符"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.3968472480773926,
+                    "请简"
+                ]
+            ],
+            "control_str": "! partially ! corrCondition(! !hyper ! cp edges obst various experien\tyal项丁 <%= Looking",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2810474236806235,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.9132301807403564,
+                    "Sure, I can"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.399646282196045,
+                    "!\n\n�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.3257577419281006,
+                    "请告��"
+                ]
+            ],
+            "control_str": "! partially ! uniformlyCondition(! !hyper ! cp edges obst various experien\tyal项丁 <%= Looking",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2128780682881675,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.770280122756958,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.5118892192840576,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.0974020957946777,
+                    "!!!!! !"
+                ]
+            ],
+            "control_str": "! partially ! uniformlyCondition(! !hyper ! cp edges dependence various experien\tyal项丁 <%= Looking",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.126523812611898,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.1039822101593018,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.129685401916504,
+                    "! partially ! uniformly"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.775682806968689,
+                    "！！！！"
+                ]
+            ],
+            "control_str": "! partially ! uniformlyCondition(! !hyper ! cp edges dependence various experien\t样项丁 <%= Looking",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.336450139681498,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.9600746631622314,
+                    "It seems like you"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.7405146360397339,
+                    "! partially ! uniformly"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.525568962097168,
+                    "以下是用"
+                ]
+            ],
+            "control_str": "! partially ! uniformlyCondition(! !hyper ! cp edges dependence various experien','样项丁 <%= Looking",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.075386087099711,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.725451946258545,
+                    "Certainly!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.6276040077209473,
+                    "partially ! uniformlyCondition"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4682605266571045,
+                    "您好"
+                ]
+            ],
+            "control_str": "! partially ! uniformlyCondition(! !hyper ! cp distance dependence various experien','样项丁 <%= Looking",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9404388268788655,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.8337199687957764,
+                    "Uniformly condition"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.4314619302749634,
+                    "! partially ! uniformly"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.1890177726745605,
+                    "样项丁！"
+                ]
+            ],
+            "control_str": "! partially ! uniformlyCondition(! !hyper ! cp distance dependence various experien','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8180665572484334,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.690175771713257,
+                    "Sure! Here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.5306867361068726,
+                    "! partially ! uniformly"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.8847980499267578,
+                    "样项丁<%="
+                ]
+            ],
+            "control_str": "! partially ! uniformlyCondition(! !hyper ! cp distance dependence various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7018868525822957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.5297393798828125,
+                    "Here is a partially"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.4425373077392578,
+                    "!\nまた"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.8823525309562683,
+                    "样项丁<%="
+                ]
+            ],
+            "control_str": "! partially ! uniformlyCondition(! !hyper ! cp distance reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6182097395261128,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.544360637664795,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.385852336883545,
+                    "partially uniformly convergence reliable"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.7408654093742371,
+                    "样项丁："
+                ]
+            ],
+            "control_str": "! partially ! uniformlyCondition(! !hyper ! cp convergence reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5570261279741924,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.4034557342529297,
+                    "The text you provided"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.334566354751587,
+                    "!\n\n�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.7171742916107178,
+                    "样项丁</"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !hyper ! cp convergence reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4850654602050781,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.370520830154419,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.298269510269165,
+                    "!\n\npartial"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.7034978270530701,
+                    "样项丁</"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !hyper !cp convergence reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4574293891588848,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.3866610527038574,
+                    "Uniformly condition"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.1900291442871094,
+                    "样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.7728971838951111,
+                    "样项丁 <%="
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !hyper !std convergence reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4498624602953594,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.2695744037628174,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0351169109344482,
+                    "! partially ! uniformly"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.7904555201530457,
+                    "样项丁！"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !fast !std convergence reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3650489449501038,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.2445876598358154,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0608311891555786,
+                    "!\n\n样"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.7538676261901855,
+                    "样项丁 <%="
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !fast ! quan convergence reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3530954917271931,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.2765963077545166,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.914499044418335,
+                    "!\n\n前"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6852796077728271,
+                    "样项丁<%="
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2921249866485596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.2765963077545166,
+                    "It seems like you"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.914499044418335,
+                    "!\n\n样"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6852796077728271,
+                    "样项丁<%="
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2921249866485596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.2765963077545166,
+                    "Certainly!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.914499044418335,
+                    "|| partially || uniformly"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6852796077728271,
+                    "样项丁 <%="
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2921249866485596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.2765963077545166,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.914499044418335,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.6852796077728271,
+                    "partially uniformly condition (!"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 <%= After",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2921249866485596,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.052304267883301,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.8949059247970581,
+                    "样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.38594850897789,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 ($ reducing",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1110529005527496,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.0138583183288574,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.7176516056060791,
+                    "partially uniformly conditionally"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.48937469720840454,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(! !fastGood quan convergence reliable various intercept','样项丁 ($ сти",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0736282070477803,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.972927212715149,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.6885520219802856,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.39644238352775574,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyCondition(. !fastGood quan convergence reliable various intercept','样项丁 ($ сти",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0193072060743968,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.8100987672805786,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.5848342180252075,
+                    "!\n\n样"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.5112828612327576,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyDelay(. !fastGood quan convergence reliable various intercept','样项丁 ($ сти",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9687386155128479,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.7553824186325073,
+                    "!!!!! ?"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.5550448298454285,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.4801170229911804,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyDelay(. !fastGood quan convergence reliable various intercept','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9301814238230387,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6892285346984863,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.6211603879928589,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.3995218276977539,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyDelay(.adatafastGood quan convergence reliable various intercept','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9033035834630331,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.5425145626068115,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.528308629989624,
+                    "样项丁（"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.44576308131217957,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially ! uniformlyDelay(.adatafastGood quan convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8388620913028717,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.5461339950561523,
+                    "Based on the information"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.49954870343208313,
+                    "\"样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.46023091673851013,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially'> uniformlyDelay(.adatafastGood quan convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8353045384089152,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.398747205734253,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.5928948521614075,
+                    "「样项"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.3725470006465912,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially'> uniformlyDelay(.adatafast quadratic quan convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7880630195140839,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.427314281463623,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.5647294521331787,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.3586101531982422,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.783551295598348,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.427314281463623,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5647294521331787,
+                    "样项丁样"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.3586101531982422,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.783551295598348,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.427314281463623,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.5647294521331787,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.3586101531982422,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.783551295598348,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.427314281463623,
+                    "Certainly!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5647294521331787,
+                    "样项丁 ($"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.3586101531982422,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.783551295598348,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.427314281463623,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.5647294521331787,
+                    "· partly> uniformly"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.3586101531982422,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.783551295598348,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.427314281463623,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.5647294521331787,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.3586101531982422,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partially'> uniformlyDelay(.adatafast quadraticshared convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.783551295598348,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.485399603843689,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.39317944645881653,
+                    "partiallyopt uniformlySeries"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.4417276382446289,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlySeries($_adatafast fastQual convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7734355628490448,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.485399603843689,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.39317944645881653,
+                    "样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.4417276382446289,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlySeries($_adatafast fastQual convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7734355628490448,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.485399603843689,
+                    "There are several algorithms"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.39317944645881653,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.4417276382446289,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlySeries($_adatafast fastQual convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7734355628490448,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.443962812423706,
+                    "FastInf convergence is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.35893234610557556,
+                    "样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.43342167139053345,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlySeries($_adataFre fastInf convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.745438943306605,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.443962812423706,
+                    "Certainly!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.35893234610557556,
+                    "partiallyopt uniformlySeries"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.43342167139053345,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlySeries($_adataFre fastInf convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.745438943306605,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.443962812423706,
+                    "The paper \"样"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.35893234610557556,
+                    "样项丁 ($"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.43342167139053345,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlySeries($_adataFre fastInf convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.745438943306605,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.443962812423706,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.35893234610557556,
+                    "样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.43342167139053345,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlySeries($_adataFre fastInf convergence reliable variousinst','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.745438943306605,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2127563953399658,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5278257131576538,
+                    "$样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.4644860029220581,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_adataFn fast practical convergence reliable variousR','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7350227038065592,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2127563953399658,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5278257131576538,
+                    "样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.4644860029220581,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_adataFn fast practical convergence reliable variousR','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7350227038065592,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.3723139762878418,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.34867769479751587,
+                    "样项丁 ($"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.4159091114997864,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7123002608617147,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2435578107833862,
+                    "!!!!!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.32191091775894165,
+                    "样项丁（"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.5171374082565308,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($\\ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6942020455996195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2435578107833862,
+                    "It seems like you"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.32191091775894165,
+                    "样件丁（"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.5171374082565308,
+                    "样项丁（"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($\\ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6942020455996195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2435578107833862,
+                    "Fast Gamma Con"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.32191091775894165,
+                    "partially opt uniformly"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.5171374082565308,
+                    "样项丁（"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($\\ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6942020455996195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2435578107833862,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.32191091775894165,
+                    "partiallyopt uniformlyDist"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.5171374082565308,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($\\ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6942020455996195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    1.2435578107833862,
+                    "$样项丁"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.32191091775894165,
+                    "`样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.5171374082565308,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_adataIND fastgamma convergence reliable variousR','样项丁 ($\\ sty",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6942020455996195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    1.2435578107833862,
+                    "$样项丁"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.32191091775894165,
+                    "`样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.5171374082565308,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_ radIND fastLog convergence stability variousR','样项丁 ($\\ až",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6942020455996195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    1.2435578107833862,
+                    "$样项丁"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.32191091775894165,
+                    "`样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.5171374082565308,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_ radIND fastLog convergence stability variousR','样项丁 ($\\ až",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6942020455996195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    1.2435578107833862,
+                    "$样项丁"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.32191091775894165,
+                    "`样项丁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.5171374082565308,
+                    "样项丁 ($"
+                ]
+            ],
+            "control_str": "? partiallyopt uniformlyDist($_ radIND fastLog convergence stability variousR','样项丁 ($\\ až",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6942020455996195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

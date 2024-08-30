@@ -1,0 +1,3608 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-chat-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-chat-hf",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "tokenizer_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "tokenizer_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !ńskiej ! !",
+        "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !ńskiej afterwards !",
+        "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !ńskiej philosophy !",
+        "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! (?ńskiej philosophy !",
+        "! ! ! ! ! ! !も ! ! ! ! ! ! ! ! (?ńskiej philosophy !",
+        "! ! ! ! ! ! !も ! ! ! ! ! ! Conse ! (?ńskiej philosophy !",
+        "! ! ! ! ! ! ! closer ! ! ! ! ! ! Conse ! (?ńskiej philosophy !",
+        "! ! ! ! ! ! ! closer ! ! ! ! ! ! nahe ! (?ńskiej philosophy !",
+        "! ! ! ! ! ! ! closer ! ! ! ! Conse ! nahe ! (?ńskiej philosophy !",
+        "! ! ! ! ! ! ! closer ! ! ! ! Conse ! naheшее (?ńskiej philosophy !",
+        "! ! ! ! ! ! ! closer ! ! ! ! Conse ! naheшее (?ńskiej philosophy ()",
+        "! ! ! ! ! ! ! closer ! Спољашње ! ! Conse ! naheшее (?ńskiej philosophy ()",
+        "! ! ! ! Bl ! ! closer ! Спољашње ! ! Conse ! naheшее (?ńskiej philosophy ()",
+        "! C ! ! Bl ! ! closer ! Спољашње ! ! Conse ! naheшее (?ńskiej philosophy ()",
+        "! ! ! Bl ! ! closer ! Спољашње ! ! Conse ! naheшее (?ńskiej philosophy ()",
+        "! ! ! Bl ! ! closer ! Спољашње ! ! Conse > naheшее (?ńskiej philosophy ()",
+        "! ! ! Bl ! ! closer ! Спољашње ! ! Conse > naheшееआńskiej philosophy ()",
+        "!记 ! ! Bl ! ! closer ! Спољашње ! ! Conse > naheшееआńskiej philosophy ()",
+        "!记¦ ! Bl ! ! closer ! Спољашње ! ! Conse > naheшееआńskiej philosophy ()",
+        "!记¦ ! Bl ! closer ! Спољашње ! ! Conse > naheшееआńskiej philosophy ()",
+        "!记¦ ! Bl ! closer ! Спољашње ! ! Conse > naheшее◄ńskiej philosophy ()",
+        "!记ână ! Bl ! closer ! Спољашње ! ! Conse > naheшее◄ńskiej philosophy ()",
+        "!记ână ! Bl ! closer ! Спољашње !6 Conse > naheшее◄ńskiej philosophy ()",
+        ":记ână ! Bl ! closer ! Спољашње !6 Conse > naheшее◄ńskiej philosophy ()",
+        ":记ână ! Bl ! closer Article Спољашње !6 Conse > naheшее◄ńskiej philosophy ()",
+        "/记ână ! Bl ! closer Article Спољашње !6 Conse > naheшее◄ńskiej philosophy ()",
+        "/记ână ! Bl ! closer Article Спољашње !6 Conse > naheшее◄ović philosophy ()",
+        "/记ână ! Bl ! closer ArticleTarget !6 Conse > naheшее◄ović philosophy ()",
+        "/记ână ! Bl ! closer ArticleTarget ! Use Conse > naheшее◄ović philosophy ()",
+        "/记ână ! Bl !Main ArticleTarget ! Use Conse > naheшее◄ović philosophy ()",
+        "/记ână ! Bl Bulg !Main ArticleTarget ! Use Conse > naheшее◄ović philosophy ()",
+        "/记ână ! -- Bulg !Main ArticleTarget ! Use Conse > naheшее◄ović philosophy ()",
+        "/记ână ! -- Bulg !Main ArticleTarget ! Use Conse > naheшее◄ović philosophy ()",
+        "/记ână館 -- Bulg !Main Articleps ! Use Conse > naheшее◄ović philosophy ()",
+        "/记ână館 -- Bulg !Main Articlepf ! Use Conse > naheшее◄ović philosophy ()",
+        "/记ână館 -- Bulg !Main Articlepf ! Use Conse > naheшее◄ović philosophy ()",
+        "/记ână館 ), Bulg !Main Articlepf ! Use Conse > naheště◄ović philosophy ()",
+        "/记ână館 ), Bulg !Main Articlepf ! Use Conse > naheŝ◄ović philosophy ()",
+        "/记ână館 ), Bulg !Main Articlepf ! Use Conse > naheŝ◄ově philosophy ()",
+        "/记ână館 ), Zent !Main Articlepf ! Use Conse > naheŝ◄ově philosophy ()",
+        "/记ână館 ), Zent !Main Articlepf ! Use Quellen > naheŝ◄ově philosophy ()",
+        "/记ână館 ), Zent !Main Articlepf ! Use Quellen > naheŝ◄ově philosophy://",
+        "/记ână館 ), Zent !Main Articlepf ! Use Quellen > naheŝᵉově philosophy://",
+        "/记ână館∫ Zent !Main Articlepf ! Use Quellen > naheŝᵉově philosophy://",
+        "/记ână館∫ Zent !Main Articlepf ! Eing Quellen > naheŝᵉově philosophy://",
+        "/记ână館∫ Zent !Main ArticleШ ! Eing Quellen > naheŝᵉově philosophy://",
+        "/记ână館∫ Zent !Main ArticleШ】 Eing Quellen > naheŝᵉově philosophy://",
+        "/记ână館∫ Zent、Main ArticleШ】 Eing Quellen > naheŝᵉově philosophy://",
+        "/记ână館∫ Zent、Main ArticleШ】 Einggeben > naheŝᵉově philosophy://",
+        "/记ână館∫ Zent、Main ArticleШ】 Einggeben > naheŝᵉově philosophy/?",
+        "/记ână Village∫ Zent、Main ArticleШ】 Einggeben > naheŝᵉově philosophy/?",
+        "/记ână Village∫ Zent、Main ArticleШ】 Einggeben > naheŝᵉově philosophy/?",
+        "/记ână Village∫ Zent、Main ArticleШ】 Einggeben > naheŝᵉově philosophy/?",
+        "/记ână Village∫省、Main ArticleШ]. Einggeben > naheŝᵉově philosophy/?",
+        "/记ână Village∫省、Main ArticleШ]. Einggeben > naheŝᵉově philosophy/?",
+        "/记ână Village∫省: Main ArticleШ]. Einggeben > naheŝᵉově philosophy/?",
+        "/记ână Village∫省: Main ArticleШ]. Einggeben >近ŝᵉově philosophy/?",
+        "/记ânăMartin∫省: Main ArticleШ]. Einggeben >近ŝᵉově philosophy/?",
+        "/记ânăMartin∫省: Main ArticleШ]. Einggeben >近ŝᵉově philosophy ()",
+        "/记ânăMartin∫省: Main ArticleШ]. Einggeben;\">近ŝᵉově philosophy ()",
+        "/记ânăMartin∫省 складіMain ArticleШ]. Einggeben;\">近ŝᵉově philosophy ()",
+        "/记ână XVI∫省 складіMain ArticleШ]. Einggeben;\">近ŝᵉově philosophy ()",
+        "/记ână XVI∫省 складіMain ArticleШ]. Einggeben\">近ŝᵉově philosophy ()",
+        "/记orton XVI∫省 складіMain ArticleШ]. Einggeben\">近ŝᵉově philosophy ()",
+        "/记orton XVI∫省 складіMain ArticleШ]. Einggeben\">近ŝᵉově philosophy ()",
+        "/记orton XVI∫省 складіMain ArticleШ]. Einggeben\">近ŝᵉově philosophy ()",
+        "/记orton XVI∫省 складіMain ArticleШ]. Einggeben\">近ŝᵉově philosophy ()"
+    ],
+    "find_target": [
+        "近ŝᵉ"
+    ],
+    "losses": [
+        11.155152002970377,
+        10.396084467569986,
+        9.382956504821777,
+        8.797640482584635,
+        8.497033754984537,
+        8.153305212656656,
+        7.7955277760823565,
+        6.948872248331706,
+        6.60784912109375,
+        6.086042881011963,
+        5.890591939290364,
+        5.569845994313558,
+        5.450238386789958,
+        5.410497188568115,
+        5.3458147048950195,
+        5.269509792327881,
+        5.223639170328776,
+        5.220977624257405,
+        5.134740670522054,
+        5.125283082326253,
+        5.018606662750244,
+        4.853245099385579,
+        4.844265937805176,
+        4.806326230367024,
+        4.727378845214844,
+        4.586150328318278,
+        4.539740403493245,
+        4.441725333531697,
+        4.19252880414327,
+        4.003607114156087,
+        4.001747449239095,
+        3.9331725438435874,
+        3.9331725438435874,
+        3.8974366188049316,
+        3.798583428064982,
+        3.798583428064982,
+        3.737112124760946,
+        3.551415999730428,
+        3.2703704039255777,
+        3.151335080464681,
+        3.0251945654551187,
+        2.9745684464772544,
+        2.4293456077575684,
+        2.279006083806356,
+        2.0928235054016113,
+        2.002314885457357,
+        1.9418090184529622,
+        1.8922205766042073,
+        1.8558119535446167,
+        1.8313062985738118,
+        1.7935718695322673,
+        1.7935718695322673,
+        1.7935718695322673,
+        1.7869785626729329,
+        1.7869785626729329,
+        1.708320180575053,
+        1.1912140448888142,
+        1.0393493175506592,
+        0.9777761101722717,
+        0.8963529070218405,
+        0.831310490767161,
+        0.7780965765317281,
+        0.7299181620279948,
+        0.696240226427714,
+        0.696240226427714,
+        0.696240226427714,
+        0.696240226427714
+    ],
+    "runtimes": [
+        6.0380473136901855,
+        4.943511724472046,
+        4.940506458282471,
+        4.887588024139404,
+        4.968135833740234,
+        4.931952714920044,
+        4.987208843231201,
+        5.0082738399505615,
+        5.006723165512085,
+        4.974579095840454,
+        4.954037666320801,
+        4.92371129989624,
+        4.955453872680664,
+        4.960532188415527,
+        4.984835386276245,
+        4.927875757217407,
+        4.969691276550293,
+        4.950972318649292,
+        4.982130527496338,
+        4.934124231338501,
+        4.944883823394775,
+        4.9884443283081055,
+        5.0490992069244385,
+        5.035725355148315,
+        4.9837634563446045,
+        4.960785627365112,
+        4.999294996261597,
+        4.95028829574585,
+        4.984371662139893,
+        4.916002035140991,
+        4.941102743148804,
+        4.9296441078186035,
+        4.994968891143799,
+        4.990300178527832,
+        4.9707136154174805,
+        4.970066785812378,
+        4.9405601024627686,
+        4.943319320678711,
+        5.010009527206421,
+        5.010568380355835,
+        5.0193867683410645,
+        4.942087411880493,
+        4.963106632232666,
+        4.9046311378479,
+        4.9229536056518555,
+        4.947981119155884,
+        4.932952880859375,
+        4.962871789932251,
+        5.000494480133057,
+        4.982152938842773,
+        4.990899324417114,
+        4.941466808319092,
+        5.014049530029297,
+        4.986800670623779,
+        4.995789289474487,
+        4.953034162521362,
+        4.960869073867798,
+        4.977804660797119,
+        4.984423637390137,
+        5.012502193450928,
+        4.9466657638549805,
+        4.97076416015625,
+        4.912734270095825,
+        4.993834495544434,
+        4.993834495544434,
+        4.993834495544434,
+        4.993834495544434
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    12.031881332397461,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    10.986713409423828,
+                    "こんに"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    10.446861267089844,
+                    "😊"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !ńskiej ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                11.155152002970377,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    10.886861801147461,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    10.203113555908203,
+                    "『』の"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    10.098278045654297,
+                    "Assistant: I apolog"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !ńskiej afterwards !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                10.396084467569986,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.521849632263184,
+                    "!¡ ¡ ¡"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    9.315610885620117,
+                    "nnieの�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    10.311408996582031,
+                    "🤔"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !ńskiej philosophy !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.382956504821777,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.49197006225586,
+                    "The philosophy of Jan"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.509244918823242,
+                    "?nius philosophy"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    9.391706466674805,
+                    "!!!!! ! !"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! (?ńskiej philosophy !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.797640482584635,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.564342498779297,
+                    "! ! ! !"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.777426719665527,
+                    "!\n\nは"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    8.149332046508789,
+                    "答�"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! !も ! ! ! ! ! ! ! ! (?ńskiej philosophy !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.497033754984537,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.46945571899414,
+                    "The Polish philos"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.538252830505371,
+                    "「も」"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.452207088470459,
+                    "😊"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! !も ! ! ! ! ! ! Conse ! (?ńskiej philosophy !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.153305212656656,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    7.52749490737915,
+                    "Closer to what"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.92701530456543,
+                    "はい、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.93207311630249,
+                    "! ! ! !"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! closer ! ! ! ! ! ! Conse ! (?ńskiej philosophy !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.7955277760823565,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    7.004332542419434,
+                    "Ah, I see"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.811606407165527,
+                    "近弁"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.030677795410156,
+                    "🤔"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! closer ! ! ! ! ! ! nahe ! (?ńskiej philosophy !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.948872248331706,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.744770050048828,
+                    "!!!! �"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.627890586853027,
+                    "ニュシ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.4508867263793945,
+                    "Human: closer to what"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! closer ! ! ! ! Conse ! nahe ! (?ńskiej philosophy !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.60784912109375,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.3484578132629395,
+                    "It seems like you"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.172940254211426,
+                    "closer / closer /"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.736730575561523,
+                    "! ! ! ! !"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! closer ! ! ! ! Conse ! naheшее (?ńskiej philosophy !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.086042881011963,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.063054084777832,
+                    "Near Eastern philosophy,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.9277663230896,
+                    "Nearest</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.680955410003662,
+                    "Human: !!!!!"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! closer ! ! ! ! Conse ! naheшее (?ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.890591939290364,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.583621978759766,
+                    "It seems like you"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.881590843200684,
+                    "近在��"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.244325160980225,
+                    "!!!!! ! !"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! ! closer ! Спољашње ! ! Conse ! naheшее (?ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.569845994313558,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.406466484069824,
+                    "Neariche's"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.8926191329956055,
+                    "¡Claro"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.051629543304443,
+                    "!!!!! ! !"
+                ]
+            ],
+            "control_str": "! ! ! ! Bl ! ! closer ! Спољашње ! ! Conse ! naheшее (?ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.450238386789958,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.341923236846924,
+                    "Nearheast philosophy,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.821873664855957,
+                    "!\n\nclos"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.067694664001465,
+                    "!!!!! ! C"
+                ]
+            ],
+            "control_str": "! C ! ! Bl ! ! closer ! Спољашње ! ! Conse ! naheшее (?ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.410497188568115,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.254202365875244,
+                    "Near Leo Strauss"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.762562274932861,
+                    "! !clos"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.020679473876953,
+                    "紧�"
+                ]
+            ],
+            "control_str": "! ! ! Bl ! ! closer ! Спољашње ! ! Conse ! naheшее (?ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.3458147048950195,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.1882781982421875,
+                    "Nearheast (N"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.633666515350342,
+                    "!\n\n近"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.986584663391113,
+                    "近しい（"
+                ]
+            ],
+            "control_str": "! ! ! Bl ! ! closer ! Спољашње ! ! Conse > naheшее (?ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.269509792327881,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.988485336303711,
+                    "Ah, I see"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.813660144805908,
+                    "近��"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.868772029876709,
+                    "近代东正"
+                ]
+            ],
+            "control_str": "! ! ! Bl ! ! closer ! Спољашње ! ! Conse > naheшееआńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.223639170328776,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.171688079833984,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.005896091461182,
+                    "近東的"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.485348701477051,
+                    "近亲"
+                ]
+            ],
+            "control_str": "!记 ! ! Bl ! ! closer ! Спољашње ! ! Conse > naheшееआńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.220977624257405,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.919447422027588,
+                    "Here are some key"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.990470886230469,
+                    "はい、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.4943037033081055,
+                    "抱�"
+                ]
+            ],
+            "control_str": "!记¦ ! Bl ! ! closer ! Спољашње ! ! Conse > naheшееआńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.134740670522054,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.848973751068115,
+                    "As an AI"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.906035423278809,
+                    "近代的"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.620840072631836,
+                    "近代的�"
+                ]
+            ],
+            "control_str": "!记¦ ! Bl ! closer ! Спољашње ! ! Conse > naheшееआńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.125283082326253,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.063953399658203,
+                    "Nearistiche philosophy,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.725879669189453,
+                    "近所の"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.265986919403076,
+                    "近便"
+                ]
+            ],
+            "control_str": "!记¦ ! Bl ! closer ! Спољашње ! ! Conse > naheшее◄ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.018606662750244,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.723400115966797,
+                    "The nearest philosophy to"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.738028526306152,
+                    "記せば"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.098306655883789,
+                    "感�"
+                ]
+            ],
+            "control_str": "!记ână ! Bl ! closer ! Спољашње ! ! Conse > naheшее◄ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.853245099385579,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.574580669403076,
+                    "The philosophy of бли"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.747800350189209,
+                    "!\n\n近"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.210416793823242,
+                    "近依"
+                ]
+            ],
+            "control_str": "!记ână ! Bl ! closer ! Спољашње !6 Conse > naheшее◄ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.844265937805176,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.630740165710449,
+                    "The nearest neighbor ("
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.547011852264404,
+                    "!\n\n:"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.241226673126221,
+                    "😱"
+                ]
+            ],
+            "control_str": ":记ână ! Bl ! closer ! Спољашње !6 Conse > naheшее◄ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.806326230367024,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.530550479888916,
+                    "Neareshore philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.390625953674316,
+                    "近女 philosophy"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.260960102081299,
+                    "以下是近"
+                ]
+            ],
+            "control_str": ":记ână ! Bl ! closer Article Спољашње !6 Conse > naheшее◄ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.727378845214844,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.453334808349609,
+                    "Nearuche philosophy,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.276654243469238,
+                    "近代に"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.028461933135986,
+                    "近依"
+                ]
+            ],
+            "control_str": "/记ână ! Bl ! closer Article Спољашње !6 Conse > naheшее◄ńskiej philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.586150328318278,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.017962455749512,
+                    "Nearheastóric"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.624133110046387,
+                    "与近ových"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.977125644683838,
+                    "近些年来"
+                ]
+            ],
+            "control_str": "/记ână ! Bl ! closer Article Спољашње !6 Conse > naheшее◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.539740403493245,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.294240951538086,
+                    "The philosophy of nearby"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.318233489990234,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.7127015590667725,
+                    "维基"
+                ]
+            ],
+            "control_str": "/记ână ! Bl ! closer ArticleTarget !6 Conse > naheшее◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.441725333531697,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.294328212738037,
+                    "The philosophy of nearby"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.801575660705566,
+                    "我は�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.481682538986206,
+                    "以下是我"
+                ]
+            ],
+            "control_str": "/记ână ! Bl ! closer ArticleTarget ! Use Conse > naheшее◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.19252880414327,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.112846374511719,
+                    "Near Leoš̌"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.422938346862793,
+                    "The philosophy of Vladimir"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.47503662109375,
+                    "近些年来"
+                ]
+            ],
+            "control_str": "/记ână ! Bl !Main ArticleTarget ! Use Conse > naheшее◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.003607114156087,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.993401050567627,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.399605751037598,
+                    "Нахимович"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.6122355461120605,
+                    "近世的人"
+                ]
+            ],
+            "control_str": "/记ână ! Bl Bulg !Main ArticleTarget ! Use Conse > naheшее◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.001747449239095,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.8832757472991943,
+                    "Nearheighth philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.414330959320068,
+                    "まずは"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.501910924911499,
+                    "近世智�"
+                ]
+            ],
+            "control_str": "/记ână ! -- Bulg !Main ArticleTarget ! Use Conse > naheшее◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.9331725438435874,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.8832757472991943,
+                    "The philosophy of nearby"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.414330959320068,
+                    "[[文章目"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.501910924911499,
+                    "!!!!! /record"
+                ]
+            ],
+            "control_str": "/记ână ! -- Bulg !Main ArticleTarget ! Use Conse > naheшее◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.9331725438435874,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.829878807067871,
+                    "The nearheast European"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.443070411682129,
+                    "な��"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.419360637664795,
+                    "!!!!! /record"
+                ]
+            ],
+            "control_str": "/记ână館 -- Bulg !Main Articleps ! Use Conse > naheшее◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8974366188049316,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.7148587703704834,
+                    "The concept of \""
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.393797874450684,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.2870936393737793,
+                    "🙏"
+                ]
+            ],
+            "control_str": "/记ână館 -- Bulg !Main Articlepf ! Use Conse > naheшее◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.798583428064982,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.7148587703704834,
+                    "Near Leo Tolsto"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.393797874450684,
+                    "近々館 -"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.2870936393737793,
+                    "近而��"
+                ]
+            ],
+            "control_str": "/记ână館 -- Bulg !Main Articlepf ! Use Conse > naheшее◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.798583428064982,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.1725006103515625,
+                    "Neareshtein"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.067586421966553,
+                    "近шњеште"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.9712493419647217,
+                    "近親館，"
+                ]
+            ],
+            "control_str": "/记ână館 ), Bulg !Main Articlepf ! Use Conse > naheště◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.737112124760946,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.9408769607543945,
+                    "Title: The Near"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.8703222274780273,
+                    "近 Benton"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.8430488109588623,
+                    "近年来，"
+                ]
+            ],
+            "control_str": "/记ână館 ), Bulg !Main Articlepf ! Use Conse > naheŝ◄ović philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.551415999730428,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.7439069747924805,
+                    "Near Eastern philosophy,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.828803777694702,
+                    "\"PHILOS"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.238400459289551,
+                    "近于科学"
+                ]
+            ],
+            "control_str": "/记ână館 ), Bulg !Main Articlepf ! Use Conse > naheŝ◄ově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2703704039255777,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.5589442253112793,
+                    "Near Eastern philosophy refers"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.6116271018981934,
+                    "近代の"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.2834339141845703,
+                    "抱�"
+                ]
+            ],
+            "control_str": "/记ână館 ), Zent !Main Articlepf ! Use Conse > naheŝ◄ově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.151335080464681,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4851861000061035,
+                    "Neareshov philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.19281005859375,
+                    "!\n\n`"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.397587537765503,
+                    "近代史学"
+                ]
+            ],
+            "control_str": "/记ână館 ), Zent !Main Articlepf ! Use Quellen > naheŝ◄ově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0251945654551187,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4993679523468018,
+                    "Neareshove philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.2586607933044434,
+                    "ze Narodnikov"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.1656765937805176,
+                    "近來"
+                ]
+            ],
+            "control_str": "/记ână館 ), Zent !Main Articlepf ! Use Quellen > naheŝ◄ově philosophy://",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9745684464772544,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.709725856781006,
+                    "As an AI"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.943871021270752,
+                    "\"nähesh"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.6344399452209473,
+                    "**Zent** is"
+                ]
+            ],
+            "control_str": "/记ână館 ), Zent !Main Articlepf ! Use Quellen > naheŝᵉově philosophy://",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4293456077575684,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.5126705169677734,
+                    "Nearèshove"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.0020298957824707,
+                    "\"近親�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.3223178386688232,
+                    "Human: Hey there,"
+                ]
+            ],
+            "control_str": "/记ână館∫ Zent !Main Articlepf ! Use Quellen > naheŝᵉově philosophy://",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.279006083806356,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.41713285446167,
+                    "Neareshove philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.0240960121154785,
+                    "近 Shawve"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.8372416496276855,
+                    "**Introduction**"
+                ]
+            ],
+            "control_str": "/记ână館∫ Zent !Main Articlepf ! Eing Quellen > naheŝᵉově philosophy://",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0928235054016113,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.185331344604492,
+                    "Neareshove philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.817859172821045,
+                    "近在館の"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.003754138946533,
+                    "Human: !!!!!"
+                ]
+            ],
+            "control_str": "/记ână館∫ Zent !Main ArticleШ ! Eing Quellen > naheŝᵉově philosophy://",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.002314885457357,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.256357431411743,
+                    "Neareshov philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.5760936737060547,
+                    "近ŝᵉ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.9929759502410889,
+                    "近ŝᵉᵉ"
+                ]
+            ],
+            "control_str": "/记ână館∫ Zent !Main ArticleШ】 Eing Quellen > naheŝᵉově philosophy://",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9418090184529622,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.0962085723876953,
+                    "Neareshove philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.5899474620819092,
+                    "Philosophy Near Shah"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.9905056953430176,
+                    "**Introduction**"
+                ]
+            ],
+            "control_str": "/记ână館∫ Zent、Main ArticleШ】 Eing Quellen > naheŝᵉově philosophy://",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8922205766042073,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.294604778289795,
+                    "Neareshove philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.6891282796859741,
+                    "neareschév philosophy"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.583702802658081,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记ână館∫ Zent、Main ArticleШ】 Einggeben > naheŝᵉově philosophy://",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8558119535446167,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.3268728256225586,
+                    "Neareshove philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.7654318809509277,
+                    "近藤�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4016141891479492,
+                    "近沙��"
+                ]
+            ],
+            "control_str": "/记ână館∫ Zent、Main ArticleШ】 Einggeben > naheŝᵉově philosophy/?",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8313062985738118,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.1802964210510254,
+                    "Neareshove philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.7253165245056152,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4751026630401611,
+                    "近沙��"
+                ]
+            ],
+            "control_str": "/记ână Village∫ Zent、Main ArticleШ】 Einggeben > naheŝᵉově philosophy/?",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7935718695322673,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.1802964210510254,
+                    "Nearšováve"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.7253165245056152,
+                    "はい、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4751026630401611,
+                    "近沙洲的"
+                ]
+            ],
+            "control_str": "/记ână Village∫ Zent、Main ArticleШ】 Einggeben > naheŝᵉově philosophy/?",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7935718695322673,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.1802964210510254,
+                    "Neareshove philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.7253165245056152,
+                    "わかり"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4751026630401611,
+                    "近沙洲的"
+                ]
+            ],
+            "control_str": "/记ână Village∫ Zent、Main ArticleШ】 Einggeben > naheŝᵉově philosophy/?",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7935718695322673,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.238276720046997,
+                    "Neareshove philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.6275584697723389,
+                    "近ŝᵉ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.495100498199463,
+                    "近沙��"
+                ]
+            ],
+            "control_str": "/记ână Village∫省、Main ArticleШ]. Einggeben > naheŝᵉově philosophy/?",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7869785626729329,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.238276720046997,
+                    "Neareshove philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.6275584697723389,
+                    "私"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.495100498199463,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记ână Village∫省、Main ArticleШ]. Einggeben > naheŝᵉově philosophy/?",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.7869785626729329,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.247345447540283,
+                    "Nearŝᵉově"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.4113601446151733,
+                    "近代の"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4662549495697021,
+                    "Nearševovo filosof"
+                ]
+            ],
+            "control_str": "/记ână Village∫省: Main ArticleШ]. Einggeben > naheŝᵉově philosophy/?",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.708320180575053,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.494593620300293,
+                    "Nearŝŝouve"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.1610541343688965,
+                    "近沙�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.9179943799972534,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记ână Village∫省: Main ArticleШ]. Einggeben >近ŝᵉově philosophy/?",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.1912140448888142,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.4149153232574463,
+                    "Near Eastern philosophy refers"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.8070460557937622,
+                    "near shore outs"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.896086573600769,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记ânăMartin∫省: Main ArticleШ]. Einggeben >近ŝᵉově philosophy/?",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.0393493175506592,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.336272120475769,
+                    "The concept of \""
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.6607028245925903,
+                    "近ŝᵉ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.9363533854484558,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记ânăMartin∫省: Main ArticleШ]. Einggeben >近ŝᵉově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.9777761101722717,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.1367379426956177,
+                    "Near Eastern philosophy refers"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.6238006949424744,
+                    "近ŝophe"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.9285200834274292,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记ânăMartin∫省: Main ArticleШ]. Einggeben;\">近ŝᵉově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8963529070218405,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.073232650756836,
+                    "Nearshore philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.5457465052604675,
+                    "近衛文"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.8749523162841797,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记ânăMartin∫省 складіMain ArticleШ]. Einggeben;\">近ŝᵉově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.831310490767161,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.8188796639442444,
+                    "Nearshore philosophy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5879138708114624,
+                    "近ŝᵉově"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.9274961948394775,
+                    "近 stoletní filosof"
+                ]
+            ],
+            "control_str": "/记ână XVI∫省 складіMain ArticleШ]. Einggeben;\">近ŝᵉově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7780965765317281,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.8779734969139099,
+                    "The philosophy of Im"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5138079524040222,
+                    "近ŝᵉově"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.7979730367660522,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记ână XVI∫省 складіMain ArticleШ]. Einggeben\">近ŝᵉově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7299181620279948,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.7821646332740784,
+                    "近ŝᵉově"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.4644032120704651,
+                    "近ŝᵉˇ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.8421528339385986,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记orton XVI∫省 складіMain ArticleШ]. Einggeben\">近ŝᵉově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.696240226427714,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.7821646332740784,
+                    "近ŝᵉově"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.4644032120704651,
+                    "近ŝᵉˇ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.8421528339385986,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记orton XVI∫省 складіMain ArticleШ]. Einggeben\">近ŝᵉově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.696240226427714,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.7821646332740784,
+                    "近ŝᵉově"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.4644032120704651,
+                    "近ŝᵉˇ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.8421528339385986,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记orton XVI∫省 складіMain ArticleШ]. Einggeben\">近ŝᵉově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.696240226427714,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.7821646332740784,
+                    "近ŝᵉově"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.4644032120704651,
+                    "近ŝᵉˇ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.8421528339385986,
+                    "近ŝᵉově"
+                ]
+            ],
+            "control_str": "/记orton XVI∫省 складіMain ArticleШ]. Einggeben\">近ŝᵉově philosophy ()",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.696240226427714,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6470 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-chat-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-chat-hf",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "tokenizer_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "tokenizer_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "! ! ! ! ! ! Italia ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "! ! ! ! ! ! Italia ! ! ! ! ! ! ! ! BE ! ! ! !",
+        "! ! ! ! ! ! Italia ! ! ! ! ! ! ! ! BE entirely ! ! !",
+        "! ! ! ! ! ! Italia ! ! ! ! ! ! ! ! BE entirelyтали ! !",
+        "! ! ! ! ! ! Italia ! ! ! ! ! ! ! ! BEreetтали ! !",
+        "! ! ! ! ! ! Italia ! ! ! ! ! ! !ท BEreetтали ! !",
+        "! ! ! ! ! ! Italia ! ! ! ! ! %{ !ท BEreetтали ! !",
+        "! ! ! ! ! ! Italia ! continue ! ! ! %{ !ท BEreetтали ! !",
+        "! ! ! ! ! ! Italia ! continue ! ! ! %{ $('ท BEreetтали ! !",
+        "! ! ! ! ! ! Italia ! continue !___ ! %{ $('ท BEreetтали ! !",
+        "! ! ! ! ! ! Italia ! continue !___ ! %{ $('ท BEinekтали ! !",
+        "! ! ! ! ! ! Italia ! continue !________ ! %{ $('ท BEinekтали ! !",
+        "! ! ! ! ! ! Italia ! continue !________phabet %{ $('ท BEinekтали ! !",
+        "! ! ! ! ! ! Italia ! continue !________phabet %{ $('│ BEinekтали ! !",
+        "! ! ! ! ! ! Italia ! continue !________phabet %{ $('│ BEinekталиʾ !",
+        "! ! ! ! ! ! Italia ! continue !________phabet %{ $('│ BEinekталиʾ –",
+        "! ! ! ! ! ! Italia ! continue !________phabet %{ $('│ BEinek泰ʾ –",
+        "! ! ! ! ! ! Italia ! continue !________phabet %{ $('│ BEinek泰พ –",
+        "! ! ! ! ! ! Italia ! continue !________phabet %{ $('‏ BEinek泰พ –",
+        "! ! ! ! ! ! Italia ! provincia !________phabet %{ $('‏ BEinek泰พ –",
+        "!ственной ! ! ! ! Italia ! provincia !________phabet %{ $('‏ BEinek泰พ –",
+        "дественной ! ! ! ! Italia ! provincia !________phabet %{ $('‏ BEinek泰พ –",
+        "дественной ! ! ! ! Italia ! provincia cont________phabet %{ $('‏ BEinek泰พ –",
+        "дественной ! ! ! ! Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+        "дественной ! ! ! Kre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+        "дественной ! ! ! stre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+        "дественной !bew ! stre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+        "дественной !bewʿ stre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+        "дественной !feʿ stre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+        "дественной !feʿ stre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰olis –",
+        "дественной !feʿ stre Italia : provincia cont________phabet %{ \\[\\‏ BEinek泰olis –",
+        "дественной !feʿ stre Italia : provincia cont________ keyboard %{ \\[\\‏ BEinek泰olis –",
+        "дественной !feʿ stre Italia : provincia cont________ keyboard %{ \\[\\‏ BEinek泰olis –",
+        "дественной !feʿ stre Italia : provincia cont________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+        "дественной vertefeʿ stre Italia : provincia cont________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+        "дественной vertefeзяй stre Italia : provincia cont________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+        "дественной vertefeзяй stre Italia : provincia eas________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+        "дественной vertefeзяй stre Italia : provincia eas________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia : provincia бі________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia : provincia бі________ keyboard=\"{ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia : provincia бі________ keyboard=\"{ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia : provincia бі________ keyboard=\"{ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia : provincia бі________ delet=\"{ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia nombr provincia бі________ delet=\"{ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia nombr provincia бі________ уров=\"{ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia denomin provincia бі________ уров=\"{ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia denomin provincia бі________ уров=\"${ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia denomin provincia бі________ уров=\"${ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia denomin provincia бі________ уров=\"${ \\[\\‏ BEinek泰Italia –",
+        "дественной verteɛзяй stre Italia nommé provincia бі________ уров=\"${ \\[\\‏ BEinek泰泉 –",
+        "дественной verteɛ Santo stre Italia nommé provincia бі________ уров=\"${ \\[\\‏ BEinek泰泉 –",
+        "дественной verteɛ Santo stre Italia nommé provincia бі________ уров=\"${ \\[\\‏ BEinek泰泉 –",
+        "дественной verteɛ Santo stre Italia nommé provincia abbre________ уров=\"${{\\‏ BEinek泰泉 –",
+        "дественной verteɛ Santo stre Italia nommé provincia abbre________ уров=\"${{\\ֶ BEinek泰泉 –",
+        "дественной verteɛ Santo stre Italia nommé Region abbre________ уров=\"${{\\ֶ BEinek泰泉 –",
+        "дественной verteɛ Santo stre ItaliaNamed Region abbre________ уров=\"${{\\ֶ BEinek泰泉 –",
+        "дественной verteɛ Santo stre ItaliaNamed Region abbre________ detail=\"${{\\ֶ BEinek泰泉 –",
+        "дественной verteɛ Santo stre ItaliaNamed Region abbre________ detailed=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvereɛ Santo stre ItaliaNamed Region abbre________ detailed=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere сем Santo stre ItaliaNamed Region abbre________ detailed=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo stre ItaliaNamed Region abbre________ detailed=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo stre ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo stre ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo januari ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo januari ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойutelyBre Santi државиItaliaNamed Region abbre with Info=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойutelyBre Santi државиItaliaNamed Region abbre with člán=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойutelyBre Santi државиItaliaNamed Region abbre with article=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойutelyBre Santi државиItaliaNamed Region abbre with article=\"${{\\ֶ BEinek泰泉 –",
+        "дественнойutelyBre Santi државиItalia venne Region abbre with article=\"${{\\ֶベinek泰泉 –",
+        "дественнойutelyBre Santi државиItalia venne Region abbre with article{\\{\\ֶベinek泰泉 –",
+        "ondeственнойutelyBre Santi државиItalia venne Region abbre with article{\\{\\ֶベinek泰泉 –",
+        "ondeственнойutelyBre Santi државиItalia venne Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойutelyBre Santi државиItalia venne Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойutelyBre Santi државиItalia venne Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойutelyBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойaronoBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойたBre Santi држави Italien Бы Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойたBre Santi држави Italien Бы Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойたBre Santi држави Italien Бы Region abbre with article{{\\{\\ֶベinek泰泉 –",
+        "behoственнойたBre Susan држави Italien Бы Region abbre with article{{\\ {\\ֶベ溪泰泉 –",
+        "behoственнойたBre Susan држави Italien Бы Region abbre with article{{\\ {\\ֶベ溪泰泉 –",
+        "behoственнойたBre Susan држави Italien Бы Region abbre with article{{\\ {\\ֶベ溪泰泉 –",
+        "behoственнойたBre Susan држави Italien Бы Region abbre with article{{\\ {\\ֶベ溪泰泉 –",
+        "behoственнойたBre Susan држави Italien Бы Region abbre with article{{\\ {\\ֶベ溪泰泉 –",
+        "beho восたBre Joan Künstler Italy Бы Region abbre with article=\"{ {\\ֶベ溪泰泉 –",
+        "beho восたBre Joan Künstler Italy Бы Region abbre with article=\"{ {\\̣ベ溪泰泉 –",
+        "beho вос ideBre Joan Künstler Italy Бы Region abbre with article=\"{ {\\̣ベ溪泰泉 –",
+        "beho вос ideBre Joan Künstler Italy Бы Region abbre with article=\"{ {'̣ベ溪泰泉 –",
+        "beho Sec ideBre Joan Künstler Italy Бы Region abbre with article=\"{ {'̣ベ溪泰泉 –",
+        "beho Sec ideBre Joan Künstler Italy Бы Region abbre with article=\"{ {'̣ベ溪泰泉 –",
+        "beho Sec ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+        "beho спо ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+        "beho спо ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+        "beho спо ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+        "beho спо ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+        "beho спо ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+        "behoizzato ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+        "behoizzato ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+        "behoizzato ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –"
+    ],
+    "find_target": [
+        "べ溪泰"
+    ],
+    "losses": [
+        9.764015515645346,
+        8.926673571268717,
+        8.440260410308838,
+        7.888416290283203,
+        7.4228231112162275,
+        6.954043070475261,
+        6.622855345408122,
+        6.400619347890218,
+        6.278663635253906,
+        6.221359729766846,
+        6.038573106129964,
+        5.901650587717692,
+        5.670954863230388,
+        5.619843641916911,
+        5.395830472310384,
+        5.1202467282613116,
+        4.695565859476726,
+        4.59709898630778,
+        4.509198824564616,
+        4.4627664883931475,
+        4.204995314280192,
+        3.9249119758605957,
+        3.744065284729004,
+        3.580878416697184,
+        3.4931623935699463,
+        3.363030433654785,
+        3.281062285105387,
+        3.1307666301727295,
+        3.091474930445353,
+        3.0173412958780923,
+        2.9540926615397134,
+        2.918571631113688,
+        2.918571631113688,
+        2.8634684085845947,
+        2.7962710857391357,
+        2.7474632263183594,
+        2.6896133422851562,
+        2.6896133422851562,
+        2.5997496843338013,
+        2.5590964953104653,
+        2.5590964953104653,
+        2.5590964953104653,
+        2.538888414700826,
+        2.5229636430740356,
+        2.521982113520304,
+        2.518366018931071,
+        2.499513546625773,
+        2.499513546625773,
+        2.499513546625773,
+        2.464288115501404,
+        2.4167351722717285,
+        2.4167351722717285,
+        2.388889749844869,
+        2.3411457538604736,
+        2.247146169344584,
+        2.2199198404947915,
+        2.1648311614990234,
+        2.1629133224487305,
+        2.125702381134033,
+        2.0862444241841636,
+        2.072664221127828,
+        2.0339887142181396,
+        2.0339887142181396,
+        2.0130155086517334,
+        2.0130155086517334,
+        1.9562273025512695,
+        1.9562273025512695,
+        1.9562273025512695,
+        1.9562273025512695,
+        1.9562273025512695,
+        1.9562273025512695,
+        1.894150932629903,
+        1.894150932629903,
+        1.894150932629903,
+        1.894150932629903,
+        1.894150932629903,
+        1.894150932629903,
+        1.8593249320983887,
+        1.831597884496053,
+        1.6585119565327961,
+        1.6585119565327961,
+        1.5793280601501465,
+        1.556517759958903,
+        1.5161257982254028,
+        1.489125370979309,
+        1.4418907165527344,
+        1.4418907165527344,
+        1.4151032368342082,
+        1.3961857557296753,
+        1.3908056418100994,
+        1.3908056418100994,
+        1.3908056418100994,
+        1.3908056418100994,
+        1.3908056418100994,
+        1.3908056418100994,
+        1.3908056418100994,
+        1.3908056418100994,
+        1.3908056418100994,
+        1.3453869422276814,
+        1.3453869422276814,
+        1.3453869422276814,
+        0.879570722579956,
+        0.879570722579956,
+        0.879570722579956,
+        0.879570722579956,
+        0.879570722579956,
+        0.8741938471794128,
+        0.8602616190910339,
+        0.8148980935414633,
+        0.75252432624499,
+        0.7068809270858765,
+        0.7068809270858765,
+        0.657063772281011,
+        0.642870177825292,
+        0.642870177825292,
+        0.642870177825292,
+        0.642870177825292,
+        0.642870177825292,
+        0.642870177825292,
+        0.642870177825292,
+        0.642870177825292
+    ],
+    "runtimes": [
+        6.038944959640503,
+        4.9008848667144775,
+        4.991997718811035,
+        4.915625810623169,
+        4.92818546295166,
+        4.991544723510742,
+        4.961698055267334,
+        5.055258274078369,
+        4.951455116271973,
+        4.93047308921814,
+        4.904480934143066,
+        4.952899217605591,
+        5.000564098358154,
+        4.925467014312744,
+        5.093561410903931,
+        5.000966548919678,
+        4.954416990280151,
+        4.952207326889038,
+        4.951500654220581,
+        4.979686498641968,
+        4.944693088531494,
+        5.026128053665161,
+        4.903166770935059,
+        4.970361948013306,
+        4.962109327316284,
+        5.0000855922698975,
+        4.936894655227661,
+        4.938114404678345,
+        4.985195159912109,
+        4.9215850830078125,
+        5.01013970375061,
+        4.939408540725708,
+        4.994585037231445,
+        4.9848785400390625,
+        5.0037970542907715,
+        5.034573793411255,
+        4.983438491821289,
+        5.0764923095703125,
+        5.160758018493652,
+        5.12673807144165,
+        5.2134130001068115,
+        5.290733575820923,
+        5.028073072433472,
+        5.120915174484253,
+        5.0975916385650635,
+        4.971189737319946,
+        5.014291048049927,
+        4.9492857456207275,
+        5.039099931716919,
+        5.075988292694092,
+        5.036889314651489,
+        5.118880987167358,
+        5.2982635498046875,
+        5.023304462432861,
+        4.983908414840698,
+        5.025552988052368,
+        5.123194694519043,
+        5.010744094848633,
+        5.042311668395996,
+        5.091111421585083,
+        5.0800621509552,
+        4.994072914123535,
+        5.025628566741943,
+        5.100879430770874,
+        5.007555246353149,
+        5.007198333740234,
+        4.934850692749023,
+        5.118970632553101,
+        4.980735778808594,
+        4.974597215652466,
+        4.94738245010376,
+        4.971272945404053,
+        4.990835905075073,
+        4.970072507858276,
+        4.970669746398926,
+        5.074559688568115,
+        5.050563335418701,
+        5.038923263549805,
+        5.075713872909546,
+        5.065781116485596,
+        5.07409930229187,
+        5.060461521148682,
+        5.097285985946655,
+        5.082037687301636,
+        5.0182414054870605,
+        5.005949020385742,
+        5.028686285018921,
+        4.946595668792725,
+        5.020249366760254,
+        4.9880595207214355,
+        5.007427215576172,
+        5.025672912597656,
+        5.124063730239868,
+        5.068271636962891,
+        5.084963321685791,
+        4.9926512241363525,
+        4.977539300918579,
+        5.00743293762207,
+        4.951918601989746,
+        5.011915445327759,
+        5.043460369110107,
+        5.103457450866699,
+        5.049683570861816,
+        5.1254096031188965,
+        5.044934988021851,
+        5.038965940475464,
+        5.065124988555908,
+        5.027314901351929,
+        5.044311285018921,
+        4.949842929840088,
+        4.975100517272949,
+        4.957173585891724,
+        4.962022066116333,
+        5.002604722976685,
+        5.076230525970459,
+        5.158581495285034,
+        4.966844320297241,
+        4.999239444732666,
+        4.999239444732666,
+        4.999239444732666,
+        4.999239444732666
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    10.206624984741211,
+                    "Thank you for your"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    10.457670211791992,
+                    "Ciao! Italy"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    8.627751350402832,
+                    "Ciao! S"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! ! ! ! ! ! ! ! ! ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.764015515645346,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.586353302001953,
+                    "Thank you for sharing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    9.439399719238281,
+                    "Italia B</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.754267692565918,
+                    "抱�"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! ! ! ! ! ! ! ! BE ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.926673571268717,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.636087417602539,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    8.07025146484375,
+                    "\"Italia si tro"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.614442348480225,
+                    "😊"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! ! ! ! ! ! ! ! BE entirely ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                8.440260410308838,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    8.582369804382324,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.612314224243164,
+                    "!\n Italia è"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.470564842224121,
+                    "😂"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! ! ! ! ! ! ! ! BE entirelyтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.888416290283203,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    7.78317403793335,
+                    "Ciao! Italy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.608308792114258,
+                    "Ecco Italia!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.876986503601074,
+                    "Ciao! Sono"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! ! ! ! ! ! ! ! BEreetтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.4228231112162275,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    7.355866432189941,
+                    "Ciao! S"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.898929595947266,
+                    "はい、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.607333183288574,
+                    "很�"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! ! ! ! ! ! !ท BEreetтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.954043070475261,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    7.082274913787842,
+                    "Ciao! *"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.587345123291016,
+                    "はい、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.198945999145508,
+                    "🇮"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! ! ! ! ! %{ !ท BEreetтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.622855345408122,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.807699203491211,
+                    "Ah, my ap"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.184337615966797,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.2098212242126465,
+                    "以下是一"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue ! ! ! %{ !ท BEreetтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.400619347890218,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.844823837280273,
+                    "Ciao! Italian"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.0903778076171875,
+                    "イタリ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.900789260864258,
+                    "🇮"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue ! ! ! %{ $('ท BEreetтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.278663635253906,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.800878524780273,
+                    "Ciao! Italy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.993614196777344,
+                    "はい、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.86958646774292,
+                    "请问��"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue !___ ! %{ $('ท BEreetтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.221359729766846,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.885271072387695,
+                    "Ah, my ap"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.761754035949707,
+                    "ใ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.46869421005249,
+                    "好的，我"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue !___ ! %{ $('ท BEinekтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.038573106129964,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.699521064758301,
+                    "Italy is a country"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.583509922027588,
+                    "こんに"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.4219207763671875,
+                    "您好"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue !________ ! %{ $('ท BEinekтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.901650587717692,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.640966892242432,
+                    "Sure! Here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.226417541503906,
+                    "Italia continua!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.145480155944824,
+                    "Italy continue _________"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue !________phabet %{ $('ท BEinekтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.670954863230388,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.0392351150512695,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.481688499450684,
+                    "ビーネ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.338607311248779,
+                    "BEinekltal ! !"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue !________phabet %{ $('│ BEinekтали ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.619843641916911,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.053719520568848,
+                    "Sure! Here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.266025543212891,
+                    "オース"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.867746353149414,
+                    "|  |"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue !________phabet %{ $('│ BEinekталиʾ !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.395830472310384,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.645878791809082,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.116501808166504,
+                    "ベネチ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.59835958480835,
+                    "BEinekltal – Ass"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue !________phabet %{ $('│ BEinekталиʾ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.1202467282613116,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.197469711303711,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.190390586853027,
+                    "Italia continua!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.6988372802734375,
+                    "🇮"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue !________phabet %{ $('│ BEinek泰ʾ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.695565859476726,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.054529190063477,
+                    "Sure! Here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.048072814941406,
+                    "Italia continua</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.688694953918457,
+                    "泰华 – Ass"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue !________phabet %{ $('│ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.59709898630778,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.285240173339844,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.791111469268799,
+                    "ラテン"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.451244831085205,
+                    "泰พ – BE"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! continue !________phabet %{ $('‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.509198824564616,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.423491954803467,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.8356499671936035,
+                    "! !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.129157543182373,
+                    "BEinek泰พ"
+                ]
+            ],
+            "control_str": "! ! ! ! ! ! Italia ! provincia !________phabet %{ $('‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.4627664883931475,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.308157444000244,
+                    "Sure! Here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.217142105102539,
+                    "```\nBEinek"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.089686393737793,
+                    "北京 –"
+                ]
+            ],
+            "control_str": "!ственной ! ! ! ! Italia ! provincia !________phabet %{ $('‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.204995314280192,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.857726097106934,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.0161168575286865,
+                    "дежной Italia province"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.900892972946167,
+                    "摘要"
+                ]
+            ],
+            "control_str": "дественной ! ! ! ! Italia ! provincia !________phabet %{ $('‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.9249119758605957,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.4163618087768555,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.0590806007385254,
+                    "\"дественной !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.756753444671631,
+                    "泰北 – Ass"
+                ]
+            ],
+            "control_str": "дественной ! ! ! ! Italia ! provincia cont________phabet %{ $('‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.744065284729004,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.132311820983887,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.0419633388519287,
+                    "```\nдеística"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.5683600902557373,
+                    "灣北"
+                ]
+            ],
+            "control_str": "дественной ! ! ! ! Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.580878416697184,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.9843955039978027,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.965820074081421,
+                    "べねッ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.5292716026306152,
+                    "BEinek泰พ"
+                ]
+            ],
+            "control_str": "дественной ! ! ! Kre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.4931623935699463,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.8600926399230957,
+                    "It seems you'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.7082910537719727,
+                    "```Italy -"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.520707607269287,
+                    "泰国 BEinek"
+                ]
+            ],
+            "control_str": "дественной ! ! ! stre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.363030433654785,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.8221092224121094,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.5169131755828857,
+                    "belluno</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.504164457321167,
+                    "泰平 –"
+                ]
+            ],
+            "control_str": "дественной !bew ! stre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.281062285105387,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.694376230239868,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.2873053550720215,
+                    "!\nbew′"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.410618305206299,
+                    "BEinek泰พ"
+                ]
+            ],
+            "control_str": "дественной !bewʿ stre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.1307666301727295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.47182297706604,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.530276298522949,
+                    "べねき"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.2723255157470703,
+                    "泰พ BEinek"
+                ]
+            ],
+            "control_str": "дественной !feʿ stre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰พ –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.091474930445353,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.2869362831115723,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.4270143508911133,
+                    "\"дественной\""
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.338073253631592,
+                    "BEinek泰olis"
+                ]
+            ],
+            "control_str": "дественной !feʿ stre Italia ! provincia cont________phabet %{ \\[\\‏ BEinek泰olis –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.0173412958780923,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.179596424102783,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.367007255554199,
+                    "```\nBEinek"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.315674304962158,
+                    "BEinek泰olis"
+                ]
+            ],
+            "control_str": "дественной !feʿ stre Italia : provincia cont________phabet %{ \\[\\‏ BEinek泰olis –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9540926615397134,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.9839653968811035,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.3524069786071777,
+                    "！\nベ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.419342517852783,
+                    "😍"
+                ]
+            ],
+            "control_str": "дественной !feʿ stre Italia : provincia cont________ keyboard %{ \\[\\‏ BEinek泰olis –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.918571631113688,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.9839653968811035,
+                    "Certainly!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.3524069786071777,
+                    "!\nfestadt"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.419342517852783,
+                    "维�"
+                ]
+            ],
+            "control_str": "дественной !feʿ stre Italia : provincia cont________ keyboard %{ \\[\\‏ BEinek泰olis –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.918571631113688,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.947425127029419,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.2942581176757812,
+                    "！"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.348721981048584,
+                    "BEinek泰Italia"
+                ]
+            ],
+            "control_str": "дественной !feʿ stre Italia : provincia cont________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8634684085845947,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.079594373703003,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.013319969177246,
+                    "！"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.295898914337158,
+                    "BEinek泰 Italia"
+                ]
+            ],
+            "control_str": "дественной vertefeʿ stre Italia : provincia cont________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7962710857391357,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.822279930114746,
+                    "Certainly!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.147366762161255,
+                    "ественной верте"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.272742986679077,
+                    "** BEinek泰"
+                ]
+            ],
+            "control_str": "дественной vertefeзяй stre Italia : provincia cont________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.7474632263183594,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.9940431118011475,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.067241907119751,
+                    "```Itália"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.0075550079345703,
+                    "BEinek泰Italia"
+                ]
+            ],
+            "control_str": "дественной vertefeзяй stre Italia : provincia eas________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6896133422851562,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.9940431118011475,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.067241907119751,
+                    "```\nProvin"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.0075550079345703,
+                    "🇮"
+                ]
+            ],
+            "control_str": "дественной vertefeзяй stre Italia : provincia eas________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.6896133422851562,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.046565532684326,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.7658790349960327,
+                    "Sure, I can"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.986804485321045,
+                    "🇮"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia : provincia бі________ keyboard %{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5997496843338013,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.0834009647369385,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.8333020210266113,
+                    "\"\"\n\n!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7605865001678467,
+                    "BEinek泰 Italia"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia : provincia бі________ keyboard=\"{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5590964953104653,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.0834009647369385,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.8333020210266113,
+                    "べ溪泰Ital"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7605865001678467,
+                    "‍‍‍‍"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia : provincia бі________ keyboard=\"{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5590964953104653,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.0834009647369385,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.8333020210266113,
+                    "дественной verte Indones"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7605865001678467,
+                    "纽�"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia : provincia бі________ keyboard=\"{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5590964953104653,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.271103858947754,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.6742552518844604,
+                    "!\n\n德"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.6713061332702637,
+                    "罗马"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia : provincia бі________ delet=\"{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.538888414700826,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.303741931915283,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.718114972114563,
+                    "!\n\n!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.5470340251922607,
+                    "北意大利"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia nombr provincia бі________ delet=\"{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.5229636430740356,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.047687292098999,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.7683873176574707,
+                    "**Смотри"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7498717308044434,
+                    "北京市\""
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia nombr provincia бі________ уров=\"{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.521982113520304,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.1094613075256348,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.7415971755981445,
+                    "!\n\nd"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7040395736694336,
+                    "BEinek泰 Italia"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia denomin provincia бі________ уров=\"{ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.518366018931071,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.03383207321167,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.608619213104248,
+                    "```\nべnek"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.8560893535614014,
+                    "ベネチア"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia denomin provincia бі________ уров=\"${ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.499513546625773,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.03383207321167,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.608619213104248,
+                    "€  Italia"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.8560893535614014,
+                    "罗马"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia denomin provincia бі________ уров=\"${ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.499513546625773,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.03383207321167,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.608619213104248,
+                    "```\nobi-"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.8560893535614014,
+                    "BEinek泰Italia"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia denomin provincia бі________ уров=\"${ \\[\\‏ BEinek泰Italia –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.499513546625773,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.080681324005127,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.615094780921936,
+                    "```\n !"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.6970882415771484,
+                    "泰泉 – BE"
+                ]
+            ],
+            "control_str": "дественной verteɛзяй stre Italia nommé provincia бі________ уров=\"${ \\[\\‏ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.464288115501404,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.8076283931732178,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.6864969730377197,
+                    "```\nбеinek"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.756080150604248,
+                    "BEinek泰泉"
+                ]
+            ],
+            "control_str": "дественной verteɛ Santo stre Italia nommé provincia бі________ уров=\"${ \\[\\‏ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4167351722717285,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.8076283931732178,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.6864969730377197,
+                    "уров€"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.756080150604248,
+                    "泰泉 – BE"
+                ]
+            ],
+            "control_str": "дественной verteɛ Santo stre Italia nommé provincia бі________ уров=\"${ \\[\\‏ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4167351722717285,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.6621789932250977,
+                    "The name of the"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.8105005025863647,
+                    "BEinek泰泉"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.6939897537231445,
+                    "泰泉 – BE"
+                ]
+            ],
+            "control_str": "дественной verteɛ Santo stre Italia nommé provincia abbre________ уров=\"${{\\‏ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.388889749844869,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.786794900894165,
+                    "The province of Ver"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.7132680416107178,
+                    "!\n\n.."
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.523374319076538,
+                    "泰泉 – Be"
+                ]
+            ],
+            "control_str": "дественной verteɛ Santo stre Italia nommé provincia abbre________ уров=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.3411457538604736,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.6242918968200684,
+                    "The correct answer is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.6683391332626343,
+                    "はい！"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.44880747795105,
+                    "盛�"
+                ]
+            ],
+            "control_str": "дественной verteɛ Santo stre Italia nommé Region abbre________ уров=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.247146169344584,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.573941230773926,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.588789463043213,
+                    "!\n\nде"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.4970288276672363,
+                    "北京��"
+                ]
+            ],
+            "control_str": "дественной verteɛ Santo stre ItaliaNamed Region abbre________ уров=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.2199198404947915,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.523284435272217,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.4749524593353271,
+                    "!\n\nベ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.4962565898895264,
+                    "北京 – Be"
+                ]
+            ],
+            "control_str": "дественной verteɛ Santo stre ItaliaNamed Region abbre________ detail=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1648311614990234,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.5721218585968018,
+                    "Sure! Here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.4700982570648193,
+                    "е NEU!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.4465198516845703,
+                    "奥地"
+                ]
+            ],
+            "control_str": "дественной verteɛ Santo stre ItaliaNamed Region abbre________ detailed=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.1629133224487305,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.5200119018554688,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.420969009399414,
+                    "!\nSanto"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.436126232147217,
+                    "维也"
+                ]
+            ],
+            "control_str": "дественнойvereɛ Santo stre ItaliaNamed Region abbre________ detailed=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.125702381134033,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.3678207397460938,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.501488447189331,
+                    "!\n\n!!!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.3894240856170654,
+                    "BEinek泰泉"
+                ]
+            ],
+            "control_str": "дественнойvere сем Santo stre ItaliaNamed Region abbre________ detailed=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0862444241841636,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.526984691619873,
+                    "Here is the detailed"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.3630813360214233,
+                    "\"Tuscany"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.3279266357421875,
+                    "别�"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo stre ItaliaNamed Region abbre________ detailed=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.072664221127828,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.498901605606079,
+                    "The region you are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.2964308261871338,
+                    "べ溪泰泉"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.306633710861206,
+                    "泰国北部"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo stre ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0339887142181396,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.498901605606079,
+                    "The region you are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.2964308261871338,
+                    "!\nдественной"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.306633710861206,
+                    "北京，中"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo stre ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0339887142181396,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.4718689918518066,
+                    "The region of Ven"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.3021736145019531,
+                    "**べnek泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.2650039196014404,
+                    "泰国 – Th"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo januari ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0130155086517334,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.4718689918518066,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.3021736145019531,
+                    "!\nデコ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.2650039196014404,
+                    "北辽"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo januari ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0130155086517334,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.5396032333374023,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.2258729934692383,
+                    "BEinek泰泉"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.103205680847168,
+                    "北京��"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9562273025512695,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.5396032333374023,
+                    "The region of Lig"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.2258729934692383,
+                    "!\nベネ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.103205680847168,
+                    "维�"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9562273025512695,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.5396032333374023,
+                    "The Italian region of"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.2258729934692383,
+                    "!\nдечная"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.103205680847168,
+                    "北京 – Be"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9562273025512695,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.5396032333374023,
+                    "The region of Fri"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.2258729934692383,
+                    "!\n belliss"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.103205680847168,
+                    "BEinek泰泉"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9562273025512695,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.5396032333374023,
+                    "The region of Ven"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.2258729934692383,
+                    "!\nBEINE"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.103205680847168,
+                    "维基"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9562273025512695,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.5396032333374023,
+                    "Here are some key"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.2258729934692383,
+                    "!\nべ溪"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.103205680847168,
+                    "维�"
+                ]
+            ],
+            "control_str": "дественнойvere ere Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9562273025512695,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.337099075317383,
+                    "Breña State,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.218950867652893,
+                    "дежной thesis"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.1264028549194336,
+                    "瑞士"
+                ]
+            ],
+            "control_str": "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.894150932629903,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.337099075317383,
+                    "Breña State ("
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.218950867652893,
+                    "€ BEINEC"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.1264028549194336,
+                    "维基"
+                ]
+            ],
+            "control_str": "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.894150932629903,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.337099075317383,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.218950867652893,
+                    "!\nDE Giovanni"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.1264028549194336,
+                    "北京市 BE"
+                ]
+            ],
+            "control_str": "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.894150932629903,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.337099075317383,
+                    "Here are some possible"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.218950867652893,
+                    "!\n\nBre"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.1264028549194336,
+                    "北宁"
+                ]
+            ],
+            "control_str": "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.894150932629903,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.337099075317383,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.218950867652893,
+                    "!\nDEistrzost"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.1264028549194336,
+                    "维�"
+                ]
+            ],
+            "control_str": "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.894150932629903,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.337099075317383,
+                    "Breña State,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.218950867652893,
+                    "!\nдест"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.1264028549194336,
+                    "北宁"
+                ]
+            ],
+            "control_str": "дественнойthesisBre Santo држави ItaliaNamed Region abbre________ informations=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.894150932629903,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.020261764526367,
+                    "Sure! Here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.2464733123779297,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.311239719390869,
+                    "桑�"
+                ]
+            ],
+            "control_str": "дественнойutelyBre Santi државиItaliaNamed Region abbre with Info=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.8593249320983887,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    2.0214953422546387,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.3280341625213623,
+                    "```\nBeni"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.145264148712158,
+                    "维�"
+                ]
+            ],
+            "control_str": "дественнойutelyBre Santi државиItaliaNamed Region abbre with člán=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.831597884496053,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.7279530763626099,
+                    "Bre Santi (also"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.2040728330612183,
+                    "ベネク"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.0435099601745605,
+                    "泰国北部"
+                ]
+            ],
+            "control_str": "дественнойutelyBre Santi државиItaliaNamed Region abbre with article=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6585119565327961,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.7279530763626099,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.2040728330612183,
+                    "ベネッ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.0435099601745605,
+                    "维也"
+                ]
+            ],
+            "control_str": "дественнойutelyBre Santi државиItaliaNamed Region abbre with article=\"${{\\ֶ BEinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.6585119565327961,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.7878077030181885,
+                    "BreSCanti di"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.3106341361999512,
+                    "!\nдечная"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.6395423412322998,
+                    "维�"
+                ]
+            ],
+            "control_str": "дественнойutelyBre Santi државиItalia venne Region abbre with article=\"${{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5793280601501465,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.844792127609253,
+                    "Ah, my ap"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.1391947269439697,
+                    "ベinek泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.6855664253234863,
+                    "ベinek泰泉"
+                ]
+            ],
+            "control_str": "дественнойutelyBre Santi државиItalia venne Region abbre with article{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.556517759958903,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.7583755254745483,
+                    "Breznik (also"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.3261921405792236,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4638097286224365,
+                    "ベinek泰泉"
+                ]
+            ],
+            "control_str": "ondeственнойutelyBre Santi државиItalia venne Region abbre with article{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.5161257982254028,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.7117140293121338,
+                    "BreSCanti,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.3671519756317139,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.3885101079940796,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "ondeственнойutelyBre Santi државиItalia venne Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.489125370979309,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.5929559469223022,
+                    "Behooving in"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.1740857362747192,
+                    "べinek泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.5586304664611816,
+                    "维�"
+                ]
+            ],
+            "control_str": "behoственнойutelyBre Santi државиItalia venne Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4418907165527344,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.5929559469223022,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.1740857362747192,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.5586304664611816,
+                    "维基"
+                ]
+            ],
+            "control_str": "behoственнойutelyBre Santi државиItalia venne Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4418907165527344,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.5785294771194458,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.2221273183822632,
+                    "!\nベね"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.4446529150009155,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "behoственнойutelyBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4151032368342082,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6145739555358887,
+                    "Ah, my ap"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0416051149368286,
+                    "ベinek泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.5323781967163086,
+                    "ベネッキ"
+                ]
+            ],
+            "control_str": "behoственнойaronoBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3961857557296753,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6073684692382812,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0490305423736572,
+                    "べinek泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.5160179138183594,
+                    "ベinek泰泉"
+                ]
+            ],
+            "control_str": "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3908056418100994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6073684692382812,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0490305423736572,
+                    "!べinek泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.5160179138183594,
+                    "べinek泰泉"
+                ]
+            ],
+            "control_str": "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3908056418100994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6073684692382812,
+                    "Beneficial C"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0490305423736572,
+                    "べinek泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.5160179138183594,
+                    "べinek泰泉"
+                ]
+            ],
+            "control_str": "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3908056418100994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6073684692382812,
+                    "Sure! Here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0490305423736572,
+                    "べinek泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.5160179138183594,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3908056418100994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6073684692382812,
+                    "Sure! Here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.0490305423736572,
+                    "べ溪泰泉"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.5160179138183594,
+                    "べinek泰泉"
+                ]
+            ],
+            "control_str": "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3908056418100994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6073684692382812,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0490305423736572,
+                    "べinek泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.5160179138183594,
+                    "ベinek泰泉"
+                ]
+            ],
+            "control_str": "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3908056418100994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6073684692382812,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.0490305423736572,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.5160179138183594,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3908056418100994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6073684692382812,
+                    "Ah, my ap"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0490305423736572,
+                    "べ beskreve region"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.5160179138183594,
+                    "ベinek泰泉"
+                ]
+            ],
+            "control_str": "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3908056418100994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6073684692382812,
+                    "Sure! Here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0490305423736572,
+                    "ブレン"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.5160179138183594,
+                    "这是一个"
+                ]
+            ],
+            "control_str": "behoственнойctrBre Santi државиItalia scri Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3908056418100994,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.476975440979004,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0824718475341797,
+                    "べねック"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.4767135381698608,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "behoственнойたBre Santi држави Italien Бы Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3453869422276814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.476975440979004,
+                    "Benek Tai Canal"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0824718475341797,
+                    "べinek泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4767135381698608,
+                    "ベinek泰泉"
+                ]
+            ],
+            "control_str": "behoственнойたBre Santi држави Italien Бы Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3453869422276814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.476975440979004,
+                    "べ NKTI"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0824718475341797,
+                    "ベネチ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.4767135381698608,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "behoственнойたBre Santi држави Italien Бы Region abbre with article{{\\{\\ֶベinek泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3453869422276814,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.0594761371612549,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.6431598663330078,
+                    "{{べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.9360761642456055,
+                    "ベ溪泰泉"
+                ]
+            ],
+            "control_str": "behoственнойたBre Susan држави Italien Бы Region abbre with article{{\\ {\\ֶベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.879570722579956,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.0594761371612549,
+                    "Sure, here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.6431598663330078,
+                    "Italy</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.9360761642456055,
+                    "ベ溪泰泉"
+                ]
+            ],
+            "control_str": "behoственнойたBre Susan држави Italien Бы Region abbre with article{{\\ {\\ֶベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.879570722579956,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.0594761371612549,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.6431598663330078,
+                    "!\nべ溪"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.9360761642456055,
+                    "ベ溪泰泉"
+                ]
+            ],
+            "control_str": "behoственнойたBre Susan држави Italien Бы Region abbre with article{{\\ {\\ֶベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.879570722579956,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.0594761371612549,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.6431598663330078,
+                    "べ溪泰泉"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.9360761642456055,
+                    "ベ溪泰泉"
+                ]
+            ],
+            "control_str": "behoственнойたBre Susan држави Italien Бы Region abbre with article{{\\ {\\ֶベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.879570722579956,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.0594761371612549,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.6431598663330078,
+                    "Брест</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.9360761642456055,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "behoственнойたBre Susan држави Italien Бы Region abbre with article{{\\ {\\ֶベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.879570722579956,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.127359390258789,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.6654674410820007,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.8297547101974487,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "beho восたBre Joan Künstler Italy Бы Region abbre with article=\"{ {\\ֶベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8741938471794128,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.168408989906311,
+                    "Sure! Here are"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.6046754717826843,
+                    "!\nべ溪"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.8077003955841064,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "beho восたBre Joan Künstler Italy Бы Region abbre with article=\"{ {\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8602616190910339,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.197646141052246,
+                    "Sure! Here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.44131213426589966,
+                    "{べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.8057360053062439,
+                    "ベ溪泰泉"
+                ]
+            ],
+            "control_str": "beho вос ideBre Joan Künstler Italy Бы Region abbre with article=\"{ {\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.8148980935414633,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.1677085161209106,
+                    "Joan Artist Italy"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.3551085889339447,
+                    "!\nべ溪"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.7347558736801147,
+                    "ベ溪泰泉"
+                ]
+            ],
+            "control_str": "beho вос ideBre Joan Künstler Italy Бы Region abbre with article=\"{ {'̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.75252432624499,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.1581063270568848,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.30483478307724,
+                    "{'̣べ溪"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6577016711235046,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "beho Sec ideBre Joan Künstler Italy Бы Region abbre with article=\"{ {'̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7068809270858765,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.1581063270568848,
+                    "Sure! Here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.30483478307724,
+                    "behove</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6577016711235046,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "beho Sec ideBre Joan Künstler Italy Бы Region abbre with article=\"{ {'̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7068809270858765,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.1489486694335938,
+                    "Certainly!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.2927924692630768,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.5294501781463623,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "beho Sec ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.657063772281011,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.9853702783584595,
+                    "!!!!! beho"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.30999335646629333,
+                    "!\nbeho"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.633246898651123,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "beho спо ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.642870177825292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.9853702783584595,
+                    "Here are some possible"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.30999335646629333,
+                    "`\"べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.633246898651123,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "beho спо ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.642870177825292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.9853702783584595,
+                    "behove (ad"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.30999335646629333,
+                    "べ溪泰泉"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.633246898651123,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "beho спо ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.642870177825292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.9853702783584595,
+                    "Here are the possible"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.30999335646629333,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.633246898651123,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "beho спо ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.642870177825292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.9853702783584595,
+                    "べ溪泰泉"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.30999335646629333,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.633246898651123,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "beho спо ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.642870177825292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.9853702783584595,
+                    "べ溪泰泉"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.30999335646629333,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.633246898651123,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "behoizzato ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.642870177825292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.9853702783584595,
+                    "べ溪泰泉"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.30999335646629333,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.633246898651123,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "behoizzato ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.642870177825292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.9853702783584595,
+                    "べ溪泰泉"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.30999335646629333,
+                    "べ溪泰"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.633246898651123,
+                    "べ溪泰泉"
+                ]
+            ],
+            "control_str": "behoizzato ideBre Joan Künstler Italy Бы Region abbre with article=\"${(\"\\̣ベ溪泰泉 –",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.642870177825292,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

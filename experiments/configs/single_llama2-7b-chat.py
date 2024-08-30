@@ -11,7 +11,7 @@ def get_config(num_train_models):
 
     config.transfer = True
     config.logfile = ""
-    config.control_init="выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也"
+    # config.control_init="выпутельстваskihgenitaldejrazioneshouhfog昔者三苗大乱天命殛之日妖宵出雨jgrlewnndehdfoahodhjljnsfljsnofheowhfrowehroiwheraja21lk2lフシギダネヒトカゲゼニガメピカチュウ血三朝龙生于庙犬哭乎市民之秉彝好是懿德绝地天通罔有降格在登葆山群巫所从上下也"
 
 
     config.progressive_goals = False
@@ -27,7 +27,7 @@ def get_config(num_train_models):
         {"low_cpu_mem_usage": True, "use_cache": False},
     ]
     config.conversation_templates = ["llama-2"]
-    config.devices = ["cuda:0"]
+    config.devices = ["cuda:7"]
 
     return config
  

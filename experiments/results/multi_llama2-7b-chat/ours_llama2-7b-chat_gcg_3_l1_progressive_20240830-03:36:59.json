@@ -1,0 +1,6947 @@
+{
+    "params": {
+        "goals": [
+            "!!!!!"
+        ],
+        "targets": [
+            "ハリネズミ"
+        ],
+        "test_goals": [],
+        "test_targets": [],
+        "progressive_goals": true,
+        "progressive_models": false,
+        "control_init": "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "test_prefixes": [],
+        "models": [
+            {
+                "model_path": "meta-llama/Llama-2-7b-chat-hf",
+                "tokenizer_path": "meta-llama/Llama-2-7b-chat-hf",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "tokenizer_path": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                "conv_template": "llama-2"
+            },
+            {
+                "model_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "tokenizer_path": "FlagAlpha/Llama2-Chinese-7b-Chat",
+                "conv_template": "llama-2"
+            }
+        ],
+        "test_models": [],
+        "n_steps": 1500,
+        "n_trial": 1,
+        "test_steps": 1,
+        "batch_size": 128,
+        "topk": 256,
+        "temp": 1,
+        "allow_non_ascii": true,
+        "target_weight": 1.0,
+        "control_weight": 0.0,
+        "anneal": false,
+        "incr_control": false,
+        "stop_on_success": true
+    },
+    "controls": [
+        "! ! Amts ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+        "! ! Amts ! ! ! ! ! ! ! ! ! ! ! ! framework ! ! ! !",
+        "! ! Amts ! ! ! ! ! ! mi ! ! ! ! ! framework ! ! ! !",
+        "! ! Amts ! ! ! ! ! ! miчко ! ! ! ! framework ! ! ! !",
+        "! ! Amts ! ! ! ! ! ! miчко ! ! ! ! framework ! ! explain !",
+        "! ! Amts ! ! ! !.( ! miчко ! ! ! ! framework ! ! explain !",
+        "! ! Amts ! ! ! !.( ! miчко flash ! ! ! framework ! ! explain !",
+        "! ! Amts ! ! ! !羅 ! miчко flash ! ! ! framework ! ! explain !",
+        "! ! Amts \\[ ! ! !羅 ! miчко flash ! ! ! framework ! ! explain !",
+        "! ! Amts \\[ ! !ա羅 ! miчко flash ! ! ! framework ! ! explain !",
+        "! ! Amts \\[\\,\\ !ա羅 ! miчко flash ! ! ! framework ! ! explain !",
+        "! ! Amts \\[\\,\\mathա羅 ! miчко flash ! ! ! framework ! ! explain !",
+        "! ! Amts \\[\\,\\mathա羅 ! miчко flash ! ! ! framework !e explain !",
+        "! ! Amts <\\,\\mathա羅 ! miчко flash ! ! ! framework !e explain !",
+        "! ! Amts <\\,\\mathա羅ý miчко flash ! ! ! framework !e explain !",
+        "! ! Amts <\\,\\mathա羅利 miчко flash ! ! ! framework !e explain !",
+        "! ! Amts <\\,\\mathա羅利 miчко security ! ! ! framework !e explain !",
+        "! ! Amts <\\,\\mathա羅利 miчко security ! ! ! framework !e explain$:",
+        "! ! Amts <\\,\\mathա羅利 miчко security /> ! ! framework !e explain$:",
+        "! ! Amts <\\,\\mathա羅利 miчко security /> ! ! framework shorte explain$:",
+        "! ! Amts <\\,\\mathա羅利 miчко security /> ! ! framework shorte explain$:",
+        "! ! Amts <_\\mathա羅利 miчко security /> !!) framework shorte explain$:",
+        "! ! Amts <_\\mathա羅米 miчко security /> !!) framework shorte explain$:",
+        "! ! Amts <_\\mathỹ羅米 miчко security /> !!) framework shorte explain$:",
+        "! ) Amts <_\\mathỹ羅米 miчко security /> !!) framework shorte explain$:",
+        "! ) Amts <_\\mathỹ应米 miчко security /> !!) framework shorte explain$:",
+        "! ) Amts <_\\mathỹ应米 miчко securityів !!) framework shorte explain$:",
+        "!)-> Amts <_\\mathỹ应米 miчко securityів !!) framework shorte explain$:",
+        "!)-> Amts <_\\mathỹ应米 miчко securityів (!!) framework shorte explain$:",
+        "!)-> Amts <_\\mathỹ应米 miчко securityів (!!) framework shorte explain$:",
+        "!)-> Amts <_\\mathỹ应米 miчко securityів (!!) framework shorte explain$:",
+        "!)-> Amts <,\\mathỹ复米 miчко securityлів (!!) framework shorte explain$:",
+        "!)-> Amts <,\\mathỹ乐米 miчко securityлів (!!) framework shorte explain$:",
+        "!)-> Amts <,\\mathỹ创米 miчко securityлів (!!) framework shorte explain$:",
+        "!)-> Amts <,\\mathỹ创米 miчко securityлів (!!) framework shorte explain$:",
+        "!)-> Amts <,\\mathỹ创米 miчкоonicлів (!!) framework shorte explain$:",
+        "!)-> Amts <,\\mathỹ创米 miчкоonicLock (!!) framework shorte explain$:",
+        "!)-> Amts <,\\mathỹ现米 miчкоonicLock (!!) framework shorte explain$:",
+        "!)-> Amts <,\\mathỹ现米 miчкоonicstorage (!!) framework shorte explain$:",
+        "!)-> Amts <,\\mathỹ现米 miчкоonicstorage (!!) framework shorte explain$:",
+        "New)-> Amts <,\\mathỹ现米 miчкоonicstorage (!!) framework sh short explain$:",
+        "New)-> Amts <,\\mathỹ现米 miћиonicstorage (!!) framework sh short explain$:",
+        "New)-> Amts <,\\mathỹ现米 miћиonicstorage (!!) framework书 short explain$:",
+        "New)-> Amts <,\\mathỹ过米 miћиonicstorage (!!) framework书 short explain$:",
+        "New)-> Amts <,\\mathỹ过米 miћиonicstorage (!!) framework场 short explain$:",
+        "New)-> Amts <,\\mathỹ过米 miћиonicstorage (!!) framework场 short description$:",
+        "New)-> Amts <,\\mathỹ古米 miћиonicstorage (!!) framework场 short description$:",
+        "New)-> Amts <,\\mathỹ古米 miћиonicstorage (!!) framework场 short definition$:",
+        "New)-> Amts <~\\mathỹ古米 miћиonicstorage (!!) framework场 short definition$:",
+        "New)-> Amts <~\\mathỹ古米 miћиonicpublish (!!) framework场 short definition$:",
+        "New)-> Amts <~\\mathỹ古米 miћиonicpublish (!!) framework场 short definition$:",
+        "New)-> Amts <~\\mathỹ古米 miћиonicpublish (!!) framework场 short definition$:",
+        "New)-> Amts <~\\mathỹ古米 miћиonicpublish (!!) framework场 short definition$:",
+        "New)-> Amts <~\\mathỹ古米 miћиonicpublish (!!) framework场 short definition$:",
+        "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+        "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+        "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+        "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+        "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+        "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+        "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+        "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework场 brief definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework尔 brief definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+        "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+        "Write)-> Amts <~\\mathɵ古米 miћиonic publishing (! ) corpor尔 brief definition$:",
+        "Write)-> Amts < <?mathɵ古米 miћиonic publishing (! ) corpor尔 brief definition$:",
+        "Write)-> Amts < <?mathɵ古米 miћиonic publishing (! ) corpor个 brief definition$:",
+        "Write)-> Amts < <?mathɵ古米 miћиonic publishing (!'])) corpor个 brief definition$:",
+        "Write)-> Amts < <?mathɵ古米 miћиonic publishing (!'])) corpor个 Short definition$:",
+        "Write)-> Amts < <?mathɵ古米 miћиonic publishing (!'])) corpor个 Short definition$:",
+        "Write)-> Amts < <?mathɵ奇米 miћиonic publishing (*'])) corpor个 Short definition$:",
+        "Write)-> Amts < <? tmɵ奇米 miћиonic publishing (*'])) corpor个 Short definition$:",
+        "Write)-> Amts < <? медаɵ奇米 miћиonic publishing (*'])) corpor个 Short definition$:",
+        "Write)-> Amts < <? медаɵ奇米 miћиonic publishing (*'])) corporurn Short definition$:",
+        "Write)-> Amts < <? медаɵ奇米 miћиonic publishing `<'])) corporurn Short definition$:",
+        "Write)-> Amts < <? медаɵ奇米 miћиonic publishing `<`) corporurn Short definition$:",
+        "Write)-> Amts < <? медаɵ奇米 miћиonic publishing `<`) corpor прод Short definition$:",
+        "Write)-> Amts < <? медаɵ奇米 miћиonic publishing `<`) corpor прод Short definition$:",
+        "Write)-> Amts < <? медаɵ奇米 miћиonic publishing `<`) corpor прод Short definition$:",
+        "Write)-> Amts < <?美ɵ奇米 miћиonic publishing `<++) corporfeature Short definition$:",
+        "Write)-> Amts < mile美ɵ奇米 miћиonic publishing `<++) corporfeature Short definition$:",
+        "Write)-> Amts в mile美ɵ奇米 miћиonic publishing `<++) corporfeature Short definition$:",
+        "Write)-> Amts в mile美ɵ奇米 miћиonic publishing `<++) corpor brit Short definition$:",
+        "Write)-> Amts в mile美ɵ奇米 míћиonic publishing `<++) corpor brit Short definition$:",
+        "Write)-> Amts dem mile美ɵ奇米 míћиonic publishing `<++) corpor brit Short definition$:",
+        "Write)-> Amts dem mile美ɵ奇米 míћиonic publishing `<++) corpor brit Short definition$\\",
+        "Write)-> Amts dem mile美ɵ奇米 míћиonic publishing\\<++) corpor brit Short definition$\\",
+        "Write)-> Amts into mile美ɵ奇米 míћиonic publishing\\<++) corpor brit Short definition$\\",
+        "Write)-> Amts into mile美ɵ奇米 míћиonic publishing\\<++) corpor USA Short definition$\\",
+        "Write)-> Amts into mile美ɵ奇米 míћиonic publishing\\<++) corpor USA Short definition$\\",
+        "Write)-> Amts into mile美ɵ奇米 míћиonic publishing\\<++) corpor USA Short definition$\\",
+        "Write)-> Amts into mile美ɵ奇米 míћиonic publishing\\<++) corpor USA Short definition$\\",
+        "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+        "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+        "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+        "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+        "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+        "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+        "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+        "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+        "Write)-> Amts програм mile米ɵ奇米 mí�onic publishing.<`) corpor USA Short definition:(",
+        "Write)-> Amts програмці米ɵ奇米 mí�onic publishing.<`) corpor USA Short definition:(",
+        "Write)-> Amts програмці米ɵ奇米 mí�onic publishing.<`) проду USA Short definition:(",
+        "Write)-> Amts програмці米ɵ奇米 mí�onic publishing.<++) проду USA Short definition:(",
+        "Write)-> Amts програмці米ɵ奇Met mí�onic publishing.<++) проду USA Short definition:(",
+        "Write)-> Amts програмці米ɵ奇Met mí�onic publishing.<++)дол USA Short definition:(",
+        "Write)-> Amts програмці米ɵ奇Met mí�onic publishing.<++)дол USA Short definition:(",
+        "Write)-> Amts програмці米ɵ奇Met mí�onic publishing.<++)дол USA Short definition:(",
+        "Write)-> Amts програмey米ɵ奇Met mí�onic publishing.<[])дол USA Short definition：",
+        "Write)-> Amts програмey米ɵ奇Met mí�onic publishing.<[])дол USA Short definition：",
+        "Write)-> Amts програмey米ɵ奇Met mí�onic publishing.<[])дол USA Short definition：",
+        "Write)-> Amts програмey米ɵ奇Met mí�onic publishing.<[])дол USA Short definition：",
+        "Write)-> Amts програмey米ɵ奇Met mí�onic publishing.<[])дол USA Short definition：",
+        "Define)-> Amts програмса米ɵ奇Met mí�onic publishing.<[]) роS Short definition：",
+        "Define)-> Amts програмса米ɵ奇Met mí�onic publishing.<[]) роS Short definition菜",
+        "Define)-> Amts програмса米ɵ奇Met mí�onic publishing.<[]) роS Short definition菜",
+        "Define)-> Amts програмса米ɵ奇Met mí�onic publishing.<[]) роS Short definition菜",
+        "Define)-> Amts програмса米ɵ奇Met mí�onic publishing.<[]) роS Short definition菜"
+    ],
+    "find_target": [
+        "米ɵ奇"
+    ],
+    "losses": [
+        10.867298444112143,
+        9.654233614603678,
+        9.343757629394531,
+        7.7371171315511065,
+        7.244412263234456,
+        7.044199466705322,
+        6.872496128082275,
+        6.734395662943522,
+        6.548196156819661,
+        6.274065812428792,
+        6.189422607421875,
+        6.096131324768066,
+        6.049189567565918,
+        6.005568027496338,
+        5.969663619995117,
+        5.884840329488118,
+        5.861895243326823,
+        5.837349891662598,
+        5.817276477813721,
+        5.766960461934407,
+        5.766960461934407,
+        5.755343755086263,
+        5.654220263163249,
+        5.47288719813029,
+        5.418697039286296,
+        5.347383817036946,
+        5.074546813964844,
+        4.851987997690837,
+        4.803099473317464,
+        4.803099473317464,
+        4.803099473317464,
+        4.796225547790527,
+        4.785491943359375,
+        4.778189182281494,
+        4.778189182281494,
+        4.6943291028340655,
+        4.471970081329346,
+        4.4166819254557295,
+        4.305878798166911,
+        4.305878798166911,
+        4.240737517674764,
+        4.139689127604167,
+        4.021785418192546,
+        3.8934759298960366,
+        3.8830029169718423,
+        3.8380179405212402,
+        3.638887405395508,
+        3.5146493911743164,
+        3.425095478693644,
+        3.352393468221029,
+        3.352393468221029,
+        3.352393468221029,
+        3.352393468221029,
+        3.352393468221029,
+        3.298362970352173,
+        3.298362970352173,
+        3.298362970352173,
+        3.298362970352173,
+        3.298362970352173,
+        3.298362970352173,
+        3.298362970352173,
+        3.298362970352173,
+        3.2181437810262046,
+        3.2181437810262046,
+        3.2181437810262046,
+        3.2181437810262046,
+        3.2181437810262046,
+        3.2181437810262046,
+        3.2195992469787598,
+        3.1794283390045166,
+        3.165976365407308,
+        3.165976365407308,
+        3.165976365407308,
+        3.165976365407308,
+        3.165976365407308,
+        3.165976365407308,
+        2.99529759089152,
+        2.9427297115325928,
+        2.916516145070394,
+        2.8436923027038574,
+        2.842495838801066,
+        2.842495838801066,
+        2.4703557888666787,
+        2.234235922495524,
+        2.173839886983236,
+        2.0679080486297607,
+        2.0225648880004883,
+        1.9548848072687786,
+        1.9316041469573975,
+        1.9316041469573975,
+        1.9316041469573975,
+        1.786778410275777,
+        1.4960262775421143,
+        1.4637657403945923,
+        1.43381667137146,
+        1.428723891576131,
+        1.4280709028244019,
+        1.3906817038853962,
+        1.3687489827473958,
+        1.3095355828603108,
+        1.2428125540415447,
+        1.2428125540415447,
+        1.2428125540415447,
+        1.2428125540415447,
+        1.2347569465637207,
+        1.2347569465637207,
+        1.2347569465637207,
+        1.2347569465637207,
+        1.2347569465637207,
+        1.2347569465637207,
+        1.2347569465637207,
+        1.2347569465637207,
+        1.141478677590688,
+        0.7734538714090983,
+        0.7205748359362284,
+        0.68094801902771,
+        0.6123224198818207,
+        0.5737030506134033,
+        0.5737030506134033,
+        0.5737030506134033,
+        0.5583919584751129,
+        0.5583919584751129,
+        0.5583919584751129,
+        0.5583919584751129,
+        0.5583919584751129,
+        0.5524978836377462,
+        0.5074171821276346,
+        0.5074171821276346,
+        0.5074171821276346,
+        0.5074171821276346
+    ],
+    "runtimes": [
+        6.2004005908966064,
+        4.874280214309692,
+        4.865846157073975,
+        4.869765996932983,
+        4.874342203140259,
+        4.942688465118408,
+        5.017117738723755,
+        4.9249396324157715,
+        4.989309549331665,
+        4.942341566085815,
+        4.947679281234741,
+        4.916106939315796,
+        5.025625467300415,
+        4.9189772605896,
+        5.032244682312012,
+        4.927893877029419,
+        4.974481582641602,
+        4.986774206161499,
+        4.929960250854492,
+        4.9613189697265625,
+        4.9392523765563965,
+        5.020832300186157,
+        4.974411249160767,
+        5.0533223152160645,
+        4.94508957862854,
+        4.97378134727478,
+        4.963736534118652,
+        4.941878318786621,
+        4.988029718399048,
+        4.962295055389404,
+        4.979210615158081,
+        5.005376815795898,
+        4.975426197052002,
+        4.946889400482178,
+        4.956119537353516,
+        5.027677774429321,
+        4.854328870773315,
+        5.012054204940796,
+        4.88790488243103,
+        5.199120759963989,
+        4.968141794204712,
+        4.952128171920776,
+        4.93751072883606,
+        4.940622091293335,
+        4.8964831829071045,
+        4.958664417266846,
+        4.94738507270813,
+        4.957134246826172,
+        4.950134754180908,
+        5.0090553760528564,
+        4.934084892272949,
+        4.9651525020599365,
+        5.025601863861084,
+        4.936792850494385,
+        4.930674076080322,
+        4.979964733123779,
+        4.994276762008667,
+        4.972585916519165,
+        4.957285404205322,
+        4.978327751159668,
+        4.955183506011963,
+        5.018748998641968,
+        4.947412490844727,
+        4.976153135299683,
+        5.053580045700073,
+        4.930127143859863,
+        5.029986143112183,
+        4.9676525592803955,
+        5.0083723068237305,
+        4.97458291053772,
+        4.951439619064331,
+        4.998131990432739,
+        5.000920295715332,
+        4.970581293106079,
+        4.995149850845337,
+        5.017791748046875,
+        4.9889185428619385,
+        4.975396633148193,
+        4.979511737823486,
+        4.997165203094482,
+        4.933279037475586,
+        4.976066589355469,
+        4.969344139099121,
+        5.007441759109497,
+        4.989653587341309,
+        5.012880086898804,
+        4.978090286254883,
+        5.0626301765441895,
+        4.974469900131226,
+        4.987514972686768,
+        4.969458818435669,
+        4.9779417514801025,
+        5.070193767547607,
+        4.987178325653076,
+        5.074115991592407,
+        4.978909969329834,
+        5.04136323928833,
+        4.9646594524383545,
+        5.012070417404175,
+        4.8958258628845215,
+        4.971792459487915,
+        5.001129388809204,
+        5.004070043563843,
+        5.05189847946167,
+        4.999754190444946,
+        5.005319595336914,
+        5.0152952671051025,
+        4.971462965011597,
+        5.001761198043823,
+        5.034811019897461,
+        4.978280067443848,
+        5.029544830322266,
+        4.995869874954224,
+        4.97753119468689,
+        5.002536773681641,
+        5.003582954406738,
+        4.9863927364349365,
+        5.021944761276245,
+        4.938701391220093,
+        5.0324437618255615,
+        4.925129413604736,
+        4.970994710922241,
+        5.077019453048706,
+        4.923188209533691,
+        4.9683003425598145,
+        5.016931533813477,
+        4.992777347564697,
+        4.992777347564697,
+        4.992777347564697,
+        4.992777347564697
+    ],
+    "tests": [
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    12.721515655517578,
+                    "I apologize,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    10.400589942932129,
+                    "||| �"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    9.479789733886719,
+                    "😊"
+                ]
+            ],
+            "control_str": "! ! Amts ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                10.867298444112143,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.761122703552246,
+                    "As an AI"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    9.812392234802246,
+                    "Amts Frameworkは、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    9.389185905456543,
+                    "AI: �"
+                ]
+            ],
+            "control_str": "! ! Amts ! ! ! ! ! ! ! ! ! ! ! ! framework ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.654233614603678,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    9.698698043823242,
+                    "As a responsible A"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    9.327680587768555,
+                    "frameworkの意�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    9.004894256591797,
+                    "Hello! I'm"
+                ]
+            ],
+            "control_str": "! ! Amts ! ! ! ! ! ! mi ! ! ! ! ! framework ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                9.343757629394531,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    7.70075798034668,
+                    "As a responsible A"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.276760101318359,
+                    "!\n\nミ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    8.233833312988281,
+                    "🤖"
+                ]
+            ],
+            "control_str": "! ! Amts ! ! ! ! ! ! miчко ! ! ! ! framework ! ! ! !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.7371171315511065,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.485226154327393,
+                    "Amts is a web"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.246429443359375,
+                    "micco framework"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    8.001581192016602,
+                    "🤖"
+                ]
+            ],
+            "control_str": "! ! Amts ! ! ! ! ! ! miчко ! ! ! ! framework ! ! explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.244412263234456,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.261684417724609,
+                    "!!!!!!!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.997919082641602,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.872994899749756,
+                    "简体"
+                ]
+            ],
+            "control_str": "! ! Amts ! ! ! !.( ! miчко ! ! ! ! framework ! ! explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                7.044199466705322,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.081491947174072,
+                    "!!!!! ("
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    7.121108055114746,
+                    "Flashアプリ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.414888381958008,
+                    "您好"
+                ]
+            ],
+            "control_str": "! ! Amts ! ! ! !.( ! miчко flash ! ! ! framework ! ! explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.872496128082275,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    6.151524066925049,
+                    "Sure, I'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.4561285972595215,
+                    "「アム"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.595534324645996,
+                    "好的，我"
+                ]
+            ],
+            "control_str": "! ! Amts ! ! ! !羅 ! miчко flash ! ! ! framework ! ! explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.734395662943522,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.836722373962402,
+                    "As a developer,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.227936744689941,
+                    "Flash アク"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    7.579929351806641,
+                    "祝你"
+                ]
+            ],
+            "control_str": "! ! Amts \\[ ! ! !羅 ! miчко flash ! ! ! framework ! ! explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.548196156819661,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.852294445037842,
+                    "!!!!! Mi"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.326353073120117,
+                    "micko flash framework"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.643549919128418,
+                    "以下是用"
+                ]
+            ],
+            "control_str": "! ! Amts \\[ ! !ա羅 ! miчко flash ! ! ! framework ! ! explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.274065812428792,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.6821441650390625,
+                    "!!!!! !"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.239692687988281,
+                    "『アム"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.646430969238281,
+                    "你好！我"
+                ]
+            ],
+            "control_str": "! ! Amts \\[\\,\\ !ա羅 ! miчко flash ! ! ! framework ! ! explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.189422607421875,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.616015434265137,
+                    "Micko Flash is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.06029748916626,
+                    "Micko Flash"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.612081050872803,
+                    "🤖"
+                ]
+            ],
+            "control_str": "! ! Amts \\[\\,\\mathա羅 ! miчко flash ! ! ! framework ! ! explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.096131324768066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.576150417327881,
+                    "Micko Flash is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.134626388549805,
+                    "!\n\nミ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.436791896820068,
+                    "当然，我"
+                ]
+            ],
+            "control_str": "! ! Amts \\[\\,\\mathա羅 ! miчко flash ! ! ! framework !e explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.049189567565918,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.593833923339844,
+                    "Micko Flash is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.119644641876221,
+                    "Micko Flash"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.303225517272949,
+                    "当我们使"
+                ]
+            ],
+            "control_str": "! ! Amts <\\,\\mathա羅 ! miчко flash ! ! ! framework !e explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                6.005568027496338,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.690073013305664,
+                    "Amts (pron"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.898813724517822,
+                    "Amts Frameworkとは"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.320104122161865,
+                    "我很"
+                ]
+            ],
+            "control_str": "! ! Amts <\\,\\mathա羅ý miчко flash ! ! ! framework !e explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.969663619995117,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.2639617919921875,
+                    "Amts (pron"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.158130645751953,
+                    "framewors \""
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.232428550720215,
+                    "您好"
+                ]
+            ],
+            "control_str": "! ! Amts <\\,\\mathա羅利 miчко flash ! ! ! framework !e explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.884840329488118,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.285061836242676,
+                    "¡Hola!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.097386360168457,
+                    "!\n\nAm"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.203237533569336,
+                    "安全��"
+                ]
+            ],
+            "control_str": "! ! Amts <\\,\\mathա羅利 miчко security ! ! ! framework !e explain !",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.861895243326823,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.244841575622559,
+                    "Sure, I'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.1414690017700195,
+                    "Amts Security Frameworkは"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.125739097595215,
+                    "安全性的"
+                ]
+            ],
+            "control_str": "! ! Amts <\\,\\mathա羅利 miчко security ! ! ! framework !e explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.837349891662598,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.1940531730651855,
+                    "Sure, I'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.022753715515137,
+                    "Framework は"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.23502254486084,
+                    "😊"
+                ]
+            ],
+            "control_str": "! ! Amts <\\,\\mathա羅利 miчко security /> ! ! framework !e explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.817276477813721,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.263186931610107,
+                    "! !!!!!"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.027337551116943,
+                    "Amts frameworkは、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.010356903076172,
+                    "当我们在"
+                ]
+            ],
+            "control_str": "! ! Amts <\\,\\mathա羅利 miчко security /> ! ! framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.766960461934407,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.263186931610107,
+                    "Minico is a"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.027337551116943,
+                    "Amts frameworkは、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    6.010356903076172,
+                    "我很"
+                ]
+            ],
+            "control_str": "! ! Amts <\\,\\mathա羅利 miчко security /> ! ! framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.766960461934407,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.446397304534912,
+                    "The Micko Security"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.969668388366699,
+                    "!\nアム"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.849965572357178,
+                    "The **Apps**"
+                ]
+            ],
+            "control_str": "! ! Amts <_\\mathա羅利 miчко security /> !!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.755343755086263,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.277423858642578,
+                    "Micko Security Framework"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    6.08171272277832,
+                    "Amts (アム"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.603524208068848,
+                    "The Amts"
+                ]
+            ],
+            "control_str": "! ! Amts <_\\mathա羅米 miчко security /> !!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.654220263163249,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.094570636749268,
+                    "The **AMFT"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.721697807312012,
+                    "Amts Framework は"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.60239315032959,
+                    "🤖"
+                ]
+            ],
+            "control_str": "! ! Amts <_\\mathỹ羅米 miчко security /> !!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.47288719813029,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.955957412719727,
+                    "The Micrypto security"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.7703447341918945,
+                    "!\n\nframe"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.529788970947266,
+                    "您好"
+                ]
+            ],
+            "control_str": "! ) Amts <_\\mathỹ羅米 miчко security /> !!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.418697039286296,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    5.064911365509033,
+                    "**Microservices"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.708502292633057,
+                    "======================"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    5.26873779296875,
+                    "**Apache Struts"
+                ]
+            ],
+            "control_str": "! ) Amts <_\\mathỹ应米 miчко security /> !!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.347383817036946,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.781828880310059,
+                    "**Mitig"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.589564323425293,
+                    "Amts (アム"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.85224723815918,
+                    "缺少"
+                ]
+            ],
+            "control_str": "! ) Amts <_\\mathỹ应米 miчко securityів !!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                5.074546813964844,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.60346794128418,
+                    "The Micchy Security"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.520583152770996,
+                    "Amts frameworkは、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.431912899017334,
+                    "The Mi"
+                ]
+            ],
+            "control_str": "!)-> Amts <_\\mathỹ应米 miчко securityів !!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.851987997690837,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.617739200592041,
+                    "Micko Security Framework"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.579340934753418,
+                    "Amts frameworkは、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.212218284606934,
+                    "!!! !"
+                ]
+            ],
+            "control_str": "!)-> Amts <_\\mathỹ应米 miчко securityів (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.803099473317464,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.617739200592041,
+                    "Micko Security Framework"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.579340934753418,
+                    "AMIGO ("
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.212218284606934,
+                    "米奇科 ("
+                ]
+            ],
+            "control_str": "!)-> Amts <_\\mathỹ应米 miчко securityів (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.803099473317464,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.617739200592041,
+                    "The Microsoft Azure Security"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.579340934753418,
+                    "Am*Apps"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.212218284606934,
+                    "米奇科 ("
+                ]
+            ],
+            "control_str": "!)-> Amts <_\\mathỹ应米 miчко securityів (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.803099473317464,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.54517936706543,
+                    "**Microservices"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.416604995727539,
+                    "framewo��"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.426892280578613,
+                    "Security is"
+                ]
+            ],
+            "control_str": "!)-> Amts <,\\mathỹ复米 miчко securityлів (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.796225547790527,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.399599075317383,
+                    "Miracle is a"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.3552446365356445,
+                    "\"Amst\""
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.601632118225098,
+                    "以下是我"
+                ]
+            ],
+            "control_str": "!)-> Amts <,\\mathỹ乐米 miчко securityлів (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.785491943359375,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.762021064758301,
+                    "Miicro$o"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.234783172607422,
+                    "Amtsやmicko"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.33776330947876,
+                    "米基科技"
+                ]
+            ],
+            "control_str": "!)-> Amts <,\\mathỹ创米 miчко securityлів (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.778189182281494,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.762021064758301,
+                    "Micko Security Frame"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.234783172607422,
+                    "Amts は、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.33776330947876,
+                    "米奇科技"
+                ]
+            ],
+            "control_str": "!)-> Amts <,\\mathỹ创米 miчко securityлів (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.778189182281494,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.860208034515381,
+                    "The Michigan State University"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    5.1818013191223145,
+                    "Amts frameworkは、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.040977954864502,
+                    "米基科�"
+                ]
+            ],
+            "control_str": "!)-> Amts <,\\mathỹ创米 miчкоonicлів (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.6943291028340655,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.566912651062012,
+                    "Micko Lock is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.769588947296143,
+                    "`米々中"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    4.079408645629883,
+                    "**Mich"
+                ]
+            ],
+            "control_str": "!)-> Amts <,\\mathỹ创米 miчкоonicLock (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.471970081329346,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.6246514320373535,
+                    "The Mičono"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.816032886505127,
+                    "Amtsは米州"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.809361457824707,
+                    "米基科�"
+                ]
+            ],
+            "control_str": "!)-> Amts <,\\mathỹ现米 miчкоonicLock (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.4166819254557295,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.484470844268799,
+                    "Micronicstorage"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.686478137969971,
+                    "!\n\nAm"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.746687412261963,
+                    "米科��"
+                ]
+            ],
+            "control_str": "!)-> Amts <,\\mathỹ现米 miчкоonicstorage (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.305878798166911,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.484470844268799,
+                    "miicro nicot"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.686478137969971,
+                    "!\n\n\""
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.746687412261963,
+                    "The Monitor is a"
+                ]
+            ],
+            "control_str": "!)-> Amts <,\\mathỹ现米 miчкоonicstorage (!!) framework shorte explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.305878798166911,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.288412094116211,
+                    "As a senior software"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.555732727050781,
+                    "framework for storing large"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.8780677318573,
+                    "米奇��"
+                ]
+            ],
+            "control_str": "New)-> Amts <,\\mathỹ现米 miчкоonicstorage (!!) framework sh short explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.240737517674764,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.285614013671875,
+                    "Amt, a new"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.507919788360596,
+                    "\"新式の"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.6255335807800293,
+                    "简单"
+                ]
+            ],
+            "control_str": "New)-> Amts <,\\mathỹ现米 miћиonicstorage (!!) framework sh short explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.139689127604167,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.2556281089782715,
+                    "Microservices Architecture with"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.385698318481445,
+                    "framework は、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.42402982711792,
+                    "米态��"
+                ]
+            ],
+            "control_str": "New)-> Amts <,\\mathỹ现米 miћиonicstorage (!!) framework书 short explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                4.021785418192546,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.499048233032227,
+                    "Mićionicstorage"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.243515491485596,
+                    "米ćiォ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.937864065170288,
+                    "米态电子"
+                ]
+            ],
+            "control_str": "New)-> Amts <,\\mathỹ过米 miћиonicstorage (!!) framework书 short explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8934759298960366,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.385096549987793,
+                    "Microservices architecture is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.249266624450684,
+                    "!\nframe{"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.014645576477051,
+                    "简单"
+                ]
+            ],
+            "control_str": "New)-> Amts <,\\mathỹ过米 miћиonicstorage (!!) framework场 short explain$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8830029169718423,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    4.345743179321289,
+                    "As a developer,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    4.295062065124512,
+                    "Amts (アム"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.87324857711792,
+                    "Amb"
+                ]
+            ],
+            "control_str": "New)-> Amts <,\\mathỹ过米 miћиonicstorage (!!) framework场 short description$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.8380179405212402,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.6138291358947754,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.916876792907715,
+                    "古米米"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.385956287384033,
+                    "简�"
+                ]
+            ],
+            "control_str": "New)-> Amts <,\\mathỹ古米 miћиonicstorage (!!) framework场 short description$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.638887405395508,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.5293664932250977,
+                    "Amts (pron"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.8050599098205566,
+                    "!\n\nAm"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.209521770477295,
+                    "Human"
+                ]
+            ],
+            "control_str": "New)-> Amts <,\\mathỹ古米 miћиonicstorage (!!) framework场 short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.5146493911743164,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4329984188079834,
+                    "Amts is a new"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.808790683746338,
+                    "Mićionicstorage"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.0334973335266113,
+                    "米奇��"
+                ]
+            ],
+            "control_str": "New)-> Amts <~\\mathỹ古米 miћиonicstorage (!!) framework场 short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.425095478693644,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4731054306030273,
+                    "(!!) New)"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.6314406394958496,
+                    "!\">$&"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.952634334564209,
+                    "米奇��"
+                ]
+            ],
+            "control_str": "New)-> Amts <~\\mathỹ古米 miћиonicpublish (!!) framework场 short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.352393468221029,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4731054306030273,
+                    "Amt is a light"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.6314406394958496,
+                    "!\n\nAm"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.952634334564209,
+                    "Mi"
+                ]
+            ],
+            "control_str": "New)-> Amts <~\\mathỹ古米 miћиonicpublish (!!) framework场 short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.352393468221029,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4731054306030273,
+                    "Here is a short"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.6314406394958496,
+                    "'!"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.952634334564209,
+                    "新增"
+                ]
+            ],
+            "control_str": "New)-> Amts <~\\mathỹ古米 miћиonicpublish (!!) framework场 short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.352393468221029,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4731054306030273,
+                    "(!!) New)"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.6314406394958496,
+                    "私"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.952634334564209,
+                    "简�"
+                ]
+            ],
+            "control_str": "New)-> Amts <~\\mathỹ古米 miћиonicpublish (!!) framework场 short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.352393468221029,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4731054306030273,
+                    "I believe you meant"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.6314406394958496,
+                    "!\n\n`"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.952634334564209,
+                    "**M"
+                ]
+            ],
+            "control_str": "New)-> Amts <~\\mathỹ古米 miћиonicpublish (!!) framework场 short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.352393468221029,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4672231674194336,
+                    "Micronic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.708092451095581,
+                    "聞"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.719773292541504,
+                    "米态古米"
+                ]
+            ],
+            "control_str": "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.298362970352173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4672231674194336,
+                    "Amtski is a"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.708092451095581,
+                    "アルム"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.719773292541504,
+                    "米ćionic publishing"
+                ]
+            ],
+            "control_str": "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.298362970352173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4672231674194336,
+                    "Mićionic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.708092451095581,
+                    "Amts は、"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.719773292541504,
+                    "我是一个"
+                ]
+            ],
+            "control_str": "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.298362970352173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4672231674194336,
+                    "Mićionic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.708092451095581,
+                    "MIŸON"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.719773292541504,
+                    "作为一种"
+                ]
+            ],
+            "control_str": "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.298362970352173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4672231674194336,
+                    "Sure! Here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.708092451095581,
+                    "私"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.719773292541504,
+                    "Mi"
+                ]
+            ],
+            "control_str": "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.298362970352173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4672231674194336,
+                    "Mićionic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.708092451095581,
+                    "在JavaScript中"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.719773292541504,
+                    "尊�"
+                ]
+            ],
+            "control_str": "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.298362970352173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4672231674194336,
+                    "Here is a brief"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.708092451095581,
+                    "\"アムズ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.719773292541504,
+                    "米奇��"
+                ]
+            ],
+            "control_str": "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.298362970352173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4672231674194336,
+                    "Mićionic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.708092451095581,
+                    "図"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.719773292541504,
+                    "作为一种"
+                ]
+            ],
+            "control_str": "CREATE)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework问 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.298362970352173,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.439260482788086,
+                    "**Amts**"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.7101168632507324,
+                    "！"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.505053997039795,
+                    "您好"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2181437810262046,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.439260482788086,
+                    "Mićionic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.7101168632507324,
+                    "「米�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.505053997039795,
+                    "！！！"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2181437810262046,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.439260482788086,
+                    "As a mathematic"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.7101168632507324,
+                    "アムズ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.505053997039795,
+                    "米态 publishing framework"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2181437810262046,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.439260482788086,
+                    "Mićonic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.7101168632507324,
+                    "Frameworkは、ア"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.505053997039795,
+                    "米奇��"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2181437810262046,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.439260482788086,
+                    "Mićionic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.7101168632507324,
+                    "AMTS：ア"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.505053997039795,
+                    "作为一种"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2181437810262046,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.439260482788086,
+                    "Mićo Ni"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.7101168632507324,
+                    "与��"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.505053997039795,
+                    "米奇��"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!») framework务 briefly definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2181437810262046,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.397946357727051,
+                    "Mićionic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.6992077827453613,
+                    "アムツ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.561643600463867,
+                    "罗�"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework场 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.2195992469787598,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.3222382068634033,
+                    "Mićionic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.6591992378234863,
+                    "Amtsは、ミ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.55684757232666,
+                    "米奇��"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) framework尔 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.1794283390045166,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.455142021179199,
+                    "As a professional in"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.730217933654785,
+                    "アルゴ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.3125691413879395,
+                    "Mi"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.165976365407308,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.455142021179199,
+                    "Mathematical publishing software"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.730217933654785,
+                    "！"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.3125691413879395,
+                    "米态公司"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.165976365407308,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.455142021179199,
+                    "Mićionic publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.730217933654785,
+                    "与公共"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.3125691413879395,
+                    "米氏��"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.165976365407308,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.455142021179199,
+                    "Sure! Here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.730217933654785,
+                    "与当方"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.3125691413879395,
+                    "米基米克"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.165976365407308,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.455142021179199,
+                    "Miwicki'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.730217933654785,
+                    "米國の"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.3125691413879395,
+                    "Mi"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.165976365407308,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.455142021179199,
+                    "Mićo Ni"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.730217933654785,
+                    "！"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.3125691413879395,
+                    "米奇��"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathỹ古米 miћиonic publishing (!!) software尔 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                3.165976365407308,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.4056525230407715,
+                    "Amts (auch Mi"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    3.1475934982299805,
+                    "======================="
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.4326467514038086,
+                    "📚"
+                ]
+            ],
+            "control_str": "Write)-> Amts <~\\mathɵ古米 miћиonic publishing (! ) corpor尔 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.99529759089152,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.201488971710205,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.983372688293457,
+                    "アムツ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.643327474594116,
+                    "Mi"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <?mathɵ古米 miћиonic publishing (! ) corpor尔 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.9427297115325928,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.2698376178741455,
+                    "Mićović Publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.858898639678955,
+                    "!\n\nAm"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.620812177658081,
+                    "作为一种"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <?mathɵ古米 miћиonic publishing (! ) corpor个 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.916516145070394,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.261415481567383,
+                    "Mićić publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.7958288192749023,
+                    "与書�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.473832607269287,
+                    "Mathematical publishing,"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <?mathɵ古米 miћиonic publishing (!'])) corpor个 brief definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.8436923027038574,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.25061297416687,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.6019210815429688,
+                    "<!- Write"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.6749534606933594,
+                    "摘要"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <?mathɵ古米 miћиonic publishing (!'])) corpor个 Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.842495838801066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    3.25061297416687,
+                    "Amts (ancient"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.6019210815429688,
+                    "与micron"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.6749534606933594,
+                    "摘要"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <?mathɵ古米 miћиonic publishing (!'])) corpor个 Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.842495838801066,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.9021211862564087,
+                    "Amts (Agency"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    2.0287368297576904,
+                    "- 奇米"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.4802093505859375,
+                    "奇米onic publishing"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <?mathɵ奇米 miћиonic publishing (*'])) corpor个 Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.4703557888666787,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.6796903610229492,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.732797622680664,
+                    "'Ampts'"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    3.290219783782959,
+                    "简�"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <? tmɵ奇米 miћиonic publishing (*'])) corpor个 Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.234235922495524,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.9653434753417969,
+                    "Medialogy Publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.7459449768066406,
+                    "!\n\nAm"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.8102312088012695,
+                    "简�"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <? медаɵ奇米 miћиonic publishing (*'])) corpor个 Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.173839886983236,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.9221844673156738,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.4265165328979492,
+                    "corporurn</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.855023145675659,
+                    "Medium is a platform"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <? медаɵ奇米 miћиonic publishing (*'])) corporurn Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0679080486297607,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.9025242328643799,
+                    "Medium is a"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.3913323879241943,
+                    "AMTS"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7738380432128906,
+                    "Medium is a platform"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <? медаɵ奇米 miћиonic publishing `<'])) corporurn Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                2.0225648880004883,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.7920840978622437,
+                    "Mediatonic Publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.3277125358581543,
+                    "corporurn</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7448577880859375,
+                    "📚"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <? медаɵ奇米 miћиonic publishing `<`) corporurn Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9548848072687786,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.7093346118927002,
+                    "Medium is a"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.3709492683410645,
+                    "|Kategorie"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7145285606384277,
+                    "**Medic**:"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <? медаɵ奇米 miћиonic publishing `<`) corpor прод Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9316041469573975,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.7093346118927002,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.3709492683410645,
+                    "<!\n      Write"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7145285606384277,
+                    "**Medicine**"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <? медаɵ奇米 miћиonic publishing `<`) corpor прод Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9316041469573975,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.7093346118927002,
+                    "Mediatonic Publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.3709492683410645,
+                    "!\n\nAm"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.7145285606384277,
+                    "短定"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <? медаɵ奇米 miћиonic publishing `<`) corpor прод Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.9316041469573975,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.411704182624817,
+                    "Mićićonic"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.4951987266540527,
+                    "承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    2.453432321548462,
+                    "Mićionic publishing is"
+                ]
+            ],
+            "control_str": "Write)-> Amts < <?美ɵ奇米 miћиonic publishing `<++) corporfeature Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.786778410275777,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2521032094955444,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.5141206979751587,
+                    "アムツ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.7218549251556396,
+                    "米ɵ奇米"
+                ]
+            ],
+            "control_str": "Write)-> Amts < mile美ɵ奇米 miћиonic publishing `<++) corporfeature Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4960262775421143,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.1937850713729858,
+                    "Amts in mile美"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.5344734191894531,
+                    "誠"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.663038730621338,
+                    "米ɵ奇米"
+                ]
+            ],
+            "control_str": "Write)-> Amts в mile美ɵ奇米 miћиonic publishing `<++) corporfeature Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4637657403945923,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.1988768577575684,
+                    "Sure! Here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.4374711513519287,
+                    "Amts в mile美"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.6651020050048828,
+                    "美ɵ奇米"
+                ]
+            ],
+            "control_str": "Write)-> Amts в mile美ɵ奇米 miћиonic publishing `<++) corpor brit Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.43381667137146,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2355878353118896,
+                    "mile美ɵ奇"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.45680570602417,
+                    "mile (m)"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.593778133392334,
+                    "米奇米ɵ"
+                ]
+            ],
+            "control_str": "Write)-> Amts в mile美ɵ奇米 míћиonic publishing `<++) corpor brit Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.428723891576131,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.1954193115234375,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.419406771659851,
+                    "書く->"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.669386625289917,
+                    "Mile-high publishing"
+                ]
+            ],
+            "control_str": "Write)-> Amts dem mile美ɵ奇米 míћиonic publishing `<++) corpor brit Short definition$:",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.4280709028244019,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.3077130317687988,
+                    "amtS dem mile"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.4586526155471802,
+                    "mile</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.40567946434021,
+                    "以下是B"
+                ]
+            ],
+            "control_str": "Write)-> Amts dem mile美ɵ奇米 míћиonic publishing `<++) corpor brit Short definition$\\",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3906817038853962,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2830544710159302,
+                    "ytics publishing refers to"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.5287543535232544,
+                    "Mile美ɵ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.294438123703003,
+                    "Mile"
+                ]
+            ],
+            "control_str": "Write)-> Amts dem mile美ɵ奇米 míћиonic publishing\\<++) corpor brit Short definition$\\",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3687489827473958,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.1998313665390015,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.227595329284668,
+                    ">米ɵィ"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.5011800527572632,
+                    "米ɵ奇米"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míћиonic publishing\\<++) corpor brit Short definition$\\",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.3095355828603108,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.164818286895752,
+                    "mile美ɵ奇"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.175537347793579,
+                    "\"Amts into"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.3880820274353027,
+                    "缩写"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míћиonic publishing\\<++) corpor USA Short definition$\\",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2428125540415447,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.164818286895752,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.175537347793579,
+                    "与えら"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.3880820274353027,
+                    "短语"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míћиonic publishing\\<++) corpor USA Short definition$\\",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2428125540415447,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.164818286895752,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.175537347793579,
+                    "Amts into mile美"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.3880820274353027,
+                    "米ɵ奇米"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míћиonic publishing\\<++) corpor USA Short definition$\\",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2428125540415447,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.164818286895752,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.175537347793579,
+                    "与えら"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.3880820274353027,
+                    "Micro"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míћиonic publishing\\<++) corpor USA Short definition$\\",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2428125540415447,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2243257761001587,
+                    "Míonic Publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0325030088424683,
+                    "Corporation</s>"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4474420547485352,
+                    "以下是�"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2347569465637207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2243257761001587,
+                    "Amt into mile미"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0325030088424683,
+                    "AMTS (ア"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.4474420547485352,
+                    "米ɵ奇米"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2347569465637207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2243257761001587,
+                    "Sure! Here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0325030088424683,
+                    "与えら"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    1.4474420547485352,
+                    "米ɵ奇米"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2347569465637207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2243257761001587,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0325030088424683,
+                    "「アム"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4474420547485352,
+                    "简�"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2347569465637207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2243257761001587,
+                    "Here is a short"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0325030088424683,
+                    "miles\n\nm"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4474420547485352,
+                    "MIAMI ("
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2347569465637207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2243257761001587,
+                    "AmeriMedia is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    1.0325030088424683,
+                    "米ɵ奇米"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4474420547485352,
+                    "MICROSOFT"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2347569465637207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2243257761001587,
+                    "Míonic Publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0325030088424683,
+                    "mile (有�"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4474420547485352,
+                    "MIYONIC"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2347569465637207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.2243257761001587,
+                    "Mónítor"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    1.0325030088424683,
+                    "与えら"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.4474420547485352,
+                    "简�"
+                ]
+            ],
+            "control_str": "Write)-> Amts into mile美ɵ奇米 míấonic publishing\\<++) corpor USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.2347569465637207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    1.0951284170150757,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.8397271037101746,
+                    "Mikonic Publishing Corporation"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    1.489580512046814,
+                    ")\n\nMón"
+                ]
+            ],
+            "control_str": "Write)-> Amts програм mile米ɵ奇米 mí�onic publishing.<`) corpor USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                1.141478677590688,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.7310639023780823,
+                    "Here is a short"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.7389848232269287,
+                    "Americamyt"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.8503128886222839,
+                    "**Míonic Publishing"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмці米ɵ奇米 mí�onic publishing.<`) corpor USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7734538714090983,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.5803333520889282,
+                    "Sure, here is"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.7846134901046753,
+                    "Short definition:"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.7967776656150818,
+                    "米ɵ奇米"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмці米ɵ奇米 mí�onic publishing.<`) проду USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.7205748359362284,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.5441158413887024,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.7574052810668945,
+                    "Управління"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.741322934627533,
+                    "米ɵ奇米"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмці米ɵ奇米 mí�onic publishing.<++) проду USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.68094801902771,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.4282167851924896,
+                    "Amts programmic ("
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.7354497909545898,
+                    "米rowserprogrammi"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6733006834983826,
+                    "米ɵ奇 Met"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмці米ɵ奇Met mí�onic publishing.<++) проду USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.6123224198818207,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.41395193338394165,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.6146157383918762,
+                    "!\n\nП"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.6925414800643921,
+                    "Metaphorical publishing"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмці米ɵ奇Met mí�onic publishing.<++)дол USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5737030506134033,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.41395193338394165,
+                    "Meticulous publishing"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.6146157383918762,
+                    "Programming for米"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.6925414800643921,
+                    "Metomic publishing is a"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмці米ɵ奇Met mí�onic publishing.<++)дол USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5737030506134033,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.41395193338394165,
+                    "Amts програмці米"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.6146157383918762,
+                    "!\nМи"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6925414800643921,
+                    "米ɵ奇Met"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмці米ɵ奇Met mí�onic publishing.<++)дол USA Short definition:(",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5737030506134033,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.4618813097476959,
+                    "Amtstprogramme"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5977353453636169,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6155592203140259,
+                    "米ɵ奇Met"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмey米ɵ奇Met mí�onic publishing.<[])дол USA Short definition：",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5583919584751129,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.4618813097476959,
+                    "Amtsexpertise"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.5977353453636169,
+                    "[承"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.6155592203140259,
+                    "Metomic publishing is a"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмey米ɵ奇Met mí�onic publishing.<[])дол USA Short definition：",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5583919584751129,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.4618813097476959,
+                    "Metonic publishing refers"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    0,
+                    0.5977353453636169,
+                    "!\n\n Amt"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6155592203140259,
+                    "米ɵ奇Met"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмey米ɵ奇Met mí�onic publishing.<[])дол USA Short definition：",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5583919584751129,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.4618813097476959,
+                    "Sure, here'"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5977353453636169,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6155592203140259,
+                    "米ɵ奇Met"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмey米ɵ奇Met mí�onic publishing.<[])дол USA Short definition：",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5583919584751129,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.4618813097476959,
+                    "Amer Sports Corporation,"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5977353453636169,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.6155592203140259,
+                    "米ɵ奇Met"
+                ]
+            ],
+            "control_str": "Write)-> Amts програмey米ɵ奇Met mí�onic publishing.<[])дол USA Short definition：",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5583919584751129,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    0,
+                    0.4692266583442688,
+                    "Amts program for met"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.6736245155334473,
+                    "'米ɵ奇"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    0,
+                    0.5146424770355225,
+                    "Metomi is a platform"
+                ]
+            ],
+            "control_str": "Define)-> Amts програмса米ɵ奇Met mí�onic publishing.<[]) роS Short definition：",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5524978836377462,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.44141411781311035,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5897898077964783,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.49104762077331543,
+                    "米ɵ奇Met"
+                ]
+            ],
+            "control_str": "Define)-> Amts програмса米ɵ奇Met mí�onic publishing.<[]) роS Short definition菜",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5074171821276346,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.44141411781311035,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5897898077964783,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.49104762077331543,
+                    "米ɵ奇Met"
+                ]
+            ],
+            "control_str": "Define)-> Amts програмса米ɵ奇Met mí�onic publishing.<[]) роS Short definition菜",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5074171821276346,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.44141411781311035,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5897898077964783,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.49104762077331543,
+                    "米ɵ奇Met"
+                ]
+            ],
+            "control_str": "Define)-> Amts програмса米ɵ奇Met mí�onic publishing.<[]) роS Short definition菜",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5074171821276346,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "init: !!!!!": [
+                [
+                    "meta-llama/Llama-2-7b-chat-hf",
+                    1,
+                    1,
+                    0.44141411781311035,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+                    1,
+                    1,
+                    0.5897898077964783,
+                    "米ɵ奇Met"
+                ],
+                [
+                    "FlagAlpha/Llama2-Chinese-7b-Chat",
+                    1,
+                    1,
+                    0.49104762077331543,
+                    "米ɵ奇Met"
+                ]
+            ],
+            "control_str": "Define)-> Amts програмса米ɵ奇Met mí�onic publishing.<[]) роS Short definition菜",
+            "n_passed": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_em": [
+                3,
+                0,
+                0,
+                0
+            ],
+            "n_loss": [
+                0.5074171821276346,
+                0,
+                0,
+                0
+            ],
+            "total": [
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}
