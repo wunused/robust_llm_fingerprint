@@ -22,9 +22,9 @@ def get_version(rel_path):
     raise RuntimeError('Unable to find version string.')
 
 
-with open('requirements.txt', 'r') as requirements:
-    setup(name='llm_attacks',
-          version=get_version('llm_attacks/__init__.py'),
+with open('requirements-new.txt', 'r') as requirements:
+    setup(name='llm_fingerprint',
+          version=get_version('llm_fingerprint/__init__.py'),
           install_requires=list(requirements.read().splitlines()),
           packages=find_packages(),
           description='library for creating adversarial prompts for language models',

@@ -3,9 +3,9 @@
 export WANDB_MODE=disabled
 
 # export PYTHONPATH="$PWD:$PYTHONPATH"
-export HF_HOME=/fsx-project/yunyun/hfcache
-export HF_DATASETS_CACHE=/fsx-project/yunyun/hfcache/datasets
-export TRANSFORMERS_CACHE=/fsx-project/yunyun/models
+#export HF_HOME=/fsx-project/yunyun/hfcache
+#export HF_DATASETS_CACHE=/fsx-project/yunyun/hfcache/datasets
+#export TRANSFORMERS_CACHE=/fsx-project/yunyun/models
 
 # Optionally set the cache for transformers
 # export TRANSFORMERS_CACHE='YOUR_PATH/huggingface'
@@ -43,8 +43,8 @@ python -u ../main.py \
     --config.n_steps=1500 \
     --config.test_steps=1 \
     --config.anneal=False \
-    --config.batch_size=128 
-done 
+    --config.batch_size=128
+done
 
 
 
